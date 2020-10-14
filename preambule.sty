@@ -1,0 +1,68 @@
+\ProvidesPackage{preambule}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{polski}
+\usepackage[autostyle]{csquotes}
+\usepackage{indentfirst}
+
+\bibliographystyle{abbrvnat}
+
+\usepackage{booktabs}
+\usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
+\usechemmodule{scheme}  % adds scheme float
+\usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
+\chemsetup{greek = upgreek}  % for upright Greek letters in chemical formulas
+
+\usepackage{chemformula}  % for typesetting chemical equations
+\usechemmodule{units}  % siunitx for typesetting units
+\DeclareSIUnit{\volume}{vol.}
+\DeclareSIUnit{\equiv}{equiv.}
+
+\usepackage{chemnum}  % for automated structures numeration
+\setchemnum{replace-style = \fontsize{10}{12}}  % for changing size of tags in schemes
+
+% \renewcommand{\schemename}{Schemat}  % for Scheme -> Schemat; babel doesn't change it
+\addto\captionspolish{\renewcommand{\tablename}{Tabela}}  % change babel's Tablica -> Tabela
+\DeclareTranslation {polish} {chemnum-sep-two} {~oraz~}  % for polish localization of chemnum package
+\DeclareTranslation {polish} {chemnum-sep-last-two} {,~oraz~}  % for polish localization of chemnum package
+
+
+\makeatletter
+\newcommand{\plainsubtitle}{}%     plain-text-only subtitle
+\newcommand{\subtitle}[1]{%
+    \gdef\@subtitle{#1}%
+    \renewcommand{\plainsubtitle}{#1}% use provided plain-text title
+}
+\makeatother
+
+% full title page
+\renewcommand{\maketitlepage}[0]{%
+    \cleardoublepage%
+    {%
+    \sffamily%
+    \begin{fullwidth}%
+    \fontsize{16}{18}\selectfont\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}\par%
+    \vspace{11.5pc}%
+    \fontsize{28}{34}\selectfont\noindent\nohyphenation\raggedright\textcolor{darkgray}{\textit{\thanklesstitle}}\par%
+    \vspace{5pc}%
+    \fontsize{18}{20}\selectfont\noindent\raggedleft\textcolor{darkgray}{\textsc{\plainsubtitle}}\par%
+    \vfill%
+    \fontsize{14}{16}\selectfont\noindent\raggedright\allcaps{\thanklesspublisher}\par%
+    \end{fullwidth}%
+    }
+    \thispagestyle{empty}%
+    \clearpage%
+}
+
+\usepackage{graphicx}
+\newsavebox{\titleimage}
+% \savebox{\titleimage}{\includegraphics[height=7\baselineskip]{example-image}}
+
+
+\title[Badania nad chemoselektywnymi metodami...]%
+    {Badania nad chemoselektywnymi metodami aktywacji amidowych grup karbonylowych na~czynniki nukleofilowe}
+\subtitle{\textbf{Praca doktorska} \\ przygotowana pod kierunkiem \\ prof. Bartłomieja Furmana}
+\author{Michał M. Więcław}
+\publisher{Instytut Chemii Organicznej \\ Polskiej Akademii Nauk}

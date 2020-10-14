@@ -1,0 +1,25 @@
+# python virtual env
+.env
+.venv
+
+# helper and intermediate files
+chemdraw-for-pc/
+/*.cdx
+*.png
+*.doc*
+*.xlsx
+*.svg
+
+# machine-generated
+nmr.tex
+coords.tex
+characterization.txt
+
+# LaTeX output
+*.bib
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf

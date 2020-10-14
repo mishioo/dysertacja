@@ -1,0 +1,52 @@
+\documentclass[a4paper, justified]{tufte-book}
+\usepackage{preambule}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+% acknowledgements
+\cleardoublepage
+\thispagestyle{empty}
+~\vfill
+\vfill
+\begin{fullwidth}
+\begin{doublespace}
+\raggedleft\noindent\fontsize{16}{20}\selectfont\itshape
+\nohyphenation
+Gorąco dziękuję Magdalenie,\\
+bez wsparcia której ta praca nie zostałaby ukończona.
+\end{doublespace}
+\end{fullwidth}
+\vfill
+
+\tableofcontents
+
+\input{preface}
+
+\mainmatter
+\chapter{In litterae}
+\section{Trwałość amidów}
+\section{Redukcje amidów}
+\section{Odczynnik Schwartza}
+
+\chapter{In vitro}
+
+\chapter{In silico}
+\section{Obliczenia mechanizmu}
+\section{Symulacja widm}
+
+\chapter{In machina}
+\section{Istota programu}
+\section{Wybór języka programowania}
+
+\chapter{In detail}
+\section{Procedury}
+\section{Analizy}
+
+\backmatter
+
+\bibliography{refs}
+
+\end{document}
