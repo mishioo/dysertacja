@@ -10,6 +10,18 @@
 \bibliographystyle{abbrvnat}
 
 \usepackage{booktabs}
+\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
+% make list of abbrev a section rather than a chapter
+\makeatletter
+\renewcommand*{\@@glossarysec}{section}%
+\makeatother
+
+\input{acronyms}
+
+\usepackage{fancyvrb} % for "\Verb" macro
+% \VerbatimFootnotes    % enable use of \Verb in footnotes
+\usepackage[shortcuts]{extdash}
+
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{scheme}  % adds scheme float
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
@@ -61,7 +73,7 @@
 % \savebox{\titleimage}{\includegraphics[height=7\baselineskip]{example-image}}
 
 
-\title[Badania nad chemoselektywnymi metodami...]%
+\title[Badania nad chemoselektywnymi metodami\ldots]%
     {Badania nad chemoselektywnymi metodami aktywacji amidowych grup karbonylowych na~czynniki nukleofilowe}
 \subtitle{\textbf{Praca doktorska} \\ przygotowana pod kierunkiem \\ prof. Bartłomieja Furmana}
 \author{Michał M. Więcław}
