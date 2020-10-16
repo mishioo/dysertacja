@@ -2,6 +2,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{inconsolata}
 \usepackage[polish]{babel}
 \usepackage{polski}
 \usepackage[autostyle]{csquotes}
@@ -18,8 +19,47 @@
 
 \input{acronyms}
 
+\usepackage{xcolor}
+\definecolor{wongblack}{HTML}{000000}
+\definecolor{wongorange}{HTML}{E69F00}
+\definecolor{wongsky}{HTML}{56B4E9}
+\definecolor{wonggreen}{HTML}{009E73}
+\definecolor{wongyellow}{HTML}{F0E442}
+\definecolor{wongblue}{HTML}{0072B2}
+\definecolor{wongvermillion}{HTML}{D55E00}
+\definecolor{wongpurple}{HTML}{CC79A7}
+
 \usepackage{fancyvrb} % for "\Verb" macro
-% \VerbatimFootnotes    % enable use of \Verb in footnotes
+\usepackage{listings}
+\lstset{
+    numbers=left,
+    numberstyle=\tiny,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{wongvermillion},
+    commentstyle=\color{wongsky},
+    stringstyle=\color{wonggreen},
+    extendedchars=\true,
+    inputencoding=utf8,
+    literate={ą}{{\k{a}}}1
+             {Ą}{{\k{A}}}1
+             {ę}{{\k{e}}}1
+             {Ę}{{\k{E}}}1
+             {ó}{{\'o}}1
+             {Ó}{{\'O}}1
+             {ś}{{\'s}}1
+             {Ś}{{\'S}}1
+             {ł}{{\l{}}}1
+             {Ł}{{\L{}}}1
+             {ż}{{\.z}}1
+             {Ż}{{\.Z}}1
+             {ź}{{\'z}}1
+             {Ź}{{\'Z}}1
+             {ć}{{\'c}}1
+             {Ć}{{\'C}}1
+             {ń}{{\'n}}1
+             {Ń}{{\'N}}1
+}
+
 \usepackage[shortcuts]{extdash}
 
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)

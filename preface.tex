@@ -1,4 +1,17 @@
 \chapter{Praefatio}
+
+\section{Publikacje}
+
+\section{Konferencje}
+
+\section{Finansowanie}
+
+\begin{itemize}
+  \item Grant Preludium \textnumero~2017/25/N/ST5/00079 Narodowego Centrum Nauki
+  \item Grant obliczeniowy PL\=Grid
+\end{itemize}
+
+
 \section{Konwencje przyjęte w niniejszej dysertacji}
 
 Prawdopodobnie każdy obyty chemik szybko zauważy, że forma niniejszej rozprawy doktorskiej różni się od zwykle spotykanej w naukach chemicznych.
@@ -27,11 +40,19 @@ Zwłaszcza ten ostatni temat wymaga dodatkowego komentarza, jako najbardziej odd
 Za każdym razem, gdy w tekście pojawia się odniesienie do nazw elementów opisywanego kodu,
 sygnalizuję to używając kroju czcionki \verb!o stałej szerokości!.
 Większe bloki kodu są wydzielone z tekstu dla lepszej czytelności, jak ten poniżej.
+Dla poprawienia czytelności 
+\lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!, 
+\lstinline[basicstyle=\ttfamily\color{wongsky},columns=fixed]!komentarze!, oraz 
+\lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
+oznaczone są innym kolorem.
+Linie tych bloków są ponumerowane na lewym marginesie.
 
-\begin{Verbatim}[samepage=true]
-    if is_first_program():
-        print('Hello world!')
-\end{Verbatim}
+\begin{lstlisting}[language=Python]
+if is_first_program():
+    print('Hello world!')
+else:
+    pass  # nic nie rób
+\end{lstlisting}
 
 Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogramowania \LaTeX,
 a jej kod źródłowy dostępny jest w Internecie pod adresem \url{https://github.com/Mishioo/dysertacja}.
