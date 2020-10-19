@@ -8,7 +8,30 @@
 \usepackage[autostyle]{csquotes}
 \usepackage{indentfirst}
 
-\bibliographystyle{abbrvnat}
+% based on https://tex.stackexchange.com/q/139158
+\usepackage[
+    citestyle=verbose-ibid,  % first occurrence verbose, next cite:short
+    % bibstyle=authoryear,  % needed only for traditional bibliography
+    backref=true,
+    citetracker,
+    backend=biber,
+    autocite=footnote,  % cooperate with tufte-latex
+    labeldateparts,  % make year of publication available
+]{biblatex}
+\addbibresource{refs.bib}
+% redefine cite:short to give author-year
+% also set the name output to always use family-given
+\DeclareNameAlias{default}{family-given}
+\renewbibmacro*{cite:short}{%
+  \printnames{labelname}%
+  \setunit*{\printdelim{nameyeardelim}}%
+  \iffieldundef{labelyear}
+    {}
+    {\printtext[parens]{\printlabeldateextra}},  % comma is printed
+  \printtext[bibhyperlink]{%  make it a link to citation
+    \bibstring{backrefpage}\ppspace%  "cyt. na s. "
+    \printlist[][-1]{pageref}}%  page number of first occurrence
+}
 
 \usepackage{booktabs}
 \usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
@@ -29,7 +52,7 @@
 \definecolor{wongvermillion}{HTML}{D55E00}
 \definecolor{wongpurple}{HTML}{CC79A7}
 
-\usepackage{fancyvrb} % for "\Verb" macro
+% \usepackage{fancyvrb} % for "\Verb" macro
 \usepackage{listings}
 \lstset{
     numbers=left,
@@ -60,7 +83,6 @@
              {Ń}{{\'N}}1
 }
 
-\usepackage[shortcuts]{extdash}
 
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{scheme}  % adds scheme float
@@ -112,6 +134,7 @@
 \newsavebox{\titleimage}
 % \savebox{\titleimage}{\includegraphics[height=7\baselineskip]{example-image}}
 
+\usepackage[shortcuts]{extdash}
 
 \title[Badania nad chemoselektywnymi metodami\ldots]%
     {Badania nad chemoselektywnymi metodami aktywacji amidowych grup karbonylowych na~czynniki nukleofilowe}
