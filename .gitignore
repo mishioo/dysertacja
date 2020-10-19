@@ -15,6 +15,10 @@ nmr.tex
 coords.tex
 characterization.txt
 
+## EndNote
+*.Data
+*.enl
+
 ## pdf files
 *.pdf
 
