@@ -37,6 +37,7 @@
     backend=biber,
     autocite=footnote,  % cooperate with tufte-latex
     labeldateparts,  % make year of publication available
+    giveninits=true,  % names as initials
 ]{biblatex}
 \addbibresource{refs.bib}
 % redefine cite:short to give author-year
@@ -52,7 +53,8 @@
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
 }
-
+% temporary hack for no title, ISSN, and URL
+\AtEveryCitekey{\clearfield{url}\clearfield{issn}\clearfield{title}}
 
 %% list of acronyms
 \usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
