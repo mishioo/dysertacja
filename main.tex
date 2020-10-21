@@ -1,4 +1,9 @@
-\documentclass[a4paper, justified, nobib]{tufte-book}
+\documentclass[
+  a4paper,
+  justified,
+  nobib,
+  marginals=raggedright,
+]{tufte-book}
 \usepackage{preambule}
 
 \begin{document}
@@ -26,6 +31,12 @@ bez wsparcia której ta praca nie zostałaby ukończona.
 \input{preface}
 
 \mainmatter
+% widths of text elements
+% zwykły tekst \printinunitsof{cm}\prntlen{\textwidth}\\  % 10.69847 cm
+% margines \printinunitsof{cm}\prntlen{\marginparwidth}\\ %  4.93929 cm
+% przerwy \printinunitsof{cm}\prntlen{\marginparsep}      %  0.81987 cm
+%                                                 SUMA:     16.45763 cm
+
 \input{chapter-1}
 
 \chapter{In vitro}
