@@ -111,6 +111,28 @@
 }  % last one to enable word breaks
 
 
+%% Create scheme floating environment
+\usepackage{newfloat}
+% must be done before loading chemmacros to prevent name conflict
+\DeclareFloatingEnvironment{scheme}
+
+%% provide tufte-style schemes
+\makeatletter
+%% scheme on tufte margin
+\newenvironment{marginscheme}[1][-1.2ex]%
+  {\begin{@tufte@margin@float}[#1]{scheme}}
+  {\end{@tufte@margin@float}}
+%% scheme as standard tufte float
+\renewenvironment{scheme}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{scheme}{}}
+  {\end{@tufte@float}}
+% Full-width scheme (starred)
+\renewenvironment{scheme*}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{scheme}{star}}
+  {\end{@tufte@float}}
+\makeatother
+
+
 %% chemistry packages
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
