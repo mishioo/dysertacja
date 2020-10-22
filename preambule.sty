@@ -38,11 +38,18 @@
     autocite=footnote,  % cooperate with tufte-latex
     labeldateparts,  % make year of publication available
     giveninits=true,  % names as initials
+    url=false,  % suppress url everywhere but in `online'
+    maxbibnames=3,  % if more than 3 autors, produce et al.
 ]{biblatex}
-\addbibresource{refs.bib}
+% suppress `In:' in article citations
+% from https://tex.stackexchange.com/a/10686/223674
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+% suppress title of articles in citations
+\DeclareFieldFormat[article]{title}{}
+% suppress ISSN
+\AtEveryCitekey{\clearfield{issn}}
 % redefine cite:short to give author-year
-% also set the name output to always use family-given
-\DeclareNameAlias{default}{family-given}
 \renewbibmacro*{cite:short}{%
   \printnames{labelname}%
   \setunit*{\printdelim{nameyeardelim}}%
@@ -53,8 +60,8 @@
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
 }
-% temporary hack for no title, ISSN, and URL
-\AtEveryCitekey{\clearfield{url}\clearfield{issn}\clearfield{title}}
+% references location
+\addbibresource{refs.bib}
 
 %% list of acronyms
 \usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
@@ -162,9 +169,13 @@
 \Crefname{scheme}{Schem.}{Schem.}
 
 % chemnum package related
-\DeclareTranslation {polish} {chemnum-sep-two} {~oraz~}
-\DeclareTranslation {polish} {chemnum-sep-last-two} {,~oraz~}
+\DeclareTranslation{polish}{chemnum-sep-two}{~oraz~}
+\DeclareTranslation{polish}{chemnum-sep-last-two}{,~oraz~}
 
+% biblatex related
+\DefineBibliographyStrings{polish}{
+  urlseen = {dostęp}
+}
 
 %% typesetting dashes
 \usepackage[shortcuts]{extdash}
