@@ -60,6 +60,8 @@
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
 }
+% punctuation in autocite
+\DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
 % references location
 \addbibresource{refs.bib}
 
