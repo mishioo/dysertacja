@@ -65,16 +65,6 @@
 % references location
 \addbibresource{refs.bib}
 
-%% list of acronyms
-\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
-% make list of abbrev a section rather than a chapter
-\makeatletter
-\renewcommand*{\@@glossarysec}{section}%
-\makeatother
-% acronyms definitions in separate file
-\input{acronyms}
-
-
 %% define shortcuts for colors from Wong's palette
 \usepackage{xcolor}
 \definecolor{wongblack}{HTML}{000000}
@@ -157,6 +147,16 @@
 
 \usepackage{chemnum}  % for automated structures numeration
 \setchemnum{replace-style = \fontsize{10}{12}}  % change size of tags in schemes
+
+
+%% list of acronyms
+\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
+% make list of abbrev a section rather than a chapter
+\makeatletter
+\renewcommand*{\@@glossarysec}{section}%
+\makeatother
+% acronyms definitions in separate file
+\input{acronyms}
 
 
 %% LOCALIZATION
