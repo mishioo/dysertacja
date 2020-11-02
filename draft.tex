@@ -1,0 +1,292 @@
+\documentclass{book}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+%% font encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%% language dependent
+\usepackage[polish]{babel}
+\usepackage{polski}
+\usepackage[autostyle]{csquotes}
+\usepackage{indentfirst}
+
+
+% preety tabs
+% do I need it?
+% \usepackage{booktabs}
+
+
+%% Helper for TODOs
+\usepackage[
+    linecolor=red,
+    backgroundcolor=white,
+    bordercolor=red,
+    textcolor=red,
+    textsize=footnotesize,
+]{todonotes}
+
+
+%% Bibliography and citations setup
+% based on https://tex.stackexchange.com/q/139158
+\usepackage[
+    citestyle=numeric,
+    % bibstyle=authoryear,  % needed only for traditional bibliography
+    backref=true,
+    citetracker,
+    backend=biber,
+    % autocite=footnote,  % cooperate with tufte-latex
+    labeldateparts,  % make year of publication available
+    giveninits=true,  % names as initials
+    url=false,  % suppress url everywhere but in `online'
+    maxbibnames=3,  % if more than 3 autors, produce et al.
+]{biblatex}
+% suppress `In:' in article citations
+% from https://tex.stackexchange.com/a/10686/223674
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+% suppress title of articles in citations
+\DeclareFieldFormat[article]{title}{}
+% suppress ISSN
+\AtEveryCitekey{\clearfield{issn}}
+% redefine cite:short to give author-year
+\renewbibmacro*{cite:short}{%
+  \printnames{labelname}%
+  \setunit*{\printdelim{nameyeardelim}}%
+  \iffieldundef{labelyear}
+    {}
+    {\printtext[parens]{\printlabeldateextra}},  % comma is printed
+  \printtext[bibhyperlink]{%  make it a link to citation
+    \bibstring{backrefpage}\ppspace%  "cyt. na s. "
+    \printlist[][-1]{pageref}}%  page number of first occurrence
+}
+% punctuation in autocite
+\DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
+% references location
+\addbibresource{refs.bib}
+
+%% define shortcuts for colors from Wong's palette
+\usepackage{xcolor}
+\definecolor{wongblack}{HTML}{000000}
+\definecolor{wongorange}{HTML}{E69F00}
+\definecolor{wongsky}{HTML}{56B4E9}
+\definecolor{wonggreen}{HTML}{009E73}
+\definecolor{wongyellow}{HTML}{F0E442}
+\definecolor{wongblue}{HTML}{0072B2}
+\definecolor{wongvermillion}{HTML}{D55E00}
+\definecolor{wongpurple}{HTML}{CC79A7}
+
+
+%% setup code snippets
+\usepackage{inconsolata}  % monospaced font
+\usepackage{listings}  % code listings
+\lstset{
+    breaklines=true,
+    % numbers=left,
+    numberstyle=\tiny,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{wongvermillion},
+    commentstyle=\color{wongsky},
+    stringstyle=\color{wonggreen},
+    extendedchars=\true,
+    inputencoding=utf8,
+    literate={ą}{{\k{a}}}1
+             {Ą}{{\k{A}}}1
+             {ę}{{\k{e}}}1
+             {Ę}{{\k{E}}}1
+             {ó}{{\'o}}1
+             {Ó}{{\'O}}1
+             {ś}{{\'s}}1
+             {Ś}{{\'S}}1
+             {ł}{{\l{}}}1
+             {Ł}{{\L{}}}1
+             {ż}{{\.z}}1
+             {Ż}{{\.Z}}1
+             {ź}{{\'z}}1
+             {Ź}{{\'Z}}1
+             {ć}{{\'c}}1
+             {Ć}{{\'C}}1
+             {ń}{{\'n}}1
+             {Ń}{{\'N}}1
+            %  {\-}{}{0\discretionary{-}{}{}
+}  % last one to enable word breaks
+
+
+%% Create scheme floating environment
+\usepackage{newfloat}
+% must be done before loading chemmacros to prevent name conflict
+\DeclareFloatingEnvironment{scheme}
+
+%% all tufte floats behave as standard
+\newenvironment{marginscheme}[1][]{\begin{scheme}[h]}{\end{scheme}}
+\newenvironment{marginfigure}[1][]{\begin{figure}[h]}{\end{figure}}
+\newenvironment{margintable}[1][]{\begin{table}[h]}{\end{table}}
+\newenvironment{fullwidth}[1][]{}{}
+\newenvironment{doublespace}[1][]{}{}
+% setfloatalignment do nothing
+\newcommand{\setfloatalignment}[1]{\ignorespaces}
+% set includegraphics to do nothing
+\renewcommand{\includegraphics}[1]{\centering [TUTAJ RYSUNEK]}
+\renewcommand{\footnote}[2][]{ [PRZYPIS: #2]}
+
+\usepackage{nopageno}  % no page numbers
+
+
+%% chemistry packages
+\usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
+\usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
+\chemsetup{greek = upgreek}  % for upright Greek letters in chemical formulas
+\usechemmodule{units}  % siunitx for typesetting units
+\DeclareSIUnit{\volume}{vol.}
+\DeclareSIUnit{\equiv}{equiv.}
+
+\usepackage{chemformula}  % for typesetting chemical equations
+\setchemformula{circled=all}
+
+\usepackage{chemnum}  % for automated structures numeration
+\setchemnum{replace-style = \fontsize{10}{12}}  % change size of tags in schemes
+
+
+%% list of acronyms
+\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
+% make list of abbrev a section rather than a chapter
+\makeatletter
+\renewcommand*{\@@glossarysec}{section}%
+\makeatother
+% acronyms definitions in separate file
+\input{acronyms}
+
+
+%% LOCALIZATION
+%% Adjust babel translations of floats names
+\addto\captionspolish{\renewcommand{\schemename}{Schemat}}  % for Scheme -> Schemat; babel doesn't change it
+\addto\captionspolish{\renewcommand{\tablename}{Tabela}}  % change babel's Tablica -> Tabela
+
+%% Adjust floats names in references
+\usepackage[nameinlink]{cleveref}
+\crefname{figure}{rys.}{rys.}
+\Crefname{figure}{Rys.}{Rys.}
+\crefname{scheme}{schem.}{schem.}
+\Crefname{scheme}{Schem.}{Schem.}
+
+% chemnum package related
+\DeclareTranslation{polish}{chemnum-sep-two}{~oraz~}
+\DeclareTranslation{polish}{chemnum-sep-last-two}{,~oraz~}
+
+% biblatex related
+\DefineBibliographyStrings{polish}{
+  urlseen = {dostęp}
+}
+
+%% typesetting dashes
+\usepackage[shortcuts,shortemdash]{extdash}
+\sisetup{range-phrase = {\--}, range-units=single}
+
+
+%% vertical space between marginals
+% \setlength\marginparpush{12pt}
+% not needed in draft
+
+
+%% slightly more loose typesetting of whitespaces
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\vfuzz \hfuzz
+% glues text up rather than distributing on partially empty page
+\raggedbottom
+
+
+%% Title page layout setup
+% define subtitle
+\makeatletter
+\newcommand{\plainsubtitle}{}%     plain-text-only subtitle
+\newcommand{\subtitle}[1]{%
+    \gdef\@subtitle{#1}%
+    \renewcommand{\plainsubtitle}{#1}% use provided plain-text title
+}
+\newcommand{\plainpublisher}{}%     plain-text-only subtitle
+\newcommand{\publisher}[1]{%
+    \gdef\@publisher{#1}%
+    \renewcommand{\plainpublisher}{#1}% use provided plain-text title
+}
+
+% full title page
+\renewcommand{\maketitle}[0]{%
+    {%
+    \sffamily%
+    \fontsize{16}{18}\selectfont\noindent\@author\par%
+    \vspace{11.5pc}%
+    \fontsize{28}{34}\selectfont\noindent\nohyphenation\textit{\@title}\par%
+    \vspace{5pc}%
+    \fontsize{18}{20}\selectfont\noindent\textsc{\plainsubtitle}\par%
+    \vspace{2pc}%
+    \fontsize{14}{16}\selectfont\noindent\plainpublisher\par%
+    }
+}
+\makeatother
+
+% \usepackage{graphicx}
+% \newsavebox{\titleimage}
+% \savebox{\titleimage}{\includegraphics[height=7\baselineskip]{example-image}}
+
+\title{Badania nad chemoselektywnymi metodami aktywacji amidowych grup karbonylowych na~czynniki nukleofilowe}
+\subtitle{\textbf{Praca doktorska} \\ przygotowana pod kierunkiem \\ prof. Bartłomieja Furmana}
+\author{Michał M. Więcław}
+\publisher{Instytut Chemii Organicznej \\ Polskiej Akademii Nauk}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+% acknowledgements
+% \cleardoublepage
+% \thispagestyle{empty}
+% ~\vfill
+% \vfill
+% \begin{fullwidth}
+% \begin{doublespace}
+% \raggedleft\noindent\fontsize{16}{20}\selectfont\itshape
+% \nohyphenation
+% Gorąco dziękuję Magdalenie,\\
+% bez wsparcia której ta praca nie zostałaby ukończona.
+% \end{doublespace}
+% \end{fullwidth}
+% \vfill
+
+% \tableofcontents
+
+\input{preface}
+
+\mainmatter
+% widths of text elements
+% zwykły tekst \printinunitsof{cm}\prntlen{\textwidth}\\  % 10.69847 cm
+% margines \printinunitsof{cm}\prntlen{\marginparwidth}\\ %  4.93929 cm
+% przerwy \printinunitsof{cm}\prntlen{\marginparsep}      %  0.81987 cm
+%                                                 SUMA:     16.45763 cm
+
+\input{chapter-1}
+
+% \chapter{In vitro}
+
+% \chapter{In silico}
+% \section{Obliczenia mechanizmu}
+% \section{Symulacja widm}
+
+% \chapter{In machina}
+% \section{Istota programu}
+% \section{Wybór języka programowania}
+
+% \chapter{In detail}
+% \section{Procedury}
+% \section{Analizy}
+
+\backmatter
+
+% \printbibliography
+
+\end{document}
