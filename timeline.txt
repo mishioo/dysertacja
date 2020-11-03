@@ -1,0 +1,19 @@
+1877 a-chloroiminy, Wallach
+1881 przegrupowanie Hofmanna
+1893 reakcja Bischlera-Napieralskiego
+1910 reakcja Picteta-Gamsa
+1927 reakcja Vilsmeiera-Haacka
+1948 Redukcja LiAlH4, Nystrom i Brown
+1969 chlorki keteniminiowe, Ghosez
+1981 aktywatory tryflowe, Ghosez
+1981 amidy Weinreba
+1993 aktywacja odczynnikiem Schwartza, Ganem i in.
+2000 redukcja odczynnikiem Schwartza, Gunda i in.
+2001 funkcjonalizacja odczynnikiem Schwartza, Ganem
+2009 aktywacja kompleksem Vaski, Nagashima i in.
+2012 redukcja kompleksem van der Enta, Cheng i Brookhart
+2014 funkcjonalizacja laktamów, Furman i in.
+2015 funkcjonalizacja kompleksem Vaski, Dixon
+2016 redukcja NaH/NaI, Chiba
+2018 funkcjonalizacja kompleksem van der Enta, Huang i in.
+2020 funkcjonalizacja NaH/NaI, Chba i Dixon
