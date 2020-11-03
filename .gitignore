@@ -1,3 +1,5 @@
+.vscode
+
 # python virtual env
 .env
 .venv
