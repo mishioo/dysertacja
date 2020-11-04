@@ -10,7 +10,6 @@ chemdraw-for-pc/
 *.png
 *.doc*
 *.xlsx
-*.svg
 
 # machine-generated
 nmr.tex
