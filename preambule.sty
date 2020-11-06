@@ -134,6 +134,25 @@
 \makeatother
 
 
+%% enable access to subdirs
+\graphicspath{{graphics/}{schemes/}}
+%% provide automatic svg conversion
+% requires inkscape to be available in search path
+\newcommand{\executeiffilenewer}[3]{%
+  \ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+  {\pdffilemoddate{#2}}>0%
+  {\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+  \executeiffilenewer{#1.svg}{#1.pdf}%
+  {inkscape -z -D --file=#1.svg %
+  --export-pdf=#1.pdf --export-latex}%
+  % change font size in the drawing to smaller
+  \fontsize{8}{10}\selectfont
+  \input{#1.pdf_tex}%
+}
+
+
 %% chemistry packages
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
@@ -146,7 +165,10 @@
 \setchemformula{circled=all}
 
 \usepackage{chemnum}  % for automated structures numeration
-\setchemnum{replace-style = \fontsize{10}{12}}  % change size of tags in schemes
+\setchemnum{
+  format = \ttfamily\bfseries,
+  replace-style = \bfseries\ttfamily\fontsize{8}{10}\selectfont
+  }  % change size of tags in schemes
 
 
 %% list of acronyms

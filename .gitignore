@@ -11,6 +11,10 @@ chemdraw-for-pc/
 *.doc*
 *.xlsx
 
+# machine generated
+*.pdf
+*.pdf_tex
+
 # machine-generated
 nmr.tex
 coords.tex
@@ -19,9 +23,6 @@ characterization.txt
 ## EndNote
 *.Data
 *.enl
-
-## pdf files
-*.pdf
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
