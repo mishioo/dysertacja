@@ -199,6 +199,10 @@
 \addto\captionspolish{\renewcommand{\schemename}{Schemat}}  % for Scheme -> Schemat; babel doesn't change it
 \addto\captionspolish{\renewcommand{\tablename}{Tabela}}  % change babel's Tablica -> Tabela
 
+\DefineBibliographyStrings{polish}{%
+  backrefpage = {cyt.~na~s.}
+}
+
 %% Adjust floats names in references
 \usepackage[nameinlink]{cleveref}
 \crefname{figure}{rys.}{rys.}
