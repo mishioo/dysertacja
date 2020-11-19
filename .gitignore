@@ -14,6 +14,7 @@ chemdraw-for-pc/
 # machine generated
 *.pdf
 *.pdf_tex
+bashout/*
 
 # machine-generated
 nmr.tex

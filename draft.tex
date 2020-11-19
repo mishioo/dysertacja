@@ -1,10 +1,12 @@
-\documentclass{book}
-\usepackage[a4paper, total={6in, 8in}]{geometry}
+\documentclass[a4paper, 12pt]{book}
+\usepackage[total={6in, 9in}, left=1in, right=1in]{geometry}
 
 %% font encoding
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
+%% normal font
+\usepackage{lmodern}
 
 %% language dependent
 \usepackage[polish]{babel}
@@ -13,19 +15,9 @@
 \usepackage{indentfirst}
 
 
-% preety tabs
+% pretty tabs
 % do I need it?
 % \usepackage{booktabs}
-
-
-%% Helper for TODOs
-\usepackage[
-    linecolor=red,
-    backgroundcolor=white,
-    bordercolor=red,
-    textcolor=red,
-    textsize=footnotesize,
-]{todonotes}
 
 
 %% Bibliography and citations setup
@@ -33,10 +25,11 @@
 \usepackage[
     citestyle=numeric,
     % bibstyle=authoryear,  % needed only for traditional bibliography
+    sorting=none,
     backref=true,
     citetracker,
     backend=biber,
-    % autocite=footnote,  % cooperate with tufte-latex
+    % autocite=footnote,  % not wanted in draft
     labeldateparts,  % make year of publication available
     giveninits=true,  % names as initials
     url=false,  % suppress url everywhere but in `online'
@@ -50,17 +43,6 @@
 \DeclareFieldFormat[article]{title}{}
 % suppress ISSN
 \AtEveryCitekey{\clearfield{issn}}
-% redefine cite:short to give author-year
-\renewbibmacro*{cite:short}{%
-  \printnames{labelname}%
-  \setunit*{\printdelim{nameyeardelim}}%
-  \iffieldundef{labelyear}
-    {}
-    {\printtext[parens]{\printlabeldateextra}},  % comma is printed
-  \printtext[bibhyperlink]{%  make it a link to citation
-    \bibstring{backrefpage}\ppspace%  "cyt. na s. "
-    \printlist[][-1]{pageref}}%  page number of first occurrence
-}
 % punctuation in autocite
 \DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
 % references location
@@ -76,6 +58,10 @@
 \definecolor{wongblue}{HTML}{0072B2}
 \definecolor{wongvermillion}{HTML}{D55E00}
 \definecolor{wongpurple}{HTML}{CC79A7}
+
+
+%% TODOs in form of inline notes
+\newcommand{\todo}[2][]{{ \color{wongpurple}[TODO: #2]}}
 
 
 %% setup code snippets
@@ -118,17 +104,64 @@
 % must be done before loading chemmacros to prevent name conflict
 \DeclareFloatingEnvironment{scheme}
 
+% continuos numbering of floats
+\usepackage{chngcntr}
+\counterwithout{scheme}{chapter}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
 %% all tufte floats behave as standard
-\newenvironment{marginscheme}[1][]{\begin{scheme}[h]}{\end{scheme}}
-\newenvironment{marginfigure}[1][]{\begin{figure}[h]}{\end{figure}}
-\newenvironment{margintable}[1][]{\begin{table}[h]}{\end{table}}
+\newenvironment{marginscheme}[1][]{\begin{scheme}[h!]\centering}{\end{scheme}}
+\newenvironment{marginfigure}[1][]{\begin{figure}[h!]\centering}{\end{figure}}
+\newenvironment{margintable}[1][]{\begin{table}[h!]\centering}{\end{table}}
+\renewenvironment{scheme*}[1][]{\begin{scheme}[h!]}{\end{scheme}}
+\renewenvironment{figure*}[1][]{\begin{figure}[h!]}{\end{figure}}
+\renewenvironment{table*}[1][]{\begin{table}[h!]}{\end{table}}
 \newenvironment{fullwidth}[1][]{}{}
 \newenvironment{doublespace}[1][]{}{}
 % setfloatalignment do nothing
 \newcommand{\setfloatalignment}[1]{\ignorespaces}
 % set includegraphics to do nothing
-\renewcommand{\includegraphics}[1]{\centering [TUTAJ RYSUNEK]}
-\renewcommand{\footnote}[2][]{ [PRZYPIS: #2]}
+% \renewcommand{\includegraphics}[1]{\centering [RYSUNEK]}
+\renewcommand{\footnote}[2][]{ {\color{wongblue}[PRZYPIS: #2]}}
+
+%% enable access to nested subdirs
+\usepackage{import}
+% signal a relative path - produces path of current import dir
+\makeatletter\def\relpath{\import@path}\makeatother
+
+%% provide images replacement
+
+% patch for importing svg file functionality
+% extracts cmpd declarations from pdf_tex, converts to labelcmpd
+% requires --shell-escape
+% #1 - path to file, optional
+% #2 - name of the file to be imported
+\usepackage[unique=true,dir=bashout]{bashful}
+\makeatletter
+\newcommand{\includesvg}[2][]{%
+  \begingroup%
+  \color{wongvermillion}
+  \catcode`\_=12\relax%
+  \splice{%
+    if grep -qP '\@backslashchar\@backslashchar cmpd{[a-zA-Z0-9:.\@backslashchar-]*}' ../\relpath#1#2.pdf_tex; then
+      echo '[NA RYSUNKU ZWI\@backslashchar k{A}ZKI';
+      grep -oP '\@backslashchar\@backslashchar cmpd{[a-zA-Z0-9:.\@backslashchar-]*}' ../\relpath#1#2.pdf_tex;
+      echo ']';
+    else
+      echo "[RYSUNEK BEZ NUMEROWANYCH ZWI\@backslashchar k{A}ZK\@backslashchar 'OW]";
+    fi
+    % only print \cmpd{...}
+    % grep -oP '\@backslashchar\@backslashchar cmpd{[a-zA-Z0-9:.\@backslashchar-]*}' ../\relpath#1#2.pdf_tex%
+    % convert to \labelcmpd{...}
+    % sed -n 's/.*\@backslashchar\@backslashchar\@backslashchar(cmpd{[a-zA-Z0-9:.\@backslashchar-]*}\@backslashchar).*/%
+    % \@backslashchar\@backslashchar label\@backslashchar1/p' ../\relpath#1#2.pdf_tex%
+  }%
+  \endgroup%
+}
+\makeatother
+% from http://www.tex.ac.uk/tex-archive/info/svg-inkscape/InkscapePDFLaTeX.pdf
+% and https://tex.stackexchange.com/a/17491/223674
 
 \usepackage{nopageno}  % no page numbers
 
@@ -145,7 +178,6 @@
 \setchemformula{circled=all}
 
 \usepackage{chemnum}  % for automated structures numeration
-\setchemnum{replace-style = \fontsize{10}{12}}  % change size of tags in schemes
 
 
 %% list of acronyms
@@ -169,6 +201,10 @@
 \Crefname{figure}{Rys.}{Rys.}
 \crefname{scheme}{schem.}{schem.}
 \Crefname{scheme}{Schem.}{Schem.}
+% and translate ceveref's conjunctions
+\newcommand{\crefrangeconjunction}{ do~}
+\newcommand{\crefpairconjunction}{ i~}
+\newcommand{\creflastconjunction}{, oraz }
 
 % chemnum package related
 \DeclareTranslation{polish}{chemnum-sep-two}{~oraz~}
@@ -222,14 +258,14 @@
     \vspace{11.5pc}%
     \fontsize{28}{34}\selectfont\noindent\nohyphenation\textit{\@title}\par%
     \vspace{5pc}%
-    \fontsize{18}{20}\selectfont\noindent\textsc{\plainsubtitle}\par%
+    \fontsize{18}{20}\selectfont\noindent{\plainsubtitle}\par%
     \vspace{2pc}%
     \fontsize{14}{16}\selectfont\noindent\plainpublisher\par%
     }
 }
 \makeatother
 
-% \usepackage{graphicx}
+\usepackage{graphicx}
 % \newsavebox{\titleimage}
 % \savebox{\titleimage}{\includegraphics[height=7\baselineskip]{example-image}}
 
@@ -237,6 +273,10 @@
 \subtitle{\textbf{Praca doktorska} \\ przygotowana pod kierunkiem \\ prof. Bartłomieja Furmana}
 \author{Michał M. Więcław}
 \publisher{Instytut Chemii Organicznej \\ Polskiej Akademii Nauk}
+
+%% TABLE OF CONTENTS SETUP
+% show chapters and sections in table of contents
+\setcounter{tocdepth}{1}
 
 \begin{document}
 
@@ -269,7 +309,7 @@
 % przerwy \printinunitsof{cm}\prntlen{\marginparsep}      %  0.81987 cm
 %                                                 SUMA:     16.45763 cm
 
-\input{chapter-1}
+\import{chapter-1}{chapter}
 
 % \chapter{In vitro}
 
@@ -287,6 +327,6 @@
 
 \backmatter
 
-% \printbibliography
+\printbibliography
 
 \end{document}
