@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,7 +43,7 @@
      id="namedview560"
      showgrid="false"
      inkscape:zoom="3.0309725"
-     inkscape:cx="178.42743"
+     inkscape:cx="184.69605"
      inkscape:cy="-1.0805817"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1443,6 +1443,16 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="167.224"
+     y="184.06525"
+     id="text2136-2"><tspan
+       sodipodi:role="line"
+       id="tspan2134-9"
+       x="167.224"
+       y="184.06525">\cmpd{w:nitrilinium}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
      x="279.68796"
      y="148.82274"
      id="text2136-3"><tspan
@@ -1532,4 +1542,14 @@
          inkscape:connector-curvature="0" />
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     x="169.88385"
+     y="188.27255"
+     id="text1128"><tspan
+       sodipodi:role="line"
+       id="tspan1126"
+       x="169.88385"
+       y="197.8806" /></text>
 </svg>
