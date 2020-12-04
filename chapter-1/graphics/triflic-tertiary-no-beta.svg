@@ -42,7 +42,7 @@
      id="namedview400"
      showgrid="false"
      inkscape:zoom="2.3898276"
-     inkscape:cx="127.58379"
+     inkscape:cx="18.370891"
      inkscape:cy="65.615701"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1032,14 +1032,14 @@
      id="text1631" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69e00;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69e00;fill-opacity:1;stroke:none"
      x="196.05724"
      y="40.986954"
      id="text1635"><tspan
        sodipodi:role="line"
        id="tspan1633"
        x="196.05724"
-       y="40.986954">brak protonu $\beta$</tspan></text>
+       y="40.986954">brak protonu \textbeta</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"

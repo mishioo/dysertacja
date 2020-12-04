@@ -262,9 +262,9 @@
      inkscape:window-height="1017"
      id="namedview1489"
      showgrid="false"
-     inkscape:zoom="4.1581642"
-     inkscape:cx="319.21098"
-     inkscape:cy="21.549074"
+     inkscape:zoom="2.9402661"
+     inkscape:cx="195.25782"
+     inkscape:cy="23.501976"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -976,12 +976,12 @@
     <text
        xml:space="preserve"
        id="text1419"
-       style="text-align:start;text-anchor:start;text-rendering:geometricPrecision;fill:#e69e00;fill-opacity:1"
+       style="text-align:start;text-anchor:start;fill:#e69e00;fill-opacity:1;text-rendering:geometricPrecision"
        x="136.3586"
        y="109.03375"><tspan
          font-size="8"
          id="tspan1417"
-         style="font-size:8px;font-family:Arial;text-align:start;text-anchor:start;fill:#e69e00;fill-opacity:1">$\alpha$-chloroimina</tspan></text>
+         style="font-size:8px;font-family:Arial;text-align:start;text-anchor:start;fill:#e69e00;fill-opacity:1">\textalpha-chloroimina</tspan></text>
   </g>
   <line
      x1="255.49536"

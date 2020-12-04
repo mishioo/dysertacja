@@ -43,7 +43,7 @@
      id="namedview351"
      showgrid="false"
      inkscape:zoom="2.3104644"
-     inkscape:cx="160.17055"
+     inkscape:cx="185.70654"
      inkscape:cy="19.966415"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -896,12 +896,12 @@
     <text
        xml:space="preserve"
        id="text335"
-       style="text-anchor:start;text-rendering:geometricPrecision;fill:#e69e00;fill-opacity:1"
+       style="text-anchor:start;fill:#e69e00;fill-opacity:1;text-rendering:geometricPrecision"
        x="45.754845"
        y="81.34375"><tspan
          font-size="8"
          id="tspan333"
-         style="font-size:8px;font-family:Arial;fill:#e69e00;fill-opacity:1">$\alpha$-chloro enamina</tspan></text>
+         style="font-size:8px;font-family:Arial;fill:#e69e00;fill-opacity:1">\textalpha-chloro enamina</tspan></text>
   </g>
   <line
      x1="147.83397"
