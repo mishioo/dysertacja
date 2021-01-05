@@ -41,13 +41,13 @@
      inkscape:window-height="1017"
      id="namedview730"
      showgrid="false"
-     inkscape:zoom="2.1763965"
-     inkscape:cx="146.36399"
-     inkscape:cy="-38.68474"
+     inkscape:zoom="1.5389447"
+     inkscape:cx="234.38856"
+     inkscape:cy="94.926585"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg728"
+     inkscape:current-layer="g32"
      showguides="true"
      inkscape:guide-bbox="true" />
   <clipPath
@@ -108,11 +108,6 @@
   <g
      id="g32"
      transform="matrix(1.33333,0,0,1.33333,-76.578764,-51.992794)">
-    <path
-       style="stroke:#009d73;stroke-width:0.50999999;shape-rendering:auto"
-       d="M 28.32,153.91 V 147"
-       id="line26"
-       inkscape:connector-curvature="0" />
     <path
        d="m 30.14,154.07 v 0 l 0.51,0.29 V 147 h -0.51 z"
        id="path28"
