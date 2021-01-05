@@ -112,6 +112,24 @@
 }  % last one to enable word breaks
 
 
+%% Format float caption
+% copied from tufte-common
+% added textbf to put label in bold face
+\makeatletter
+\long\def\@caption#1[#2]#3{%
+  \par%
+  \addcontentsline{\csname ext@#1\endcsname}{#1}%
+    {\protect\numberline{\csname the#1\endcsname}{\ignorespaces #2}}%
+  \begingroup%
+    \@parboxrestore%
+    \if@minipage%
+      \@setminipage%
+    \fi%
+    \@tufte@caption@font\@tufte@caption@justification%
+    \noindent\textbf{\csname fnum@#1\endcsname:} \ignorespaces#3\par%
+  \endgroup}
+\makeatother
+
 %% Create scheme floating environment
 \usepackage{newfloat}
 % must be done before loading chemmacros to prevent name conflict
