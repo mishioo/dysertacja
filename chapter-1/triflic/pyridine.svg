@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview425"
      showgrid="false"
-     inkscape:zoom="2.5751717"
-     inkscape:cx="138.86841"
-     inkscape:cy="66.690832"
+     inkscape:zoom="7.2836855"
+     inkscape:cx="279.32625"
+     inkscape:cy="89.939601"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -119,11 +119,6 @@
        id="text2365"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#cc79a7;fill-opacity:1;stroke:none"
        aria-label="≡ H">
-      <path
-         inkscape:connector-curvature="0"
-         id="path2367"
-         d="m 335.05843,69.574292 h -5.04167 v -0.869791 h 5.04167 z m 0,2.322917 h -5.04167 v -0.875 h 5.04167 z m 0,2.317708 h -5.04167 v -0.875 h 5.04167 z"
-         style="fill:#cc79a7;fill-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path2369"
@@ -1382,4 +1377,14 @@
      style="font-size:10.66664028px;font-family:Arial;text-anchor:start;fill:#000000;stroke-width:1.33333004;text-rendering:geometricPrecision"
      id="path1558-2"
      inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#cc79a7;fill-opacity:1;stroke:none"
+     x="311.83466"
+     y="68.497665"
+     id="text1071"><tspan
+       sodipodi:role="line"
+       id="tspan1069"
+       x="311.83466"
+       y="68.497665">$=$</tspan></text>
 </svg>
