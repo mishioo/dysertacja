@@ -63,8 +63,9 @@
 % punctuation in autocite
 \DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
 % make footnote citations colored
+\newcommand*{\citationcolor}{gray}
 % from: https://tex.stackexchange.com/a/258415/223674
-\newcommand{\coloredbibfootnotewrapper}[1]{\textcolor{gray}{\bibfootnotewrapper{#1}}}
+\newcommand{\coloredbibfootnotewrapper}[1]{\textcolor{\citationcolor}{\bibfootnotewrapper{#1}}}
 % declare \sidecite that enables optional offside parameter in < >
 % from: https://tex.stackexchange.com/a/238673/223674
 \DeclareCiteCommand{\sidecitehelper}[\coloredbibfootnotewrapper]
