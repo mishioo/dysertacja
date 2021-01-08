@@ -62,30 +62,44 @@
 }
 % punctuation in autocite
 \DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
-% make footnote citations colored
+
+%% make footnote citations colored
 \newcommand*{\citationcolor}{gray}
+
+% original and colored macros for making a sidenote mark in mariginal material
+% used later in \sidecite definition to temporarly swap value of \@makefntext
+\makeatletter
+\newcommand*{\@origmakefntext}[1]{%
+  \@textsuperscript{\@tufte@sidenote@font\tiny\@thefnmark}\,\footnotelayout#1}
+\newcommand*{\@coloredmakefntext}[1]{%
+  \@textsuperscript{\@tufte@sidenote@font\tiny\color{\citationcolor}\@thefnmark}\,\footnotelayout#1}%
+\makeatother
 % from: https://tex.stackexchange.com/a/258415/223674
 \newcommand{\coloredbibfootnotewrapper}[1]{\textcolor{\citationcolor}{\bibfootnotewrapper{#1}}}
-% declare \sidecite that enables optional offside parameter in < >
 % from: https://tex.stackexchange.com/a/238673/223674
+% helper command that produces colored citation
 \DeclareCiteCommand{\sidecitehelper}[\coloredbibfootnotewrapper]
   {\usebibmacro{prenote}}
   {\usebibmacro{citeindex}%
    \usebibmacro{cite}}
   {\multicitedelim}
   {\usebibmacro{cite:postnote}}
-% actual \sidecite command
+% declare \sidecite that enables optional offside parameter in < >
+\makeatletter
 \ExplSyntaxOn
 \NewDocumentCommand\sidecite{D<>{}O{}om}{%
-  % if already in sidenote, produce citation in parentheses
+\let\@makefntext\@coloredmakefntext% use macro producing colored mark  marginal material
+% if already in sidenote, produce citation in parentheses
   \iftoggle{blx@footnote}
     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\mkbibparens{##2}}}
     {\cs_set_protected_nopar:Npn \__sct_wrapper:nn ##1 ##2 {\sidenote[][##1]{##2}}}
     {\IfNoValueTF{#3}
       {\__sct_wrapper:nn{#1}{\sidecitehelper[#2]{#4}}}
       {\__sct_wrapper:nn{#1}{\sidecitehelper[#2][#3]{#4}}}}
+\let\@makefntext\@origmakefntext% restore original mark in marginal material
 }
 \ExplSyntaxOff
+\makeatother
 
 % references location
 \addbibresource{refs.bib}
