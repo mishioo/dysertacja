@@ -84,10 +84,11 @@
    \usebibmacro{cite}}
   {\multicitedelim}
   {\usebibmacro{cite:postnote}}
-% declare \sidecite that enables optional offside parameter in < >
+% declare \sidecite that enables optional offside parameter in [ ]
+% #1 - offset; #2 - prenote; #3 - postnote, #4 - citation key
 \makeatletter
 \ExplSyntaxOn
-\NewDocumentCommand\sidecite{D<>{}O{}om}{%
+\NewDocumentCommand\sidecite{O{}O{}om}{%
 \let\@makefntext\@coloredmakefntext% use macro producing colored mark  marginal material
 % if already in sidenote, produce citation in parentheses
   \iftoggle{blx@footnote}
