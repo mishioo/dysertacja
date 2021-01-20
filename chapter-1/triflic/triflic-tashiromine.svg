@@ -42,7 +42,7 @@
      id="namedview490"
      showgrid="false"
      inkscape:zoom="4.5632941"
-     inkscape:cx="-3.7090854"
+     inkscape:cx="-60.90461"
      inkscape:cy="6.0225022"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1377,15 +1377,15 @@
        y="112.20078">4 etapy</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="35.649609"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
+     x="36.250103"
      y="214.81146"
      id="text5709"><tspan
        sodipodi:role="line"
        id="tspan5707"
-       x="35.649609"
+       x="61.260521"
        y="214.81146"
-       style="text-align:start;text-anchor:start">1 : 20</tspan></text>
+       style="text-align:start;text-anchor:start;">1 : 20</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69e00;fill-opacity:1;stroke:none"
