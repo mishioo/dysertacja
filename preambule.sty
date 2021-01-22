@@ -102,6 +102,10 @@
 \ExplSyntaxOff
 \makeatother
 
+% also make in text citations colored
+\let\origcite\cite
+\renewcommand{\cite}[1]{\textcolor{\citationcolor}{\origcite{#1}}}
+
 % references location
 \addbibresource{refs.bib}
   
