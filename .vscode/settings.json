@@ -1,0 +1,269 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.tabSize": 2,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "*.nav",
+        "*.ist",
+        "*.synctex.gz"
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdf-se➞biber➞gloss➞pdf × 2",
+            "tools": [
+                "pdflatex-se",
+                "biber",
+                "makeglossaries",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "tetrazole",
+            "tools": [
+                "pdflatex-se",
+                "comment-epstopdf",
+                "bibtex",
+                "pdflatex-se",
+                "pdflatex-se",
+                "uncomment-epstopdf"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools":[
+                "pdflatex",
+            ]
+        },
+        {
+            "name": "pdflatex-se",
+            "tools":[
+                "pdflatex-se",
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "pdf ➞ bib ➞ gloss ➞ pdf × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "makeglossaries",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Jnw files",
+            "tools": [
+                "jnw2tex",
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "comment-epstopdf",
+            "command": "sed",
+            "args": [
+                "-i",
+                "s/\\\\\\usepackage{epstopdf}/% \\\\usepackage{epstopdf}/g",
+                "preambule.tex"
+            ],
+            "env": {}
+        },
+        {
+            "name": "uncomment-epstopdf",
+            "command": "sed",
+            "args": [
+                "-i",
+                "s/% \\\\\\usepackage{epstopdf}/\\\\usepackage{epstopdf}/g",
+                "preambule.tex"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex-se",
+            "command": "pdflatex",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "-output-directory=%OUTDIR%",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "makeglossaries",
+            "command": "makeglossaries",
+            "args": [
+                "-d%OUTDIR%",
+                "%DOCFILE%"
+            ]
+          },
+        {
+            "name": "rnw2tex",
+            "command": "Rscript",
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2tex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2texmintex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "env": {}
+        }
+    ],
+    "cSpell.language": "en,pl",
+    "cSpell.maxNumberOfProblems": 1000,
+    "cSpell.userWords": [
+        "acetonitrylu",
+        "akywowanego",
+        "cyklizuje",
+        "cykloaddycji",
+        "functionalization",
+        "iminiowej",
+        "nucleophile",
+        "nukleofila",
+        "oksoniowy",
+        "triflanami",
+        "triflowym",
+        "triflowymi"
+    ],
+    "files.eol": "\n",
+    "latex-workshop.latex.outDir": "%DIR%/build/",
+}

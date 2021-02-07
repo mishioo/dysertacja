@@ -1,5 +1,3 @@
-.vscode
-
 # python virtual env
 .env
 .venv
@@ -15,8 +13,6 @@ chemdraw-for-pc/
 *.pdf
 *.pdf_tex
 bashout/*
-
-# machine-generated
 nmr.tex
 coords.tex
 characterization.txt
