@@ -282,12 +282,16 @@
         "regioselektywno",
         "regioselektywność",
         "sililowych",
+        "steczkowo",
         "steryczne",
         "sterycznymi",
         "termodynamicznie",
         "tetrahydrofuranie",
         "triflowa",
-        "triflowy"
+        "triflowy",
+        "trzcz",
+        "wewn",
+        "wewnątrzcząsteczkowo"
     ],
     "files.eol": "\n",
     "latex-workshop.latex.outDir": "%DIR%/build/",
