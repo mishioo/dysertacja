@@ -295,4 +295,5 @@
     ],
     "files.eol": "\n",
     "latex-workshop.latex.outDir": "%DIR%/build/",
+    "editor.minimap.enabled": false,
 }
