@@ -296,4 +296,8 @@
     "files.eol": "\n",
     "latex-workshop.latex.outDir": "%DIR%/build/",
     "editor.minimap.enabled": false,
+    "editor.rulers": [
+        90, 100
+    ],
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
 }
