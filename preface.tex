@@ -46,14 +46,20 @@ Dla poprawienia czytelności
   \lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
   są wyróżnione przy użyciu koloru.
 Linie tych bloków są ponumerowane na~lewym marginesie.
+Niestety, nie doczekały się one polskiego terminu i~nazywane są \--- 
+  z~języka angielskiego \--- listingami.
+\Cref{lst:example} jest przykładem takiego bloku kodu.
 
-% TODO: enable code listings' caption in Tufte style
+\begin{listing}
 \begin{lstlisting}[language=Python]
 if is_first_program():
     print('Hello world!')
 else:
     pass  # nic nie rób
 \end{lstlisting}
+\caption{Przykład formatowania bloku zawierającego kod źródłowy.}
+\label{lst:example}
+\end{listing}
 
 Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogramowania \LaTeX,
   a~jej kod źródłowy dostępny jest w~Internecie pod adresem

@@ -111,6 +111,10 @@
 \addbibresource{refs.bib}
   
 
+% for simple way of declaring new floats
+\usepackage{newfloat}
+
+
 %% define shortcuts for colors from Wong's palette
 \usepackage{xcolor}
 \definecolor{wongblack}{HTML}{000000}
@@ -125,6 +129,30 @@
 
 %% setup code snippets
 \usepackage{inconsolata}  % monospaced font
+
+% listing environment breaks when there is some combination of:
+%   - polish characters declaration with `literate'
+%   - polish caracters in code listing
+%   - code listing break between pages
+% putting listing in a floating environment is a hack to get rid of this problem
+% but it also allows for declaring listing's caption the Tufte way
+\DeclareFloatingEnvironment[name=Listing]{listing}
+%% provide tufte-style listing
+\makeatletter
+%% listing on tufte margin
+\newenvironment{marginlisting}[1][-1.2ex]%
+  {\begin{@tufte@margin@float}[#1]{listing}}
+  {\end{@tufte@margin@float}}
+%% listing as standard tufte float
+\renewenvironment{listing}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{listing}{}}
+  {\end{@tufte@float}}
+% Full-width listing (starred)
+\renewenvironment{listing*}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{listing}{star}}
+  {\end{@tufte@float}}
+\makeatother
+
 \usepackage{listings}  % code listings
 \lstset{
     breaklines=true,
@@ -154,8 +182,7 @@
              {Ć}{{\'C}}1
              {ń}{{\'n}}1
              {Ń}{{\'N}}1
-            %  {\-}{}{0\discretionary{-}{}{}
-}  % last one to enable word breaks
+}
 
 
 %% Format float caption
@@ -177,7 +204,6 @@
 \makeatother
 
 %% Create scheme floating environment
-\usepackage{newfloat}
 % must be done before loading chemmacros to prevent name conflict
 \DeclareFloatingEnvironment{scheme}
 
@@ -278,6 +304,8 @@
 \Crefname{figure}{Rys.}{Rys.}
 \crefname{scheme}{schem.}{schem.}
 \Crefname{scheme}{Schem.}{Schem.}
+\crefname{listing}{list.}{list.}
+\Crefname{listing}{List.}{List.}
 % and translate ceveref's conjunctions
 \newcommand{\crefrangeconjunction}{ do~}
 \newcommand{\crefpairconjunction}{ i~}
