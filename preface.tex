@@ -13,8 +13,8 @@ Projektując graficzną stronę tego dokumentu starałem się stosować do~zasad
   proponowanych w~jego pracach.
 % TODO: describe Tufte rules of good layout
 
-Jeden z paradygmatów kształcenia mówi, że nauka % TODO: będąc ?? ??
- powinna być przystępna.
+Jeden z paradygmatów kształcenia mówi, że nauka, będąc narzędziem poznania,
+  powinna być przystępna.
 Jako że kolor może nieść istotną część informacji podczas prezentacji danych,
   przy tworzeniu grafik zawartych w~tej pracy użyłem palety przyjaznej osobom
   z~zaburzeniem rozpoznawania barw.
@@ -40,12 +40,14 @@ Gdy w~tekście pojawia się odniesienie do~nazw elementów opisywanego kodu źr�
   sygnalizuję to~używając kroju czcionki \lstinline!o stałej szerokości!.
 Większe bloki kodu są wydzielone z~tekstu, jak ten poniżej.
 Dla poprawienia czytelności 
-  \lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!, 
+  \lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!,
+  % TODO: explain what language's keywords are
   \lstinline[basicstyle=\ttfamily\color{wongsky},columns=fixed]!komentarze!, oraz 
   \lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
   są wyróżnione przy użyciu koloru.
 Linie tych bloków są ponumerowane na~lewym marginesie.
 
+% TODO: enable code listings' caption in Tufte style
 \begin{lstlisting}[language=Python]
 if is_first_program():
     print('Hello world!')
@@ -54,14 +56,11 @@ else:
 \end{lstlisting}
 
 Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogramowania \LaTeX,
-a~jej kod źródłowy dostępny jest w~Internecie pod adresem \url{https://github.com/Mishioo/dysertacja}.
-
-\begin{fullwidth}
-\printglossary[title=Wykaz skrótów, type=\acronymtype]
-\end{fullwidth}
+  a~jej kod źródłowy dostępny jest w~Internecie pod adresem
+  \url{https://github.com/Mishioo/dysertacja}.
 
 \section{Cel pracy}\label{intro:goal}
-  % TODO: write goal of work
+  \todo{Uzupełnić cel pracy.}
 
 \section{Publikacje}\label{intro:publications}
 \begin{itemize}
@@ -93,3 +92,8 @@ a~jej kod źródłowy dostępny jest w~Internecie pod adresem \url{https://githu
   \item Grant obliczeniowy PL\=/Grid
 \end{itemize}
 \end{fullwidth}
+
+\begin{fullwidth}
+  \printglossary[title=Wykaz skrótów, type=\acronymtype]
+\end{fullwidth}
+  
