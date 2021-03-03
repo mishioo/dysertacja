@@ -40,8 +40,12 @@ Gdy w~tekście pojawia się odniesienie do~nazw elementów opisywanego kodu źr�
   sygnalizuję to~używając kroju czcionki \lstinline!o stałej szerokości!.
 Większe bloki kodu są wydzielone z~tekstu, jak ten poniżej.
 Dla poprawienia czytelności 
-  \lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!,
-  % TODO: explain what language's keywords are
+  \lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!%
+  \footnote{
+    Słowa kluczowe to ciągi znaków zarezerwowane w~danym języku programowania,
+      stanowiące część jego składni.
+    Mają one z~góry określone znaczenie, definiowane przez ten język.
+  },
   \lstinline[basicstyle=\ttfamily\color{wongsky},columns=fixed]!komentarze!, oraz 
   \lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
   są wyróżnione przy użyciu koloru.
@@ -69,6 +73,7 @@ Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogram
   \todo{Uzupełnić cel pracy.}
 
 \section{Publikacje}\label{intro:publications}
+% TODO: force black color of citations here
 \begin{itemize}
   \item \cite{wieclaw21}
   \item \cite{stecko18}
