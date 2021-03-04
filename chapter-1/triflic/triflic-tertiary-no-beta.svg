@@ -14,7 +14,7 @@
    version="1.1"
    id="svg398"
    sodipodi:docname="triflic-tertiary-no-beta.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata404">
     <rdf:RDF>
@@ -41,13 +41,13 @@
      inkscape:window-height="1017"
      id="namedview400"
      showgrid="false"
-     inkscape:zoom="38.237242"
-     inkscape:cx="-31.221194"
-     inkscape:cy="33.121854"
+     inkscape:zoom="4.7796553"
+     inkscape:cx="53.757747"
+     inkscape:cy="55.461413"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g40" />
+     inkscape:current-layer="svg398" />
   <clipPath
      id="9727">
     <rect
@@ -1034,7 +1034,7 @@
        sodipodi:role="line"
        id="tspan1633"
        x="196.05724"
-       y="40.986954">brak protonu \textbeta</tspan></text>
+       y="40.986954">brak protonu \textalpha</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
