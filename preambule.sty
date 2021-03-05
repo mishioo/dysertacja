@@ -36,12 +36,33 @@
     backref=true,
     citetracker,
     backend=biber,
-    autocite=footnote,  % cooperate with tufte-latex
     labeldateparts,  % make year of publication available
     giveninits=true,  % names as initials
     url=false,  % suppress url everywhere but in `online'
     maxbibnames=2,  % if more than 2 autors, produce et al.
 ]{biblatex}
+
+% mimic ACS style citations
+% authors, journal, year, volume, pages
+\DeclareFieldFormat[article]{date}{\mkbibbold{#1}}  % year in bold
+\DeclareFieldFormat[article]{volume}{\mkbibitalic{#1}}  % volume in italics
+\renewcommand*{\newunitpunct}{\addcomma\addspace}  % comma separated
+
+% renew macros to get desired order
+\renewbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \usebibmacro{date}%
+  \newunit
+  \usebibmacro{volume+number+eid}%
+  \newunit
+}
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+  \setunit*{\addspace}%
+  \printfield{eid}%
+}
+
 % suppress `In:' in article citations
 % from https://tex.stackexchange.com/a/10686/223674
 \renewbibmacro{in:}{%
@@ -61,8 +82,6 @@
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
 }
-% punctuation in autocite
-\DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
 
 %% make footnote citations colored
 \newcommand*{\citationcolor}{gray}
