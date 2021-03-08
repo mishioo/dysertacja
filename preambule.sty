@@ -293,7 +293,14 @@
 \usepackage{textgreek}  % for upright greek letters
 
 %% list of acronyms
-\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
+\usepackage[
+  acronym,
+  nonumberlist,
+  style=list,
+  nogroupskip,
+  toc,
+  section=section
+]{glossaries}
 % make list of abbrev a section rather than a chapter
 \makeatletter
 \renewcommand*{\@@glossarysec}{section}%
