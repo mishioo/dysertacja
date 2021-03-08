@@ -35,12 +35,33 @@
     backref=true,
     citetracker,
     backend=biber,
-    autocite=footnote,  % cooperate with tufte-latex
     labeldateparts,  % make year of publication available
     giveninits=true,  % names as initials
     url=false,  % suppress url everywhere but in `online'
-    maxbibnames=3,  % if more than 3 autors, produce et al.
+    maxbibnames=2,  % if more than 2 autors, produce et al.
 ]{biblatex}
+
+% mimic ACS style citations
+% authors, journal, year, volume, pages
+\DeclareFieldFormat[article]{date}{\mkbibbold{#1}}  % year in bold
+\DeclareFieldFormat[article]{volume}{\mkbibitalic{#1}}  % volume in italics
+\renewcommand*{\newunitpunct}{\addcomma\addspace}  % comma separated
+
+% renew macros to get desired order
+\renewbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \usebibmacro{date}%
+  \newunit
+  \usebibmacro{volume+number+eid}%
+  \newunit
+}
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+  \setunit*{\addspace}%
+  \printfield{eid}%
+}
+
 % suppress `In:' in article citations
 % from https://tex.stackexchange.com/a/10686/223674
 \renewbibmacro{in:}{%
@@ -60,8 +81,6 @@
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
 }
-% punctuation in autocite
-\DeclareAutoCiteCommand{footnote}[r]{\footcite}{\footcites}
 
 %% make footnote citations colored
 \newcommand*{\citationcolor}{gray}
@@ -103,12 +122,15 @@
 \makeatother
 
 % also make in text citations colored
-\let\origcite\cite
-\renewcommand{\cite}[1]{\textcolor{\citationcolor}{\origcite{#1}}}
+\newcommand*{\colorcite}[1]{\textcolor{\citationcolor}{\cite{#1}}}
 
 % references location
 \addbibresource{refs.bib}
   
+
+% for simple way of declaring new floats
+\usepackage{newfloat}
+
 
 %% define shortcuts for colors from Wong's palette
 \usepackage{xcolor}
@@ -124,6 +146,30 @@
 
 %% setup code snippets
 \usepackage{inconsolata}  % monospaced font
+
+% listing environment breaks when there is some combination of:
+%   - polish characters declaration with `literate'
+%   - polish caracters in code listing
+%   - code listing break between pages
+% putting listing in a floating environment is a hack to get rid of this problem
+% but it also allows for declaring listing's caption the Tufte way
+\DeclareFloatingEnvironment[name=Listing]{listing}
+%% provide tufte-style listing
+\makeatletter
+%% listing on tufte margin
+\newenvironment{marginlisting}[1][-1.2ex]%
+  {\begin{@tufte@margin@float}[#1]{listing}}
+  {\end{@tufte@margin@float}}
+%% listing as standard tufte float
+\renewenvironment{listing}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{listing}{}}
+  {\end{@tufte@float}}
+% Full-width listing (starred)
+\renewenvironment{listing*}[1][htbp]%
+  {\ifvmode\else\unskip\fi\begin{@tufte@float}[#1]{listing}{star}}
+  {\end{@tufte@float}}
+\makeatother
+
 \usepackage{listings}  % code listings
 \lstset{
     breaklines=true,
@@ -153,8 +199,7 @@
              {Ć}{{\'C}}1
              {ń}{{\'n}}1
              {Ń}{{\'N}}1
-            %  {\-}{}{0\discretionary{-}{}{}
-}  % last one to enable word breaks
+}
 
 
 %% Format float caption
@@ -176,7 +221,6 @@
 \makeatother
 
 %% Create scheme floating environment
-\usepackage{newfloat}
 % must be done before loading chemmacros to prevent name conflict
 \DeclareFloatingEnvironment{scheme}
 
@@ -249,7 +293,14 @@
 \usepackage{textgreek}  % for upright greek letters
 
 %% list of acronyms
-\usepackage[acronym, nonumberlist, style=list, nogroupskip]{glossaries}
+\usepackage[
+  acronym,
+  nonumberlist,
+  style=list,
+  nogroupskip,
+  toc,
+  section=section
+]{glossaries}
 % make list of abbrev a section rather than a chapter
 \makeatletter
 \renewcommand*{\@@glossarysec}{section}%
@@ -277,6 +328,8 @@
 \Crefname{figure}{Rys.}{Rys.}
 \crefname{scheme}{schem.}{schem.}
 \Crefname{scheme}{Schem.}{Schem.}
+\crefname{listing}{list.}{list.}
+\Crefname{listing}{List.}{List.}
 % and translate ceveref's conjunctions
 \newcommand{\crefrangeconjunction}{ do~}
 \newcommand{\crefpairconjunction}{ i~}

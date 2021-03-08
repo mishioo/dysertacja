@@ -1,5 +1,98 @@
 \chapter{Przedsłowie}\label{chapter:intro}
 
+\section{Konwencje przyjęte w~niniejszej dysertacji}\label{intro:conventions}
+
+Każdy chemik zauważy, że forma graficzna niniejszej rozprawy doktorskiej różni się
+  od~zwykle spotykanych w~naukach chemicznych.
+Zapewne najbardziej zwraca uwagę format tekstu \--- 
+  jest on~inspirowany pracami Edwarda R.~Tuftego\sidecite{Tufte2001,Tufte1990,Tufte1997,Tufte2006},
+  uznanego za~eksperta w~dziedzinie prezentowania informacji i~pioniera wizualizacji
+  danych\sidecite{Yaffa2011}.
+Tufte zauważa, że odnośniki do~spodu strony, a~tym bardziej końca tekstu,
+  utrudniają czytanie, rozpraszając uwagę czytelnika.
+Zamiast tego umieszcza przypisy i~komentarze na~szerokim marginesie,
+  komentując żartobliwie, że "to miejsce zaplanował dla nich Bóg".
+Na~takiej szacie graficznej korzysta również główny tekst \---
+  zawarty w~kolumnie węższej niż cała strona, ma szerokość uznawaną za~optymalną
+  do czytania\sidecite{nanavati05}.
+
+Esencją podejścia Tuftego do prezentowania danych jest położenie nacisku
+  na~informatywność, a~nie estetykę przekazu.
+Wizualizacja powinna ułatwić jak najlepsze zrozumienie danych w~jak najkrótszym czasie,
+  w~jak najmniejszej przestrzeni i~przy użyciu jak najprostszej formy.
+Sposób przedstawienia danych musi być jednoznaczny i~nie może ich zniekształcać
+  ani wymuszać ich interpretacji.
+Dane nie powinny być ozdabiane, a~wszystkie zbędne elementy, takie jak ramki czy tło,
+  nie powinny znajdować się na~rysunkach, ponieważ odwracają uwagę od~treści.
+Projektując graficzną stronę tego dokumentu starałem się stosować do~tych zasad.
+
+\begin{marginfigure}
+  \includesvg[preface/]{palettes}
+  \caption{
+    Wykorzystane w~niniejszej dysertacji palety kolorów,
+    będące przyjazne osobom z~zaburzeniem rozpoznawania barw.
+  }
+  \label{fig:palettes}
+\end{marginfigure}
+Jeden z paradygmatów kształcenia mówi, że nauka, będąc narzędziem poznania,
+  powinna być przystępna.
+Jako że kolor może nieść istotną część informacji podczas prezentacji danych,
+  przy tworzeniu grafik zawartych w~tej pracy użyłem palety przyjaznej osobom
+  z~zaburzeniem rozpoznawania barw.
+Jako paletę jakościową użyłem schematu kolorów zaproponowanego przez Wonga\sidecite{wong11},
+  natomiast jako paletę ilościową wykorzystałem viridis\sidecite{Smith2015} lub BrBG,
+  zależnie od~kontekstu.
+Wszystkie je prezentuję na~\cref{fig:palettes}.
+
+Pewnie jak większość ludzi parających się naukami ścisłymi ulegam pokusie używania skrótów.
+Większość z~nich to~skrótowce standardowo używane przez chemików,
+  jednak, dla jasności, wszystkie rozwijam przy ich pierwszym wystąpieniu.
+Zgodnie z~konwencją zamieszczam również wykaz tych akronimów,
+  wraz z~ich znaczeniem, na~następnych stronach.
+
+Choć główna część tej dysertacji poświęcona jest badaniom z~dziedziny syntezy organicznej,
+  podczas pracy nad nią moje zainteresowania poszerzyły się.
+Stąd też czytelnik natrafi na~fragmenty dotyczące obliczeń kwantowo\-/chemicznych,
+  a~nawet programowania komputerowego.
+Zwłaszcza ten ostatni temat wymaga dodatkowego komentarza jako najbardziej oddalony
+  od~podstawowej dyscypliny.
+
+Gdy w~tekście pojawia się odniesienie do~nazw elementów opisywanego kodu źródłowego,
+  sygnalizuję to~używając kroju czcionki \lstinline!o stałej szerokości!.
+Większe bloki kodu są wydzielone z~tekstu, jak ten poniżej.
+Dla poprawienia czytelności 
+  \lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!%
+  \footnote{
+    Słowa kluczowe to ciągi znaków zarezerwowane w~danym języku programowania,
+      stanowiące część jego składni.
+    Mają one z~góry określone znaczenie, definiowane przez ten język.
+  },
+  \lstinline[basicstyle=\ttfamily\color{wongsky},columns=fixed]!komentarze!, oraz 
+  \lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
+  są wyróżnione przy użyciu koloru.
+Linie tych bloków są ponumerowane na~lewym marginesie.
+Niestety, nie doczekały się one polskiego terminu i~nazywane są \--- 
+  z~języka angielskiego \--- listingami.
+\Cref{lst:example} jest przykładem takiego bloku kodu.
+
+\begin{listing}
+\begin{lstlisting}[language=Python]
+if is_first_program():
+    print('Hello world!')
+else:
+    pass  # nic nie rób
+\end{lstlisting}
+\caption{Przykład formatowania bloku zawierającego kod źródłowy.}
+\label{lst:example}
+\end{listing}
+
+Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogramowania \LaTeX,
+  a~jej kod źródłowy dostępny jest w~Internecie pod adresem
+  \url{https://github.com/Mishioo/dysertacja}.
+
+\section{Cel pracy}\label{intro:goal}
+  \todo{Uzupełnić cel pracy.}
+
 \section{Publikacje}\label{intro:publications}
 \begin{itemize}
   \item \cite{wieclaw21}
@@ -31,55 +124,7 @@
 \end{itemize}
 \end{fullwidth}
 
-
-\section{Konwencje przyjęte w~niniejszej dysertacji}\label{intro:conventions}
-
-Prawdopodobnie każdy obyty chemik szybko zauważy, że forma niniejszej rozprawy doktorskiej różni się od~zwykle spotykanych w~naukach chemicznych.
-Zapewne najbardziej zwraca uwagę format tekstu \--- zawarty w~kolumnie węższej niż szerokość strony, z~przypisami i~komentarzami na~szerokim marginesie.
-Jest on~inspirowany pracami\sidecite{Tufte2001,Tufte1990,Tufte1997,Tufte2006} Edwarda~R. Tuftego,
-uznanego za~eksperta w~dziedzinie prezentowania informacji i~pioniera wizualizacji danych\sidecite{Yaffa2011}.
-Projektując graficzną stronę tego dokumentu starałem się stosować do~zasad proponowanych w~jego pracach.
-
-Uważam ponadto, że nauka powinna być przystępna dla jak największej liczby osób.
-Jako że kolor może nieść istotną część informacji podczas prezentacji danych,
-przy tworzeniu grafik zawartych w~tej pracy użyłem palety przyjaznej osobom z~zaburzeniem rozpoznawania barw.
-Jako palety jakościowej użyłem zaproponowaną przez Wonga\sidecite{wong11},
-natomiast jako paletę ilościową wykorzystałem viridis\sidecite{Smith2015} lub BrBG, zależnie od~kontekstu.
-
-Również z~powodu czytelności, staram się nie nadużywać żargonu podczas opisywania eksperymentów.
-Mimo to \--- pewnie jak większość umysłów ścisłych \--- ulegam pokusie używania skrótów.
-Większość z~nich to~skrótowce standardowo używane przez chemików,
-  jednak, dla jasności, wszystkie rozwijam przy ich pierwszym wystąpieniu.
-Zgodnie z~konwencją zamieszczam również wykaz tych akronimów,
-  wraz z~ich znaczeniem, na~następnych stronach.
-
-Choć główna część tej dysertacji poświęcona jest badaniom z~dziedziny syntezy organicznej,
-podczas pracy nad nią moje zainteresowania poszerzyły się.
-Stąd też czytelnik natrafi również na~fragmenty dotyczące obliczeń kwantowo\-/chemicznych, a~nawet programowania komputerowego.
-Zwłaszcza ten ostatni temat wymaga dodatkowego komentarza jako najbardziej oddalony od~podstawowej dyscypliny.
-
-Gdy w~tekście pojawia się odniesienie do~nazw elementów opisywanego kodu,
-sygnalizuję to~używając kroju czcionki \lstinline!o stałej szerokości!.
-Większe bloki kodu są wydzielone z~tekstu, jak ten poniżej.
-Dla poprawienia czytelności 
-\lstinline[basicstyle=\ttfamily\color{wongvermillion},columns=fixed]!słowa kluczowe!, 
-\lstinline[basicstyle=\ttfamily\color{wongsky},columns=fixed]!komentarze!, oraz 
-\lstinline[basicstyle=\ttfamily\color{wonggreen},columns=fixed]!dane tekstowe!
-są wyróżnione przy użyciu koloru.
-Linie tych bloków są ponumerowane na~lewym marginesie.
-
-\begin{lstlisting}[language=Python]
-if is_first_program():
-    print('Hello world!')
-else:
-    pass  # nic nie rób
-\end{lstlisting}
-
-Tekst niniejszej rozprawy doktorskiej został przygotowany przy użyciu oprogramowania \LaTeX,
-a~jej kod źródłowy dostępny jest w~Internecie pod adresem \url{https://github.com/Mishioo/dysertacja}.
-
 \begin{fullwidth}
-\printglossary[title=Wykaz skrótów, type=\acronymtype]
+  \printglossary[title=Wykaz skrótów, type=\acronymtype]
 \end{fullwidth}
-
-\section{Cel pracy}\label{intro:goal}
+  
