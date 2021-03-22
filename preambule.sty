@@ -282,7 +282,12 @@
 \DeclareSIUnit{\equiv}{equiv.}
 
 \usepackage{chemformula}  % for typesetting chemical equations
-\setchemformula{circled=all}
+\setchemformula{
+  circled=all,
+  % TODO: change font for formulas to better one in text and in schemes
+  %       preferably STIX2, or mabye inconsolata
+  font-family=phv  % Helvetica as closest to Arial used by ChemDraw
+}
 
 \usepackage{chemnum}  % for automated structures numeration
 \setchemnum{
