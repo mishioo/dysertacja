@@ -341,24 +341,39 @@ Czyni to niemożliwym zastosowanie tego prostego podejścia, jeśli cząsteczka 
 \citeauthor{zablocka97} udowodnili, że można przeprowadzić redukcję wiązania \ch{P=O}%
   \sidenote{A także wiązania \ch{P=S}.}
   selektywnie, używając odczynnika Schwartza\sidecite{zablocka97}.
-Metoda ta toleruje wewnętrzne wiązania podwójne, choć w~niektórych przypadkach badacze
-  zaobserwowali jego migrację.
+Jak widać na~\cref{sch:phosphine-oxide} metoda ta toleruje wewnętrzne wiązania podwójne,
+  choć w~niektórych przypadkach badacze zaobserwowali jego migrację.
 Zwracają też uwagę, że terminalne wiązania podwójne oraz aldehydy reagują z~\schwartz{} szybciej.
-% TODO: add scheme with phosphine oxides reductions
+\begin{marginscheme}
+  \includesvg[schwartz/]{phosphine-oxide}
+  \caption{
+    Przykłady redukcji tlenków fosfiny odczynnikiem Schwartza, pokazujące granicę
+    selektywności metody wobec wiązań podwójnych \ch{C=C}.
+  }
+  \label{sch:phosphine-oxide}
+\end{marginscheme}
 
 W~\citeyear{godfrey92} \citeauthor{godfrey92} opublikowali wyniki badań nad reaktywnością
-  \schwartz{} względem \textbeta-ketoestrów, opisując redukcję tych związków
+  \schwartz{} względem \textbeta-ketoestrów \refcmpd{b-ketoester}, opisując redukcję tych związków
   do~estrów \iupac{\a,\b-nienasyconych}\sidecite{godfrey92}.
-Pierwszym etapem tej przemiany jest tworzenie enolanu litu pod wpływem \gls{lihmds},
-  który następnie ulega reakcji transmetalacji z~odczynnikiem Schwartza.
+Pierwszym etapem tej przemiany jest tworzenie enolanu litu \refcmpd{li-enol-ester}
+  pod wpływem \gls{lihmds}, który następnie ulega reakcji transmetalacji z~odczynnikiem Schwartza.
 Mechanizm zachodzącej później eliminacji nie był dla autorów jasny, ale podejrzewali,
-  że związek przejściowy \refcmpd{enolate-zr} ulega hydrocyrkonowaniu, po którym
-  zachodzi \textbeta{}-eliminacja, prowadząca do obserwowanego produktu.
+  że związek przejściowy \refcmpd{zr-enol-ester} ulega hydrocyrkonowaniu, po którym
+  zachodzi \textbeta{}-eliminacja, prowadząca do obserwowanego produktu \refcmpd{ab-unsat-ester},
+  jak obrazuje \cref{sch:b-ketoester}.
 Transformacji tej ulegają zarówno \textbeta-ketoestry liniowe, jak i~cykliczne,
   z~podobną, umiarkowanie wysoką wydajnością.
 Ulegają jej także \iupac{\b-ketoestry}, ale już nie z~tak dobrym efektem \---
   autorzy wydzielili jedynie około \SI{30}{\percent} oczekiwanego produktu.
-% TODO: add scheme with b-ketoesters reduction
+\begin{scheme}
+  \includesvg[schwartz/]{b-ketoester}
+  \caption{
+    Redukcja \iupac{\b-ketoestru} odczynnikiem Schwartza wraz z~mechanizmem tej przemiany,
+    zaproponowanym przez jej autorów.
+  }
+  \label{sch:b-ketoester}
+\end{scheme}
 
 \subsection{Redukcja amidów odczynnikiem Schwartza}\label{literature:schwartz:amides}
 % TODO: write intro using schedler93 in context of godfrey92
