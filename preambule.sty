@@ -274,9 +274,10 @@
 
 
 %% chemistry packages
+\usepackage{textgreek}  % for upright Greek letters in chemical formulas and text
+
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
-\chemsetup{greek = upgreek}  % for upright Greek letters in chemical formulas
 \usechemmodule{units}  % siunitx for typesetting units
 \DeclareSIUnit{\volume}{vol.}
 \DeclareSIUnit{\equiv}{equiv.}
@@ -294,8 +295,6 @@
   format = \ttfamily\bfseries,
   replace-style = \bfseries\ttfamily\fontsize{8}{10}\selectfont
   }  % change size of tags in schemes
-
-\usepackage{textgreek}  % for upright greek letters
 
 %% list of acronyms
 \usepackage[
