@@ -350,7 +350,9 @@
 \DefineBibliographyStrings{polish}{
   urlseen = {dostęp}
 }
-
+\DefineBibliographyExtras{polish}{% non-breaking space after "i" between last names
+  \renewcommand*{\finalnamedelim}{\addspace\bibstring{and}\addnbspace}%
+}
 %% typesetting dashes
 \usepackage[shortcuts,shortemdash]{extdash}
 \sisetup{range-phrase = {\--}, range-units=single}
