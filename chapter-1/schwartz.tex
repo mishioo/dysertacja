@@ -32,7 +32,7 @@ Diwodorek \refcmpd{w:zirconocene-dihydride} reaguje z~\ch{CH2Cl2} o~wiele szybci
 
 Alternatywą jest generowanie odczynnika Schwartza \latin{in~situ},
   redukując dichlorek \refcmpd{w:zirconocene-dichloride} za~pomocą
-  Red-Al\sidecite{gibson87}, \ch{LiEt3BH}\sidecite{lipshutz90},
+  Red\-/Al\sidecite{gibson87}, \ch{LiEt3BH}\sidecite{lipshutz90},
   \ch{LiAlH(O "\textit{t-}" Bu)3}\sidecite{zhao14}, czy \gls{dibal}\sidecite{huang06}.
 Ostatnia z~wymienionych metod wymaga dodatkowego komentarza \---
   według badań przeprowadzonych przez Negishi i~Huanga\sidecite{huang06}
@@ -445,7 +445,39 @@ Symulacje te sugerują, że karbonylowy atom tlenu oraz atom wodoru obecne w~pro
   \label{sch:schwartz-calc}
 \end{scheme*}
 
+Iminy są związkami dość mało stabilnymi, łatwo ulegającymi hydrolizie.
+Ich bezpośrednia funkcjonalizacja poprzedzona generowaniem \latin{in situ} jest rozwiązaniem
+  o~wiele dogodniejszym niż ich wydzielanie i~operowanie czystymi iminami.
+Problemem może być stosunkowo niska elektrofilowość tych związków, jednak Chida, Sato i~in.
+  dowiedli, że można tę trudność pokonać używając dodatku kwasu\sidecite{nakajima14}.
+Przeprowadzili oni wnikliwe badania nad możliwościami zastosowania tej metody do~reduktywnej
+  funkcjonalizacji, przede wszystkim allilowania, amidów drugo- i~trzeciorzędowych,
+  a~także amidów Weinreba\sidenote{%
+    Czyli \iupac{\N-metoksy}amidów, więcej na~ich temat w~\secref{literature:structure:weinreb}
+  }.
+
+Przekształcenia te prowadzili generując \schwartz{} \insitu{} za~pomocą Red\-/Al w~\gls{dcm},
+  a~zredukowany amid aktywując za~pomocą \gls{tfa}.
+Amidy trzeciorzędowe ulegają tym przemianom wydajnie i~selektywnie, konkurencyjny proces
+  hydrocyrkonowania przebiega jedynie wobec terminalnego wiązania potrójnego.
+Większą przeszkodą są wolne grupy hydroksylowe, w~obecności których redukcja nie biegnie w~ogóle.
+Warto zwrócić uwagę, że wrażliwe na kwaśne środowisko grupy zabezpieczające \--- \gls{Boc},
+  \gls{thp}, \gls{mom} \--- pozostały nienaruszone mimo obecności \gls{tfa}.
+
+Analogiczny proces prowadzony wobec amidów drugorzędowych okazał się być zdecydowanie
+  mniej efektywny \--- konieczne było użycie aż \SI{2.8}{\equiv} odczynnika Schwartza,
+  a~wydajność i~selektywność były niższe.
+Wynik tej przemiany zależy od użytego czynnika allilującego, w~przypadku allilopinakoloboranu
+  autorzy wydzielili wyłącznie alkohol zamiast oczekiwanej aminy.  % TODO: add scheme/figure
+Wspomniane wcześniej grupy wrażliwe na~kwaśne środowisko nie przetrwały warunków reakcji,
+  podobnie jak terminalne wiązanie potrójne.
+Jako sposób na~ominięcie tych przeszkód autorzy zaproponowali wykorzystanie amidów Weinreba
+  \--- ich reaktywność okazała się zbliżona do~wykazywanej przez amidy trzeciorzędowe,
+  a~stosunkowo łatwo można przeprowadzić rozszczepienie wiązania \ch{N-OMe},
+  otrzymując amidy drugorzędowe.
+
 \subsection{Selektywność wobec amidów}\label{literature:schwartz:selecivity}
+% RC(=O)NR2 & RC(=O)NRH  \ nakajima14
 % RC(=O)NR2 >  RCN, RNO2, RC(=O)OR  \ white00
 % RC(+O)R > RC(=O)NR2  \ white00
 % BocNHR < RC(=O)NR2  \ spletstoser07
