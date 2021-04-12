@@ -41,7 +41,7 @@
      id="namedview232"
      showgrid="false"
      inkscape:zoom="2.4193279"
-     inkscape:cx="202.12367"
+     inkscape:cx="120.6961"
      inkscape:cy="33.202038"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1048,16 +1048,6 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="131.8548"
-     y="68.252525"
-     id="text4948"><tspan
-       sodipodi:role="line"
-       id="tspan4946"
-       x="131.8548"
-       y="68.252525">\cmpd{zr-amide-tert-complex}</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      x="269.90967"
      y="135.62662"
      id="text4952"><tspan
@@ -1065,6 +1055,16 @@
        id="tspan4950"
        x="269.90967"
        y="135.62662">\cmpd{zr-iminium-tert}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="131.8548"
+     y="68.252525"
+     id="text4948"><tspan
+       sodipodi:role="line"
+       id="tspan4946"
+       x="131.8548"
+       y="68.252525">\cmpd{zr-amide-tert-complex}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
