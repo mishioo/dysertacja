@@ -279,8 +279,9 @@
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
 \usechemmodule{units}  % siunitx for typesetting units
+\sisetup{output-decimal-marker = {,}}
 \DeclareSIUnit{\volume}{vol.}
-\DeclareSIUnit{\equiv}{equiv.}
+\DeclareSIUnit{\equiv}{ekwiw.}
 
 \usepackage{chemformula}  % for typesetting chemical equations
 \setchemformula{
