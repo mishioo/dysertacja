@@ -42,7 +42,7 @@
      id="namedview464"
      showgrid="false"
      inkscape:zoom="3.3518789"
-     inkscape:cx="133.09634"
+     inkscape:cx="261.53177"
      inkscape:cy="-5.4256033"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1202,7 +1202,7 @@
        sodipodi:role="line"
        id="tspan5693"
        x="-52.689522"
-       y="223.70842">\cmpd{gephiro-substrate}</tspan></text>
+       y="223.70842">\cmpd{gephyro-substrate}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1212,7 +1212,7 @@
        sodipodi:role="line"
        id="tspan5693-2"
        x="122.13779"
-       y="223.70842">\cmpd{gephiro-int}, \SI{84}{\percent}, \textit{d.r.} 4,6:1</tspan></text>
+       y="223.70842">\cmpd{gephyro-int}, \SI{84}{\percent}, \textit{d.r.} 4,6:1</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1222,5 +1222,5 @@
        sodipodi:role="line"
        id="tspan5693-3"
        x="332.16925"
-       y="223.70842">\cmpd{gephiro}</tspan></text>
+       y="223.70842">\cmpd{gephyro}</tspan></text>
 </svg>
