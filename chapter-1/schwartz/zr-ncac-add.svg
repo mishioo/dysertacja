@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1031"
+     inkscape:window-height="1008"
      id="namedview208"
      showgrid="false"
      inkscape:zoom="2.3137255"
-     inkscape:cx="85.703195"
-     inkscape:cy="144.27177"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="121.59427"
+     inkscape:cy="124.20638"
+     inkscape:window-x="880"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg206" />
   <g
      aria-label="R"
-     transform="matrix(0.0666667,0,0,0.0666667,31.8019,53.7333)"
+     transform="matrix(0.0666667,0,0,0.0666667,25.078392,53.7333)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text2">
     <path
@@ -60,7 +60,7 @@
   </g>
   <g
      aria-label="1"
-     transform="matrix(0.0666667,0,0,0.0666667,39.5352,49.5333)"
+     transform="matrix(0.0666667,0,0,0.0666667,32.811692,49.5333)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#000000"
      id="text4">
     <path
@@ -71,13 +71,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 478.267,664.88 L 488.472,670.772 L 488.472,801.666 L 478.267,801.666 L 478.267,664.88 Z "
-     id="path6" />
+     d="m 28.604865,33.992055 0.680333,0.392801 v 8.726271 h -0.680333 z"
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <g
      aria-label="N"
-     transform="matrix(0.0666667,0,0,0.0666667,45.0909,30.716)"
+     transform="matrix(0.0666667,0,0,0.0666667,38.367392,30.716)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text8">
     <path
@@ -88,13 +88,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 597.474,596.056 L 602.576,604.894 L 488.472,670.772 L 478.267,664.88 L 597.474,596.056 Z "
-     id="path10" />
+     d="m 36.552002,29.403787 0.340133,0.5892 -7.606937,4.391869 -0.680333,-0.392801 z"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <g
      aria-label="O"
-     transform="matrix(0.0666667,0,0,0.0666667,18.2461,30.716)"
+     transform="matrix(0.0666667,0,0,0.0666667,11.522592,30.716)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text12">
     <path
@@ -105,19 +105,19 @@
   </g>
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 346.184,618.433 L 351.286,609.596 L 485.921,687.328 L 480.818,696.165 L 346.184,618.433 Z "
-     id="path14" />
+     d="m 19.799327,30.895587 0.340133,-0.589133 8.975672,5.182136 -0.340201,0.589133 z"
+     id="path14"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 366.899,582.553 L 372.001,573.716 L 506.636,651.447 L 501.534,660.284 L 366.899,582.553 Z "
-     id="path16" />
+     d="m 21.180328,28.503586 0.340133,-0.589134 8.975671,5.18207 -0.340133,0.589133 z"
+     id="path16"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <g
      aria-label="R"
-     transform="matrix(0.0666667,0,0,0.0666667,58.3799,38.3884)"
+     transform="matrix(0.0666667,0,0,0.0666667,51.656392,38.3884)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text18">
     <path
@@ -128,7 +128,7 @@
   </g>
   <g
      aria-label="2"
-     transform="matrix(0.0666667,0,0,0.0666667,66.1133,34.1884)"
+     transform="matrix(0.0666667,0,0,0.0666667,59.389792,34.1884)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#000000"
      id="text20">
     <path
@@ -139,13 +139,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 806.531,618.339 L 801.428,627.176 L 762.084,604.461 L 767.187,595.623 L 806.531,618.339 Z "
-     id="path22" />
+     d="m 50.489142,30.889321 -0.3402,0.589133 -2.622935,-1.514334 0.340201,-0.5892 z"
+     id="path22"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <g
      aria-label="R"
-     transform="matrix(0.0666667,0,0,0.0666667,45.0909,15.3711)"
+     transform="matrix(0.0666667,0,0,0.0666667,38.367392,15.3711)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text24">
     <path
@@ -156,7 +156,7 @@
   </g>
   <g
      aria-label="3"
-     transform="matrix(0.0666667,0,0,0.0666667,52.8243,11.1711)"
+     transform="matrix(0.0666667,0,0,0.0666667,46.100792,11.1711)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#000000"
      id="text26">
     <path
@@ -167,7 +167,7 @@
   </g>
   <g
      aria-label="(H)"
-     transform="matrix(0.0666667,0,0,0.0666667,57.2909,15.3711)"
+     transform="matrix(0.0666667,0,0,0.0666667,50.567392,15.3711)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text28">
     <path
@@ -188,32 +188,31 @@
   </g>
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 677.603,412.233 L 687.808,412.233 L 687.808,476.74 L 677.603,476.74 L 677.603,412.233 Z "
-     id="path30" />
+     d="m 41.893938,17.148914 h 0.680334 v 4.300469 h -0.680334 z"
+     id="path30"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 679.436,2118.74 L 679.436,1039.79 L 689.436,1039.79 L 689.436,2118.74 Z "
-     id="path32" />
+     d="M 48.739646,132.9161 V 60.986068 h 0.666667 V 132.9161 Z"
+     id="path32"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 684.436,2207.03 C 684.436,2207.03 656.925,2104.99 656.925,2104.99 C 656.925,2104.99 672.4,2117.74 684.436,2117.74 C 696.035,2117.74 710.948,2104.99 710.948,2104.99 C 710.948,2104.99 684.436,2207.03 684.436,2207.03 C 684.436,2207.03 684.436,2207.03 684.436,2207.03 "
-     id="path34" />
+     d="m 49.072979,138.80211 c 0,0 -1.834067,-6.80267 -1.834067,-6.80267 0,0 1.031667,0.85 1.834067,0.85 0.773268,0 1.767468,-0.85 1.767468,-0.85 0,0 -1.767468,6.80267 -1.767468,6.80267 0,0 0,0 0,0"
+     id="path34"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
-     stroke="#000000"
-     stroke-width="1"
      fill="transparent"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 684.436,2207.03 C 684.436,2207.03 656.925,2104.99 656.925,2104.99 C 656.925,2104.99 672.4,2117.74 684.436,2117.74 C 696.035,2117.74 710.948,2104.99 710.948,2104.99 C 710.948,2104.99 684.436,2207.03 684.436,2207.03 C 684.436,2207.03 684.436,2207.03 684.436,2207.03 "
-     id="path36" />
+     d="m 49.072979,138.80211 c 0,0 -1.834067,-6.80267 -1.834067,-6.80267 0,0 1.031667,0.85 1.834067,0.85 0.773268,0 1.767468,-0.85 1.767468,-0.85 0,0 -1.767468,6.80267 -1.767468,6.80267 0,0 0,0 0,0"
+     id="path36"
+     inkscape:connector-curvature="0"
+     style="stroke:#000000;stroke-width:0.0666667" />
   <g
      aria-label="1)"
-     transform="matrix(0.0666667,0,0,0.0666667,67.6843,68.7698)"
+     transform="matrix(0.0666667,0,0,0.0666667,66.548706,70.7698)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text38">
     <path
@@ -229,7 +228,7 @@
   </g>
   <g
      aria-label="Cp"
-     transform="matrix(0.0666667,0,0,0.0666667,80.1333,68.7698)"
+     transform="matrix(0.0666667,0,0,0.0666667,78.997706,70.7698)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#009e73"
      id="text40">
     <path
@@ -245,7 +244,7 @@
   </g>
   <g
      aria-label="2"
-     transform="matrix(0.0666667,0,0,0.0666667,93.8,71.0365)"
+     transform="matrix(0.0666667,0,0,0.0666667,92.664406,73.0365)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#009e73"
      id="text42">
     <path
@@ -256,7 +255,7 @@
   </g>
   <g
      aria-label="Zr(H)Cl"
-     transform="matrix(0.0666667,0,0,0.0666667,98.25,68.7698)"
+     transform="matrix(0.0666667,0,0,0.0666667,97.114406,70.7698)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#009e73"
      id="text44">
     <path
@@ -342,23 +341,22 @@
      id="path54" />
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 2280.69,2127.26 L 2280.69,1048.31 L 2290.69,1048.31 L 2290.69,2127.26 Z "
-     id="path56" />
+     d="M 155.48997,133.4841 V 61.554068 h 0.66666 V 133.4841 Z"
+     id="path56"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
      stroke="transparent"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 2285.69,2215.55 C 2285.69,2215.55 2258.18,2113.51 2258.18,2113.51 C 2258.18,2113.51 2273.65,2126.26 2285.69,2126.26 C 2297.28,2126.26 2312.2,2113.51 2312.2,2113.51 C 2312.2,2113.51 2285.69,2215.55 2285.69,2215.55 C 2285.69,2215.55 2285.69,2215.55 2285.69,2215.55 "
-     id="path58" />
+     d="m 155.8233,139.37011 c 0,0 -1.834,-6.80267 -1.834,-6.80267 0,0 1.03133,0.85 1.834,0.85 0.77267,0 1.76733,-0.85 1.76733,-0.85 0,0 -1.76733,6.80267 -1.76733,6.80267 0,0 0,0 0,0"
+     id="path58"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke-width:0.0666667" />
   <path
-     stroke="#000000"
-     stroke-width="1"
      fill="transparent"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 2285.69,2215.55 C 2285.69,2215.55 2258.18,2113.51 2258.18,2113.51 C 2258.18,2113.51 2273.65,2126.26 2285.69,2126.26 C 2297.28,2126.26 2312.2,2113.51 2312.2,2113.51 C 2312.2,2113.51 2285.69,2215.55 2285.69,2215.55 C 2285.69,2215.55 2285.69,2215.55 2285.69,2215.55 "
-     id="path60" />
+     d="m 155.8233,139.37011 c 0,0 -1.834,-6.80267 -1.834,-6.80267 0,0 1.03133,0.85 1.834,0.85 0.77267,0 1.76733,-0.85 1.76733,-0.85 0,0 -1.76733,6.80267 -1.76733,6.80267 0,0 0,0 0,0"
+     id="path60"
+     inkscape:connector-curvature="0"
+     style="stroke:#000000;stroke-width:0.0666667" />
   <path
      stroke="transparent"
      fill="#000000"
@@ -408,7 +406,7 @@
      id="path74" />
   <g
      aria-label="CN"
-     transform="matrix(0.0666667,0,0,0.0666667,72.1896,125.617)"
+     transform="matrix(0.0666667,0,0,0.0666667,72.1896,123.617)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#cc79a7"
      id="text76">
     <path
@@ -424,13 +422,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#cc79a7"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 1399.42,1858.22 L 1404.52,1861.16 L 1404.52,1867.06 L 1284.3,1936.47 L 1279.2,1927.63 L 1399.42,1858.22 Z "
-     id="path78" />
+     d="m 96.738603,111.5481 0.34,0.196 v 0.39333 l -8.01467,4.62733 -0.34,-0.58933 z"
+     id="path78"
+     inkscape:connector-curvature="0"
+     style="fill:#cc79a7;stroke-width:0.0666667" />
   <g
      aria-label="PNP"
-     transform="matrix(0.0666667,0,0,0.0666667,106.801,125.617)"
+     transform="matrix(0.0666667,0,0,0.0666667,106.801,123.617)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#cc79a7"
      id="text80">
     <path
@@ -451,13 +449,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#cc79a7"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 1531.87,1928.79 L 1526.76,1937.63 L 1404.52,1867.06 L 1404.52,1861.16 L 1409.62,1858.22 L 1531.87,1928.79 Z "
-     id="path82" />
+     d="m 105.56861,116.25276 -0.34067,0.58934 -8.149337,-4.70467 v -0.39333 l 0.340001,-0.196 z"
+     id="path82"
+     inkscape:connector-curvature="0"
+     style="fill:#cc79a7;stroke-width:0.0666667" />
   <g
      aria-label="CO"
-     transform="matrix(0.0666667,0,0,0.0666667,93.2119,102.599)"
+     transform="matrix(0.0666667,0,0,0.0666667,93.2119,100.599)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#cc79a7"
      id="text84">
     <path
@@ -473,7 +471,7 @@
   </g>
   <g
      aria-label="2"
-     transform="matrix(0.0666667,0,0,0.0666667,109.242,104.866)"
+     transform="matrix(0.0666667,0,0,0.0666667,109.242,102.866)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#cc79a7"
      id="text86">
     <path
@@ -484,7 +482,7 @@
   </g>
   <g
      aria-label="Me"
-     transform="matrix(0.0666667,0,0,0.0666667,113.692,102.599)"
+     transform="matrix(0.0666667,0,0,0.0666667,113.692,100.599)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#cc79a7"
      id="text88">
     <path
@@ -500,13 +498,13 @@
   </g>
   <path
      stroke="transparent"
-     fill="#cc79a7"
-     transform="matrix(0.0666667 0 0 0.0666667 3.44389 -10.3333)"
-     d="M 1399.42,1722.66 L 1409.62,1722.66 L 1409.62,1858.22 L 1404.52,1861.16 L 1399.42,1858.22 L 1399.42,1722.66 Z "
-     id="path90" />
+     d="m 96.738603,102.51076 h 0.680001 v 9.03734 l -0.340001,0.196 -0.34,-0.196 z"
+     id="path90"
+     inkscape:connector-curvature="0"
+     style="fill:#cc79a7;stroke-width:0.0666667" />
   <g
      aria-label="2)"
-     transform="matrix(0.0666667,0,0,0.0666667,67.0126,88.4167)"
+     transform="matrix(0.0666667,0,0,0.0666667,67.0126,86.4167)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text92">
     <path
@@ -522,7 +520,7 @@
   </g>
   <g
      aria-label="ZnCl"
-     transform="matrix(0.0666667,0,0,0.0666667,79.4616,88.4167)"
+     transform="matrix(0.0666667,0,0,0.0666667,79.4616,86.4167)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text94">
     <path
@@ -548,7 +546,7 @@
   </g>
   <g
      aria-label="2,"
-     transform="matrix(0.0666667,0,0,0.0666667,102.062,90.6833)"
+     transform="matrix(0.0666667,0,0,0.0666667,102.062,88.6833)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#000000"
      id="text96">
     <path
@@ -568,7 +566,7 @@
      id="text98" />
   <g
      aria-label="Et"
-     transform="matrix(0.0666667,0,0,0.0666667,111.698,88.4167)"
+     transform="matrix(0.0666667,0,0,0.0666667,111.698,86.4167)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text100">
     <path
@@ -584,7 +582,7 @@
   </g>
   <g
      aria-label="3"
-     transform="matrix(0.0666667,0,0,0.0666667,121.795,90.6833)"
+     transform="matrix(0.0666667,0,0,0.0666667,121.795,88.6833)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120px;line-height:normal;font-family:Arial;fill:#000000"
      id="text102">
     <path
@@ -595,7 +593,7 @@
   </g>
   <g
      aria-label="N,"
-     transform="matrix(0.0666667,0,0,0.0666667,126.245,88.4167)"
+     transform="matrix(0.0666667,0,0,0.0666667,126.245,86.4167)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text104">
     <path
@@ -679,7 +677,7 @@
   </g>
   <g
      aria-label="(H)"
-     transform="matrix(0.0666667,0,0,0.0666667,82.132,155.282)"
+     transform="matrix(0.0666667,0,0,0.0666667,54.015517,155.282)"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;line-height:normal;font-family:Arial;fill:#000000"
      id="text122">
     <path
@@ -1067,51 +1065,51 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="6.2138486"
-     y="66.784271"
+     x="42.581909"
+     y="53.642872"
      id="text1214"><tspan
        sodipodi:role="line"
        id="tspan1212"
-       x="6.2138486"
-       y="66.784271">\cmpd{w:amide-sec} lub \cmpd{w:amide-tert}</tspan></text>
+       x="42.581909"
+       y="53.642872">\cmpd{w:amide-sec} lub \cmpd{w:amide-tert}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="173.04436"
+     x="171.04436"
      y="66.784256"
      id="text1214-3"><tspan
        sodipodi:role="line"
        id="tspan1212-3"
-       x="173.04436"
+       x="171.04436"
        y="66.784256">\cmpd{5-lactam}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      x="6.2138486"
-     y="219.19102"
+     y="217.19102"
      id="text1214-7"><tspan
        sodipodi:role="line"
        id="tspan1212-35"
        x="6.2138486"
-       y="219.19102">\cmpd{ncac-amid}</tspan></text>
+       y="217.19102">\cmpd{ncac-amide}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="173.04436"
-     y="219.19102"
+     x="171.04436"
+     y="217.19102"
      id="text1214-3-4"><tspan
        sodipodi:role="line"
        id="tspan1212-3-3"
-       x="173.04436"
-       y="219.19102">\cmpd{ncac-lactam}</tspan></text>
+       x="171.04436"
+       y="217.19102">\cmpd{ncac-lactam}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="88.6017"
-     y="136.57628"
+     x="89.46611"
+     y="134.57628"
      id="text1252"><tspan
        sodipodi:role="line"
        id="tspan1250"
-       x="88.6017"
-       y="136.57628">\cmpd{isocyanoacetate}</tspan></text>
+       x="89.46611"
+       y="134.57628">\cmpd{isocyanoacetate}</tspan></text>
 </svg>
