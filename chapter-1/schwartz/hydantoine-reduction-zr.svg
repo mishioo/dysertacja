@@ -41,8 +41,8 @@
      id="namedview114"
      showgrid="false"
      inkscape:zoom="3.240334"
-     inkscape:cx="94.556786"
-     inkscape:cy="71.080914"
+     inkscape:cx="174.79849"
+     inkscape:cy="58.736508"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -70,73 +70,63 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="5.0405502"
+     x="3.4974995"
      y="180.72844"
      id="text1085"><tspan
        sodipodi:role="line"
        id="tspan1083"
-       x="5.0405502"
-       y="180.72844">\cmpd{tiazodione}, \ch{X} = \ch{S}</tspan></text>
+       x="3.4974995"
+       y="180.72844">\cmpd{thiazodione}, \ch{X} = \ch{S}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="5.0405502"
-     y="208.44243"
-     id="text1093"><tspan
-       sodipodi:role="line"
-       id="tspan1091"
-       x="5.0405502"
-       y="208.44243">\cmpd{hydantoine}, \ch{X} $\equiv$ \ch{NR^2}</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="57.928059"
-     y="180.83261"
-     id="text1023-0"><tspan
-       sodipodi:role="line"
-       id="tspan1021-6"
-       x="57.928059"
-       y="190.56413" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="5.0405502"
+     x="3.4974995"
      y="194.58543"
      id="text1089-9"><tspan
        sodipodi:role="line"
        id="tspan1087-6"
-       x="5.0405502"
+       x="3.4974995"
        y="194.58543">\cmpd{nh-hydantoin}, \ch{X} = \ch{NH}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="158.64618"
+     x="3.4974995"
+     y="208.44243"
+     id="text1093"><tspan
+       sodipodi:role="line"
+       id="tspan1091"
+       x="3.4974995"
+       y="208.44243">\cmpd{hydantoin}, \ch{X} $\equiv$ \ch{NR^2}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="126.55072"
      y="180.72844"
      id="text1085-3-7"><tspan
        sodipodi:role="line"
        id="tspan1083-6-3"
-       x="158.64618"
-       y="180.72844">\cmpd{thiazolone}</tspan></text>
+       x="126.55072"
+       y="180.72844">\cmpd{thiazolone}, \ch{X} = \ch{S}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="158.64618"
+     x="126.55072"
      y="194.58543"
      id="text1089-9-2"><tspan
        sodipodi:role="line"
        id="tspan1087-6-3"
-       x="158.64618"
-       y="194.58543">\cmpd{nh-imidazolone}</tspan></text>
+       x="126.55072"
+       y="194.58543">\cmpd{nh-imidazolone}, \ch{X} = \ch{NH}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="158.64618"
+     x="126.55072"
      y="208.44243"
      id="text1093-5-1"><tspan
        sodipodi:role="line"
        id="tspan1091-3-8"
-       x="158.64618"
-       y="208.44243">\cmpd{imidazolone}</tspan></text>
+       x="126.55072"
+       y="208.44243">\cmpd{imidazolone}, \ch{X} $\equiv$ \ch{NR^2}</tspan></text>
   <g
      aria-label="X"
      transform="matrix(0.0666667,0,0,0.0666667,12.23565,166.37215)"
