@@ -20,6 +20,7 @@
   *{package}{catchfile}   {2019/12/09 v1.8}
   *{package}{etexcmds}    {2019/12/15 v1.7}
   *{package}{ifluatex}    {2019/10/25 v1.5}
+  *{file}   {"main.w18"}  {0000/00/00 v0.0}
   *{package}{ifxetex}     {2019/10/25 v0.7}
   *{class}  {book}        {2020/04/10 v1.4m}
   *{file}   {bk10.clo}    {2020/04/10 v1.4m}
@@ -222,7 +223,6 @@
   *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
   *{file}   {polish.lbx}  {2020/12/31 v3.16}
   *{package}{blx-case-expl3}{2020/12/31 v3.16}
-  *{file}   {main.bbl}    {0000/00/00 v0.0}
   *{package}{upquote}     {2012/04/19 v1.3}
   *{file}   {siunitx-abbreviations.cfg}{2021-04-09 v2.8d}
   *{file}   {translator-basic-dictionary-English.dict}{0000/00/00 v0.0}
@@ -232,7 +232,6 @@
   *{file}   {preface//palettes.pdf}{0000/00/00 v0.0}
   *{file}   {preface//palettes.pdf}{0000/00/00 v0.0}
   *{package}{lstlang1}    {2020/03/24 v1.8d}
-  *{file}   {main.acr}    {0000/00/00 v0.0}
   *{file}   {chapter-1/chapter}{0000/00/00 v0.0}
   *{file}   {chapter-1/./intro}{0000/00/00 v0.0}
   *{file}   {chapter-1/./intro/glutathione.pdf_tex}{0000/00/00 v0.0}
@@ -387,4 +386,6 @@
   *{file}   {chapter-1/./schwartz//lactams-reduction-zr.pdf}{0000/00/00 v0.0}
   *{file}   {chapter-1/./schwartz//lactams-reduction-zr.pdf}{0000/00/00 v0.0}
   *{file}   {chapter-1/./schwartz//lactams-reduction-zr.pdf}{0000/00/00 v0.0}
+  *{file}   {chapter-1/./schwartz/hydantoine-reduction-zr.pdf_tex}{0000/00/00 v0.0}
+  *{file}   {chapter-1/./schwartz//hydantoine-reduction-zr.pdf}{0000/00/00 v0.0}
 }
