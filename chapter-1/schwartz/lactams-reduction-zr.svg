@@ -40,9 +40,9 @@
      inkscape:window-height="1017"
      id="namedview138"
      showgrid="false"
-     inkscape:zoom="6.8428928"
-     inkscape:cx="163.72381"
-     inkscape:cy="-0.64621728"
+     inkscape:zoom="19.354624"
+     inkscape:cx="404.56343"
+     inkscape:cy="44.827753"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -636,7 +636,7 @@
        sodipodi:role="line"
        id="tspan1057"
        x="120.27078"
-       y="40.747448">n: \numrange{0}{4}</tspan></text>
+       y="40.747448">n: \numrange{0}{3}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
@@ -646,7 +646,7 @@
        sodipodi:role="line"
        id="tspan1061"
        x="36.993744"
-       y="62.351532"></tspan></text>
+       y="62.351532" /></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -687,4 +687,60 @@
        id="tspan1069-3-7"
        x="376.68423"
        y="57.033344">\cmpd{nboc-aminoaldehyde}</tspan></text>
+  <path
+     stroke="transparent"
+     d="m 308.34028,-3.5817586 h -57.20023 v -0.666667 h 57.20023 z"
+     id="path130-1"
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.05701992" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.0666667"
+     stroke="transparent"
+     d="m 310.48962,9.3209144 a 1.94267,1.94267 0 1 0 -3.88534,0 1.94267,1.94267 0 1 0 3.88534,0 z"
+     id="path132-3" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.0666667"
+     stroke="transparent"
+     d="m 308.21362,9.5709144 v -13.486006 h 0.66666 v 13.486006 z"
+     id="path134-4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
+     x="252.26189"
+     y="-8.6175642"
+     id="text946"><tspan
+       sodipodi:role="line"
+       id="tspan944"
+       x="252.26189"
+       y="-8.6175642">gdy $\mathrm{n}=2$</tspan></text>
+  <path
+     stroke="transparent"
+     d="m 398.69127,-3.5817593 h -73.21708 v -0.666667 h 73.21708 z"
+     id="path130-1-6"
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.06451101" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.0666667"
+     stroke="transparent"
+     d="m 400.5306,9.3209137 a 1.94267,1.94267 0 1 0 -3.88534,0 1.94267,1.94267 0 1 0 3.88534,0 z"
+     id="path132-3-5" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke-width:0.0666667"
+     stroke="transparent"
+     d="m 398.2546,9.5709137 v -13.486006 h 0.66666 v 13.486006 z"
+     id="path134-4-6" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
+     x="326.59604"
+     y="-8.6175652"
+     id="text946-1"><tspan
+       sodipodi:role="line"
+       id="tspan944-0"
+       x="326.59604"
+       y="-8.6175652">gdy $\mathrm{n}\in\{0,3\}$</tspan></text>
 </svg>
