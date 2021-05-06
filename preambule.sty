@@ -245,6 +245,8 @@
 \usepackage{import}
 % signal a relative path - produces path of current import dir
 \makeatletter\def\relpath{\import@path}\makeatother
+% provides access to the name of current file
+\usepackage{currfile}
 
 %% provide automatic svg conversion
 
@@ -256,18 +258,19 @@
   {\immediate\write18{#3}}\fi%
 }
 % import svg file, converting it to pdf_tex
+% by default imported file should be in subdir with same name as importing file
 % requires inkscape to be available in search path
-% #1 - path to file, optional
+% #1 - path to file, currently always ignored
 % #2 - name of the file to be imported
 \newcommand{\includesvg}[2][]{%
   \executeiffilenewer%
-    {\relpath#1#2.svg}%
-    {\relpath#1#2.pdf}%
-    {inkscape -z -D --file=\relpath#1#2.svg %
-     --export-pdf=\relpath#1#2.pdf --export-latex}%
+    {\relpath\currfilebase/#2.svg}%
+    {\relpath\currfilebase/#2.pdf}%
+    {inkscape -z -D --file=\relpath\currfilebase/#2.svg %
+     --export-pdf=\relpath\currfilebase/#2.pdf --export-latex}%
   % change font size in the drawing to smaller
   \fontsize{8}{10}\selectfont
-  \subimport{#1}{#2.pdf_tex}%
+  \subimport{\currfilebase/}{#2.pdf_tex}%
 }
 % from http://www.tex.ac.uk/tex-archive/info/svg-inkscape/InkscapePDFLaTeX.pdf
 % and https://tex.stackexchange.com/a/17491/223674
