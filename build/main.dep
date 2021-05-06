@@ -122,6 +122,9 @@
   *{package}{lstmisc}     {2020/03/24 v1.8d}
   *{file}   {listings.cfg}{2020/03/24 v1.8d}
   *{package}{import}      {2020/04/01 v6.2}
+  *{package}{currfile}    {2020/09/29 v0.7d}
+  *{package}{filehook}    {2020/09/29 v0.8a}
+  *{package}{filehook-2020}{2020/09/29 v0.8a}
   *{package}{textgreek}   {2011/10/09 v0.7}
   *{file}   {lgrenc.def}  {2020/10/13 v2.0}
   *{file}   {lgrenc.dfu}  {2019/07/11 v1.7}
