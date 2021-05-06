@@ -17,6 +17,9 @@ nmr.tex
 coords.tex
 characterization.txt
 
+# snapshot package
+*.dep
+
 ## EndNote
 *.Data
 *.enl
