@@ -14,7 +14,7 @@
    version="1.1"
    id="svg170"
    sodipodi:docname="glutathione.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata176">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      id="namedview172"
      showgrid="false"
      inkscape:zoom="2.7261167"
-     inkscape:cx="17.240641"
+     inkscape:cx="-37.923555"
      inkscape:cy="21.265"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -458,4 +458,14 @@
        inkscape:connector-curvature="0"
        style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="112.52114"
+     y="92.230553"
+     id="text901"><tspan
+       sodipodi:role="line"
+       id="tspan899"
+       x="112.52114"
+       y="92.230553">\cmpd{glutathione}</tspan></text>
 </svg>
