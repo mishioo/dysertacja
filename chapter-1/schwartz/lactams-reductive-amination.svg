@@ -14,7 +14,7 @@
    version="1.1"
    id="svg760"
    sodipodi:docname="lactams-reductive-amination.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata766">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      id="namedview762"
      showgrid="false"
      inkscape:zoom="2.2255503"
-     inkscape:cx="359.66407"
+     inkscape:cx="182.62921"
      inkscape:cy="-10.877576"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -2104,17 +2104,6 @@
        y="69.265251">\ch{R^1} $\equiv$ aryl</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="397.62292"
-     y="183.56487"
-     id="text1291"><tspan
-       sodipodi:role="line"
-       id="tspan1289"
-       x="397.62292"
-       y="183.56487"
-       style="text-align:start;text-anchor:start">grzanie</tspan></text>
-  <text
-     xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
      x="-40.85136"
      y="131.63574"
@@ -2122,7 +2111,7 @@
        sodipodi:role="line"
        id="tspan1293"
        x="-40.85136"
-       y="141.24379"></tspan></text>
+       y="141.24379" /></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
@@ -2132,7 +2121,7 @@
        sodipodi:role="line"
        id="tspan1297"
        x="-36.358093"
-       y="140.34514"></tspan></text>
+       y="140.34514" /></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -2213,4 +2202,14 @@
        id="tspan1301-6-7"
        x="516.47296"
        y="224.80521">\cmpd{aminopiperidinone}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="396.79321"
+     y="184.20702"
+     id="text1272"><tspan
+       sodipodi:role="line"
+       id="tspan1270"
+       x="396.79321"
+       y="184.20702">grzanie</tspan></text>
 </svg>
