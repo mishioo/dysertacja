@@ -43,8 +43,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="2.4748737"
-     inkscape:cx="171.00139"
-     inkscape:cy="56.963996"
+     inkscape:cx="264.84522"
+     inkscape:cy="58.4601"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -846,4 +846,14 @@
        id="tspan997"
        x="309.10669"
        y="104.91878">addycja \textit{anti}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="211.72797"
+     y="106.53503"
+     id="text957"><tspan
+       sodipodi:role="line"
+       id="tspan955"
+       x="211.72797"
+       y="106.53503">\cmpd{danishefsky}</tspan></text>
 </svg>
