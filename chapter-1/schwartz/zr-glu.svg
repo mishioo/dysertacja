@@ -14,7 +14,7 @@
    version="1.1"
    id="svg281"
    sodipodi:docname="zr-glu.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata287">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      id="namedview283"
      showgrid="false"
      inkscape:zoom="2.384027"
-     inkscape:cx="123.08613"
+     inkscape:cx="40.452838"
      inkscape:cy="53.292821"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -681,21 +681,21 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="-32.63921"
-     y="157.28262"
+     x="-48.159168"
+     y="147.63509"
      id="text1488"><tspan
        sodipodi:role="line"
        id="tspan1486"
-       x="-32.63921"
-       y="157.28262">\cmpd{lactam-glu}</tspan></text>
+       x="-48.159168"
+       y="147.63509">\cmpd{lactam-glu}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     x="267.81845"
-     y="157.28262"
+     x="252.29849"
+     y="147.63509"
      id="text1488-6"><tspan
        sodipodi:role="line"
        id="tspan1486-6"
-       x="267.81845"
-       y="157.28262">\cmpd{imine-glu}</tspan></text>
+       x="252.29849"
+       y="147.63509">\cmpd{imine-glu}</tspan></text>
 </svg>
