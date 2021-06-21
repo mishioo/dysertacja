@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview200"
      showgrid="false"
-     inkscape:zoom="1.8902387"
-     inkscape:cx="70.052734"
-     inkscape:cy="85.416453"
+     inkscape:zoom="3.7804774"
+     inkscape:cx="114.62462"
+     inkscape:cy="30.376501"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -359,8 +359,8 @@
      d="M 160.09179,97.080207 V 74.333587"
      id="line174" />
   <path
-     style="stroke:#e69e00;stroke-width:0.78543514;shape-rendering:auto"
-     d="M 66.896853,74.253593 H 163.64539"
+     style="stroke:#e69e00;stroke-width:0.77162385;shape-rendering:auto"
+     d="M 66.896853,74.253593 H 160.2728"
      id="line176"
      inkscape:connector-curvature="0" />
   <text
@@ -374,17 +374,6 @@
        x="0.38038063"
        y="77.348053"
        style="text-align:start;text-anchor:start;fill:#cc79a7">\textDelta{}r $\approx$ \SI{0.01}{\angstrom}</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69f00;fill-opacity:1;stroke:none"
-     x="160.51082"
-     y="71.029869"
-     id="text1337"><tspan
-       sodipodi:role="line"
-       id="tspan1335"
-       x="160.51082"
-       y="71.029869"
-       style="text-align:end;text-anchor:end">\textDelta{}E $\approx$ \SI{18}{\kcalpm}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -405,4 +394,14 @@
        id="tspan882-1"
        x="139.72963"
        y="132.51018">\textbf{TS}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none;"
+     x="65.975662"
+     y="70.187569"
+     id="text889"><tspan
+       sodipodi:role="line"
+       id="tspan887"
+       x="65.975662"
+       y="70.187569">\textDelta{}E $\approx$ \SI{18}{\kcalpm}</tspan></text>
 </svg>
