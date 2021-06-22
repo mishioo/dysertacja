@@ -14,7 +14,7 @@
    version="1.1"
    id="svg164"
    sodipodi:docname="molybdenum.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata170">
     <rdf:RDF>
@@ -44,7 +44,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="2.3895333"
-     inkscape:cx="218.42592"
+     inkscape:cx="130.7519"
      inkscape:cy="79.475207"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -766,7 +766,7 @@
        sodipodi:role="line"
        id="tspan1140"
        x="4.1849174"
-       y="79.73233">\cmpd{aimde-piperidine}</tspan></text>
+       y="79.73233">\cmpd{amide-piperidine}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
