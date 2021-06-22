@@ -42,8 +42,8 @@
      id="namedview200"
      showgrid="false"
      inkscape:zoom="3.7804774"
-     inkscape:cx="114.62462"
-     inkscape:cy="30.376501"
+     inkscape:cx="79.206735"
+     inkscape:cy="38.781491"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -266,9 +266,10 @@
      transform="matrix(1.33333,0,0,1.33333,-20.321102,-34.079468)">
     <path
        style="stroke:#000000;stroke-width:0.50999999;shape-rendering:auto"
-       d="M 83.629997,101.98 H 49.779999"
+       d="M 74.862397,101.98 H 60.230978"
        id="line115"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="stroke:#000000;stroke-width:0.50999999;shape-rendering:auto"
        d="M 86.330002,103.52 H 52.48"
@@ -280,7 +281,8 @@
      inkscape:connector-curvature="0"
      id="path120"
      stroke-miterlimit="5.14697125482764"
-     d="m 95.81194,102.24019 -6.79998,-2.03999 c 1.42666,1.14666 0.84,2.03999 0.84,2.03999 z" />
+     d="m 84.121837,102.24019 -6.79998,-2.03999 c 1.42666,1.14666 0.84,2.03999 0.84,2.03999 z"
+     sodipodi:nodetypes="cccc" />
   <path
      style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.14697123;shape-rendering:geometricPrecision"
      inkscape:connector-curvature="0"
@@ -359,8 +361,8 @@
      d="M 160.09179,97.080207 V 74.333587"
      id="line174" />
   <path
-     style="stroke:#e69e00;stroke-width:0.77162385;shape-rendering:auto"
-     d="M 66.896853,74.253593 H 160.2728"
+     style="stroke:#e69e00;stroke-width:0.7399382;shape-rendering:auto"
+     d="M 70.731207,74.253593 H 160.2728"
      id="line176"
      inkscape:connector-curvature="0" />
   <text
@@ -396,12 +398,13 @@
        y="132.51018">\textbf{TS}</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none;"
-     x="65.975662"
-     y="70.187569"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
+     x="71.084938"
+     y="71.190926"
      id="text889"><tspan
        sodipodi:role="line"
        id="tspan887"
-       x="65.975662"
-       y="70.187569">\textDelta{}E $\approx$ \SI{18}{\kcalpm}</tspan></text>
+       x="71.084938"
+       y="71.190926"
+       style="text-align:start;text-anchor:start">\textDelta{}E $\approx$ \SI{18}{\kcalpm}</tspan></text>
 </svg>
