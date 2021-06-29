@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview364"
      showgrid="false"
-     inkscape:zoom="3.43"
-     inkscape:cx="240.89951"
-     inkscape:cy="69.642418"
+     inkscape:zoom="6.86"
+     inkscape:cx="245.37802"
+     inkscape:cy="52.038067"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -786,7 +786,7 @@
      id="path216" />
   <g
      aria-label="H"
-     transform="matrix(0.0666667,0,0,0.0666667,235.805,164.417)"
+     transform="matrix(0.0666667,0,0,0.0666667,233.18114,164.417)"
      style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#009e73;stroke:none"
      id="text218">
     <path
@@ -797,7 +797,7 @@
   </g>
   <g
      aria-label="2"
-     transform="matrix(0.0666667,0,0,0.0666667,243.509,166.683)"
+     transform="matrix(0.0666667,0,0,0.0666667,240.88514,166.683)"
      style="font-style:normal;font-weight:normal;font-size:120px;font-family:Arial;fill:#009e73;stroke:none"
      id="text220">
     <path
@@ -808,18 +808,13 @@
   </g>
   <g
      aria-label="O,"
-     transform="matrix(0.0666667,0,0,0.0666667,247.958,164.417)"
+     transform="matrix(0.0666667,0,0,0.0666667,245.33414,164.417)"
      style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#009e73;stroke:none"
      id="text222">
     <path
        d="m 7.734375,-55.78125 q 0,-28.515625 15.3125,-44.60938 15.3125,-16.17187 39.53125,-16.17187 15.859375,0 28.59375,7.57812 12.734375,7.57813 19.375005,21.17188 6.71875,13.515625 6.71875,30.703125 0,17.421875 -7.03125,31.171875 -7.03125,13.75 -19.92188,20.859375 -12.890625,7.03125 -27.8125,7.03125 -16.171875,0 -28.90625,-7.8125 -12.734375,-7.8125 -19.296875,-21.328125 -6.5625,-13.515625 -6.5625,-28.59375 z m 15.625,0.234375 q 0,20.703125 11.09375,32.65625 11.171875,11.875 27.96875,11.875 17.109375,0 28.125,-12.03125 11.093755,-12.03125 11.093755,-34.140625 0,-13.984375 -4.76563,-24.375 -4.6875,-10.46875 -13.828125,-16.171875 -9.0625,-5.781255 -20.390625,-5.781255 -16.09375,0 -27.734375,11.093755 -11.5625,11.015625 -11.5625,36.875 z"
        style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#009e73;stroke:none"
        id="path1248"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 138.59375,0 v -16.015625 h 16.01562 V 0 q 0,8.828125 -3.125,14.21875 -3.125,5.46875 -9.92187,8.4375 l -3.90625,-6.015625 q 4.45312,-1.953125 6.5625,-5.78125 Q 146.32812,7.109375 146.5625,0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#009e73;stroke:none"
-       id="path1250"
        inkscape:connector-curvature="0" />
   </g>
   <path
@@ -1318,7 +1313,7 @@
        id="tspan1347"
        x="293.67096"
        y="163.31387"
-       style="text-align:end;text-anchor:end">\pH $=$ \num{7}</tspan></text>
+       style="text-align:end;text-anchor:end">, \pH{} $=$ \num{7}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
