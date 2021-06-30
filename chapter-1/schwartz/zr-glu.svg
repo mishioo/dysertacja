@@ -14,7 +14,7 @@
    version="1.1"
    id="svg281"
    sodipodi:docname="zr-glu.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata287">
     <rdf:RDF>
@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview283"
      showgrid="false"
-     inkscape:zoom="2.384027"
-     inkscape:cx="40.452838"
-     inkscape:cy="53.292821"
+     inkscape:zoom="4.768054"
+     inkscape:cx="150.27876"
+     inkscape:cy="43.201705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -698,4 +698,30 @@
        id="tspan1486-6"
        x="252.29849"
        y="147.63509">\cmpd{imine-glu}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69f00;fill-opacity:1;stroke:none"
+     x="278.85815"
+     y="68.450493"
+     id="text943"><tspan
+       sodipodi:role="line"
+       id="tspan941"
+       x="278.85815"
+       y="68.450493"
+       style="text-align:end;text-anchor:end">\SI{90}{\percent}</tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="stroke:#e69e00;stroke-width:0.45932874;shape-rendering:auto"
+     d="M 240.5409,82.129485 V 72.097423"
+     id="line313" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69e00;stroke:#e69e00;stroke-width:0.1466663"
+     d="m 242.40089,81.876144 a 1.8599954,1.8599954 0 0 1 -1.85999,1.859995 1.8599954,1.8599954 0 0 1 -1.86,-1.859995 1.8599954,1.8599954 0 0 1 1.86,-1.859996 1.8599954,1.8599954 0 0 1 1.85999,1.859996 z"
+     id="circle315" />
+  <path
+     inkscape:connector-curvature="0"
+     style="stroke:#e69e00;stroke-width:0.46322137;shape-rendering:auto"
+     d="M 279.03811,72.097423 H 240.5409"
+     id="line318" />
 </svg>
