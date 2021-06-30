@@ -42,8 +42,8 @@
      id="namedview413"
      showgrid="false"
      inkscape:zoom="2.1350866"
-     inkscape:cx="189.64807"
-     inkscape:cy="-1.1165586"
+     inkscape:cx="181.20352"
+     inkscape:cy="21.439494"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -100,13 +100,13 @@
      id="circle359" />
   <path
      inkscape:connector-curvature="0"
-     style="stroke:#e69e00;stroke-width:0.67999828;shape-rendering:auto"
-     d="m 292.31799,218.78299 v 39.09323"
+     style="stroke:#e69e00;stroke-width:0.53136826;shape-rendering:auto"
+     d="m 292.31799,218.78299 v 23.87136"
      id="line389" />
   <path
      inkscape:connector-curvature="0"
-     style="stroke:#e69e00;stroke-width:0.67999828;shape-rendering:auto"
-     d="M 191.65157,257.87622 H 292.31799"
+     style="stroke:#e69e00;stroke-width:0.50901181;shape-rendering:auto"
+     d="m 235.91207,242.65435 h 56.40592"
      id="line391" />
   <path
      inkscape:connector-curvature="0"
@@ -135,24 +135,15 @@
        y="226.60214">wiązanie sprzężone</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69f00;fill-opacity:1;stroke:none"
-     x="257.13718"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
+     x="235.3582"
      y="239.09544"
      id="text2033"><tspan
        sodipodi:role="line"
-       id="tspan2031"
-       x="257.13718"
-       y="239.09544">podstawienie</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69f00;fill-opacity:1;stroke:none"
-     x="276.2049"
-     y="252.09688"
-     id="text2037"><tspan
-       sodipodi:role="line"
-       id="tspan2035"
-       x="276.2049"
-       y="252.09688">w grupie allilowej</tspan></text>
+       x="235.3582"
+       y="239.09544"
+       id="tspan986"
+       style="text-align:start;text-anchor:start">S\textsubscript{N}2$^\prime$</tspan></text>
   <g
      id="g1351">
     <path
