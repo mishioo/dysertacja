@@ -381,7 +381,7 @@ Ulegają jej także \iupac{\b-diketony}, ale już nie z~tak dobrym efektem \---
 W~\citeyear{schedler93} badawcze z~grupy Ganema, opierając się na~poprzednich
   odkryciach\sidecite{godfrey92} w~dziedzinie redukcji elektrofilowych układów \textpi{},
   przeprowadzili próby zastosowania odczynnika Schwartza do~redukcji amidów.
-Sądzili, że niezbędne będzie wstępne hydrometalowanie wiązania \ch{C=O} wodorkiem potasu,
+Sądzili, że niezbędna będzie wstępna enolizacja wiązania \ch{C=O} wodorkiem potasu,
   podobnie jak w~przypadku ich wcześniejszych badań\sidenote{Są one opisane w~poprzednim akapicie.},
   ale przeprowadzone przez nich eksperymenty pokazały, że \schwartz{} może reagować z~amidami
   bezpośrednio, prowadząc do~powstania imin\sidecite{schedler93}.
@@ -473,7 +473,7 @@ Obecność kwasu\sidenote{Zarówno kwasu protonowego, jak i~kwasu Lewisa.} promu
 Dzięki temu poddane działaniu \schwartz{} amidy trzeciorzędowe~\refcmpd{w:amide-tert} zostają
   przekształcone w~odpowiednie kationy iminiowe~\refcmpd{iminium}, podobnie jak w~początkowym
   etapie hydrolizy pod wpływem \ch{H2O}.
-Katoiny iminiowe łatwo ulegające addycji nukleofila, prowadząc do~powstania rozgałęzionych,
+Kationy iminiowe łatwo ulegające addycji nukleofila, prowadząc do~powstania rozgałęzionych,
   funkcjonalizowanych amin~\refcmpd{amine-tert-nu}.
 \Cref{sch:amide-tert-zr-reduction} obrazuje ten ciąg przekształceń, razem z~finalną funkcjonalizacją
   nukleofilem, oznaczonym ogólnie jako \ch{Nu-}.
@@ -491,8 +491,9 @@ Warto może przypomnieć, że drugorzędowe amidy ulegają rozpadowi do~imin sam
   \label{sch:amide-tert-zr-reduction}
 \end{scheme*}
 
-Amidy trzeciorzędowe ulegają tym przemianom wydajnie i~selektywnie, konkurencyjny proces
-  hydrocyrkonowania przebiega jedynie wobec terminalnego wiązania potrójnego.
+Amidy trzeciorzędowe ulegają tym przemianom wydajnie i~selektywnie.
+Konkurencyjny proces hydrocyrkonowania przebiega jedynie wobec terminalnego wiązania potrójnego,
+  jeśli jest ono obecne w~redukowanej cząsteczce.
 Większą przeszkodą są wolne grupy hydroksylowe, w~obecności których redukcja nie biegnie w~ogóle.
 Warto zwrócić uwagę, że wrażliwe na kwaśne środowisko grupy zabezpieczające \--- \gls{Boc},
   \gls{thp}, \gls{mom} \--- pozostały nienaruszone mimo obecności \gls{tfa}.
@@ -568,15 +569,15 @@ Co więcej, pozwala na~syntezę nitronów cyklicznych i~makrocyklicznych, do~kt�
 \begin{marginscheme}
   \includesvg{nitrones-zr}
   \caption{
-    Redukcja amidów z~podstawnikiem \ch{-O-\gls{tbs}} na~atomie azotu prowadzi
-    do~otrzymania nitronu.
+    Prowadząca do~otrzymania nitronu redukcja amidów z~podstawnikiem \ch{-O-\gls{tbs}}
+      na~atomie azotu.
   }
   \label{sch:nitrones-zr}
 \end{marginscheme}
 
 Jeszcze inny sposób wykorzystania selektywnej redukcji amidów odczynnikiem Schwartza,
-  widoczny na~cref{sch:deacylation}, zaproponowali \citeauthor{sultane14}.
-W~oparciu o~wcześniejsze prace zespołów Ganema\sidecite{schedler96} i~Gundy\sidecite{white00}
+  widoczny na~\cref{sch:deacylation}, zaproponowali \citeauthor{sultane14}.
+W~oparciu o~wcześniejsze prace zespołów Ganema\sidecite{schedler96} i~Georg\sidecite{white00}
   opracowali procedurę błyskawicznego, reduktywnego \iupac{\N-deacylowania} amidów.
 Pokazali, że różne \iupac{\N-acylowane} amidy ulegają przekształceniu do~odpowiednich wolnych
   amin pod wpływem \schwartz{} i~nstępczej hydrolizy w~zaledwie \SIrange{2}{5}{\minute},
@@ -599,7 +600,7 @@ Autorzy tej pracy udowodnili, że \iupac{\N-acylowane} aminokwasy też ulegają 
 Przykład takiego przekształcenia widoczny jest na~\cref{sch:deacylation-nucleoside}.
 Próby dalszej optymalizacji nie przyniosły oczekiwanych rezultatów.
 Wyraźną poprawą zaowocowało zastosowanie procedury \insitu{} zaproponowanej przez
-  \citeauthor{zhao14}\sidecite{zhao14}, ale autorzy zastosowali ją w~tylko jednym przykładzie.
+  Zhao i~Snieckusa\sidecite{zhao14}, ale autorzy zastosowali ją w~tylko jednym przykładzie.
 \begin{scheme}
   \includesvg{deacylation-nucleoside}
   \caption{Przykład selektywnego deacetylowania nukleozydu~\refcmpd{nucleoside-ac}.}
@@ -610,7 +611,7 @@ Wyraźną poprawą zaowocowało zastosowanie procedury \insitu{} zaproponowanej 
 
 Fakt, że zredukowany odczynnikiem Schwartza trzeciorzędowy amid może zostać przekształcony
   w~kation iminiowy\sidenote{\See{sch:amide-tert-zr-reduction}.},
-  został zmyślnie wykorzystany przez Ou i~Huanga.
+  został błyskotliwie wykorzystany przez Ou i~Huanga.
 Użyli oni częściowo zredukowanego amidu w~reakcji kondensacji Knoevenagla zamiast iminy, typowo
   generowanej \insitu{} z~aldehydu i~aminy\sidecite{ou20}.
 Większość cytowanej publikacji opisuje wykorzystanie litoorganicznego wodorku glinu,
@@ -619,25 +620,26 @@ Jeden z~dwóch przedstawionych przez nich przykładów cytuję na~\cref{sch:zr-k
 \begin{scheme*}
   \includesvg{zr-knoevenagel}
   \caption{
-    Jeden z~dwóch pokazanych przez Ou i~Huanga przykładów wykorzystania redukcji amidów odczynnikiem
-      Schwartza w~reakcji kondensacji typu Knoevenagla.
+    Jeden z~dwóch pokazanych przez Ou i~Huanga przykładów redukcji amidów odczynnikiem
+      Schwartza i~następczej kondensacji typu Knoevenagla.
   }
   \label{sch:zr-knoevenagel}
 \end{scheme*}
 
-\subsection{Wiązania amidowe w~pierścieniach}\label{literature:schwartz:rings}
+% TODO: Wiązania amidowe w pierścieniach - was it really bad?
+\subsection{Redukcja laktamów}\label{literature:schwartz:rings}
 \Cref{sch:zr-ncac-add} obrazuje, że reakcja reduktywnej addycji izocyjanoacetatów
   \refcmpd{isocyanoacetate} do~amidów drugo- \refcmpd{w:amide-sec} i~trzeciorzędowych
   \refcmpd{w:amide-tert} skutkuje powstaniem pochodnych \iupac{5-metoksyoksoazolu}
   \refcmpd{ncac-amide}\sidecite{zheng17}.
 Co ciekawe, \iupac{\N-niepodstawione} laktamy \refcmpd{5-lactam} w~tych samych warunkach ulegają
   przekształceniu do~bicyklicznych pochodnych imidazoliny \refcmpd{ncac-lactam}.
-Proces biegnie wydajnie w~przypadku laktamów pięcioczłonowych, sześcioczłonowe również ulegają
-  tej przemianie, ale z gorszymi wydajnościami.
+Proces biegnie wydajnie w~przypadku laktamów pięcioczłonowych.
+Sześcioczłonowe analogi ulegają tej przemianie, lecz z~gorszymi wydajnościami.
 Co prawda redukcja tych drugich przebiega bez problemu, ale addycja izocyjanku jest trudniejsza
   ze~względu na~niższą elektrofilowość sześcioczłonowych imin.
 \citeauthor{zheng17} zaproponowali mechanizmy tych przemian, według których trietyloamina
-  jest aktywatorem izocyjanoacetatu, a~chlorek cyknu, jako kwas Lewisa, promuje rozpad
+  jest aktywatorem izocyjanoacetatu, a~chlorek cynku, jako kwas Lewisa, promuje rozpad
   zredukowanego amidu do~iminy lub soli iminiowej.
 Czytelnika zainteresowanego szczegółami odsyłam do~źródła\sidecite[-4\baselineskip]{zheng17}.
 \begin{marginscheme}[-5\baselineskip]
@@ -681,6 +683,7 @@ Należy zaznaczyć, że przemiana ta jest specyficzna dla \iupac{\N-alkoksykarbo
 \end{scheme}
 
 \begin{scheme*}
+  % TODO: grzanie -> ogrzewanie - is it necessary?
   \includesvg{lactams-reductive-amination}
   \caption{
     Reduktywne aminowanie cyrkonowych kompleksów otrzymanych w~wyniku hydrocyrkonowania laktamów.
@@ -691,7 +694,7 @@ Redukcja pochodnych \iupac{\N-\acrshort{Boc}-pirolidynonu} do~hemiaminali, a~tak
   przekształcenia do funkcjonalizowanych liniowych amin były znane już wcześniej\sidecite{prince19}.
 \citeauthor{prince19} jako pierwsi użyli odczynnika Schwartza w~tandemie z~reduktywnym aminowaniem
   do~realizacji tego typu syntezy, widocznej na~\cref{sch:lactams-reductive-amination}.
-Przemianie tej poddali różne \iupac{\N-Arylowane} laktamy~\refcmpd{lactam-tert},
+Przemianie tej poddali różne \iupac{\N-arylowane} laktamy~\refcmpd{lactam-tert},
   w~drugim etapie używając amin zarówno pierwszo-, jak i~drugorzędowych oraz \ch{NaHB(OAc)3}
   jako drugiego reduktora\sidecite{prince19}.
 Dowodząc wyższości zastosowania \schwartz{} nad innymi czynnikami redukującymi laktamy,
@@ -710,7 +713,7 @@ W~przeciwieństwie do~\iupac{\N-alkilohydantoin}~\refcmpd{nh-hydantoin}
   jedynym produktem reakcji \iupac{\N-\gls{Boc}-hydantoiny}~\refcmpd{nboc-hydantoin} z~\schwartz{}
   jest związek hydroksylowy~\refcmpd{nboc-reduced-hydantoin}.
 Wynik ten, zobrazowany na~\cref{sch:nboc-hydantoin-reduction-zr}, jest zgodny z~opisanymi
-  powyżej doniesieniami o~redukcji \iupac{\N-Boc-}lakatamów~\refcmpd{nboc-lactam}.
+  powyżej doniesieniami o~redukcji \iupac{\N-Boc-}laktamów~\refcmpd{nboc-lactam}.
 \begin{marginscheme}[-12\baselineskip]
   \includesvg{hydantoine-reduction-zr}
   \caption{
@@ -792,7 +795,7 @@ Cykliczne i~makrocykliczne nitrony typu \refcmpd{nitrone-cyclic, nitrone-macro} 
 \begin{scheme*}
   \includesvg{nitrones-zr-cyclic}
   \caption[][6\baselineskip]{
-    Cykliczny \refcmpd{nitrone-cyclic} i~makrocykliczny~\refcmpd{nitrone-macro} laktam
+    Cykliczny \refcmpd{nitrone-cyclic} i~makrocykliczny~\refcmpd{nitrone-macro} nitron
       otrzymane w~wyniku redukcji odpowiednich laktamów \refcmpd{nitrone-lactam, nitrone-lactam-macro}.
   }
   \label{sch:nitrones-zr-cyclic}
@@ -800,25 +803,25 @@ Cykliczne i~makrocykliczne nitrony typu \refcmpd{nitrone-cyclic, nitrone-macro} 
 \end{scheme*}
 
 Należy również wspomnieć, że laktamy mogą zostać zredukowane bezpośrednio do~amin przy użyciu
-  odczynnika Schwartza oraz donora nukleofilowego anionu wodorkowego.
+  odczynnika Schwartza oraz donora anionu wodorkowego.
 Dowód na to znajduje się w~pracy Huanga i~Ganga, poświęconej głównie przemianom promowanym
   bezwodnikiem triflowym\sidecite{huang15}.
 Autorzy przedstawili przemianę dwóch \iupac{\g-laktamów} do~odpowiednich pochodnych pirolidyny,
   uzywając \schwartz{} oraz \ch{NaBH4}.
 Jak widać na~\cref{sch:zr-deoxygenation}, metoda ta jest na~tyle selektywna, że nie redukuje
-  karbonylu z~grupy estrowej, obecnej w~związkach \refcmpd{5-lactam-ester, pyrrolidine-ester}.
+  karbonylu z~grupy estrowej, obecnej w~związku \refcmpd{5-lactam-ester}.
 \begin{scheme}
   \includesvg{zr-deoxygenation}
   \caption{
     Redukcja wiązania amidowego do~aminy jest możliwa przy użyciu \ch{NaBH4} jako donora
-      nukleofilowego anionu wodorkowego.
+      anionu wodorkowego.
     Selektywności metody dowodzi obecność nienaruszonej grupy estrowej
       w~produkcie~\refcmpd{pyrrolidine-ester}.
   }
   \label{sch:zr-deoxygenation}
 \end{scheme}
 
-\subsection{Z własnego podwórka}\label{literature:schwartz:our}  % TODO: rename
+\subsection{Z własnego podwórka}\label{literature:schwartz:our}
 Grupa badawcza działająca pod kierunkiem Furmana, w~której wykonana została praca opisana
   w~niniejszej dysertacji, ma znaczny wkład w~rozwój metodologii reduktywnej
   funkcjonalizacji amidów.
