@@ -12,10 +12,6 @@
 \usepackage{indentfirst}
 
 
-% preety tabs
-\usepackage{booktabs}
-
-
 %% Helper for TODOs
 \usepackage[
     linecolor=red,
@@ -141,6 +137,19 @@
 \definecolor{wongblue}{HTML}{0072B2}
 \definecolor{wongvermillion}{HTML}{D55E00}
 \definecolor{wongpurple}{HTML}{CC79A7}
+
+
+% better tab rules
+\usepackage{booktabs}
+% mulitline tezt in cell
+\usepackage{makecell}
+% higlighting parts of the table
+\usepackage{colortbl}
+\newcommand*{\tablemarkecolor}{wongsky}
+% create row counter
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}.}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
 
 
 %% setup code snippets
