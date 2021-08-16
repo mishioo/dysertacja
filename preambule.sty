@@ -382,6 +382,33 @@
 \sisetup{range-phrase = {\--}, range-units=single}
 
 
+%% formating experimental data
+\newenvironment{fmtexp}{
+  \begingroup  % keep settings changes inside group only
+    \sisetup{
+        list-separator = {, },
+        list-final-separator = {, },
+        list-pair-separator = {, },
+        range-phrase = {--},
+        per-mode = symbol,
+        detect-weight = true,
+        detect-shape = true,
+    }
+    \chemsetup[spectroscopy]{
+        format = \bfseries,
+        delta = (ppm),
+    }
+  \begin{experimental}
+}{
+  \end{experimental}
+  \endgroup
+}
+\newenvironment{fullexp}{
+  \begin{fullwidth}\begin{fmtexp}
+}{
+  \end{fmtexp}\end{fullwidth}
+}
+
 %% vertical space between marginals
 \setlength\marginparpush{12pt}
 
