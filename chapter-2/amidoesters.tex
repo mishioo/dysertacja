@@ -53,13 +53,9 @@ W~serii prostych przekształceń, przedstawionych na~\cref{sch:amidoester-cyclop
 Badania zacząłem od~próby optymalizacji metody wykorzystującej odczynnik Schwartza.
 Modelowy związek \refcmpd{amidoester-cycloprop} poddałem funkcjonalizacji za~pomocą
   allilotributylocyny, nukleofila często wykorzystywanego w~próbnych reakcjach tego typu.
-Sprawdziłem wpływ ilości \schwartz{}, rodzaju użytego kwasu Lewisa oraz,
+Sprawdziłem wpływ ilości \schwartz{}, rodzaju użytego aktywatora (kwasu Lewisa lub protonowego) oraz,
   w~ograniczonym stopniu, temperatury na~przebieg reakcji.
 Wyniki tych studiów zebrałem w~\cref{tab:amidoester-opt}.
-Najlepszy rezultat uzyskałem stosując \SI{1.0}{\equiv} odczynnika Schwartza w~połączeniu
-  z~\ch{Yb(OTf)3} w~temperaturze pokojowej (zaznaczony w~tabeli kolorem).
-Niestety nawet w~tym wypadku wydajność pożądanego produktu jest dość niska,
-  pomimo wysokiej konwersji substratu.
 
 \begin{table}
   {\includesvg{amidoester-opt}}  % wrap in brackets to prevent font settings leaking
@@ -68,7 +64,7 @@ Niestety nawet w~tym wypadku wydajność pożądanego produktu jest dość niska
   
   \begin{tabular}{ r c c c c c }
     \toprule
-    \textnumero & \makecell{\ch{Cp2ZrHCl}\\/\si{\equiv}} & Kwas Lewisa
+    \textnumero & \makecell{\ch{Cp2ZrHCl}\\/\si{\equiv}} & Aktywator
       & \makecell{Konwersja\\/\si{\percent}} & \makecell{Wydajność\\/\si{\percent}} & Temp. \\
     \midrule
     \rownumber & \num{0.9} & \ch{Yb(OTf)3} & \num{56} & \num{21} & \SI{-10}{\degreeCelsius} \\
@@ -94,13 +90,34 @@ Niestety nawet w~tym wypadku wydajność pożądanego produktu jest dość niska
     Błękitnym kolorem zaznaczyłem wiersz zawierający optymalne warunki.
     Eksperymenty prowadziłem w~atmosferze gazu obojętnego (argonu), na~skalę \SI{2}{\milli\mol}
       substratu \refcmpd{amidoester-cycloprop}.
-    W~etapie funkcjonalizacji używałem \SI{2}{\equiv} kwasu Lewisa oraz \SI{3}{\equiv}
+    W~etapie funkcjonalizacji używałem \SI{2}{\equiv} aktywatora oraz \SI{3}{\equiv}
       allilotributylocyny.
     Stosowałem \gls{thf} jako rozpuszczalnik.
     Pełen opis procedury znajduje się w~sekcji \textit{\nameref{experimental:procedures}}.
   }
   \label{tab:amidoester-opt}
 \end{table}
+
+Spośród przetestowanych aktywatorów jedynie \ch{Yb(OTf)3}, \ch{Sc(OTf)3}, \gls{tfa}
+  oraz kwas benzoesowy pozwoliły otrzymać oczekiwany produkt funkcjonalizacji.
+Pozostałe, których użycie w~tego typu reakcjach znalazłem w~literaturze,
+  prowadziły do~rozkładu substratu lub \--- w~przypadku \ch{BF3.OEt2} \--- powstania jedynie
+  śladowych ilości związku \refcmpd{b-aminoester-cycloprop.allyl}.
+Wbrew doświadczeniu uzyskanemu w~toku badań prowadzonych wcześniej w~grupie Furmana,
+  zwiększenie ilości użytego do~redukcji odczynnika Schwartza wpłynęło negatywnie
+  na~wydajność procesu.
+Podobnie, niesprzyjające było obniżenie temperatury prowadzenia reakcji.
+
+Najlepszy rezultat uzyskałem stosując \SI{1.0}{\equiv} \schwartz{} w~połączeniu
+  z~\ch{Yb(OTf)3} w~temperaturze pokojowej.
+Niestety, nawet w~tym wypadku wydajność pożądanego produktu jest dość niska,
+  pomimo wysokiej konwersji substratu.
+Takie obserwacje sugerują, że selektywność odczynnika Schwartza w~tym układzie
+  jest gorsza, niż można spodziewać się po~opisanych w~literaturze przykładach.
+Świadczy o~tym spadek wydajności produktu połączony ze~wzrostem konwersji substratu,
+  następujące wraz~ze zwiększaniem powyżej \SI{1}{\equiv} ilości użytego reduktora.
+
+
 
 \subsection{Zakres stosowalności}
 \begin{margintable}
