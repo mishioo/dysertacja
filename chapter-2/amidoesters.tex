@@ -154,6 +154,22 @@ Problem ten zobrazowany jest w~postaci wykresu na~\cref{fig:amidoester-opt-plot}
 \end{marginfigure}
 
 \subsection{Zakres stosowalności}
+Mimo niezadowalających wyników optymalizacji postanowiłem poddać metodę dalszym próbom.
+Przetestowałem jej kompatybilność z~innymi nukleofilami, a~także wpływ struktury substratu
+  na~przebieg reakcji.
+Niektóre wyniki tych badań, zebranych poniżej, były dość zaskakujące, zwłaszcza w~kontekście
+  serii eksperymentów poświęconych innym substratom.
+Ostatecznie jednak żaden z~nich nie pozwolił spojrzeć przychylniej na~badaną metodę.
+
+Spis użytych do~testów nukleofili, wraz z~rezultatami, znajduje się w~\cref{tab:amidoester-scope}.
+Oprócz allilotributylocyny z~modelowego przykładu, sprawdziłem też związek sililowy
+  (\ch{\acrshort{tms}CN}), z~nukleofilowym heteroatomem (\ch{PhN2}),
+  odczynnik Grignarda (\ch{PhMgBr}) oraz \textpi{}-nukleofile o~różnym charakterze
+  (indol i~skatol\sidenote{Czyli \iupac{3-metyloindol}.}).
+Spośród nich tylko użycie cyjanku trimetylosililu zaowocowało powstaniem oczekiwanego produktu.
+Pozostałe prowadziły do~rozkładu substratu (\ch{PhMgBr}) lub w~ogóle nie wchodziły
+  w~reakcję z~aktywowanym amidem~\refcmpd{amidoester-cycloprop} (\ch{PhN2}, indol i~skatol).
+
 \begin{margintable}
   \begin{tabular}{ r c c }
     \toprule
@@ -163,15 +179,14 @@ Problem ten zobrazowany jest w~postaci wykresu na~\cref{fig:amidoester-opt-plot}
     \rownumber & \ch{\acrshort{tms}CN} & \num{39.2} \\
     \rownumber & \ch{PhNH2} & \---\textsuperscript{a} \\
     \rownumber & \ch{PhMgBr} & \---\textsuperscript{b} \\
-    \rownumber & indol & \---\textsuperscript{b} \\
-    \rownumber & skatol\textsuperscript{c} & \---\textsuperscript{b} \\
+    \rownumber & indol & \---\textsuperscript{a} \\
+    \rownumber & skatol & \---\textsuperscript{a} \\
     \bottomrule
   \end{tabular}
   \caption{
     Różne substraty.
     \textsuperscript{a}Brak reakcji.
     \textsuperscript{b}Złożona mieszanina.
-    \textsuperscript{c}Czyli \iupac{3-metyloindol}.
     }
   \label{tab:amidoester-scope}
 \end{margintable}
