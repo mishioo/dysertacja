@@ -416,6 +416,16 @@
   \end{fmtexp}\end{fullwidth}
 }
 
+% Sets subsection for synthetic procedure with short tilte as cmpdref
+% #1 - label of the compound
+% #2 - name of the compound
+% TODO: make it fullwidth
+\newcommand{\procedure}[2]{%
+  \subsection[\refcmpd{#1}]{\refcmpd{#1}: #2}\label{syn:#1}
+  \marginnote{\includesvg{#1}}  
+}
+
+
 %% vertical space between marginals
 \setlength\marginparpush{12pt}
 
