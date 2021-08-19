@@ -362,6 +362,11 @@
 \newcommand{\crefrangeconjunction}{ do~}
 \newcommand{\crefpairconjunction}{ i~}
 \newcommand{\creflastconjunction}{, oraz }
+% siunitx translations
+\sisetup{
+  list-final-separator = { oraz },
+  list-pair-separator  = { i~},
+}
 
 % reference section title and page
 \newcommand{\secref}[1]{\textit{\nameref{#1}}, str.~\pageref{#1}}
