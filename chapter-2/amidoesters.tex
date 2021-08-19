@@ -50,14 +50,7 @@ W~serii prostych przekształceń, przedstawionych na~\cref{sch:amidoester-cyclop
 
 
 \subsection{Optymalizacja}
-Badania zacząłem od~próby optymalizacji metody wykorzystującej odczynnik Schwartza.
-Modelowy związek \refcmpd{amidoester-cycloprop} poddałem funkcjonalizacji za~pomocą
-  allilotributylocyny, nukleofila często wykorzystywanego w~próbnych reakcjach tego typu.
-Sprawdziłem wpływ ilości \schwartz{}, rodzaju użytego aktywatora (kwasu Lewisa lub protonowego) oraz,
-  w~ograniczonym stopniu, temperatury na~przebieg reakcji.
-Wyniki tych studiów zebrałem w~\cref{tab:amidoester-opt}.
-
-\begin{table}
+\begin{table}[b!]
   {\includesvg{amidoester-opt}}  % wrap in brackets to prevent font settings leaking
 
   \vspace{.2\baselineskip}  % apparently needs to be in its own paragraph to work
@@ -68,12 +61,12 @@ Wyniki tych studiów zebrałem w~\cref{tab:amidoester-opt}.
       & \makecell{Konwersja\\/\si{\percent}} & \makecell{Wydajność\\/\si{\percent}} & Temp. \\
     \midrule
     \rownumber & \num{0.9} & \ch{Yb(OTf)3} & \num{56} & \num{21} & \SI{-10}{\degreeCelsius} \\
-    \rownumber & \num{0.9} & \ch{Yb(OTf)3} & \num{53} & \num{28} & RT \\
     \rownumber & \num{1.0} & \ch{Yb(OTf)3} & \num{58} & \num{28} & \SI{-10}{\degreeCelsius} \\
-    \rowcolor{\tablemarkecolor}
-    \rownumber & \num{1.0} & \ch{Yb(OTf)3} & \num{84} & \num{31} & RT \\
     \rownumber & \num{1.3} & \ch{Yb(OTf)3} & \num{67} & \num{21} & \SI{-10}{\degreeCelsius} \\
     \rownumber & \num{1.8} & \ch{Yb(OTf)3} & \num{75} & \num{17} & \SI{-10}{\degreeCelsius} \\
+    \rownumber & \num{0.9} & \ch{Yb(OTf)3} & \num{53} & \num{28} & RT \\
+    \rowcolor{\tablemarkecolor}
+    \rownumber & \num{1.0} & \ch{Yb(OTf)3} & \num{84} & \num{31} & RT \\
     \rownumber & \num{1.0} & \ch{Sc(OTf)3} & \num{56} & \num{22} & \SI{-10}{\degreeCelsius} \\
     \rownumber & \num{1.0} & \ch{Sn(OTf)2} & \multicolumn{2}{c}{\---} & \SI{-10}{\degreeCelsius} \\
     \rownumber & \num{1.0} & \ch{TMSOTf} & \multicolumn{2}{c}{\---} & \SI{-10}{\degreeCelsius} \\
@@ -97,6 +90,13 @@ Wyniki tych studiów zebrałem w~\cref{tab:amidoester-opt}.
   }
   \label{tab:amidoester-opt}
 \end{table}
+
+Badania zacząłem od~próby optymalizacji metody wykorzystującej odczynnik Schwartza.
+Modelowy związek \refcmpd{amidoester-cycloprop} poddałem funkcjonalizacji za~pomocą
+  allilotributylocyny, nukleofila często wykorzystywanego w~próbnych reakcjach tego typu.
+Sprawdziłem wpływ ilości \schwartz{}, rodzaju użytego aktywatora (kwasu Lewisa lub protonowego) oraz,
+  w~ograniczonym stopniu, temperatury na~przebieg reakcji.
+Wyniki tych studiów zebrałem w~\cref{tab:amidoester-opt}.
 
 Spośród przetestowanych aktywatorów jedynie \ch{Yb(OTf)3}, \ch{Sc(OTf)3}, \gls{tfa}
   oraz kwas benzoesowy pozwoliły otrzymać oczekiwany produkt funkcjonalizacji.
