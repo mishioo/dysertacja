@@ -116,8 +116,42 @@ Takie obserwacje sugerują, że selektywność odczynnika Schwartza w~tym układ
   jest gorsza, niż można spodziewać się po~opisanych w~literaturze przykładach.
 Świadczy o~tym spadek wydajności produktu połączony ze~wzrostem konwersji substratu,
   następujące wraz~ze zwiększaniem powyżej \SI{1}{\equiv} ilości użytego reduktora.
+Problem ten zobrazowany jest w~postaci wykresu na~\cref{fig:amidoester-opt-plot}.
 
-
+\begin{marginfigure}
+  \begin{tikzpicture}
+    \begin{axis}[
+      ylabel={Wydajność/Konwersja /\si{\percent}},
+      xlabel={Ilość \schwartz{} /\si{\equiv}},
+      ymin=0, ymax=100,
+      xmin=0.8, xmax=1.9,
+      axis lines=left,
+      axis line style={-},
+      x label style={at={(0.5,0.05)}},
+      y label style={at={(0.1,0.5)}},
+      legend style={at={(0.05,1.1)}, anchor={north west}, draw=none},
+      mark options={scale=0.7},
+      width=1.1*\textwidth,
+    ]
+    
+    \addplot[color=wongvermillion,mark=*]
+      coordinates {(0.9,56)(1.0,58)(1.3,67)(1.8,75)};
+    \addlegendentry{Konwersja}
+      
+    \addplot[color=wonggreen,mark=square*]
+      coordinates {(0.9,21)(1.0,28)(1.3,21)(1.8,17)};
+    \addlegendentry{Wydajność}
+            
+    \end{axis}
+  \end{tikzpicture}
+  \caption{
+    Konwersja i~wydajność reduktywnej funkcjonalizacji amidoestru~\refcmpd{amidoester-cycloprop}
+      w~zależności od~ilości użytego odczynnika Schwartza.
+    Naniesione na~wykres dane pochodzą z~serii eksperymentów prowadzonych w~obniżonej temperaturze
+      (wiersze \numlist{1; 3; 5; 6} w~\cref{tab:amidoester-opt}).
+  }
+  \label{fig:amidoester-opt-plot}
+\end{marginfigure}
 
 \subsection{Zakres stosowalności}
 \begin{margintable}
