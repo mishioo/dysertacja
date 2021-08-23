@@ -1,5 +1,11 @@
 \section{Funkcjonaliacja amidoestrów}\label{synthesis:amidoesters}
 
+% reaktywność 1,3-dikarbonylowych oparta głównie o łatwość enolizacji
+% reaktywność wobec elektrofila, zwłaszcza w przypadku dwuanionów
+% próba opracowania nowej reaktywności 1,3-karb: "takie jakby przebiegunowanie"
+% sprzedać jako częściowy sukces
+% addycja do dimetylo nieudana bo imina z układem neopentylowym jest nieaktywna na nukleofile
+
 Niezwykle istotną cechą metod aktywacji amidów jest ich selektywność
   względem ugrupowania amidowego, wspomniana wielokrotnie we~wstępie.
 Wysoka selektywność danej metody funkcjonalizacji dodaje jej atrakcyjności w~oczach
@@ -9,24 +15,41 @@ Wysoka selektywność danej metody funkcjonalizacji dodaje jej atrakcyjności w~
 Co~więcej, obecność innych grup funkcyjnych w~cząsteczce umożliwia jej dalsze modyfikacje.
 Interesującym typem substratu z~tego punktu widzenia mogą być
   \iupac{\b-karboksyamidy}~\refcmpd{amidoester}.
-Ich struktura pozwala na~dwutorową modyfikację \---
-  układ \iupac{1,3-dikarbonylowy} może być funkcjonalizowany elektrofilem dzięki
-  zwiększonej kwasowości atomu wodoru w~pozycji 2, natomiast wiązanie amidowe może być
-  reduktywnie aktywowane i~funkcjonalizowane nukleofilem.
-Jak widać na~\cref{sch:divergent}, prowadziłoby to do~otrzymania pochodnych
-  \iupac{1,2-di|funkc|jo|na|li|zo|wa|nych-\b-amino|kwasów}~\refcmpd{difunc-aminoester}.
+
+Reaktywność związków \iupac{1,3-dikarbonylowych} opiera się przede wszystkim na~łatwości
+  ich enolizacji.
+W~przypadku wielu tego typu związków forma enolowa jest stabilna \---
+  \cref{sch:dimedone} obrazuje przykład dimedonu\sidenote{
+    Nazwa systematyzczna to~\iupac{5,5-dimetylocykloheksan-1,3-dion}.
+  }, który w~roztworze \ch{CDCl3} przyjmuje postać kotonową~\refcmpd{dimedone}
+  i~enolową~\refcmpd{dimedone-enol} w~proporcji 2~do~1\sidecite{natsuko65}.
+Struktura takich związków ułatwia też deprotonowanie, ponieważ powstający anion jest
+  dobrze stabilizowany przez obydwie grupy karbonylowe.
+Zarówno taki anion, jak i~sam enol chętnie wstępują w~reakcje z~elektrofilami,
+  pozwalając na~łatwą funkcjonalizację w~pozycji 2.
+\begin{marginscheme}
+  \includesvg{dimedone}
+  \caption{Forma ketonowa i~enolowa dimedonu w~roztworze \ch{CDCl3}.}
+  \label{sch:dimedone}
+\end{marginscheme}
+
 \begin{scheme}
   \includesvg{divergent}
   \caption{Schematyczne przedstawienie dwutorowej funkcjonalizacji amidoestrów.}
   \label{sch:divergent}
 \end{scheme}
-
-Większość opisanych metod aktywacji amidów toleruje obecność grupy estrowej w~cząsteczce,
-  na~przykład w~postaci grupy \ch{N-\gls{Boc}}\sidecite{nakajima14}
+Struktura \iupac{\b-karboksyamidu} daje możliwość dwutorowej modyfikacji \---
+  oprócz tradycyjnej funkcjonalizacji układu \iupac{1,3-dikarbonylowego} elektrofilem w~pozycji 2,
+  obecne w~cząsteczce wiązanie amidowe może być poddane reduktywnej funkcjonalizacji nukleofilem.
+Jak widać na~\cref{sch:divergent}, prowadziłoby to do~otrzymania pochodnych
+  \iupac{1,2-di|funkc|jo|na|li|zo|wa|nych-\b-amino|kwasów}~\refcmpd{difunc-aminoester}.
+Taka reaktywność, choć niewątpliwie atrakcyjna, nie została dotąd w~ogóle opisana w~literaturze,
+  jej osiągnięcie może się więc okazać niejakim wyzwaniem.
+Podstawę do~optymizmu daje natomiast fakt, że większość metod aktywacji amidów toleruje obecność
+  grupy estrowej w~cząsteczce, na~przykład w~postaci grupy \ch{N-\gls{Boc}}\sidecite{nakajima14}
   lub jako odległy od~amidu podstawnik\sidecite{spletstoser07,huang15joc}.
-Nie ma jednak dotąd doniesień o~próbie przeprowadzenia za~ich pomocą funkcjonalizacji amidoestrów
-  o~strukturze malonianu, takich jak \refcmpd{amidoester}.
-Postanowiłem wypełnić tę lukę, zaczynając od~prób prowadzonych na~prostej pochodnej kwasu
+Postanowiłem sprawdzić, czy dwutorowa funkcjonalizacja amidoestrów~\refcmpd{amidoester} jest możliwa.
+Zacząłem od~prób aktywacji amidu prowadzonych na~prostej pochodnej kwasu
   malonowego, która nie posiada atomów wodoru w~pozycji 2.
 W~serii prostych przekształceń, przedstawionych na~\cref{sch:amidoester-cycloprop-synthesis},
   przygotowałem amidoester \refcmpd{amidoester-cycloprop} z~grupą cyklopropylową w~pozycji 2.
