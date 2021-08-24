@@ -249,3 +249,29 @@ Zaobserwowana przeze mnie preferencja redukcji laktamu nad grupą amidową jest 
   bezprecedensowa.
 Niestety, bardzo niska wydajność tej reakcji nie pozwala kwalifikować jej jako użytecznej
   syntetycznie.
+
+\subsection{Inne metody aktywacji}
+Wobec nie w~pełni zadowalających wyników osiągniętych przy użyciu metody opartej o~\schwartz{}
+  sięgnąłem po inne dostępne procedury \--- wykorzystujące katalityczne ilości kompleksów irydu.
+W~eksperymentach tych wykorzystałem dwa spośród używanych dotąd substratów.
+W~\cref{tab:amidoester-methods} zebrałem wyniki prób przeprowadzonych w~tym zakresie,
+  wraz z~wynikami uzyskanymi poprzednio, dla porównania.
+
+\begin{table}
+  % TODO: format it, maybe with package array or tabularray
+  % TODO: add yields
+  % TODO: maybe add other structures
+  \begin{tabular}{ c c c c }
+    \toprule
+    Substrat & \multicolumn{3}{c}{Zastosowana procedura aktywacji} \\
+             & Schwartz & Vaska & van der Eck \\
+    \midrule
+    \refcmpd{amidoester-bn} & \SI{42}{\percent} (\refcmpd{amido-cyclo-hemiacetal}) & rozkład & {\includesvg{amidoester-si}} \\
+    \refcmpd{amidoester-cyclo} & \SI{15}{\percent} (\refcmpd{amido-cyclo-hemiacetal}) & {\includesvg{amidoester-opened}} & rozkład \\
+    \bottomrule
+  \end{tabular}
+  \caption{
+    Próby zastosowania do~redukcji amidoestrów procedur wykorzystujących katalityczne
+      ilości kompleksów irydu.
+  }\label{tab:amidoester-methods}
+\end{table}
