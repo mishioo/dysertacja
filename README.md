@@ -1,4 +1,4 @@
-# Investigations on chemoselective methods of activation of carbonyl amide groups towards nucleophilic agents
+# Reductive activation of amides as a method of obtaining functionalized amies: computer-aided synthetic investigations
 This is a doctoral dissertation in the field of Chemical Sciences written by Michał M. Więcław
 (ORCID: [0000-0001-7884-8982](https://orcid.org/0000-0001-7884-8982)) and supervised by
 prof. Bartłomiej Furman (ORCID: [0000-0001-5459-8026](https://orcid.org/0000-0001-5459-8026)).
@@ -8,9 +8,10 @@ Institute of Organic Chemistry, Polish Academy of Sciences
 
 ## Contents
 Title of the first section section is a direct translation of the original title of the
-dissertation, which reads: "Badania nad chemoselektywnymi metodami aktywacji amidowych grup
-karbonylowych na czynniki nukleofilowe". The document is written in polish, so it is
-rather not accessible for non-polish speakers. However, most of its contents were published
+dissertation, which reads: "Reduktywna aktywacja amidów jako metoda otrzymywania
+sfunkcjonalizowanych amin: badania syntetyczne wspomagane metodami komputerowymi".
+The document is written in polish, so it is
+rather not accessible for non-polish speakers. However, most of its contents was published
 in peer-reviewed international journals. Appropriate articles are cited below:
 
 - M. M. Więcław, S. Stecko, , _Hydrozirconation of C=X Functionalities with Schwartz's Reagent_,
