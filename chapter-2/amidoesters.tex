@@ -258,13 +258,17 @@ W~\cref{tab:amidoester-methods} zebrałem wyniki prób przeprowadzonych w~tym za
   wraz z~wynikami uzyskanymi poprzednio, dla porównania.
 
 \begin{table}
-  % TODO: format it, maybe with package array or tabularray
   % TODO: add yields
   % TODO: maybe add other structures
-  \begin{tabular}{ c c c c }
+  \begin{tabular}{ 
+    C{0.13\textwidth}
+    C{0.15\textwidth}
+    C{0.19\textwidth}
+    C{0.38\textwidth}
+  }
     \toprule
-    Substrat & \multicolumn{3}{c}{Zastosowana procedura aktywacji} \\
-             & Schwartz & Vaska & van der Eck \\
+    \multirow{2}{*}{Substrat} & \multicolumn{3}{c}{Zastosowana procedura aktywacji} \\\cmidrule{2-4}
+                              & Schwartz & Vaska & van der Eck \\
     \midrule
     \refcmpd{amidoester-bn} & \SI{42}{\percent} (\refcmpd{amido-cyclo-hemiacetal}) & rozkład & {\includesvg{amidoester-si}} \\
     \refcmpd{amidoester-cyclo} & \SI{15}{\percent} (\refcmpd{amido-cyclo-hemiacetal}) & {\includesvg{amidoester-opened}} & rozkład \\

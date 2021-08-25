@@ -141,8 +141,14 @@
 
 % better tab rules
 \usepackage{booktabs}
-% mulitline tezt in cell
+% mulitline text in cell
 \usepackage{makecell}
+% multi-row cells, no sruprise
+\usepackage{multirow}
+% more flexible tables typesetting
+\usepackage{array}
+% centered and in the middle
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 % higlighting parts of the table
 \usepackage{colortbl}
 \newcommand*{\tablemarkecolor}{wongsky}
