@@ -1,5 +1,59 @@
 \chapter{Detale techniczne}\label{chapter:experimental}
 
+\section{Ogólne procedury aktywacji amidów}\label{experimental:amidoester-activation}
+\subsubsection{Procedura wykorzystująca odczynnik Schwartza}
+Do wygrzanego w~płomieniu palnika i~wypełnionego gazem obojętnym naczynia Schlenka odważyłem
+\SI{0.2}{\mmol} odczynnika Schwartza oraz \SI{0.2}{\mmol} amidu\sidenote[][-2\baselineskip]{
+  W~przypadku amidu będącego cieczą lub olejem dodawałem przygotowany osobno roztwór amidu
+    do~zawiesiny odczynnika Schwartza.
+},
+  dodałem \SI{1.0}{\mL} suchego \gls{thf}\sidenote{
+    W przypadku prowadzenia reakcji w~obniżonej temperaturze dodałem rozpuszczalnik do~samego
+      odczynnik Schwartza, ochłodziłem w~łaźni izopropanol\--suchy lód, i~dopiero dodałem amid.
+  }.
+Mieszałem do~sklarowania roztworu.
+W~przepływie argonu dodałem \SI{0.4}{\mmol} wybranego kwasu oraz \SI{0.2}{\mmol} nukleofila\sidenote{
+  W przypadku allilotributylocyny użyłem \SI{0.6}{\mmol}.
+}.
+Metodę terminacji reakcji oraz oczyszczania produktów dobierałem do~każdego przypadku osobno.
+
+\subsubsection{Procedura wykorzystująca kompleks Vaski}
+Do wygrzanego w~płomieniu palnika i~wypełnionego gazem obojętnym naczynia Schlenka odważyłem
+  \SI{0.002}{\mmol} \ch{IrCl(CO)(PPh3)2} oraz \SI{0.2}{\mmol} amidu.
+Rozpuściłem w~\SI{2.0}{\ml} suchego toluenu.
+Dodałem \SI{0.4}{\mmol} \gls{tmds} i~mieszałem przez noc.
+Po tym czasie dodałem \SI{0.6}{\mmol} allilotributylocyny oraz \SI{0.4}{\mmol} \ch{BF3.OEt2}.
+Mieszałem jeszcze przez \SI{3}{\day}, po~czym wylałem na~\SI{4}{\ml} \ch{NaHCO3_{(aq)}},
+  ekstrahowałem \SI[product-units = single]{2 x 4}{\mL} \ch{Et2O}, zebrane frakcje organiczne
+  przemyłem \SI[product-units = single]{3 x 5}{\mL} \SI{10}{\percent} \ch{NH4F_{(aq)}},
+  suszyłem \ch{MgSO4}, po~czym odparowałem rozpuszczalnik za~pomocą wyparki rotacyjnej.
+
+\subsubsection{Procedura wykorzystująca kompleks van der Enta}
+Do wygrzanego w~płomieniu palnika i~wypełnionego gazem obojętnym naczynia Schlenka odważyłem
+  \SI{0.002}{\mmol} \ch{[Ir(coe)2Cl]2} oraz \SI{0.2}{\mmol} amidu.
+Rozpuściłem w~\SI{2.0}{\ml} \ch{CH2Cl2}.
+Dodałem \SI{0.4}{\mmol} \ch{Et2SiH2} i~mieszałem przez noc.
+Po tym czasie dodałem \SI{0.6}{\mmol} allilotributylocyny oraz \SI{0.4}{\mmol} \ch{BF3.OEt2}.
+Mieszałem jeszcze przez \SI{3}{\day}, po~czym wylałem na~\SI{5}{\ml} \ch{NaHCO3_{(aq)}},
+  ekstrahowałem \SI[product-units = single]{2 x 4}{\mL} \ch{Et2O}, zebrane frakcje organiczne
+  przemyłem \SI[product-units = single]{3 x 5}{\mL} \SI{10}{\percent} \ch{NH4F_{(aq)}},
+  suszyłem \ch{MgSO4}, po~czym odparowałem rozpuszczalnik za~pomocą wyparki rotacyjnej.
+
+\subsubsection{Procedura wykorzystująca bezwodnik triflowy}
+Do wygrzanego w~płomieniu palnika i~wypełnionego gazem obojętnym naczynia Schlenka odważyłem
+  \SI{0.2}{\mmol} amidu i~rozpuściłem w~\SI{2.0}{\ml} \ch{CH2Cl2}.
+Dodałem \SI{0.24}{\mmol} \iupac{2-fluoropirydyny}, po czym ochłodziłem do~\SI{0}{\degC}
+  na~łaźni izopropanol-suchy lód i~dodałem \SI{0.22}{\mmol} \ch{Tf2O}.
+Mieszałem przez \SI{20}{\min}, po~czym dodałem \SI{0.22}{\mmol} \ch{Et3SiH} w~\SI{0}{\degC},
+  a~następnie pozwoliłem mieszaninie ogrzać się do temperatury pokojowej i~mieszałem przez noc.
+Ponownie ochłodziłem mieszaninę do~\SI{0}{\degC}, dodałem \SI{0.3}{\mmol} \ch{BF3.Et2O},
+  a~po~\SI{40}{\min} dodałem jeszcze \SI{0.6}{\mmol} allilotributylocyny.
+Mieszałem przez noc, pozwalając by mieszanina ogrzała się do temperatury pokojowej.
+Po~tym czasie wylałem na~\SI{5}{\ml} \ch{NaHCO3_{(aq)}},
+  ekstrahowałem \SI[product-units = single]{3 x 4}{\mL} \ch{CH2Cl2}, zebrane frakcje organiczne
+  przemyłem \SI[product-units = single]{3 x 5}{\mL} \SI{10}{\percent} \ch{NH4F_{(aq)}},
+  suszyłem \ch{MgSO4}, po~czym odparowałem rozpuszczalnik za~pomocą wyparki rotacyjnej.
+
 \section{Substraty do~badań nad~aktywacją amidoestrów}\label{experimental:amidoester-substrates}
 \begin{scheme}
   \includesvg{amidoester-cycloprop-synthesis}
@@ -31,7 +85,7 @@ Do \SI{3}{\gram} związku \refcmpd{cyclopropyl-dimethyl-malonate} dodałem \SI{1
   \ch{KOH} rozpuszczonego w~\SI{15}{\mL} bezwodnego \ch{MeOH} w~atmosferze argonu.
 Mieszałem we~wrzeniu przez \SI{2}{\hour}, po~czym usunąłem rozpuszczalnik
   przy użyciu wyparki rotacyjnej.
-Otrzymany osad rozpuściłem w~\SI{10}{\mL} \ch{H2O}, zakwasiłem do~\pH$=7$ za~pomocą
+Otrzymany osad rozpuściłem w~\SI{10}{\mL} \ch{H2O}, zakwasiłem do~$\pH{}=7$ za~pomocą
   \SI{10}{\percent} \ch{HCl_{aq}}, nasyciłem \ch{NaCl} i~ekstrahowałem
   \SI[product-units = single]{4 x 10}{\mL} \ch{Et2O}.
 Zebrane frakcje organiczne suszyłem \ch{MgSO4} i~usunąłem z~nich rozpuszczalnik
@@ -68,13 +122,12 @@ Otrzymałem \SI{2.5}{\gram} produktu (\SI{80}{\percent} wydajności).
   \todo[inline]{MS, IR}
 
 \section{Badania nad~aktywacją amidoestrów}\label{experimental:amidoester-products}
-
 \procedure{b-aminoester-cycloprop.allyl}{\iupac{1-(1-[(4-metoksyfenylo)amino]but-3-en-1-ylo)cyklopropanokarboksylan metylu}}
 Do wygrzanego w~płomieniu palnika i~wypełnionego argonem naczynia Schlenka odważyłem
   \SI{51.5}{\mg} odczynnika Schwartza oraz \SI{50.0}{\mg} amidu~\refcmpd{amidoester-cycloprop},
   dodałem \SI{1.0}{\mL} \gls{thf}.
 Mieszałem do~sklarowania roztworu.
-W~przepływie argonu dodałem  \SI{249}{\mg} \ch{Yt(OTf)3} oraz  \SI{186}{\uL} allilotributylocyny.
+W~przepływie argonu dodałem \SI{249}{\mg} \ch{Yt(OTf)3} oraz \SI{186}{\uL} allilotributylocyny.
 Mieszałem jeszcze przez noc, po czym wylałem na~\SI{5}{\mL} \ch{NaHCO3_{aq}},
   przemyłem \SI[product-units = single]{3 x 5}{\mL} \SI{10}{\percent} \ch{NH4F_{aq}}.
 Zebrane frakcje organiczne suszyłem \ch{MgSO4}, po~czym odparowałem rozpuszczalnik za~pomocą
