@@ -37,16 +37,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="958"
-     inkscape:window-height="1008"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview436"
      showgrid="false"
-     inkscape:zoom="1.5324675"
-     inkscape:cx="390.57552"
-     inkscape:cy="110.36252"
-     inkscape:window-x="953"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:zoom="3.064935"
+     inkscape:cx="245.97503"
+     inkscape:cy="73.709356"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg434" />
   <path
      d="M 956.173,553.198 L 966.377,553.198 L 966.377,703.665 L 956.173,703.665 L 956.173,553.198 Z "
@@ -1847,5 +1847,30 @@ A</text>
        sodipodi:role="line"
        id="tspan1470"
        x="364.27252"
-       y="302.87396">\cmpd{amido-cyclo-hemiacetal}, \SI{15}{\percent}</tspan></text>
+       y="302.87396">\cmpd{amido-cyclo-hemiacetal}</tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke:none;stroke-width:0.0666667"
+     d="m 346.92646,257.81029 h 45.16935 v 0.66666 h -45.16935 z"
+     id="path434" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke:none;stroke-width:0.0666667"
+     d="m 346.59312,269.56029 v -11.41667 h 0.66667 v 11.41667 z"
+     id="path436" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#e69f00;stroke:none;stroke-width:0.0666667"
+     d="m 345.27712,269.83363 a 1.6480408,1.6480408 0 1 0 3.29601,0 1.6480408,1.6480408 0 1 0 -3.29601,0 z"
+     id="path438" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#e69f00;fill-opacity:1;stroke:none;"
+     x="392.54663"
+     y="253.18645"
+     id="text1130"><tspan
+       sodipodi:role="line"
+       id="tspan1128"
+       x="392.54663"
+       y="253.18645">wg \acrshort{ms}</tspan></text>
 </svg>
