@@ -2,9 +2,8 @@ id: MMW-117
 label: amidoester-cycloprop
 13C NMR (101 MHz, CDCl3) δ 174.40, 166.46, 156.27, 131.37, 121.77, 114.07, 55.46, 52.39, 26.36, 20.54.
 1H NMR (400 MHz, CDCl3) δ = 10.65 (s, 1H), 7.57 – 7.37 (m, 2H), 6.93 – 6.76 (m, 2H), 3.78 (d, J=2.2, 3H), 3.72 (d, J=2.2, 3H), 1.83 – 1.75 (m, 2H), 1.67 – 1.60 (m, 2H).
-IR
-HMRS
-
+IR (film): 3277, 3234, 3136, 3078, 3029, 2961, 2841, 2045, 1889, 1769, 1700, 1658, 1613, 1598, 1544, 1512, 1444, 1409, 1354, 1322, 1305, 1280, 1248, 1202, 1150, 1113, 1087, 1027
+HRMS (ESI-TOF) for C13H15NO4Na: found – 272.0902, calculated – 272.0899
 
 id: MMW-120
 label: b-aminoester-cyckloprop.allyl
@@ -29,7 +28,28 @@ IR
 
 id: MMW-139
 label: b-aminoester-cyckloprop.cn
+1H NMR (400 MHz, CDCL3) δ = 6.85 – 6.79 (m, 2H), 6.76 – 6.68 (m, 2H), 3.76 (s, 3H), 3.76 (s, 4H), 3.74 (s, 0H), 1.58 – 1.51 (m, 1H), 1.47 – 1.39 (m, 1H), 1.21 – 1.13 (m, 1H), 1.14 – 1.06 (m, 1H).
+13C NMR (101 MHz, CDCl3) δ 172.35, 154.45, 138.66, 117.95, 117.12, 115.01, 55.63, 52.58, 51.93, 26.55, 15.88, 13.93.
+HRMS (ESI-TOF) for 
+IR
+
+id: MMW-181
+label: amidoester-open
 1H NMR
 13C NMR
 HRMS (ESI-TOF) for 
 IR
+
+id: MMW-92
+label: amidoester-bn
+1H NMR
+13C NMR
+HRMS (ESI-TOF) for C19H21NO4Na: found – 350.1372, calculated – 350.1372
+IR (film): 3302, 3138, 3063, 3030, 2980, 2935, 2836, 1738, 1658, 1604, 1545, 1512, 1455, 1442, 1414, 1369, 1298, 1245, 1171, 1111, 1033
+
+id: MMW-112
+label: amidoester-dime
+1H NMR
+13C NMR
+HRMS (ESI-TOF) for C14H19NO4Na: found – 288.1216, calculated – 288.1212
+IR (film): 3291, 3131, 3062, 2982, 2940, 2838, 1730, 1653, 1602, 1535, 1513, 1469, 1443, 1414, 1388, 1364, 1316, 1301, 1237, 1176, 1140, 1112, 1030
