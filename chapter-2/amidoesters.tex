@@ -269,31 +269,39 @@ Prowadziły one do~rozkładu substratu, z~wyjątkiem zastosowania procedury wyko
   kompleks Vaski do~redukcji związku~\refcmpd{amidoester-cyclo} \---
   w~tym przypadku zaobserwowałem otwarcie laktonu.
 
-\begin{table}
+\begin{table*}
   % TODO: maybe add other structures
   \begin{tabular}{ 
-    C{0.12\textwidth}
-    C{0.16\textwidth}
+    C{0.14\textwidth}
     C{0.18\textwidth}
-    C{0.17\textwidth}
+    C{0.18\textwidth}
+    C{0.18\textwidth}
     C{0.18\textwidth}
   }
     \toprule
     \multirow{2}{*}{Substrat} & \multicolumn{4}{c}{Zastosowana procedura aktywacji} \\\cmidrule{2-5}
                               & Schwartz & Vaska & van der Ent & $2$-\ch{F}-\ch{Py.Tf2O} \\
-    \midrule
-    \refcmpd{amidoester-bn} & \refcmpd{aminoester-bn-allyl}, \SI{22}{\percent} & rozkład & rozkład & b/d \\\addlinespace
-    \refcmpd{amidoester-cyclo} & \refcmpd{amido-cyclo-hemiacetal}, \SI{15}{\percent} & {\includesvg{amidoester-opened}} & rozkład & b/d \\
+    \midrule\addlinespace
+    \refcmpd{amidoester-bn} & \refcmpd{aminoester-bn-allyl}, \SI{22}{\percent} & rozkład & rozkład & \refcmpd{aminoester-bn-allyl}, ślady \\\addlinespace
+    \refcmpd{amidoester-cyclo} & \refcmpd{amido-cyclo-hemiacetal}, \SI{15}{\percent} & {\includesvg{amidoester-opened}} & rozkład & {\includesvg{tab-methods-cyclo-allyl}} \\
     \bottomrule
   \end{tabular}
-  \caption{
+  \caption[][\baselineskip]{
     Próby zastosowania do~redukcji amidoestrów procedur wykorzystujących katalityczne
       ilości kompleksów irydu.
     \enquote{Schwartz}, \enquote{Vaska}, \enquote{van der Ent} oraz $2$-\ch{F}-\ch{Py.Tf2O}
       w~nagłówku reprezentują metody wykorzystujące odpowiadające kompleksy.
     Szczegółowe procedury znajdują się w~\protect\secref{experimental:amidoester-products}.
   }\label{tab:amidoester-methods}
-\end{table}
+\end{table*}
+
+Nadzieję na~lepszy wynik dawała początkowo metoda oparta o~bezwodnik triflowy.
+Według analizy techniką \gls{ms} w~obydwu przypadkach w~mieszanina reakcyjna zawierała
+  pożądany związek funkcjonalizowany grupą allilową,
+  jednak w~zarejestrowanych widmach \NMR*{} tych mieszanin nieobecne były charakterystyczne
+  sygnały pochodzące od~protonów położonych przy wiązaniu \ch{C=C}.
+Na~tej podstawie wnioskuję, że w~reakcji powstały jedynie śladowe ilości związków 
+  \refcmpd{aminoester-bn-allyl, aminoester-cyclo-allyl}.
 
 Takim samym próbom poddałem prostą pochodną hydantoiny \--- heterocyklicznego związku
   \iupac{1,3-dikarbonylowego} o~zupełnie innej budowie elektronowej niż badane dotąd amidoestry.
