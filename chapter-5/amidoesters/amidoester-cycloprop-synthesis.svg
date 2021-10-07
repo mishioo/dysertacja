@@ -14,7 +14,7 @@
    version="1.1"
    id="svg286"
    sodipodi:docname="amidoester-cycloprop-synthesis.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata292">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      id="namedview288"
      showgrid="false"
      inkscape:zoom="1.7279597"
-     inkscape:cx="261.32814"
+     inkscape:cx="140.08689"
      inkscape:cy="90.121098"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1349,15 +1349,6 @@ aceton</text>
      id="text282"
      style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none">\acrshort{dmf}</text>
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,356.365,133.167)"
-     font-style="normal"
-     font-weight="normal"
-     font-size="160px"
-     id="text284"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none">\acrshort{dcm}</text>
-  <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
      x="2.3148687"
@@ -1407,4 +1398,14 @@ aceton</text>
        id="tspan1565-4-9-0-4"
        x="90.909615"
        y="182.31923">\cmpd{amidoester-cycloprop}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="356.36499"
+     y="133.2901"
+     id="text1054"><tspan
+       sodipodi:role="line"
+       id="tspan1052"
+       x="356.36499"
+       y="133.2901">\ch{CH2Cl2}</tspan></text>
 </svg>

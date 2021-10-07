@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1072"
    sodipodi:docname="nakadomarin.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata1078">
     <rdf:RDF>
@@ -49,9 +49,9 @@
      inkscape:window-height="1017"
      id="namedview1074"
      showgrid="false"
-     inkscape:zoom="1.6525577"
-     inkscape:cx="62.505389"
-     inkscape:cy="6.6111008"
+     inkscape:zoom="3.3051154"
+     inkscape:cx="283.66284"
+     inkscape:cy="70.103771"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2666,35 +2666,6 @@
          inkscape:connector-curvature="0" />
     </g>
   </g>
-  <g
-     id="g1086"
-     transform="matrix(1.33333,0,0,1.33333,-27.408564,-40.222946)">
-    <g
-       aria-label="DTBP"
-       style="text-anchor:start;text-rendering:geometricPrecision"
-       id="text1084">
-      <path
-         d="m 265.49719,122 v -5.72656 h 1.97266 q 0.66797,0 1.01953,0.082 0.49219,0.11328 0.83984,0.41016 0.45313,0.38281 0.67578,0.98046 0.22657,0.59375 0.22657,1.35938 0,0.65234 -0.15235,1.15625 -0.15234,0.50391 -0.39062,0.83594 -0.23828,0.32812 -0.52344,0.51953 -0.28125,0.1875 -0.68359,0.28515 Q 268.08313,122 267.5636,122 Z m 0.75781,-0.67578 h 1.22266 q 0.56641,0 0.88672,-0.10547 0.32422,-0.10547 0.51562,-0.29687 0.26954,-0.26954 0.41797,-0.72266 0.15235,-0.45703 0.15235,-1.10547 0,-0.89844 -0.29688,-1.37891 -0.29297,-0.48437 -0.71484,-0.64843 -0.30469,-0.11719 -0.98047,-0.11719 H 266.255 Z"
-         style="font-size:8px;font-family:Arial;fill:#000000"
-         id="path2995"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 272.73547,122 v -5.05078 h -1.88672 v -0.67578 h 4.53907 v 0.67578 h -1.89453 V 122 Z"
-         style="font-size:8px;font-family:Arial;fill:#000000"
-         id="path2997-8"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 276.13782,122 v -5.72656 h 2.14843 q 0.65625,0 1.05079,0.17578 0.39843,0.17187 0.62109,0.53516 0.22656,0.35937 0.22656,0.7539 0,0.36719 -0.19922,0.69141 -0.19922,0.32422 -0.60156,0.52344 0.51953,0.15234 0.79688,0.51953 0.28125,0.36718 0.28125,0.86718 0,0.40235 -0.17188,0.75 -0.16797,0.34375 -0.41797,0.53125 -0.25,0.1875 -0.6289,0.28516 -0.375,0.0937 -0.92188,0.0937 z m 0.75781,-3.32031 h 1.23828 q 0.50391,0 0.72266,-0.0664 0.28906,-0.0859 0.43359,-0.28515 0.14844,-0.19922 0.14844,-0.5 0,-0.28516 -0.13672,-0.5 -0.13672,-0.21875 -0.39063,-0.29688 -0.2539,-0.082 -0.87109,-0.082 h -1.14453 z m 0,2.64453 h 1.42578 q 0.36719,0 0.51563,-0.0273 0.26171,-0.0469 0.4375,-0.15625 0.17578,-0.10938 0.28906,-0.31641 0.11328,-0.21094 0.11328,-0.48438 0,-0.32031 -0.16406,-0.55468 -0.16407,-0.23828 -0.45703,-0.33203 -0.28907,-0.0977 -0.83594,-0.0977 h -1.32422 z"
-         style="font-size:8px;font-family:Arial;fill:#000000"
-         id="path2999"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 281.51282,122 v -5.72656 h 2.16015 q 0.57032,0 0.8711,0.0547 0.42187,0.0703 0.70703,0.26953 0.28515,0.19531 0.45703,0.55078 0.17578,0.35547 0.17578,0.78125 0,0.73047 -0.46484,1.23828 -0.46485,0.50391 -1.67969,0.50391 h -1.46875 V 122 Z m 0.75781,-3.00391 h 1.48047 q 0.73437,0 1.04297,-0.27343 0.30859,-0.27344 0.30859,-0.76953 0,-0.35938 -0.18359,-0.61329 -0.17969,-0.25781 -0.47657,-0.33984 -0.1914,-0.0508 -0.70703,-0.0508 h -1.46484 z"
-         style="font-size:8px;font-family:Arial;fill:#000000"
-         id="path3001"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
@@ -2739,4 +2710,14 @@
          inkscape:connector-curvature="0" />
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="326.58679"
+     y="122.44331"
+     id="text5095"><tspan
+       sodipodi:role="line"
+       id="tspan5093"
+       x="326.58679"
+       y="122.44331">\acrshort{dtbp}</tspan></text>
 </svg>

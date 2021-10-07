@@ -13,7 +13,7 @@
    version="1.1"
    id="svg156"
    sodipodi:docname="gal-allyl.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata162">
     <rdf:RDF>
@@ -40,13 +40,18 @@
      inkscape:window-height="1017"
      id="namedview158"
      showgrid="false"
-     inkscape:zoom="2.4560772"
-     inkscape:cx="122.68119"
-     inkscape:cy="56.635456"
+     inkscape:zoom="2"
+     inkscape:cx="138.85749"
+     inkscape:cy="105.23507"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg156" />
+  <path
+     style="fill:#009d73;fill-rule:evenodd;stroke:#009d73;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
+     inkscape:connector-curvature="0"
+     id="path231"
+     d="m 351.97701,54.606748 v 0 h -0.34176 l -0.38119,-0.613332 -1.18298,-8.799978 h 1.56417 1.56417 z" />
   <path
      stroke="transparent"
      fill="#000000"
@@ -686,12 +691,6 @@
        id="path1024"
        inkscape:connector-curvature="0" />
   </g>
-  <path
-     stroke="transparent"
-     fill="#009e73"
-     transform="matrix(0.0666667 0 0 0.0666667 -5.62226 -41.3333)"
-     d="M 5353.76,1297.93 L 5363.96,1297.93 L 5363.96,1439.1 L 5358.86,1439.1 L 5353.76,1430.26 L 5353.76,1297.93 Z "
-     id="path118" />
   <path
      stroke="transparent"
      fill="#e69f00"
