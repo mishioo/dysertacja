@@ -71,8 +71,8 @@
   \printnames{labelname}%
   \setunit*{\printdelim{nameyeardelim}}%
   \iffieldundef{labelyear}
-    {}
-    {\printtext[parens]{\printlabeldateextra}},  % comma is printed
+    {\addcolon}
+    {\printtext[parens]{\printlabeldateextra}\addcolon}
   \printtext[bibhyperlink]{%  make it a link to citation
     \bibstring{backrefpage}\ppspace%  "cyt. na s. "
     \printlist[][-1]{pageref}}%  page number of first occurrence
