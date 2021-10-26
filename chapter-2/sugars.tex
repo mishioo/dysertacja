@@ -229,7 +229,7 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
   \centering
   \begin{tabular}{ccccc}
     \toprule
-    \textnumero & Dodatek & Rozpuszczalnik & Wydajność /\% & \textit{d.r.} \textsuperscript{a} \\ \midrule
+    \textnumero & Dodatek & Rozpuszczalnik & Wydajność /\si{\percent} & \textit{d.r.} \textsuperscript{a} \\ \midrule
     \rownumber & \ch{MeOH} \textsuperscript{b} & \ch{THF} & \num{65} & $43:57$ \\
     \rownumber & \ch{CF3CO2H} & \ch{THF}  & \num{24} & $43:57$ \\
     \rownumber & \ch{AcOH} & \ch{THF} & \num{47} & $80:20$ \\
@@ -268,5 +268,34 @@ Z~wcześniejszych prac\sidecite{furman14} wiadomo natomiast, że procedura wykor
   bezwodnik triflowy również nie znajduje zastosowania w~przypadku takich substratów.
 
 \subsection{Wyniki i~zakres stosowalności}
+\begin{table}
+  {\includesvg{sugars-scope}}
+
+  \vspace{.2\baselineskip}  % apparently needs to be in its own paragraph to work
+
+  \begin{tabular}{rccccc}
+    \toprule
+    \textnumero  & Substrat                 & \ch{-R}    & \makecell{Produkt\\główny} & Wydajność /\si{\percent}
+      & \textit{d.r.} \textsuperscript{a} \\ \midrule
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-Cy}       & \cmpd{glu-tet.cy}   & \num{73} & $>95:5$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-CH2CO2Et} & \cmpd{glu-tet.est}  & \num{49} & $>95:5$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-Bn}       & \cmpd{glu-tet.benz} & \num{18} & $>95:5$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-PMP}      & \cmpd{glu-tet.pmp}  & \num{29} & $79:21$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-PMB}      & \cmpd{glu-tet.pmb}  & \num{42} & $>95:5$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-\textit{^t}Bu} & \cmpd{glu-tet.tbu} & \num{40} & $>95:5$ \\
+    \rownumber  & \refcmpd{glu-lactam} & \ch{-\textit{^t}Oct} & \cmpd{glu-tet.oct} & \num{48} & $>95:5$ \\
+    \rownumber  & \refcmpd{gal-lactam} & \ch{-Cy}       & \cmpd{gal-tet.cy}   & \num{33} & $>95:5$ \\
+    \rownumber  & \refcmpd{gal-lactam} & \ch{-CH2CO2Et} & \cmpd{gal-tet.est}  & \num{16} & $>95:5$ \\
+    \bottomrule
+  \end{tabular}
+  \caption{
+    Synteza \iupac{2-(1\H-tetrazol-5-ylo)-iminocukrów} przy użyciu optymalnych warunków.
+    \textsuperscript{a}\iupac{2-\R} do \iupac{2-\S}, według wydajności wydzielenia.
+  }
+  \label{tab:sugars-scope}
+\end{table}
+
+
+
 \subsection{Dalsze przekształcenia produktów}
 \subsection{Nietrafne alternatywne metody}
