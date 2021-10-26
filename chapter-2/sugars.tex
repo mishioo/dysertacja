@@ -254,6 +254,46 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
   }\label{tab:sugars-opt}
 \end{table}
 
+\todo[inline]{Opis optymalizacji ilości \ch{TMSN3} i \ch{RNC}.}
+\begin{marginfigure}
+  \begin{tikzpicture}
+    \begin{axis}[
+      ylabel={Wydajność /\si{\percent}},
+      xlabel={Ilość \ch{TMSN3} i \ch{CyNC} /\si{\equiv}},
+      ymin=0, ymax=100,
+      xmin=0.8, xmax=2.4,
+      ytick={0,50,100},
+      extra y ticks={84},
+      extra y tick labels={\textcolor{wongvermillion}{$84$}},
+      axis lines=left,
+      axis line style={-},
+      x label style={at={(0.5,0.05)}},
+      y label style={at={(0.1,0.5)}},
+      legend style={at={(0.05,1.1)}, anchor={north west}, draw=none},
+      mark options={scale=0.5},
+      width=1.1*\textwidth,
+    ]
+    
+    \addplot[color=wongblue,mark=*,only marks,error bars/y dir=both,error bars/y explicit]
+      coordinates {
+        (1,84) +- (0,5)
+        (1.3,84) +- (0,1)
+        (1.6,80) +- (0,6)
+        (1.9,89) +- (0,2)
+        (2.2,85) +- (0,2)
+      };
+  \addplot[dashed,color=wongvermillion,no markers]
+      coordinates {(0.8,84)(2.4,84)};
+    \addlegendentry{Średnia wydajność}
+
+    \end{axis}
+  \end{tikzpicture}
+  \caption{
+    Wydajność wg \NMR*.
+  }
+  \label{fig:sugars-opt-plot}
+\end{marginfigure}
+
 Bardzo niedawno ukazała się praca łącząca reakcję azydo-Ugiego z~protokołem aktywacji amidów
   opartym o~kompleks Vaski\sidecite{dixon18}.
 Poza doskonałymi wynikami prób prowadzonych z~użyciem amidów liniowych,
