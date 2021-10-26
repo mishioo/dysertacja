@@ -269,7 +269,7 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
       axis line style={-},
       x label style={at={(0.5,0.05)}},
       y label style={at={(0.1,0.5)}},
-      legend style={at={(0.05,1.1)}, anchor={north west}, draw=none},
+      legend style={at={(0.05,0.4)}, anchor={north west}, draw=none},
       mark options={scale=0.5},
       width=1.1*\textwidth,
     ]
@@ -282,9 +282,9 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
         (1.9,89) +- (0,2)
         (2.2,85) +- (0,2)
       };
-  \addplot[dashed,color=wongvermillion,no markers]
+    \addplot[dashed,color=wongvermillion,no markers]
       coordinates {(0.8,84)(2.4,84)};
-    \addlegendentry{Średnia wydajność}
+    \legend{,Średnia wydajność}
 
     \end{axis}
   \end{tikzpicture}
