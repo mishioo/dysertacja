@@ -254,7 +254,6 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
   }\label{tab:sugars-opt}
 \end{table}
 
-\todo[inline]{Opis optymalizacji ilości \ch{TMSN3} i \ch{RNC}.}
 \begin{marginfigure}
   \begin{tikzpicture}
     \begin{axis}[
@@ -273,26 +272,42 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
       mark options={scale=0.5},
       width=1.1*\textwidth,
     ]
-    
-    \addplot[color=wongblue,mark=*,only marks,error bars/y dir=both,error bars/y explicit]
-      coordinates {
-        (1.0,86) +- (0,5)
-        (1.3,84) +- (0,1)
-        (1.6,84) +- (0,7)
-        (1.9,91) +- (0,3)
-        (2.2,86) +- (0,3)
-      };
-    \addplot[dashed,color=wongvermillion,no markers]
-      coordinates {(0.8,86)(2.4,86)};
-    \legend{,Średnia wydajność}
-
+      \addplot[color=wongblue,mark=*,only marks,error bars/y dir=both,error bars/y explicit]
+        coordinates {
+          (1.0,86) +- (0,5)
+          (1.3,84) +- (0,1)
+          (1.6,84) +- (0,7)
+          (1.9,91) +- (0,3)
+          (2.2,86) +- (0,3)
+        };
+      \addplot[dashed,color=wongvermillion,no markers]
+        coordinates {(0.8,86)(2.4,86)};
+      \legend{,Średnia wydajność}
     \end{axis}
   \end{tikzpicture}
   \caption{
-    Wydajność wg \NMR*.
+    Wykres przedstawiający wydajność tworzenia związku \refcmpd{glu-tet.cy}, w~zależności
+      od~użytej ilości \ch{TMSN3} i~\ch{CyNC}, wg analizy \NMR*.
   }
   \label{fig:sugars-opt-plot}
 \end{marginfigure}
+Prace źródłowe dotyczące reakcji azydo-Ugiego proponują użycie różnych proporcji reagentów \---
+  zwykle od~1 do~3 ekwiwalentów \ch{TMSN3} i~\ch{CyNC} względem iminy.
+Postanowiłem sprawdzić, czy parametr ten ma wpływ na~wydajność w~przypadku badanej przez mnie
+  wersji przemiany.
+Przeprowadziłem szereg eksperymentów w~warunkach uznanych za~optymalne, ale zmieniając ilość
+  użytych w~ostatnim etapie odczynników.
+Aby zminimalizować wpływ innych czynników na~przebieg tego eksperymentu, wydajność reakcji
+  określałem na~podstawie analizy \NMR*{} surowej mieszaniny \---
+  w~tym celu dodałem do~reakcji \SI{1.0}{\equiv} trifenylometanu\sidenote[][1\baselineskip]{%
+    Sprawdziwszy uprzednio, że nie ulega on żadnym przemianom w~warunkach reakcji,
+      ani nie wpływa na jej przebieg.
+  } jako wzorca wewnętrznego.
+Wyniki tych testów, razem z~odchyleniem standardowym z~trzech prób w~postaci słupków błędu,
+  przedstawiłem na~\cref{fig:sugars-opt-plot}.
+Sugerują one, że w~badanym zakresie, czyli powyżej \SI{1}{\equiv}, ilość użytych \ch{TMSN3}
+  i~\ch{CyNC} nie ma wpływu na~wydajność powstawania produktu.
+Średnia wydajność, również naniesiona na~\cref{fig:sugars-opt-plot}, wynosi \SI{86 \pm 5}{\percent}.
 
 Bardzo niedawno ukazała się praca łącząca reakcję azydo-Ugiego z~protokołem aktywacji amidów
   opartym o~kompleks Vaski\sidecite{dixon18}.
