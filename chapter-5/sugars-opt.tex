@@ -35,11 +35,43 @@ Wybrałem trifenylometan jako wzorzec wewnętrzny do~tych badań, ponieważ diag
   sygnał protonu metylowego tego związku\sidenote{\SI{5.535}{\ppm} w~\ch{CDCl3}.}
   nie nakłada się z~sygnałami substratów ani produktu reakcji,
   a~sam wzorzec pozostaje bierny w~warunkach prowadzenia przemiany.
+Wydajność reakcji wyznaczyłem porównując obszar pod powierzchnią piku protonu alifatycznego
+  wzorca ze~średnią powierzchnią piku przypadającą na~jeden proton produktu.
+Do~porównania wybierałem dobrze wykształcone piki, które nie nakładają się z~sygnałami
+  pochodzącymi od~substratu ani pozostałych reagentów.
+\Cref{fig:suagr-opt-hnmr} przedstawia wycinek nałożonych na~siebie widm
+  substratu~\refcmpd{glu-lactam} oraz produktu~\refcmpd{glu-tet.cy} zaznaczonymi sygnałami,
+  które brałem pod uwagę.
 
 \begin{figure*}
   \includesvg{sugars-opt-hnmr}
   \caption{
-    Diagnostyczne sygnały \NMR*{} produktu~\refcmpd{glu-tet.cy}
+    Diagnostyczny wycinek widm \NMR*{} produktu~\refcmpd{glu-tet.cy}
       oraz substratu~\refcmpd{glu-lactam}.
-    }\label{fig:suagr-opt-hnmr}
+    Pod wybranymi sygnałami umieściłem względne wartości pola pod powierzchnią piku.
+  }\label{fig:suagr-opt-hnmr}
 \end{figure*}
+
+Na pierwszy rzut oka można zaobserwować, że wszystkie zarejestrowane wartości wydajności
+  są zbliżone do~wartości średniej \--- \SI{85}{\percent} z~odchyleniem standardowym
+  $\sigma=\SI{5}{\percent}$, można więc pokusić się o~stwierdzenie, że wydajność nie zależy
+  od~proporcji reagentów.
+Najprostszym sposobem na~potwierdzenie lub obalenie tej tezy jest próba dopasowania danych
+  do~modelu aproksymacji wielomianowej i~sprawdzenie czy wyznaczone parametry funkcji
+  są statystycznie istotne.
+W~opisywanym przypadku zwykła dwuparametrowa regresja liniowa w~postaci $y = a \cdot x + b$
+  wydaje się być wystarczającym przybliżeniem.
+
+Korzystając z~metody najmniejszych kwadratów wyznaczyłem parametry $a = \num{82.0}$
+  oraz $b = \num{2.6}$.
+Interesującą mnie istotność parametru $b$ można wyznaczyć korzystając z~testu t\-/Studenta.
+Niezbędny jest do~tego jeszcze błąd standardowy parametru $b$, który wynosi $SE_b = \num{3.1}$ oraz
+  liczba stopni swobody, równa liczbie niezależnych pomiarów pomniejszonej o~2,
+  $d_f = n - 2 = 13$.
+Na~potrzeby tego testu przyjmuję hipotezę zerową $H_0$: \emph{parametr $b$ jest tak naprawdę
+  równy zero} oraz hipotezę alternatywną $H_a$: \emph{parametr $b$ nie jest równy zero}.
+Obliczam wartość zmiennej losowej $t = b / SE_b = \num{0.846}$ i~porównuję z~rozkładem t-Studenta
+  dla 13 stopni swobody, otrzymując parametr $P(t > \num{0.846}) = \num{0.206}$ oraz
+  $P(t < \num{-0.846}) = \num{0.206}$.
+Suma tych parametrów $P = \num{0.412}$ jest większa niż typowo przyjmowany przedział wartości
+  $\alpha = \num{0.1}$, a~zatem nie ma podstaw do~odrzucenia hipotezy zerowej.
