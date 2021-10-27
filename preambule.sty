@@ -298,7 +298,10 @@
 \usepackage{chemmacros}  % various chemistry typesetting macros (e.g. \iupac)
 \usechemmodule{spectroscopy}  % adds /NMR command for typesetting of experimental data
 \usechemmodule{units}  % siunitx for typesetting units
-\sisetup{output-decimal-marker = {,}}
+\sisetup{
+  output-decimal-marker = {,},
+  separate-uncertainty = true
+}
 \DeclareSIUnit{\volume}{vol.}
 \DeclareSIUnit{\equiv}{ekwiw.}
 \DeclareSIUnit\kcal{\kilo\cal}
