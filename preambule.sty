@@ -159,6 +159,9 @@
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}.}
 \preto\tabular{\setcounter{magicrownumbers}{0}}
 
+% enumerate shenanigans
+\usepackage[inline]{enumitem}
+
 
 %% setup code snippets
 \usepackage{inconsolata}  % monospaced font
@@ -303,6 +306,7 @@
   separate-uncertainty = true
 }
 \DeclareSIUnit{\volume}{vol.}
+\DeclareSIUnit{\ppm}{ppm}
 \DeclareSIUnit{\equiv}{ekwiw.}
 \DeclareSIUnit\kcal{\kilo\cal}
 \DeclareSIUnit[per-mode=symbol]\kcalpm{\kcal\per\mole}
