@@ -263,8 +263,8 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
       ymin=0, ymax=100,
       xmin=0.8, xmax=2.4,
       ytick={0,50,100},
-      extra y ticks={84},
-      extra y tick labels={\textcolor{wongvermillion}{$84$}},
+      extra y ticks={86},
+      extra y tick labels={\textcolor{wongvermillion}{$86$}},
       axis lines=left,
       axis line style={-},
       x label style={at={(0.5,0.05)}},
@@ -276,14 +276,14 @@ Prowadziło to jednak do~znacznego spadku wydajności, prawdopodobnie ze~względ
     
     \addplot[color=wongblue,mark=*,only marks,error bars/y dir=both,error bars/y explicit]
       coordinates {
-        (1,84) +- (0,5)
+        (1.0,86) +- (0,5)
         (1.3,84) +- (0,1)
-        (1.6,80) +- (0,6)
-        (1.9,89) +- (0,2)
-        (2.2,85) +- (0,2)
+        (1.6,84) +- (0,7)
+        (1.9,91) +- (0,3)
+        (2.2,86) +- (0,3)
       };
     \addplot[dashed,color=wongvermillion,no markers]
-      coordinates {(0.8,84)(2.4,84)};
+      coordinates {(0.8,86)(2.4,86)};
     \legend{,Średnia wydajność}
 
     \end{axis}
