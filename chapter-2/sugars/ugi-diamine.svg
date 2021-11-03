@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview170"
      showgrid="false"
-     inkscape:zoom="2.5530276"
-     inkscape:cx="196.04452"
-     inkscape:cy="7.8320886"
+     inkscape:zoom="7.2210526"
+     inkscape:cx="62.491658"
+     inkscape:cy="59.946202"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -148,7 +148,7 @@
      id="path30" />
   <g
      aria-label="t"
-     transform="matrix(0.0666667,0,0,0.0666667,55.9922,12.0115)"
+     transform="matrix(0.04666669,0,0,0.04666669,60.473658,7.770405)"
      style="font-style:italic;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
      id="text32">
     <path
@@ -162,11 +162,6 @@
      transform="matrix(0.0666667,0,0,0.0666667,58.9557,12.0115)"
      style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
      id="text34">
-    <path
-       d="M 5.078125,-34.375 V -48.515625 H 48.28125 V -34.375 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
-       id="path1027"
-       inkscape:connector-curvature="0" />
     <path
        d="m 61.171875,-55.78125 q 0,-28.515625 15.3125,-44.60938 15.3125,-16.17187 39.531255,-16.17187 15.85937,0 28.59374,7.57812 12.73438,7.57813 19.375,21.17188 6.71875,13.515625 6.71875,30.703125 0,17.421875 -7.03125,31.171875 -7.03125,13.75 -19.92187,20.859375 -12.89063,7.03125 -27.8125,7.03125 -16.171875,0 -28.90625,-7.8125 -12.734375,-7.8125 -19.296875,-21.328125 -6.5625,-13.515625 -6.5625,-28.59375 z m 15.625,0.234375 q 0,20.703125 11.09375,32.65625 11.171875,11.875 27.968755,11.875 17.10937,0 28.12499,-12.03125 11.09375,-12.03125 11.09375,-34.140625 0,-13.984375 -4.76562,-24.375 -4.6875,-10.46875 -13.82813,-16.171875 -9.06249,-5.781255 -20.39062,-5.781255 -16.09375,0 -27.734375,11.093755 -11.5625,11.015625 -11.5625,36.875 z"
        style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
