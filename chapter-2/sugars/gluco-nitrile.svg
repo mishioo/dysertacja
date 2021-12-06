@@ -42,7 +42,7 @@
      id="namedview228"
      showgrid="false"
      inkscape:zoom="2.2236629"
-     inkscape:cx="299.96118"
+     inkscape:cx="457.58399"
      inkscape:cy="-37.617864"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -1086,7 +1086,7 @@
        sodipodi:role="line"
        id="tspan927"
        x="4.2470617"
-       y="85.104317">\cmpd{glu:lactam}</tspan></text>
+       y="85.104317">\cmpd{glu-lactam}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1096,7 +1096,7 @@
        sodipodi:role="line"
        id="tspan927-8"
        x="306.36014"
-       y="85.104317">\cmpd{glu:cn}, \SI{79}{\percent}</tspan></text>
+       y="85.104317">\cmpd{glu-cn}, \SI{79}{\percent}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1106,5 +1106,5 @@
        sodipodi:role="line"
        id="tspan1226"
        x="592.26605"
-       y="85.104317">\cmpd{glu:tet:free}</tspan></text>
+       y="85.104317">\cmpd{glu-tet-free}</tspan></text>
 </svg>

@@ -453,7 +453,7 @@ Pierwsze próby zakładały przeprowadzenie syntezy w~dwóch etapach \--- redukt
 Funkcjonalizacja anionem cyjankowym przebiega dość wydajnie, choć bez indukcji diastereomerycznej,
   widocznej w~reakcjach opisywanych wcześniej\sidenote{O przyczynie tej rozbieżności opowiadam
     w~dalszej częsci dysertacji, w~sekcji~\secref{numeric:stereo}.}.
-Niestety, jak widać na~\cref{sch:gluco-nitrile}, związek \refcmpd{gluco-cn} nie ulega reakcji
+Niestety, jak widać na~\cref{sch:gluco-nitrile}, związek \refcmpd{glu-cn} nie ulega reakcji
   cykloaddycji azydku.
 
 \begin{scheme*}
@@ -486,13 +486,23 @@ Dla spokoju sumienia przeprowadziłem próbę reduktywnej funkcjonalizacji lakta
   odczynnikiem Schwartza za~pomocą \ch{TMSN3}.
 Jej wynik, zgodnie z~oczekiwaniami, był negatywny.
 
-\begin{scheme*}
+\begin{scheme*}[t]
   \includesvg{azide-nucleophile}
   \caption[][-6\baselineskip]{
     Dwa przykłady nukleofilowej addycji anionu azydkowego do~iminy, które udało mi się znaleźć.
     Na~górze addycja z~przegrupowaniem do~oksadiazolu, na~dole addycja katalizowana chinoliną.
   }
   \label{sch:azide-nucleophile}
+\end{scheme*}
+
+\begin{scheme*}[b]
+  \includesvg{cp-addition}
+  \caption[][-7em]{
+    Formalna cykloaddycja cyklopentadienu do~iminy \refcmpd{glu-imine}, następująca zamiast
+      funkcjonalizacji indolem w~badanych warunkach.
+  }
+  \label{sch:cp-addition}
+  \setfloatalignment{t}
 \end{scheme*}
 
 Szukając bardziej odległych koncepcyjnie alternatyw dla \iupac{2-tetrazolowych} pochodnych
@@ -507,15 +517,6 @@ Dwa diastereomery tego związku, oznaczone wspólnym numerem \refcmpd{glu-cp-con
   na~\cref{sch:cp-addition}, powstają w~proporcji 1:1 z~sumaryczną wydajnością \SI{23}{\percent}.
 Izomerów tych nie udało mi się ich rozdzielić \--- ani za pomocą chromatografii klasycznej,
   ani wysokociśnieniowej.
-
-\begin{scheme*}
-  \includesvg{cp-addition}
-  \caption[][-7em]{
-    Formalna cykloaddycja cyklopentadienu do~iminy \refcmpd{glu-imine}, następująca zamiast
-      funkcjonalizacji indolem w~badanych warunkach.
-  }
-  \label{sch:cp-addition}
-\end{scheme*}
 
 Przemiany takie są znane, choć ich przykładów w~literaturze jest niewiele.
 Reakcje typu Dielsa-Aldera iminy z~cyklopentadienem przebiegają łatwo w~warunkach
@@ -537,7 +538,7 @@ Związek~\refcmpd{glu-cp-condensed} powstał w~tej reakcji w~niewielkiej ilości
   \includesvg{cp-nucleophile}
   \caption{
     Przebieg funkcjonalizacji z~dodatkiem cyklopentadienu.
-    Cykloaddycja do~zwiąku \refcmpd{glu-cy-condensed} następuje pod nieobecność innych czynników
+    Cykloaddycja do~zwiąku \refcmpd{glu-cp-condensed} następuje pod nieobecność innych czynników
       nukleofilowych, ale głównym produktem reakcji jest, nie obserwowany wcześniej,
       związek~\refcmpd{glu-cp}.
   }
@@ -569,12 +570,12 @@ Mechanizm tej reakcji mógłby więc być analogiczny do~zaproponowanego we~wspo
 \end{scheme}
 
 Bardziej zagadkowe wydaje się przekształcenie z~cykloaddycją, pokazane na~\cref{sch:cp-addition}.
-Obecność produktu \refcmpd{glu-cy-condensed} w~reakcji bez żadnego nukleofila, mogącego zastąpić
+Obecność produktu \refcmpd{glu-cp-condensed} w~reakcji bez żadnego nukleofila, mogącego zastąpić
   ligand cyklopentadienylowy w~otoczeniu cyrkonu, sugeruje, że mechanizm tej reakcji jest inny
   niż w~przypadku reakcji ubocznej opisanej przez Ulikowskiego i~Furmana\sidecite{ulikowski16}.
 Można by przypuszczać, że kompleks cyrkonu po redukcji rozpada się samoczynnie, uwalniając
   cyklopentadien, lub, że proces ten następuje pod wpływem \ch{Yb(OTf)3}.
-Takie założenie nasuwa jednak pytanie \--- dlaczego związek~\refcmpd{glu-cy} obserwuję
+Takie założenie nasuwa jednak pytanie \--- dlaczego związek~\refcmpd{glu-cp} obserwuję
   tylko w~reakcji z~dodatkiem cyklopentadienu?
 Inną możliwością jest powstawanie produktu~\refcmpd{glu-cp-condensed} bezpośrednio w~wyniku
   degradacji kompleksu \refcmpd{glu-zr}.
