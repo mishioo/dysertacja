@@ -465,6 +465,7 @@
 % #1 - label of the compound
 % #2 - name of the compound
 \newcommand{\procedure}[2]{%
+  \pagebreak[1]% gentle nudge to move to next page
   \subsubsection[\refcmpd{#1}]{\cmpd[format=\itshape]{#1}: #2}\label{syn:#1}
   \marginnote[1em]{\includesvg{#1}}
 }
