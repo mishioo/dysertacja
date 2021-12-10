@@ -409,7 +409,8 @@ Uzyskany na~drodze tych przemian związek~\refcmpd{glu-tet-tricyclo} posiada trz
 \begin{scheme*}
   \includesvg{ugi-tricyclo}
   \caption{%
-    Synteza nowej klasy alkaloidu \refcmpd{glu-tet-tricyclo} z~iminocukru \refcmpd{glu-tet.est},
+    Synteza związku \refcmpd{glu-tet-tricyclo} o~strukturze podobnej do~alkaloidów 
+      chinolizydynowych z~iminocukru \refcmpd{glu-tet.est},
       otrzymanego przy użyciu opracowanej przeze mnie metodologii.
   }
   \label{sch:ugi-tricyclo}
@@ -447,8 +448,8 @@ Jej produkt wart jest uwagi ze względu na~podobieństwo do~układów stosowanyc
     \label{sch:ugi-diamine}
 \end{scheme}
 
-\subsection{Nietrafione alternatywy}
-Do otrzymania tetrazolowych pochodnych iminocukrów próbowałem podejść również inaczej
+\subsection{Ślepe zaułki}
+Do syntezy tetrazolowych pochodnych iminocukrów próbowałem podejść również inaczej
   niż na~drodze wariantu reakcji Ugiego.
 Pierwsze próby zakładały przeprowadzenie syntezy w~dwóch etapach \--- reduktywnej addycji
   anionu cyjankowego do~aktywowanego laktamu, a~następnie cykloaddycji azydku do~grupy nitrylowej.
@@ -459,15 +460,16 @@ Niestety, jak widać na~\cref{sch:gluco-nitrile}, związek \refcmpd{glu-cn} nie 
 
 \begin{scheme*}
   \includesvg{gluco-nitrile}
-  \caption{
-    Planowana metoda dwuetapowej syntezy niepodstawionej tetrazolowej pochodnej iminocukru
-      okazałą się nieskuteczna ze~względu na~niepowodzenie w~cykloaddycji azydku.
+  \caption[][-1em]{
+    Planowana metoda syntezy w~dwóch etapach \iupac{\N}\-/niepodstawionej tetrazolowej pochodnej
+      iminocukru okazała się nieskuteczna ze~względu na~niepowodzenie w~cykloaddycji azydku.
   }
   \label{sch:gluco-nitrile}
+  \setfloatalignment{b}
 \end{scheme*}
 
 Niepowodzenie w~tej materii było niejakim zaskoczeniem, ponieważ przemiana tego typu jest
-  znana i~wielokrotnie opisana w~literaturze.
+  znana i~wielokrotnie opisana w~literaturze\sidecite{sharpless03}.
 Wypróbowałem różne spośród dostępnych metod prowadzenia reakcji cykloaddycji azydku do~grupy
   nitrylowej, wykorzystujące jako aktywator \ch{Bu2SnO}\sidecite{quinodoz16},
   \ch{Bu4NF}\sidecite{liu16}, \ch{Zn} w~butanolu\sidecite{vorona14}, czy jod\sidecite{das10}.
@@ -476,6 +478,15 @@ Eksperymentowałem również z~próbami wzbudzenia reakcji podwyższoną tempera
 W~obliczu nieskuteczności każdego z~przetestowanych podejść, zrezygnowałem z~dalszych prac
   w~tym kierunku.
 
+\begin{marginscheme}
+  \includesvg{azide-nucleophile}
+  \caption{
+    Dwa przykłady nukleofilowej addycji anionu azydkowego do~iminy, które udało mi się znaleźć.
+    Na~górze addycja w~podwyższonej temperaturze, na~dole addycja katalizowana chinoliną.
+  }
+  \label{sch:azide-nucleophile}
+\end{marginscheme}
+
 Choć było dla mnie jasnym, że szanse powodzenia takiego przedsięwzięcia są nikłe \---
   i~to mówiąc oględnie \--- pozwoliłem sobie rozważyć odwrócenie kolejności etapów tej
   nieudanej syntezy.
@@ -483,18 +494,10 @@ Anion azydkowy nie wykazuje znacznych właściwości nukleofilowych, ale jednak 
   ulegać zarówno klasycznej, jak i~aromatycznej nukleofilowej substytucji\sidecite{brase05}.
 W~literaturze odnalazłem jednak tylko dwa przykłady addycji nukleofilowej \ch{N3-} do~iminy,
   obydwa przebiegające z~niezwykle aktywnym, fluorowanym partnerem\sidecite{burger87,douglas66}.
+Reakcje te przedstawiam na~\cref{sch:azide-nucleophile}. 
 Dla spokoju sumienia przeprowadziłem próbę reduktywnej funkcjonalizacji laktamu aktywowanego
   odczynnikiem Schwartza za~pomocą \ch{TMSN3}.
 Jej wynik, zgodnie z~oczekiwaniami, był negatywny.
-
-\begin{scheme*}[t]
-  \includesvg{azide-nucleophile}
-  \caption[][-6\baselineskip]{
-    Dwa przykłady nukleofilowej addycji anionu azydkowego do~iminy, które udało mi się znaleźć.
-    Na~górze addycja z~przegrupowaniem do~oksadiazolu, na~dole addycja katalizowana chinoliną.
-  }
-  \label{sch:azide-nucleophile}
-\end{scheme*}
 
 \begin{scheme*}[b]
   \includesvg{cp-addition}
@@ -529,18 +532,17 @@ Autorzy postulowali, że następuje to pod wpływem anionu cyjankowego, który z
 Uwolniony cyklopentadien wstępuje następnie w~reakcję z~aktywnym kationem
   iminiowym, w~tym wypadku jako dienofil\sidecite{ulikowski16}.
 
-W osobnym eksperymencie przeprowadziłem próbę funkcjonalizacji laktamu~\refcmpd{glu-lactam},
+W~osobnym eksperymencie przeprowadziłem próbę funkcjonalizacji laktamu~\refcmpd{glu-lactam},
   używając świeżo przedestylowanego cyklopentadienu zamiast indolu.
 Związek~\refcmpd{glu-cp-di} powstał w~tej reakcji w~niewielkiej ilości, otrzymanym
   w~przewadze był produkt reduktywnej nukleofilowej addycji cyklopentadienu do~iminy,
   oznaczony na~\cref{sch:cp-nucleophile} numerem~\refcmpd{glu-cp}.
 Istotną obserwacją jest, że w~tym wypadku powstaje tylko jeden izomer.
-Konfigurację absolutną centrum stereogenicznego w~pozycji 2. ustaliłem za~pomocą
-  eksperymentu \gls{noesy}.
+Konfigurację centrum stereogenicznego w~pozycji 2. ustaliłem za~pomocą eksperymentu \gls{noesy}.
 Nieznana pozostaje konfiguracja centrum znajdującego się w~obrębie pierścienia cyklopentenu,
   oznaczonego gwiazdką na~wspomnianym schemacie.
 Analiza \NMR*{} świadczy, że powstaje tylko tylko jeden diastereomer\sidenote{%
-    Przynajmniej w~granicach dokładności metody pomairu.} ale konfiguracji absolutnej
+    Przynajmniej w~granicach dokładności metody pomiaru.} ale konfiguracji absolutnej
   takiego układu wirującego nie można ustalić na~podstawie efektów \gls{noe}.
 
 \begin{scheme}
@@ -596,7 +598,7 @@ Być może obecność kwasu Lewisa ma wpływ na~ten proces i~promuje rozpad tego
 Choć takie spekulacyjne rozważania są na~pewno interesujące, zaczynają wykraczać poza
   tematykę niniejszej dysertacji.
 Nie przeprowadziłem dodatkowych eksperymentów w~tym kierunku, a~literatura nie dostarcza
-  więcej wskazówek w~tej materii.
+  wielu wskazówek w~tej materii.
 Postawione powyżej pytania pozostaną więc, niestety, bez odpowiedzi.
 Dalsza część mojej pracy skupia się na~zgłębianiu innych zagadnień, związanych z~przebiegiem
   opisanego wcześniej wariantu reakcji azydo-Ugiego.
