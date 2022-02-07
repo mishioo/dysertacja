@@ -99,8 +99,8 @@ Mimo braku jej solidnego poparcia w~dostępnej literaturze, postanowiłem podda�
   \includesvg{nmr-imine-trace}
   \caption{
     Widma \NMR*{} substratu \refcmpd{glu-lactam} oraz jego mieszanin z~odczynnikiem Schwartza:
-      po~homogenizacji roztworu (\refcmpd{glu-lactam} + \schwartz{}) i~po kolejnych trzech dniach
-      (\refcmpd{glu-lactam} + \schwartz{} \SI{3}{\day}).
+      po~homogenizacji roztworu (\refcmpd{glu-lactam} + \refcmpd{w:schwartz}) i~po kolejnych trzech dniach
+      (\refcmpd{glu-lactam} + \refcmpd{w:schwartz}, \SI{3}{\day}).
     Pomiar został wykonany w~szczelnie zamkniętej probówce w~atmosferze argonu,
       w~d\textsubscript{8}\-/\acrshort{thf}.
   }\label{fig:nmr-imine-trace}
@@ -110,41 +110,43 @@ Mimo braku jej solidnego poparcia w~dostępnej literaturze, postanowiłem podda�
   \includesvg{nmr-imine-expand}
   \caption{
     Zbliżenie na~dublet widoczny na~\protect\cref{fig:nmr-imine-trace}, będący najpewniej
-      sygnałem pochodzącym od~iminowego protonu, zaznaczonego kolorem pomarańczowym
-      na~\protect\cref{sch:mechanism-our} (struktura~\refcmpd{mech-3}).
+      sygnałem pochodzącym od~iminowego protonu, zaznaczonego zielonym kolorem w~strukturze
+      na~\protect\cref{sch:zr-to-imine} (struktura~\refcmpd{glu-imine}).
   }\label{fig:nmr-imine-expand}
 \end{marginfigure}
 
 Przeprowadziłem reakcję redukcji modelowego substratu \refcmpd{glu-lactam} za~pomocą odczynnika
-  Schwartza w~szczelnie zamkniętej probówce NMR, w~atmosferze argonu, używając suszonego nad~sitami
-  molekularnymi d\textsubscript{8}\-/\acrshort{thf} jako rozpuszczalnika.
-Zarejestrowałem widmo \NMR*{} po~sklarowaniu się (homogenizacji) mieszaniny, przedstawia
-  je \cref{fig:nmr-imine-trace} (środkowa linia).
-Jest na~nim widoczny jest niewysoki dublet przy przesunięciu chemicznym
-  \SIrange{7.59}{7.60}{\ppm}, nieobecny w~widmie związku \refcmpd{glu-lactam} (górna linia).
-Intensywność tego sygnału nasila się wraz z,~widocznym po~kolejnych 3~dniach, rozkładzie
-  cyrkonowego kompleksu \refcmpd{mech-2} (dolna linia).
+  Schwartza w~szczelnie zamkniętej probówce NMR, w~atmosferze gazu obojętnego, używając
+  suszonego nad~sitami molekularnymi d\textsubscript{8}\-/\acrshort{thf} jako rozpuszczalnika.
+Zarejestrowałem widmo \NMR*{} po~sklarowaniu się (homogenizacji) mieszaniny \--- przedstawia
+  je \cref{fig:nmr-imine-trace} (\refcmpd{glu-lactam} + \refcmpd{w:schwartz}).
+Jest na~nim widoczny niewysoki dublet przy przesunięciu chemicznym \SIrange{7.59}{7.60}{\ppm},
+  nieobecny w~widmie związku \refcmpd{glu-lactam}.
+Intensywność tego sygnału nasila się wraz z~rozkładem cyrkonowego kompleksu \refcmpd{mech-2},
+  wyraźnie widocznym po~kolejnych 3~dniach
+  (\refcmpd{glu-lactam} + \refcmpd{w:schwartz}, \SI{3}{\day}).
 
 \begin{scheme*}
   \includesvg{zr-to-imine}
   \caption{
     Samoistny rozpad cyrkonowego kompleksu o~strukturze~\refcmpd{mech-2} do~iminy
-      na~przykładzie modelowej reakcji z~laktamem \refcmpd{glu-lactam} wywiedzionym z~glukozy.
+      na~przykładzie modelowej reakcji z~wywiedzionym z~glukozy laktamem \refcmpd{glu-lactam}.
     Zaznaczone na~schemacie orientacyjne wartości przesunięć chemicznych pochodzą
       z~cytowanej literatury.
   }\label{sch:zr-to-imine}
   \setfloatalignment{b}
 \end{scheme*}
-% TODO: fix cmpd references to match this scheme
 
-Sygnał ten, widoczny w~powiększeniu na~\cref{fig:nmr-imine-expand}, jest położony przy
+Sygnał ten, pokazany w~powiększeniu na~\cref{fig:nmr-imine-expand}, jest położony przy
   przesunięciu chemicznym, w~pobliżu którego zazwyczaj znajduje się sygnał protonu połączonego
   z~iminowym atomem węgla\sidecite{reich22}.
+Proton ten wyszczególniłem zielonym kolorem w~strukturze
+  \refcmpd{glu-imine} na~\cref{sch:zr-to-imine}.
 Przeprowadzone równolegle eksperymenty, w~których do~mieszaniny po~sklarowaniu dodałem jeszcze
-  \ch{\acrshort{tms}N3} albo izocyjanianu, nie prowadziły do~zarejestrowania sygnału o~większej
-  intensywności\sidenote{
+  \ch{\acrshort{tms}N3} albo izocyjanian, nie prowadziły do~zwiększenia intensywności tego
+  sygnału\sidenote{
     Co więcej, w~przypadku dodatku \ch{\acrshort{tms}N3} do~mieszaniny po~redukcji,
-      intensywność tego sygnału i~nie rośnie z~czasem.
+      intensywność tego sygnału nie rośnie z~czasem.
     Obserwacja ta popiera tezę o~reakcji iminy z~azydkiem, której będę bronił w~kolejnej sekcji.
   }.
 Obserwacje te mogą świadczyć, że wolna imina jest rzeczywiście obecna w~środowisku reakcji,

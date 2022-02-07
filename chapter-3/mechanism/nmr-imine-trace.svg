@@ -13,7 +13,7 @@
    version="1.2"
    id="svg388"
    sodipodi:docname="nmr-imine-trace.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata392">
     <rdf:RDF>
@@ -41,7 +41,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="2.0977867"
-     inkscape:cx="146.12761"
+     inkscape:cx="154.23139"
      inkscape:cy="209.48699"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -449,18 +449,7 @@
          y="340.19919"
          x="681.69244"
          id="tspan1718-8-3"
-         sodipodi:role="line">\refcmpd{glu-lactam} + \schwartz{}</tspan></text>
-    <text
-       id="text1720-7-1-4"
-       y="354.19925"
-       x="681.69244"
-       style="font-style:normal;font-weight:normal;font-size:10.66669178px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000215"
-       xml:space="preserve"><tspan
-         style="text-align:end;text-anchor:end;stroke-width:1.00000215"
-         y="354.19925"
-         x="681.69244"
-         id="tspan1718-8-3-4"
-         sodipodi:role="line">\SI{3}{\day}</tspan></text>
+         sodipodi:role="line">\refcmpd{glu-lactam} + \refcmpd{w:schwartz}, \SI{3}{\day}</tspan></text>
   </g>
   <text
      xml:space="preserve"
@@ -534,7 +523,7 @@
        id="tspan1718-8"
        x="396.02841"
        y="201.2458"
-       style="text-align:end;text-anchor:end;stroke-width:1.00000417">\refcmpd{glu-lactam} + \schwartz{}</tspan></text>
+       style="text-align:end;text-anchor:end;stroke-width:1.00000417">\refcmpd{glu-lactam} + \refcmpd{w:schwartz}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66671276px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none;stroke-width:1.00000417;"
