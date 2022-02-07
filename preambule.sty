@@ -100,6 +100,12 @@
    \usebibmacro{cite}}
   {\multicitedelim}
   {\usebibmacro{cite:postnote}}
+% use to force short citation
+\DeclareCiteCommand{\shortcite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{cite:short}}
+  {\multicitedelim}
+  {\usebibmacro{cite:postnote}}
 % declare \sidecite that enables optional offside parameter in [ ]
 % #1 - offset; #2 - prenote; #3 - postnote, #4 - citation key
 \makeatletter
