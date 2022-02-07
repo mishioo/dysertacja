@@ -152,7 +152,19 @@ Przeprowadzone równolegle eksperymenty, w~których do~mieszaniny po~sklarowaniu
 Obserwacje te mogą świadczyć, że wolna imina jest rzeczywiście obecna w~środowisku reakcji,
   i~że jej tworzenie rzeczywiście następuje w~wyniku samoistnego rozpadu cyrkonowego kompleksu.
 
-% my DFT of spontaneous imine formation
+Przeprowadziłem również wstępne badania \gls{dft} celem dalszej weryfikacji proponowanego
+  mechanizmu.
+Obliczenia wykonałem na~uproszczonym modelu, posługując się oprogramowaniem
+  Gaussian~09\sidecite{gaussian09}.
+Geometrię struktur zaangażowanych w~przebieg symulowanej reakcji optymalizowałem, przyjmując
+  funkcjonał B3LYP i~stosując bazę LANL2DZ do~opisu atomów \ch{Zr}
+  oraz 6-31G(d,p) do~opisu pozostałych atomów.
+Użyłem również empirycznej poprawki dyspersyjnej GD3.
+Zoptymalizowane struktury poddałem powtórnej analizie, używając większej bazy Def2TZVP
+  z~zastosowaniem modelu solwatacyjnego PCM dla \gls{thf}, tak jak został on
+  zaimplementowany w~programie Gaussian~09.
+Raportowane wartości energii to względne wartości sum energii elektronowych i~punktu zerowego,
+  dane w~\si{\kcalpm}.
 
 \begin{scheme}
   \includesvg{calc-imine}
@@ -162,7 +174,18 @@ Obserwacje te mogą świadczyć, że wolna imina jest rzeczywiście obecna w~śr
   }\label{sch:calc-imine}
 \end{scheme}
 
-% ? compare with calculations of iminium cation from Schwartz complex formation ?
+\Cref{sch:calc-imine} porównuje dwie możliwe ścieżki spontanicznego rozkładu cyrkonowego kompleksu
+  \refcmpd{int-1-a} do~wolnej iminy \refcmpd{int-3}.
+W~obliczu nieobecności kwasu Lewisa, który mógłby katalizować tę przemianę,
+  zakładam po~prostu odłączenie \ch{Cp2Zr(OH)Cl} od~początkowej struktury,
+  którą traktuję jako punkt odniesienia.
+Zaznaczona zielonym kolorem ścieżka, biegnąca przez pięcioczłonowy cykliczny stan przejściowy
+  \refcmpd{ts-1-a}, jest zdecydowanie bardziej prawdopodobna niż ścieżka alternatywna.
+Wyraźnie wskazuje na~to bardzo duża różnica w~energii aktywacji, wynosząca ponad \SI{40}{\kcalpm}.
+Bariera energetyczna preferowanej ścieżki, równa \SI{22.6}{\kcalpm}, wydaje się realistyczna.
+Nie jest ona wiele większa niż raportowana przez Wanga~i~in. bariera hydrolizy kompleksu
+  wywiedzionego z~amidu trzeciorzędowego, prowadząca do~utworzenia kationu iminiowego,
+  która jest równa \SI{19.8}{\kcalpm}\sidecite{wang10}.
 
 \subsection{Formowanie się tetrazolu}
 
