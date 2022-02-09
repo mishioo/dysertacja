@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview572"
      showgrid="false"
-     inkscape:zoom="1.552346"
-     inkscape:cx="381.50133"
-     inkscape:cy="178.50132"
+     inkscape:zoom="8.7813951"
+     inkscape:cx="547.38456"
+     inkscape:cy="51.448697"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -234,11 +234,11 @@
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,3.65654,256.282)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#f0e442;stroke:none"
      id="text48">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#f0e442;stroke:none"
        id="path1408"
        inkscape:connector-curvature="0" />
   </g>
@@ -247,43 +247,50 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 72.7435,4086.23 L 82.9479,4086.23 L 82.9479,4223.95 L 72.7435,4229.85 L 72.7435,4086.23 Z "
-     id="path50" />
+     id="path50"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 114.175,4086.23 L 124.379,4086.23 L 124.379,4202.98 L 114.175,4202.98 L 114.175,4086.23 Z "
-     id="path52" />
+     id="path52"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 277.181,3875.75 L 277.181,3887.53 L 157.722,3956.5 L 152.62,3947.66 L 277.181,3875.75 Z "
-     id="path54" />
+     id="path54"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 481.62,3993.78 L 471.415,3999.67 L 277.181,3887.53 L 277.181,3875.75 L 481.62,3993.78 Z "
-     id="path56" />
+     id="path56"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 481.62,4229.85 L 471.415,4223.95 L 471.415,3999.67 L 481.62,3993.78 L 481.62,4229.85 Z "
-     id="path58" />
+     id="path58"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 277.181,4347.88 L 277.181,4336.09 L 471.415,4223.95 L 481.62,4229.85 L 277.181,4347.88 Z "
-     id="path60" />
+     id="path60"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 72.7435,4229.85 L 82.9479,4223.95 L 277.181,4336.09 L 277.181,4347.88 L 72.7435,4229.85 Z "
-     id="path62" />
+     id="path62"
+     style="fill:#f0e442" />
   <text
      x="541.29797"
      y="341.66501"
@@ -291,7 +298,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text64"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$-25.3$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#440154;stroke:none;stroke-width:0.0666667;">$-25.3$</text>
   <text
      x="486.02512"
      y="257.84698"
@@ -299,7 +306,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text66"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$2.0$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#472d7b;stroke:none;stroke-width:0.0666667;">$2.0$</text>
   <text
      x="419.28168"
      y="303.72501"
@@ -307,7 +314,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text68"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$-10.4$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#3b528b;stroke:none;stroke-width:0.0666667;">$-10.4$</text>
   <text
      x="362.0181"
      y="191.03101"
@@ -315,7 +322,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text70"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$24.9$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#2c728e;stroke:none;stroke-width:0.0666667;">$24.9$</text>
   <text
      x="300.39111"
      y="122.089"
@@ -323,7 +330,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text72"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$37.8$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#21918c;stroke:none;stroke-width:0.0666667;">$37.8$</text>
   <text
      x="237.86911"
      y="108.588"
@@ -331,7 +338,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text74"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$41.1$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#28ae80;stroke:none;stroke-width:0.0666667;">$41.1$</text>
   <text
      x="76.961906"
      y="166.431"
@@ -339,7 +346,7 @@
      font-weight="normal"
      font-size="160.12px"
      id="text76"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$25.5$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#addc30;stroke:none;stroke-width:0.0666667;">$25.5$</text>
   <text
      x="18.254309"
      y="222.76601"
@@ -347,55 +354,63 @@
      font-weight="normal"
      font-size="160.12px"
      id="text78"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$11.0$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#f0e442;stroke:none;stroke-width:0.0666667;">$11.0$</text>
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 474.589,3628.69 L 25.5044,3628.69 L 25.5044,3605.69 L 474.589,3605.69 Z "
-     id="path80" />
+     id="path80"
+     style="fill:#f0e442" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1334.67,2783.67 L 885.589,2783.67 L 885.589,2760.67 L 1334.67,2760.67 Z "
-     id="path82" />
+     id="path82"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3762.04,1916.03 L 3312.96,1916.03 L 3312.96,1893.03 L 3762.04,1893.03 Z "
-     id="path84" />
+     id="path84"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4699.87,2118.55 L 4250.79,2118.55 L 4250.79,2095.55 L 4699.87,2095.55 Z "
-     id="path86" />
+     id="path86"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5624.28,3152.67 L 5175.2,3152.67 L 5175.2,3129.67 L 5624.28,3129.67 Z "
-     id="path88" />
+     id="path88"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6472.01,4843.08 L 6022.92,4843.08 L 6022.92,4820.08 L 6472.01,4820.08 Z "
-     id="path90" />
+     id="path90"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7478.45,4154.91 L 7029.36,4154.91 L 7029.36,4131.91 L 7478.45,4131.91 Z "
-     id="path92" />
+     id="path92"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 8308.57,5412.18 L 7859.48,5412.18 L 7859.48,5389.18 L 8308.57,5389.18 Z "
-     id="path94" />
+     id="path94"
+     style="fill:#440154" />
   <path
      stroke="#000000"
      stroke-width="8"
@@ -453,61 +468,65 @@
      id="text108"
      style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$-36.0$</text>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 9265.35,5876.27 L 8816.27,5876.27 L 8816.27,5853.27 L 9265.35,5853.27 Z "
-     id="path110" />
-  <path
-     stroke="#000000"
-     stroke-width="8"
-     fill="none"
+     id="path110"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
-     stroke-dasharray="35"
-     d="M 8308.57,5400.68 L 8816.27,5864.77 "
+     stroke="none"
+     fill="#000000" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5333336;stroke-dasharray:2.3333345"
+     d="M 577.31353 365.00748 L 590.05179 376.65156 "
+     id="path5015" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5333336;stroke-dasharray:2.3333345"
+     d="M 556.2051 345.71221 L 567.41386 355.95817 "
      id="path112" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7458.58,3168.81 L 7453.72,3156.82 L 7531.45,3178.89 L 7531.47,3189.51 L 7458.58,3168.81 L 7458.58,3168.81 Z "
-     id="path114" />
+     id="path114"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7679.59,3220.96 L 7679.59,3231.57 L 7593.7,3207.18 L 7593.69,3196.56 L 7679.59,3220.96 L 7679.59,3220.96 Z "
-     id="path116" />
+     id="path116"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3818.64,1223.34 L 3787.35,1178.5 L 3703.51,1021.83 L 3747.33,1003.18 L 3818.64,1223.34 Z "
-     id="path118" />
+     id="path118"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3638.86,1047.64 L 3644.61,1039 L 3787.35,1178.5 L 3818.64,1223.34 L 3638.86,1047.64 Z "
-     id="path120" />
+     id="path120"
+     style="fill:#28ae80" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,259.643,47.1001)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
      id="text122">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1411"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1413"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1415"
        inkscape:connector-curvature="0" />
   </g>
@@ -516,45 +535,51 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3867.85,864.649 L 3870.49,874.506 L 3764.37,902.942 L 3761.73,893.085 L 3867.85,864.649 Z "
-     id="path124" />
+     id="path124"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3230.37,863.466 L 3235.46,876.707 L 3115.32,1134.86 L 3088.49,1168.32 L 3230.37,863.466 Z "
-     id="path126" />
+     id="path126"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3644.61,1039 L 3638.86,1047.64 L 3536.75,1004.38 L 3555.24,1001.13 L 3644.61,1039 L 3644.61,1039 Z "
-     id="path128" />
+     id="path128"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3235.46,876.707 L 3230.37,863.466 L 3300.52,893.192 L 3300.26,904.167 L 3235.46,876.707 L 3235.46,876.707 Z "
-     id="path130" />
+     id="path130"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3273.43,1029.48 L 3271.66,1019.43 L 3614.95,959.045 L 3616.72,969.096 L 3273.43,1029.48 Z "
-     id="path132" />
+     id="path132"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3331.23,953.254 L 3329.46,943.204 L 3603.68,894.972 L 3605.45,905.022 L 3331.23,953.254 Z "
-     id="path134" />
+     id="path134"
+     style="fill:#28ae80" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,244.169,51.0855)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
      id="text136">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1418"
        inkscape:connector-curvature="0" />
   </g>
@@ -563,34 +588,38 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3088.49,1168.32 L 3115.32,1134.86 L 3325.11,953.862 L 3334.08,1006.86 L 3088.49,1168.32 Z "
-     id="path138" />
+     id="path138"
+     style="fill:#28ae80" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3634.79,761.83 A 51.0818,51.0818 0 1 0 3736.95,761.83A 51.0818,51.0818 0 1 0 3634.79,761.83Z "
-     id="path140" />
+     id="path140"
+     style="stroke:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3657.1,757.497 L 3713.97,757.497 L 3713.97,765.497 L 3657.1,765.497 Z "
-     id="path142" />
+     id="path142"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3689.54,733.062 L 3689.54,789.933 L 3681.54,789.933 L 3681.54,733.062 Z "
-     id="path144" />
+     id="path144"
+     style="fill:#28ae80" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,231.79,22.8902)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
      id="text146">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1421"
        inkscape:connector-curvature="0" />
   </g>
@@ -599,37 +628,40 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3394.56,535.333 L 3401.77,542.549 L 3311.4,632.921 L 3304.19,625.705 L 3394.56,535.333 Z "
-     id="path148" />
+     id="path148"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3423.86,564.629 L 3431.07,571.845 L 3342.14,660.772 L 3332.04,656.447 L 3423.86,564.629 Z "
-     id="path150" />
+     id="path150"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3453.15,593.926 L 3460.37,601.141 L 3369.99,691.514 L 3362.78,684.298 L 3453.15,593.926 Z "
-     id="path152" />
+     id="path152"
+     style="fill:#28ae80" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,242.94,12.0397)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
      id="text154">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1424"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1426"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#28ae80;stroke:none"
        id="path1428"
        inkscape:connector-curvature="0" />
   </g>
@@ -638,102 +670,114 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3588.86,399.623 L 3596.08,406.838 L 3568.84,434.076 L 3561.62,426.86 L 3588.86,399.623 Z "
-     id="path156" />
+     id="path156"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3334.08,1006.86 L 3325.11,953.862 L 3326.09,911.958 L 3336.29,912.196 L 3334.08,1006.86 Z "
-     id="path158" />
+     id="path158"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3337.26,870.292 L 3327.06,870.054 L 3328.04,828.15 L 3338.24,828.388 L 3337.26,870.292 Z "
-     id="path160" />
+     id="path160"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3339.22,786.484 L 3329.01,786.246 L 3329.99,744.342 L 3340.19,744.58 L 3339.22,786.484 Z "
-     id="path162" />
+     id="path162"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 3341.17,702.676 L 3330.97,702.438 L 3332.04,656.447 L 3342.14,660.772 L 3341.17,702.676 Z "
-     id="path164" />
+     id="path164"
+     style="fill:#28ae80" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5229.53,1177.62 L 5252.46,1180.29 L 5048.83,1274.87 L 5032.61,1230.1 L 5229.53,1177.62 Z "
-     id="path166" />
+     id="path166"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4369.48,1178.75 L 4343.07,1181.05 L 4621.35,1010.98 L 4618.23,1040.74 L 4624.02,1064.19 L 4369.48,1178.75 Z "
-     id="path168" />
+     id="path168"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5027.02,1046.67 L 5027.47,1034.81 L 5252.46,1180.29 L 5229.53,1177.62 L 5027.02,1046.67 Z "
-     id="path170" />
+     id="path170"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4617.7,1257.77 L 4618.76,1268.81 L 4343.07,1181.05 L 4369.48,1178.75 L 4617.7,1257.77 Z "
-     id="path172" />
+     id="path172"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4618.76,1268.81 L 4617.7,1257.77 L 4751.14,1185.16 L 4760.47,1191.71 L 4618.76,1268.81 L 4618.76,1268.81 Z "
-     id="path174" />
+     id="path174"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5027.47,1034.81 L 5027.02,1046.67 L 4842.59,1147.03 L 4833.26,1140.48 L 5027.47,1034.81 L 5027.47,1034.81 Z "
-     id="path176" />
+     id="path176"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4624.02,1064.19 L 4618.23,1040.74 L 4627.23,1027.66 L 4895.83,1216.15 L 4877.59,1242.14 L 4624.02,1064.19 Z "
-     id="path178" />
+     id="path178"
+     style="fill:#21918c" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,329.206,75.2558)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
      id="text180">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1431"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,343.141,82.955)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
      id="text182">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1434"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1436"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1438"
        inkscape:connector-curvature="0" />
   </g>
@@ -742,34 +786,38 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5086.19,1347.68 L 5081.09,1356.52 L 5041.05,1333.4 L 5046.16,1324.56 L 5086.19,1347.68 Z "
-     id="path184" />
+     id="path184"
+     style="fill:#21918c" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4784.79,528.359 A 51.0818,51.0818 0 1 0 4886.96,528.359A 51.0818,51.0818 0 1 0 4784.79,528.359Z "
-     id="path186" />
+     id="path186"
+     style="stroke:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4807.11,524.025 L 4863.98,524.025 L 4863.98,532.025 L 4807.11,532.025 Z "
-     id="path188" />
+     id="path188"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4839.54,499.59 L 4839.54,556.461 L 4831.54,556.461 L 4831.54,499.59 Z "
-     id="path190" />
+     id="path190"
+     style="fill:#21918c" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,320.836,35.5207)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
      id="text192">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1441"
        inkscape:connector-curvature="0" />
   </g>
@@ -778,37 +826,40 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4730.25,724.791 L 4737.47,732.007 L 4647.1,822.379 L 4639.88,815.163 L 4730.25,724.791 Z "
-     id="path194" />
+     id="path194"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4759.55,754.087 L 4766.77,761.303 L 4677.33,850.736 L 4668.24,845.399 L 4759.55,754.087 Z "
-     id="path196" />
+     id="path196"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4788.85,783.383 L 4796.06,790.599 L 4705.69,880.971 L 4698.47,873.756 L 4788.85,783.383 Z "
-     id="path198" />
+     id="path198"
+     style="fill:#21918c" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,331.987,24.6703)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
      id="text200">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1444"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1446"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#21918c;stroke:none"
        id="path1448"
        inkscape:connector-curvature="0" />
   </g>
@@ -817,39 +868,44 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4924.56,589.08 L 4931.77,596.296 L 4904.53,623.534 L 4897.32,616.318 L 4924.56,589.08 Z "
-     id="path202" />
+     id="path202"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4627.23,1027.66 L 4618.23,1040.74 L 4621.35,1010.98 L 4668.24,845.399 L 4677.33,850.736 L 4627.23,1027.66 Z "
-     id="path204" />
+     id="path204"
+     style="fill:#21918c" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7557.28,3072.15 L 7562.38,3069.2 L 7567.49,3072.13 L 7567.84,3295.51 L 7562.75,3299.37 L 7557.64,3295.52 L 7557.28,3072.15 Z "
-     id="path206" />
+     id="path206"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7421.95,2611.08 L 7430.78,2616.18 L 7412.48,2647.89 L 7403.64,2642.79 L 7421.95,2611.08 Z "
-     id="path208" />
+     id="path208"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7457.95,2631.87 L 7466.79,2636.97 L 7448.48,2668.68 L 7439.64,2663.58 L 7457.95,2631.87 Z "
-     id="path210" />
+     id="path210"
+     style="fill:#472d7b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,506.613,401.6)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text212">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1451"
        inkscape:connector-curvature="0" />
   </g>
@@ -858,61 +914,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7188.14,6167.92 L 7166.77,6184.64 L 7289.72,5970.47 L 7294.6,5982.47 L 7188.14,6167.92 Z "
-     id="path214" />
+     id="path214"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7393.65,6109.18 L 7398.76,6113.03 L 7398.76,6118.33 L 7166.77,6184.64 L 7188.14,6167.92 L 7393.65,6109.18 Z "
-     id="path216" />
+     id="path216"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7545.7,6149.47 L 7542.91,6159.28 L 7398.76,6118.33 L 7398.76,6113.03 L 7403.86,6109.17 L 7545.7,6149.47 Z "
-     id="path218" />
+     id="path218"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7726.59,5985.51 L 7748,5968.85 L 7672.17,6100.15 L 7663.34,6095.04 L 7726.59,5985.51 Z "
-     id="path220" />
+     id="path220"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7515.59,6045.23 L 7515.6,6034.62 L 7748,5968.85 L 7726.59,5985.51 L 7515.59,6045.23 Z "
-     id="path222" />
+     id="path222"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7294.6,5982.47 L 7289.72,5970.47 L 7367.65,5992.61 L 7367.65,6003.22 L 7294.6,5982.47 L 7294.6,5982.47 Z "
-     id="path224" />
+     id="path224"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7515.6,6034.62 L 7515.59,6045.23 L 7429.86,6020.88 L 7429.86,6010.27 L 7515.6,6034.62 L 7515.6,6034.62 Z "
-     id="path226" />
+     id="path226"
+     style="fill:#440154" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,507.213,416.998)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text228">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1454"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1456"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1458"
        inkscape:connector-curvature="0" />
   </g>
@@ -921,48 +984,49 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7627.29,6331.64 L 7617.08,6331.64 L 7617.08,6266 L 7627.29,6266 L 7627.29,6331.64 Z "
-     id="path230" />
+     id="path230"
+     style="fill:#440154" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,504.131,373.004)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text232">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1461"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,499.39,358.41)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text234">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1464"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,484.045,358.41)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text236">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1467"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,479.303,373.004)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text238">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1470"
        inkscape:connector-curvature="0" />
   </g>
@@ -971,61 +1035,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7501.61,5801.82 L 7507.61,5810.07 L 7403.86,5885.46 L 7398.76,5882.86 L 7398.76,5876.55 L 7501.61,5801.82 Z "
-     id="path240" />
+     id="path240"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7539.94,5625.47 L 7549.64,5622.32 L 7562.99,5663.41 L 7553.29,5666.56 L 7539.94,5625.47 Z "
-     id="path242" />
+     id="path242"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7354.17,5533.76 L 7354.17,5523.55 L 7443.34,5523.55 L 7443.34,5533.76 L 7354.17,5533.76 Z "
-     id="path244" />
+     id="path244"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7354.17,5575.19 L 7354.17,5564.98 L 7443.34,5564.98 L 7443.34,5575.19 L 7354.17,5575.19 Z "
-     id="path246" />
+     id="path246"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7244.23,5666.56 L 7234.52,5663.41 L 7247.87,5622.32 L 7257.58,5625.47 L 7244.23,5666.56 Z "
-     id="path248" />
+     id="path248"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7398.76,5876.55 L 7398.76,5882.86 L 7393.65,5885.46 L 7289.9,5810.07 L 7295.9,5801.82 L 7398.76,5876.55 Z "
-     id="path250" />
+     id="path250"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7401.76,5827.52 L 7395.76,5835.77 L 7314.25,5776.55 L 7320.25,5768.3 L 7401.76,5827.52 Z "
-     id="path252" />
+     id="path252"
+     style="fill:#440154" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,519.025,377.746)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
      id="text254">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1473"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1475"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#440154;stroke:none"
        id="path1477"
        inkscape:connector-curvature="0" />
   </g>
@@ -1034,26 +1105,27 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7731.17,5789.7 L 7728.02,5799.41 L 7662.04,5777.97 L 7665.19,5768.26 L 7731.17,5789.7 Z "
-     id="path256" />
+     id="path256"
+     style="fill:#440154" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,496.999,158.115)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text258">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1480"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,517.545,214.023)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text260">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1483"
        inkscape:connector-curvature="0" />
   </g>
@@ -1062,61 +1134,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7351.39,3354.47 L 7329.94,3371.21 L 7453.72,3156.82 L 7458.58,3168.81 L 7351.39,3354.47 Z "
-     id="path262" />
+     id="path262"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7557.64,3295.52 L 7562.75,3299.37 L 7562.75,3304.67 L 7329.94,3371.21 L 7351.39,3354.47 L 7557.64,3295.52 Z "
-     id="path264" />
+     id="path264"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7709.69,3335.81 L 7706.9,3345.62 L 7562.75,3304.67 L 7562.75,3299.37 L 7567.84,3295.51 L 7709.69,3335.81 Z "
-     id="path266" />
+     id="path266"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7890.58,3171.85 L 7911.99,3155.19 L 7836.16,3286.49 L 7827.33,3281.38 L 7890.58,3171.85 Z "
-     id="path268" />
+     id="path268"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7679.59,3231.57 L 7679.59,3220.96 L 7911.99,3155.19 L 7890.58,3171.85 L 7679.59,3231.57 Z "
-     id="path270" />
+     id="path270"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7357.54,2813.76 L 7367.74,2813.74 L 7367.85,2878.92 L 7357.64,2878.93 L 7357.54,2813.76 Z "
-     id="path272" />
+     id="path272"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7398.97,2813.69 L 7409.17,2813.68 L 7409.28,2878.85 L 7399.07,2878.87 L 7398.97,2813.69 Z "
-     id="path274" />
+     id="path274"
+     style="fill:#472d7b" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,518.145,229.421)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text276">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1486"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1488"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1490"
        inkscape:connector-curvature="0" />
   </g>
@@ -1125,15 +1204,16 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7791.28,3517.98 L 7781.08,3517.98 L 7781.08,3452.34 L 7791.28,3452.34 L 7791.28,3517.98 Z "
-     id="path278" />
+     id="path278"
+     style="fill:#472d7b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,489.3,171.45)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text280">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1493"
        inkscape:connector-curvature="0" />
   </g>
@@ -1142,25 +1222,26 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7889.61,3021.58 L 7884.52,3030.43 L 7841.11,3005.45 L 7846.2,2996.61 L 7889.61,3021.58 Z "
-     id="path282" />
+     id="path282"
+     style="fill:#472d7b" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,529.504,194.404)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text284">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1496"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1498"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1500"
        inkscape:connector-curvature="0" />
   </g>
@@ -1169,38 +1250,41 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7562.37,3063.3 L 7562.38,3069.2 L 7557.28,3072.15 L 7442.44,3006.09 L 7447.53,2997.24 L 7562.37,3063.3 Z "
-     id="path286" />
+     id="path286"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7676.49,2997.18 L 7681.6,3006.01 L 7567.49,3072.13 L 7562.38,3069.2 L 7562.37,3063.3 L 7676.49,2997.18 Z "
-     id="path288" />
+     id="path288"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7655.72,2961.33 L 7660.83,2970.16 L 7564.86,3025.77 L 7559.75,3016.94 L 7655.72,2961.33 Z "
-     id="path290" />
+     id="path290"
+     style="fill:#472d7b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,489.324,186.795)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text292">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1503"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,515.902,186.753)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
      id="text294">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#472d7b;stroke:none"
        id="path1506"
        inkscape:connector-curvature="0" />
   </g>
@@ -1210,21 +1294,23 @@
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7538.45,2413.34 A 51.0818,51.0818 0 1 0 7640.62,2413.34A 51.0818,51.0818 0 1 0 7538.45,2413.34Z "
-     id="path296" />
+     id="path296"
+     style="stroke:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7560.77,2409.01 L 7617.64,2409.01 L 7617.64,2417.01 L 7560.77,2417.01 Z "
-     id="path298" />
+     id="path298"
+     style="fill:#472d7b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,356.113,320.134)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text300">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1509"
        inkscape:connector-curvature="0" />
   </g>
@@ -1233,61 +1319,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4931.47,4946.14 L 4910.02,4962.88 L 5033.39,4749.19 L 5038.25,4761.18 L 4931.47,4946.14 Z "
-     id="path302" />
+     id="path302"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5136.94,4887.41 L 5142.05,4891.26 L 5142.05,4896.56 L 4910.02,4962.88 L 4931.47,4946.14 L 5136.94,4887.41 Z "
-     id="path304" />
+     id="path304"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5288.2,4927.47 L 5285.41,4937.29 L 5142.05,4896.56 L 5142.05,4891.26 L 5147.14,4887.4 L 5288.2,4927.47 Z "
-     id="path306" />
+     id="path306"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5469.07,4763.55 L 5490.52,4746.81 L 5414.67,4878.15 L 5405.84,4873.05 L 5469.07,4763.55 Z "
-     id="path308" />
+     id="path308"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5258.48,4823.72 L 5258.47,4813.11 L 5490.52,4746.81 L 5469.07,4763.55 L 5258.48,4823.72 Z "
-     id="path310" />
+     id="path310"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5038.25,4761.18 L 5033.39,4749.19 L 5110.75,4771.16 L 5110.77,4781.77 L 5038.25,4761.18 L 5038.25,4761.18 Z "
-     id="path312" />
+     id="path312"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5258.47,4813.11 L 5258.48,4823.72 L 5173,4799.44 L 5172.99,4788.83 L 5258.47,4813.11 L 5258.47,4813.11 Z "
-     id="path314" />
+     id="path314"
+     style="fill:#3b528b" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,356.713,335.478)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text316">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1512"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1514"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1516"
        inkscape:connector-curvature="0" />
   </g>
@@ -1296,48 +1389,49 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5369.79,5108.83 L 5359.58,5108.83 L 5359.58,5044.01 L 5369.79,5044.01 L 5369.79,5108.83 Z "
-     id="path318" />
+     id="path318"
+     style="fill:#3b528b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,354.522,292.879)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text320">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1519"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="NH"
      transform="matrix(0.0666667,0,0,0.0666667,327.896,262.231)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text322">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1522"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,327.92,277.576)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text324">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1527"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,327.944,292.921)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text326">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1530"
        inkscape:connector-curvature="0" />
   </g>
@@ -1346,61 +1440,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5255.79,4589.07 L 5260.9,4597.9 L 5146.79,4664.02 L 5141.68,4661.08 L 5141.67,4655.19 L 5255.79,4589.07 Z "
-     id="path328" />
+     id="path328"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5276.56,4624.91 L 5281.67,4633.74 L 5185.71,4689.35 L 5180.59,4680.52 L 5276.56,4624.91 Z "
-     id="path330" />
+     id="path330"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4967.49,4240.6 L 4957.29,4240.62 L 4957.19,4175.44 L 4967.39,4175.43 L 4967.49,4240.6 Z "
-     id="path332" />
+     id="path332"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4926.06,4240.67 L 4915.86,4240.68 L 4915.75,4175.51 L 4925.96,4175.49 L 4926.06,4240.67 Z "
-     id="path334" />
+     id="path334"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4967.86,4470.77 L 4957.66,4470.79 L 4957.55,4405.62 L 4967.76,4405.6 L 4967.86,4470.77 Z "
-     id="path336" />
+     id="path336"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 4926.43,4470.84 L 4916.22,4470.86 L 4916.12,4405.68 L 4926.32,4405.67 L 4926.43,4470.84 Z "
-     id="path338" />
+     id="path338"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5141.67,4655.19 L 5141.68,4661.08 L 5136.58,4664.04 L 5021.74,4597.98 L 5026.83,4589.13 L 5141.67,4655.19 Z "
-     id="path340" />
+     id="path340"
+     style="fill:#3b528b" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,368.124,300.53)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
      id="text342">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1533"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1535"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#3b528b;stroke:none"
        id="path1537"
        inkscape:connector-curvature="0" />
   </g>
@@ -1409,102 +1510,117 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5468.91,4613.47 L 5463.82,4622.31 L 5420.41,4597.34 L 5425.5,4588.5 L 5468.91,4613.47 Z "
-     id="path344" />
+     id="path344"
+     style="fill:#3b528b" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5002.26,4205.26 A 51.0818,51.0818 0 1 0 5104.43,4205.26A 51.0818,51.0818 0 1 0 5002.26,4205.26Z "
-     id="path346" />
+     id="path346"
+     style="stroke:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5024.58,4200.93 L 5081.45,4200.93 L 5081.45,4208.93 L 5024.58,4208.93 Z "
-     id="path348" />
+     id="path348"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5057.01,4176.49 L 5057.01,4233.36 L 5049.01,4233.36 L 5049.01,4176.49 Z "
-     id="path350" />
+     id="path350"
+     style="fill:#3b528b" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5001.9,3975.09 A 51.0818,51.0818 0 1 0 5104.06,3975.09A 51.0818,51.0818 0 1 0 5001.9,3975.09Z "
-     id="path352" />
+     id="path352"
+     style="stroke:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5024.21,3970.75 L 5081.08,3970.75 L 5081.08,3978.75 L 5024.21,3978.75 Z "
-     id="path354" />
+     id="path354"
+     style="fill:#3b528b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5136.58,4664.04 L 5141.68,4661.08 L 5146.79,4664.02 L 5147.14,4887.4 L 5142.05,4891.26 L 5136.94,4887.41 L 5136.58,4664.04 Z "
-     id="path356" />
+     id="path356"
+     style="fill:#3b528b" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7311.75,2567.3 A 51.0818,51.0818 0 1 0 7413.91,2567.3A 51.0818,51.0818 0 1 0 7311.75,2567.3Z "
-     id="path358" />
+     id="path358"
+     style="stroke:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7334.06,2562.97 L 7390.93,2562.97 L 7390.93,2570.97 L 7334.06,2570.97 Z "
-     id="path360" />
+     id="path360"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7366.5,2538.53 L 7366.5,2595.4 L 7358.5,2595.4 L 7358.5,2538.53 Z "
-     id="path362" />
+     id="path362"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7393.65,5885.46 L 7398.76,5882.86 L 7403.86,5885.46 L 7403.86,6109.17 L 7398.76,6113.03 L 7393.65,6109.18 L 7393.65,5885.46 Z "
-     id="path364" />
+     id="path364"
+     style="fill:#440154" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7715.21,2874.35 L 7706.69,2879.97 L 7681.56,2841.89 L 7690.07,2836.27 L 7715.21,2874.35 Z "
-     id="path366" />
+     id="path366"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7664.94,2798.19 L 7656.42,2803.81 L 7631.29,2765.73 L 7639.8,2760.11 L 7664.94,2798.19 Z "
-     id="path368" />
+     id="path368"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7614.67,2722.03 L 7606.15,2727.66 L 7581.02,2689.58 L 7589.53,2683.96 L 7614.67,2722.03 Z "
-     id="path370" />
+     id="path370"
+     style="fill:#472d7b" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 7564.4,2645.88 L 7555.88,2651.5 L 7530.75,2613.42 L 7539.27,2607.8 L 7564.4,2645.88 Z "
-     id="path372" />
+     id="path372"
+     style="fill:#472d7b" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,426.664,169.622)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text374">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1540"
        inkscape:connector-curvature="0" />
   </g>
@@ -1513,61 +1629,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5989.74,2688.46 L 5968.29,2705.2 L 6091.67,2491.51 L 6096.53,2503.5 L 5989.74,2688.46 Z "
-     id="path376" />
+     id="path376"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6195.21,2629.73 L 6200.32,2633.58 L 6200.32,2638.88 L 5968.29,2705.2 L 5989.74,2688.46 L 6195.21,2629.73 Z "
-     id="path378" />
+     id="path378"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6346.47,2669.79 L 6343.68,2679.61 L 6200.32,2638.88 L 6200.32,2633.58 L 6205.42,2629.72 L 6346.47,2669.79 Z "
-     id="path380" />
+     id="path380"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6527.34,2505.88 L 6548.79,2489.13 L 6472.95,2620.47 L 6464.11,2615.37 L 6527.34,2505.88 Z "
-     id="path382" />
+     id="path382"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6316.75,2566.04 L 6316.74,2555.43 L 6548.79,2489.13 L 6527.34,2505.88 L 6316.75,2566.04 Z "
-     id="path384" />
+     id="path384"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6096.53,2503.5 L 6091.67,2491.51 L 6169.03,2513.48 L 6169.04,2524.09 L 6096.53,2503.5 L 6096.53,2503.5 Z "
-     id="path386" />
+     id="path386"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6316.74,2555.43 L 6316.75,2566.04 L 6231.28,2541.76 L 6231.26,2531.15 L 6316.74,2555.43 L 6316.74,2555.43 Z "
-     id="path388" />
+     id="path388"
+     style="fill:#2c728e" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,427.264,184.966)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text390">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1543"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1545"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1547"
        inkscape:connector-curvature="0" />
   </g>
@@ -1576,48 +1699,49 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6428.06,2851.15 L 6417.86,2851.15 L 6417.86,2786.33 L 6428.06,2786.33 L 6428.06,2851.15 Z "
-     id="path392" />
+     id="path392"
+     style="fill:#2c728e" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,422.63,139.193)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text394">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1550"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="NH"
      transform="matrix(0.0666667,0,0,0.0666667,394.17,109.581)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text396">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1553"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,394.194,124.926)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text398">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1558"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,394.219,140.27)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text400">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1561"
        inkscape:connector-curvature="0" />
   </g>
@@ -1626,61 +1750,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6257.21,2280.05 L 6264.44,2287.26 L 6174.23,2377.76 L 6167,2370.55 L 6257.21,2280.05 Z "
-     id="path402" />
+     id="path402"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6286.55,2309.3 L 6293.78,2316.51 L 6205.06,2405.51 L 6199.95,2403.41 L 6199.07,2397.07 L 6286.55,2309.3 Z "
-     id="path404" />
+     id="path404"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6315.9,2338.55 L 6323.12,2345.76 L 6232.91,2436.26 L 6225.68,2429.05 L 6315.9,2338.55 Z "
-     id="path406" />
+     id="path406"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5961.61,1950.84 L 5951.4,1950.86 L 5951.3,1885.69 L 5961.51,1885.67 L 5961.61,1950.84 Z "
-     id="path408" />
+     id="path408"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5920.18,1950.91 L 5909.97,1950.93 L 5909.87,1885.75 L 5920.07,1885.74 L 5920.18,1950.91 Z "
-     id="path410" />
+     id="path410"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5961.97,2181.02 L 5951.77,2181.03 L 5951.67,2115.86 L 5961.87,2115.84 L 5961.97,2181.02 Z "
-     id="path412" />
+     id="path412"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5920.54,2181.08 L 5910.34,2181.1 L 5910.24,2115.92 L 5920.44,2115.91 L 5920.54,2181.08 Z "
-     id="path414" />
+     id="path414"
+     style="fill:#2c728e" />
   <g
      aria-label="PMP"
      transform="matrix(0.0666667,0,0,0.0666667,437.804,135.207)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
      id="text416">
     <path
        d="m 12.34375,0 v -114.53125 h 43.203125 q 11.40625,0 17.421875,1.09375 8.4375,1.40625 14.140625,5.39062 5.703125,3.90625 9.140625,11.01563 3.515625,7.109375 3.515625,15.625 0,14.609375 -9.296875,24.765625 Q 81.171875,-46.5625 56.875,-46.5625 H 27.5 V 0 Z M 27.5,-60.078125 h 29.609375 q 14.6875,0 20.859375,-5.46875 6.171875,-5.46875 6.171875,-15.390625 0,-7.1875 -3.671875,-12.265625 Q 76.875,-98.359375 70.9375,-100 q -3.828125,-1.01563 -14.140625,-1.01563 H 27.5 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1564"
        inkscape:connector-curvature="0" />
     <path
        d="m 118.75,0 v -114.53125 h 22.8125 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 213.4375 V -95.859375 L 180.15625,0 h -13.67188 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1566"
        inkscape:connector-curvature="0" />
     <path
        d="m 252.65625,0 v -114.53125 h 43.20312 q 11.40625,0 17.42188,1.09375 8.4375,1.40625 14.14062,5.39062 5.70313,3.90625 9.14063,11.01563 3.51562,7.109375 3.51562,15.625 0,14.609375 -9.29687,24.765625 -9.29688,10.078125 -33.59375,10.078125 h -29.375 V 0 Z m 15.15625,-60.078125 h 29.60937 q 14.6875,0 20.85938,-5.46875 6.17187,-5.46875 6.17187,-15.390625 0,-7.1875 -3.67187,-12.265625 Q 317.1875,-98.359375 311.25,-100 q -3.82813,-1.01563 -14.14063,-1.01563 H 267.8125 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#2c728e;stroke:none"
        id="path1568"
        inkscape:connector-curvature="0" />
   </g>
@@ -1689,77 +1820,89 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6511.18,2195.26 L 6513.82,2205.12 L 6441.28,2224.55 L 6438.64,2214.69 L 6511.18,2195.26 Z "
-     id="path418" />
+     id="path418"
+     style="fill:#2c728e" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5996.38,1915.5 A 51.0818,51.0818 0 1 0 6098.54,1915.5A 51.0818,51.0818 0 1 0 5996.38,1915.5Z "
-     id="path420" />
+     id="path420"
+     style="stroke:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6018.69,1911.17 L 6075.56,1911.17 L 6075.56,1919.17 L 6018.69,1919.17 Z "
-     id="path422" />
+     id="path422"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6051.13,1886.73 L 6051.13,1943.6 L 6043.13,1943.6 L 6043.13,1886.73 Z "
-     id="path424" />
+     id="path424"
+     style="fill:#2c728e" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5996.01,1685.33 A 51.0818,51.0818 0 1 0 6098.18,1685.33A 51.0818,51.0818 0 1 0 5996.01,1685.33Z "
-     id="path426" />
+     id="path426"
+     style="stroke:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6018.33,1680.99 L 6075.2,1680.99 L 6075.2,1688.99 L 6018.33,1688.99 Z "
-     id="path428" />
+     id="path428"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6194.86,2406.41 L 6199.95,2403.41 L 6205.06,2405.51 L 6205.42,2629.72 L 6200.32,2633.58 L 6195.21,2629.73 L 6194.86,2406.41 Z "
-     id="path430" />
+     id="path430"
+     style="fill:#2c728e" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 5996.75,2145.67 A 51.0818,51.0818 0 1 0 6098.91,2145.67A 51.0818,51.0818 0 1 0 5996.75,2145.67Z "
-     id="path432" />
+     id="path432"
+     style="stroke:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6019.06,2141.34 L 6075.93,2141.34 L 6075.93,2149.34 L 6019.06,2149.34 Z "
-     id="path434" />
+     id="path434"
+     style="fill:#2c728e" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6311.7,2083.44 A 51.0818,51.0818 0 1 0 6413.87,2083.44A 51.0818,51.0818 0 1 0 6311.7,2083.44Z "
-     id="path436" />
+     id="path436"
+     style="stroke:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6334.02,2079.11 L 6390.89,2079.11 L 6390.89,2087.11 L 6334.02,2087.11 Z "
-     id="path438" />
+     id="path438"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6366.45,2054.67 L 6366.45,2111.54 L 6358.45,2111.54 L 6358.45,2054.67 Z "
-     id="path440" />
+     id="path440"
+     style="fill:#2c728e" />
   <text
      x="158.17311"
      y="144.69501"
@@ -1767,21 +1910,22 @@
      font-weight="normal"
      font-size="160.12px"
      id="text442"
-     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.0666667">$32.2$</text>
+     style="font-style:normal;font-weight:normal;font-size:10.67467213px;font-family:Arial;text-align:center;text-anchor:middle;fill:#5ec962;stroke:none;stroke-width:0.0666667;">$32.2$</text>
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2560.35,2457.63 L 2111.27,2457.63 L 2111.27,2434.63 L 2560.35,2434.63 Z "
-     id="path444" />
+     id="path444"
+     style="fill:#5ec962" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,55.0082,117.397)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text446">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1571"
        inkscape:connector-curvature="0" />
   </g>
@@ -1790,78 +1934,85 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 843.019,2002.95 L 853.223,2002.95 L 853.223,2140.68 L 843.019,2146.57 L 843.019,2002.95 Z "
-     id="path448" />
+     id="path448"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 884.45,2002.95 L 894.654,2002.95 L 894.654,2119.7 L 884.45,2119.7 L 884.45,2002.95 Z "
-     id="path450" />
+     id="path450"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1047.46,1792.47 L 1047.46,1804.25 L 927.997,1873.22 L 922.895,1864.39 L 1047.46,1792.47 Z "
-     id="path452" />
+     id="path452"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1251.89,1910.5 L 1241.69,1916.39 L 1047.46,1804.25 L 1047.46,1792.47 L 1251.89,1910.5 Z "
-     id="path454" />
+     id="path454"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1251.89,2146.57 L 1241.69,2140.68 L 1241.69,1916.39 L 1251.89,1910.5 L 1251.89,2146.57 Z "
-     id="path456" />
+     id="path456"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1047.46,2264.6 L 1047.46,2252.82 L 1241.69,2140.68 L 1251.89,2146.57 L 1047.46,2264.6 Z "
-     id="path458" />
+     id="path458"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 843.019,2146.57 L 853.223,2140.68 L 1047.46,2252.82 L 1047.46,2264.6 L 843.019,2146.57 Z "
-     id="path460" />
+     id="path460"
+     style="fill:#addc30" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,12.7211,88.8744)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text462">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1574"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="3"
      transform="matrix(0.0666667,0,0,0.0666667,20.4242,91.1411)"
-     style="font-style:normal;font-weight:normal;font-size:120px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:120px;font-family:Arial;fill:#addc30;stroke:none"
      id="text464">
     <path
        d="m 5.0390625,-22.675781 10.5468755,-1.40625 q 1.816406,8.964843 6.152343,12.949218 4.394531,3.9257818 10.664063,3.9257818 7.441406,0 12.539062,-5.1562498 5.15625,-5.15625 5.15625,-12.773438 0,-7.265625 -4.746094,-11.953125 -4.746093,-4.746093 -12.070312,-4.746093 -2.988281,0 -7.441406,1.171875 l 1.171875,-9.257813 q 1.054687,0.117188 1.699218,0.117188 6.738282,0 12.128907,-3.515625 5.390625,-3.515625 5.390625,-10.839844 0,-5.800781 -3.925782,-9.609375 -3.925781,-3.808594 -10.136718,-3.808594 -6.152344,0 -10.253907,3.867188 -4.101562,3.867187 -5.273437,11.601562 l -10.546875,-1.875 Q 8.0273438,-74.589844 14.882813,-80.390625 21.738281,-86.25 31.933594,-86.25 q 7.03125,0 12.949218,3.046875 5.917969,2.988281 9.023438,8.203125 3.164062,5.214844 3.164062,11.074219 0,5.566406 -2.988281,10.136719 -2.988281,4.570312 -8.847656,7.265625 7.617187,1.757812 11.835937,7.324218 4.21875,5.507813 4.21875,13.828125 0,11.25 -8.203125,19.1015628 -8.203125,7.7929687 -20.742187,7.7929687 -11.308594,0 -18.808594,-6.7382812 Q 6.09375,-11.953125 5.0390625,-22.675781 Z"
-       style="font-style:normal;font-weight:normal;font-size:120px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:120px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1577"
        inkscape:connector-curvature="0" />
   </g>
   <g
      aria-label="Si"
      transform="matrix(0.0666667,0,0,0.0666667,34.2758,102.704)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text466">
     <path
        d="m 7.1875,-36.796875 14.296875,-1.25 q 1.015625,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.578125,3.359375 8.671875,0 15.3125,-2.578125 6.640625,-2.578125 9.84375,-7.03125 3.28125,-4.53125 3.28125,-9.84375 0,-5.390625 -3.125,-9.375 Q 77.5,-44.53125 70.3125,-47.265625 65.703125,-49.0625 49.921875,-52.8125 34.140625,-56.640625 27.8125,-60 19.609375,-64.296875 15.546875,-70.625 11.5625,-77.03125 11.5625,-84.921875 q 0,-8.671875 4.921875,-16.171875 4.921875,-7.57813 14.375,-11.48438 9.453125,-3.90625 21.015625,-3.90625 12.734375,0 22.421875,4.14063 9.765625,4.0625 15,12.03125 5.234375,7.96875 5.625,18.046875 l -14.53125,1.09375 Q 79.21875,-92.03125 72.421875,-97.578125 65.703125,-103.125 52.5,-103.125 q -13.75,0 -20.078125,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.453125,10.15625 4.375,3.984375 22.8125,8.203125 18.515625,4.140625 25.390625,7.265625 10,4.609375 14.765625,11.71875 4.765625,7.03125 4.765625,16.25 0,9.140625 -5.234375,17.265625 Q 87.890625,-7.03125 78.046875,-2.5 68.28125,1.953125 56.015625,1.953125 q -15.546875,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.484375,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1580"
        inkscape:connector-curvature="0" />
     <path
        d="m 117.5,-98.359375 v -16.171875 h 14.0625 v 16.171875 z M 117.5,0 v -82.96875 h 14.0625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1582"
        inkscape:connector-curvature="0" />
   </g>
@@ -1870,44 +2021,49 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 482.806,1631.46 L 476.384,1639.39 L 440.54,1610.36 L 446.962,1602.43 L 482.806,1631.46 Z "
-     id="path468" />
+     id="path468"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 411.118,1573.41 L 404.696,1581.34 L 368.852,1552.31 L 375.274,1544.38 L 411.118,1573.41 Z "
-     id="path470" />
+     id="path470"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 777.869,1855.03 L 771.793,1863.23 L 745.025,1843.39 L 751.102,1835.19 L 777.869,1855.03 Z "
-     id="path472" />
+     id="path472"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 724.334,1815.35 L 718.258,1823.55 L 691.49,1803.71 L 697.566,1795.51 L 724.334,1815.35 Z "
-     id="path474" />
+     id="path474"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 670.798,1775.67 L 664.722,1783.87 L 637.954,1764.03 L 644.03,1755.83 L 670.798,1775.67 Z "
-     id="path476" />
+     id="path476"
+     style="fill:#addc30" />
   <g
      aria-label="Me"
      transform="matrix(0.0666667,0,0,0.0666667,16.2832,113.554)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text478">
     <path
        d="m 11.875,0 v -114.53125 h 22.8125 l 27.109375,81.09375 q 3.75,11.328125 5.46875,16.953125 1.953125,-6.25 6.09375,-18.359375 l 27.421875,-79.6875 h 20.39063 V 0 H 106.5625 V -95.859375 L 73.28125,0 H 59.609375 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1585"
        inkscape:connector-curvature="0" />
     <path
        d="m 200.78125,-26.71875 14.53125,1.796875 q -3.4375,12.734375 -12.73438,19.765625 -9.29687,7.03125 -23.75,7.03125 -18.20312,0 -28.90625,-11.171875 -10.625,-11.25 -10.625,-31.484375 0,-20.9375 10.78125,-32.5 10.78125,-11.5625 27.96875,-11.5625 16.64063,0 27.1875,11.328125 10.54688,11.328125 10.54688,31.875 0,1.25 -0.0781,3.75 h -61.875 q 0.78125,13.671875 7.73438,20.9375 6.95312,7.265625 17.34375,7.265625 7.73437,0 13.20312,-4.0625 5.46875,-4.0625 8.67188,-12.96875 z M 154.60937,-49.453125 H 200.9375 Q 200,-59.921875 195.625,-65.15625 q -6.71875,-8.125 -17.42188,-8.125 -9.6875,0 -16.32812,6.484375 -6.5625,6.484375 -7.26563,17.34375 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1587"
        inkscape:connector-curvature="0" />
   </g>
@@ -1916,20 +2072,21 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 427.621,1823.42 L 420.405,1816.2 L 475.626,1760.98 L 482.841,1768.2 L 427.621,1823.42 Z "
-     id="path480" />
+     id="path480"
+     style="fill:#addc30" />
   <g
      aria-label="Me"
      transform="matrix(0.0666667,0,0,0.0666667,38.5896,87.8817)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text482">
     <path
        d="m 11.875,0 v -114.53125 h 22.8125 l 27.109375,81.09375 q 3.75,11.328125 5.46875,16.953125 1.953125,-6.25 6.09375,-18.359375 l 27.421875,-79.6875 h 20.39063 V 0 H 106.5625 V -95.859375 L 73.28125,0 H 59.609375 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1590"
        inkscape:connector-curvature="0" />
     <path
        d="m 200.78125,-26.71875 14.53125,1.796875 q -3.4375,12.734375 -12.73438,19.765625 -9.29687,7.03125 -23.75,7.03125 -18.20312,0 -28.90625,-11.171875 -10.625,-11.25 -10.625,-31.484375 0,-20.9375 10.78125,-32.5 10.78125,-11.5625 27.96875,-11.5625 16.64063,0 27.1875,11.328125 10.54688,11.328125 10.54688,31.875 0,1.25 -0.0781,3.75 h -61.875 q 0.78125,13.671875 7.73438,20.9375 6.95312,7.265625 17.34375,7.265625 7.73437,0 13.20312,-4.0625 5.46875,-4.0625 8.67188,-12.96875 z M 154.60937,-49.453125 H 200.9375 Q 200,-59.921875 195.625,-65.15625 q -6.71875,-8.125 -17.42188,-8.125 -9.6875,0 -16.32812,6.484375 -6.5625,6.484375 -7.26563,17.34375 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1592"
        inkscape:connector-curvature="0" />
   </g>
@@ -1938,26 +2095,28 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 561.12,1562.42 L 607.119,1574.75 L 601.142,1583.71 L 561.815,1573.17 L 561.12,1562.42 Z "
-     id="path484" />
+     id="path484"
+     style="fill:#addc30" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 564.189,1609.91 L 580.718,1614.34 L 574.741,1623.3 L 564.884,1620.66 L 564.189,1609.91 Z "
-     id="path486" />
+     id="path486"
+     style="fill:#addc30" />
   <g
      aria-label="Me"
      transform="matrix(0.0666667,0,0,0.0666667,49.44,98.7322)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
      id="text488">
     <path
        d="m 11.875,0 v -114.53125 h 22.8125 l 27.109375,81.09375 q 3.75,11.328125 5.46875,16.953125 1.953125,-6.25 6.09375,-18.359375 l 27.421875,-79.6875 h 20.39063 V 0 H 106.5625 V -95.859375 L 73.28125,0 H 59.609375 l -33.125,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1595"
        inkscape:connector-curvature="0" />
     <path
        d="m 200.78125,-26.71875 14.53125,1.796875 q -3.4375,12.734375 -12.73438,19.765625 -9.29687,7.03125 -23.75,7.03125 -18.20312,0 -28.90625,-11.171875 -10.625,-11.25 -10.625,-31.484375 0,-20.9375 10.78125,-32.5 10.78125,-11.5625 27.96875,-11.5625 16.64063,0 27.1875,11.328125 10.54688,11.328125 10.54688,31.875 0,1.25 -0.0781,3.75 h -61.875 q 0.78125,13.671875 7.73438,20.9375 6.95312,7.265625 17.34375,7.265625 7.73437,0 13.20312,-4.0625 5.46875,-4.0625 8.67188,-12.96875 z M 154.60937,-49.453125 H 200.9375 Q 200,-59.921875 195.625,-65.15625 q -6.71875,-8.125 -17.42188,-8.125 -9.6875,0 -16.32812,6.484375 -6.5625,6.484375 -7.26563,17.34375 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#addc30;stroke:none"
        id="path1597"
        inkscape:connector-curvature="0" />
   </g>
@@ -1966,15 +2125,16 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 675.564,1634.97 L 687.889,1680.97 L 645.018,1673.08 L 642.377,1663.23 L 675.564,1634.97 Z "
-     id="path490" />
+     id="path490"
+     style="fill:#addc30" />
   <g
      aria-label="N"
      transform="matrix(0.0666667,0,0,0.0666667,135.403,79.7645)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
      id="text492">
     <path
        d="m 12.1875,0 v -114.53125 h 15.546875 l 60.15625,89.921875 V -114.53125 H 102.42188 V 0 H 86.875 L 26.71875,-90 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
        id="path1600"
        inkscape:connector-curvature="0" />
   </g>
@@ -1983,61 +2143,68 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2048.94,1438.47 L 2059.15,1438.47 L 2059.15,1576.2 L 2048.94,1582.09 L 2048.94,1438.47 Z "
-     id="path494" />
+     id="path494"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2090.37,1438.47 L 2100.58,1438.47 L 2100.58,1555.22 L 2090.37,1555.22 L 2090.37,1438.47 Z "
-     id="path496" />
+     id="path496"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2253.38,1227.99 L 2253.38,1239.77 L 2133.92,1308.74 L 2128.82,1299.91 L 2253.38,1227.99 Z "
-     id="path498" />
+     id="path498"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2457.82,1346.02 L 2447.61,1351.91 L 2253.38,1239.77 L 2253.38,1227.99 L 2457.82,1346.02 Z "
-     id="path500" />
+     id="path500"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2457.82,1582.09 L 2447.61,1576.2 L 2447.61,1351.91 L 2457.82,1346.02 L 2457.82,1582.09 Z "
-     id="path502" />
+     id="path502"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2253.38,1700.12 L 2253.38,1688.34 L 2447.61,1576.2 L 2457.82,1582.09 L 2253.38,1700.12 Z "
-     id="path504" />
+     id="path504"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2048.94,1582.09 L 2059.15,1576.2 L 2253.38,1688.34 L 2253.38,1700.12 L 2048.94,1582.09 Z "
-     id="path506" />
+     id="path506"
+     style="fill:#5ec962" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,100.851,68.531)"
-     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
      id="text508">
     <path
        d="M 41.484375,0 V -101.01563 H 3.75 v -13.51562 h 90.78125 v 13.51562 H 56.640625 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
        id="path1603"
        inkscape:connector-curvature="0" />
     <path
        d="M 109.6875,0 V -114.53125 H 132.5 l 27.10937,81.09375 q 3.75,11.328125 5.46875,16.953125 1.95313,-6.25 6.09375,-18.359375 l 27.42188,-79.6875 h 20.39062 V 0 H 204.375 V -95.859375 L 171.09375,0 H 157.42187 L 124.29688,-97.5 V 0 Z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
        id="path1605"
        inkscape:connector-curvature="0" />
     <path
        d="m 238.4375,-36.796875 14.29687,-1.25 q 1.01563,8.59375 4.6875,14.140625 3.75,5.46875 11.5625,8.90625 7.8125,3.359375 17.57813,3.359375 8.67187,0 15.3125,-2.578125 6.64062,-2.578125 9.84375,-7.03125 Q 315,-25.78125 315,-31.09375 q 0,-5.390625 -3.125,-9.375 -3.125,-4.0625 -10.3125,-6.796875 Q 296.95312,-49.0625 281.17187,-52.8125 265.39062,-56.640625 259.0625,-60 q -8.20313,-4.296875 -12.26563,-10.625 -3.98437,-6.40625 -3.98437,-14.296875 0,-8.671875 4.92187,-16.171875 4.92188,-7.57813 14.375,-11.48438 9.45313,-3.90625 21.01563,-3.90625 12.73437,0 22.42187,4.14063 9.76563,4.0625 15,12.03125 5.23438,7.96875 5.625,18.046875 l -14.53125,1.09375 q -1.17187,-10.859375 -7.96875,-16.40625 -6.71875,-5.546875 -19.92187,-5.546875 -13.75,0 -20.07813,5.078125 -6.25,5 -6.25,12.109375 0,6.171875 4.45313,10.15625 4.375,3.984375 22.8125,8.203125 18.51562,4.140625 25.39062,7.265625 10,4.609375 14.76563,11.71875 4.76562,7.03125 4.76562,16.25 0,9.140625 -5.23437,17.265625 -5.23438,8.046875 -15.07813,12.578125 -9.76562,4.453125 -22.03125,4.453125 -15.54687,0 -26.09375,-4.53125 -10.46875,-4.53125 -16.48437,-13.59375 -5.9375,-9.140625 -6.25,-20.625 z"
-       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#5ec962;stroke:none"
        id="path1607"
        inkscape:connector-curvature="0" />
   </g>
@@ -2046,26 +2213,30 @@
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 1979.31,1299.8 L 1974.19,1308.63 L 1833.67,1227.28 L 1838.78,1218.45 L 1979.31,1299.8 Z "
-     id="path510" />
+     id="path510"
+     style="fill:#5ec962" />
   <path
      stroke="#000000"
      stroke-width="8"
      fill="none"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2003.3,1192.02 A 51.0818,51.0818 0 1 0 2105.46,1192.02A 51.0818,51.0818 0 1 0 2003.3,1192.02Z "
-     id="path512" />
+     id="path512"
+     style="fill:#ffffff;stroke:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2025.61,1187.68 L 2082.48,1187.68 L 2082.48,1195.68 L 2025.61,1195.68 Z "
-     id="path514" />
+     id="path514"
+     style="fill:#5ec962" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 2058.04,1163.25 L 2058.04,1220.12 L 2050.04,1220.12 L 2050.04,1163.25 Z "
-     id="path516" />
+     id="path516"
+     style="fill:#5ec962" />
   <path
      stroke="#000000"
      stroke-width="8"
@@ -2083,23 +2254,21 @@
      d="M 3762.04,1904.53 L 4250.79,2107.05 "
      id="path520" />
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,395.465,342.699)"
+     x="393.465"
+     y="331.76678"
      font-style="normal"
      font-weight="bold"
      font-size="160px"
      id="text522"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-6}</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Arial;-inkscape-font-specification:Arial;fill:#3b528b;stroke:none;stroke-width:0.0666667;">\cmpd{int-6}</text>
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,461.348,423.426)"
+     x="531.49628"
+     y="400.65057"
      font-style="normal"
      font-weight="bold"
      font-size="160px"
      id="text524"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-7}</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Arial;-inkscape-font-specification:Arial;fill:#440154;stroke:none;stroke-width:0.0666667;">\cmpd{int-7}</text>
   <text
      x="0"
      y="0"
@@ -2117,7 +2286,7 @@
      font-weight="bold"
      font-size="160px"
      id="text528"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-3}</text>
+     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#addc30;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-3}</text>
   <text
      x="0"
      y="0"
@@ -2126,25 +2295,28 @@
      font-weight="bold"
      font-size="160px"
      id="text530"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-4}</text>
+     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#28ae80;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-4}</text>
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6199.07,2397.07 L 6194.86,2406.41 L 6158.43,2386.12 L 6163.4,2377.21 L 6199.07,2397.07 Z "
-     id="path532" />
+     id="path532"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6127.73,2357.34 L 6122.77,2366.26 L 6087.1,2346.39 L 6092.07,2337.48 L 6127.73,2357.34 Z "
-     id="path534" />
+     id="path534"
+     style="fill:#2c728e" />
   <path
      stroke="none"
      fill="#000000"
      transform="matrix(0.0666667 0 0 0.0666667 2.30016 -14.3333)"
      d="M 6056.4,2317.62 L 6051.43,2326.53 L 6015.77,2306.67 L 6020.73,2297.75 L 6056.4,2317.62 Z "
-     id="path536" />
+     id="path536"
+     style="fill:#2c728e" />
   <g
      aria-label="+TMSN"
      transform="matrix(0.0666667,0,0,0.0666667,3.85181,191.154)"
@@ -2229,7 +2401,7 @@
      id="path548" />
   <g
      aria-label="+PMPNC"
-     transform="matrix(0.0666667,0,0,0.0666667,165.64,121.769)"
+     transform="matrix(0.0666667,0,0,0.0666667,161.64,121.769)"
      style="font-style:normal;font-weight:normal;font-size:160px;font-family:Arial;fill:#000000;stroke:none"
      id="text550">
     <path
@@ -2304,14 +2476,13 @@
      d="M 5207.82,2270.75 L 5262.49,2270.75 L 5262.49,2276.75 L 5207.82,2276.75 Z "
      id="path558" />
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,392.168,193.816)"
+     x="396.168"
+     y="185.81599"
      font-style="normal"
      font-weight="bold"
      font-size="160px"
      id="text560"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-5}</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Arial;-inkscape-font-specification:Arial;fill:#2c728e;stroke:none;stroke-width:0.0666667;">\cmpd{ts-5}</text>
   <text
      x="0"
      y="0"
@@ -2320,16 +2491,15 @@
      font-weight="bold"
      font-size="160px"
      id="text562"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-4}</text>
+     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#5ec962;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-4}</text>
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,474.886,233.137)"
+     x="486.88599"
+     y="231.13699"
      font-style="normal"
      font-weight="bold"
      font-size="160px"
      id="text564"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{ts-6}</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Arial;-inkscape-font-specification:Arial;fill:#472d7b;stroke:none;stroke-width:0.0666667;">\cmpd{ts-6}</text>
   <text
      x="0"
      y="0"
@@ -2338,14 +2508,19 @@
      font-weight="bold"
      font-size="160px"
      id="text566"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-3}</text>
+     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#f0e442;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-3}</text>
   <text
-     x="0"
-     y="0"
-     transform="matrix(0.0666667,0,0,0.0666667,311.903,97.5145)"
+     x="291.86063"
+     y="92.048401"
      font-style="normal"
      font-weight="bold"
      font-size="160px"
      id="text568"
-     style="font-style:normal;font-weight:normal;font-size:159.99992005px;font-family:Arial;fill:#000000;stroke:none;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;">\cmpd{int-5}</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Arial;-inkscape-font-specification:Arial;fill:#21918c;stroke:none;stroke-width:0.0666667;">\cmpd{int-5}</text>
+  <path
+     sodipodi:nodetypes="cssccssc"
+     inkscape:connector-curvature="0"
+     d="m 566.57824,368.02923 c 0,-2.34802 2.79076,-2.73347 2.79076,-5.0815 0,-2.34803 -2.79076,-2.73348 -2.79076,-5.0815 0,-2.34803 2.79076,-2.73349 2.79076,-5.08151 m 8.91736,0 c 0,2.34802 -2.79074,2.73348 -2.79074,5.08151 0,2.34802 2.79074,2.73347 2.79074,5.0815 0,2.34803 -2.79074,2.73348 -2.79074,5.0815"
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1198-7" />
 </svg>
