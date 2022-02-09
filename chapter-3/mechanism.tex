@@ -201,7 +201,13 @@ Nie jest ona wiele większa niż raportowana przez Wanga~i~in. bariera hydrolizy
 
 \subsection{Formowanie się tetrazolu}
 
-% my DFT of tetrazole formation
+Przeprowadziłem również wstępną symulację przebiegu etapu formowania się ugrupowania tetrazolu,
+  korzystając z~takiej samej metodologii, jaką opisałem w~poprzednich akapitach.
+Jej wyniki prezentuję na~\cref{sch:calc-tetrazole} \--- znajdujące się na~nim wartości energii
+  poszczególnych etapów odnoszą się do~\refcmpd{int-1-a}\sidenote{\See{sch:calc-imine}.}.
+Inaczej niż w~przykładzie modelowym, stosuję tu izocyjanek \iupac{4-metoksyfenylu}
+  (\ch{\acrshort{pmp}NC}) zamiast izocyjanku cykloheksylu, celem dalszego uproszczenia układu,
+  a~tym samym minimalizacji kosztu obliczeń.
 
 \begin{scheme}
   \includesvg{calc-tetrazole}
@@ -211,6 +217,18 @@ Nie jest ona wiele większa niż raportowana przez Wanga~i~in. bariera hydrolizy
   }\label{sch:calc-tetrazole}
   \vspace{-8em}
 \end{scheme}
-  
+
+Kluczowym założeniem jest, że dysocjacja \ch{TMSN3},
+  która następuje w~początkowym etapie przemiany,
+  jest wspomagana wolną parą elektronową z~atomu azotu iminy,
+  jak to przedstawia stan przejściowy \refcmpd{ts-3}.
+Powstaje w~jej wyniku anion azydkowy \ch{N3-} oraz sililowany kation iminiowy \refcmpd{int-4}.
+Dalsza część tego wariantu reakcji Ugiego przebiega analogicznie do~opisanego wcześniej,
+  ogólnie przyjętego mechanizmu reakcji azydo-Ugiego\sidenote{\See{sch:mechanism-classic}.}.
+Aktywowana imina \refcmpd{int-4} ulega addycji izocyjanku poprzez stan przejściowy \refcmpd{ts-4},
+  a~następnie przyłączeniu zdysocjowanego wcześniej \ch{N3-}.
+Powstaje obojętna elektronowo struktura pośrednia \refcmpd{int-6}, ulegająca następnie
+  cyklizacji do~tetrazolu \refcmpd{int-7}.
+
 % compare with sharpless02 DFT calculations
 % unsuccessful attempts at Glu-N-TMS synthesis
