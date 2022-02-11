@@ -57,7 +57,42 @@ Aby ułatwić dyskusję na~ten temat,
   }\label{fig:thp-conformers}
 \end{figure}
 
-% model Woerpla
+\subsection{Model Woerpla}
+W~modelu Woerpla\sidecite{woerpel99} kierunek addycji nukleofila do~cyklicznego kationu
+  oksokarbeniowego zależny jest nie od~bezpośredniego otoczenia centrum reakcyjnego,
+  ale od~stabilności konformacyjnej powstających produktów.
+Ze~względu na~płaską geometrię wiązania \ch{-C=O^+\bond{single}}, sześcioczłonowy cykliczny
+  kation oksokarbeniowy będzie znajdował się zawsze w~konformacji pół-krzesełkowej
+  \cycloconf{3}{H}{4} lub \cycloconf{4}{H}{3}.
+Atak nukleofila na~to wiązanie, zależnie od~strony, z~której nastąpi, może prowadzić do~powstania
+  produktu w~konformacji krzesełkowej lub w~konformacji skręconej łódki,
+  tak jak obrazuje to \cref{sch:woerpel}.
+Preferowany będzie zawsze atak prowadzący do~powstania konformacji krzesełkowej,
+  ponieważ biegnie on poprzez niżej energetyczny stan przejściowy o~analogicznej konformacji.
+
+\begin{scheme}
+  \includesvg{woerpel}
+  \caption{
+    Kierunek addycji nukleofila do~kationu oksokarbeniowego według modelu Woerpla zależny jest
+      od~stabilności konformacyjnej potencjalnego produktu addycji oraz samego kationu.
+    Możliwe ścieżki przemiany przedstawiam na~przykładzie \iupac{4-podstawionej} piranozy.
+  }\label{sch:woerpel}
+\end{scheme}
+
+Aby przewidzieć przebieg reakcji w~tym modelu, należy wpierw ustalić, która z~konformacji
+  rozważanego kationu będzie stabilniejsza \--- \cycloconf{3}{H}{4} czy \cycloconf{4}{H}{3}.
+Gdy to już wiadomo, można wnioskować czy w~przewadze będzie powstawał produkt ataku, odpowiednio,
+  \enquote{z~góry}, czyli \textit{anti} do~podstawnika w~pozycji 4 w~przykładzie
+  ze~\cref{sch:woerpel}, czy \enquote{z~dołu}, czyli \textit{syn} do~tego podstawnika.\sidenote{
+    Z~rozmysłem nie używam tu terminologi \textit{re} i~\textit{si}, gdyż nazwy stron wiązania
+      mogą być różne, zależnie od~faktycznych podstawników w~pierścieniu.
+  }.
+\citeauthor{woerpel00} zaproponowali również taki model dla pierścieni
+  pięcioczłonowych\sidecite{woerpel00}, nie będę go tu jednak omawiał.
+Warto natomiast wspomnieć, że rozstrzygnięcie, który z~konformerów cyklicznego kationu
+  oksoniowego będzie trwalszy, może nie być trywialne ze~względu na~występowanie
+  efektu anomerycznego w~pierścieniach zawierających heteroatomy\sidecite{grindley08}.
+
 % porównanie stabilności gluko z modelem
 % próby ustalenia stereochemii galakto
 % symulacja widm optycznych
