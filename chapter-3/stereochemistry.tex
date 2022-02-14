@@ -93,9 +93,37 @@ Warto natomiast wspomnieć, że rozstrzygnięcie, który z~konformerów cykliczn
   oksoniowego będzie trwalszy, może nie być trywialne ze~względu na~występowanie
   efektu anomerycznego w~pierścieniach zawierających heteroatomy\sidecite{grindley08}.
 Ponadto, intuicja, podpowiadająca, że podstawniki w~pozycji aksjalnej nie będą korzystne może
-  zawieść, bowiem w~przypadku takich pierścieni zależy to od~struktury
+  zawieść, bowiem w~przypadku takich pierścieni zależy to od~elektronowego charakteru
   podstawnika\sidecite{woerpel00}.
 
-% porównanie stabilności gluko z modelem
+Wykonana wcześniej w~zespole badawczym Furmana analiza konformacyjna wywiedzionej z~glukozy
+  iminy\sidecite{furman14acs} sugeruje zgodność wyników z~modelem Woerpla.
+Analiza została przeprowadzona na~uproszczonym modelu, w~którym podstawniki benzoksylowe
+  zostały zastąpione zbliżonymi elektronowo, ale nie tak labilnymi grupami metoksylowymi.
+Niżej energetyczny jest konformer \cycloconf{4}{H}{3}, w~przypadku którego preferowany jest
+  atak nukleofila \enquote{od~dołu}, prowadzący do~powstania produktu o~takiej samej konfiguracji,
+  jak wydzielany przeze mnie związek \refcmpd{glu-tet.cy}.
+
+\begin{scheme}
+  \includesvg{gluco-imine-confs}
+  \caption{
+    Porównanie stabilności konformerów cyklicznej iminy o~konfiguracji glukozy,
+      według badań DFT przeprowadzonych przez zespół badawczy Furmana.
+    Addycja nukleofilowa do~stabilniejszego konformeru prowadziłaby do~powstania centrum
+      chiralnego o~konfiguracji \iupac{2-\R}.
+  }\label{sch:gluco-imine-confs}
+\end{scheme}
+
+Różnica w~stabilności konformerów \cycloconf{3}{H}{4} i~\cycloconf{4}{H}{3}, pokazanych
+  na~\cref{sch:gluco-imine-confs} jest znaczna i~wynosi \SI{4.5}{\kcalpm}.
+Stosując analizę rozkładu Boltzmanna można oszacować w~jakiej proporcji te konformery
+  będą występowały w~mieszanie reakcyjnej\sidenote{
+    O~detalach technicznych tej analizy piszę więcej w~sekcji \secref{tesliper:boltzmann}.
+  }.
+Wskazuje on, że w~temperaturze pokojowej stabilniejszy z~konformerów będzie stanowił zdecydowaną
+  większość, około \SI{99.95}{\percent} składu.
+Estymacja ta dobrze koresponduje z~eksperymentem, w~którym obserwowałem tylko jeden
+  z~diastereomerów produktu.
+
 % próby ustalenia stereochemii galakto
 % symulacja widm optycznych
