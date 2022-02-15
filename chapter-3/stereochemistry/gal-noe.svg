@@ -1301,7 +1301,7 @@
        sodipodi:role="line"
        id="tspan1369"
        x="146.34415"
-       y="175.10733">\iupac{2-\S}</tspan></text>
+       y="175.10733">\iupac{\cip{2S}}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none;"
@@ -1311,5 +1311,5 @@
        sodipodi:role="line"
        id="tspan1369-5"
        x="146.34415"
-       y="73.885704">\iupac{2-\R}</tspan></text>
+       y="73.885704">\iupac{\cip{2R}}</tspan></text>
 </svg>

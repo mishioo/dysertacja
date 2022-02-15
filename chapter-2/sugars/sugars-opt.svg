@@ -900,7 +900,7 @@ A</text>
        sodipodi:role="line"
        id="tspan1236-1"
        x="265.30316"
-       y="77.416664">\iupac{2-\R}: \cmpd{glu-tet.cy}</tspan></text>
+       y="77.416664">\iupac{\cip{2R}}: \cmpd{glu-tet.cy}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -910,5 +910,5 @@ A</text>
        sodipodi:role="line"
        id="tspan1283"
        x="265.30316"
-       y="88.83358">\iupac{2-\S}: \cmpd{glu-epi-tet.cy}</tspan></text>
+       y="88.83358">\iupac{\cip{2S}}: \cmpd{glu-epi-tet.cy}</tspan></text>
 </svg>

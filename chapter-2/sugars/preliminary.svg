@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview234"
      showgrid="false"
-     inkscape:zoom="4.3974359"
-     inkscape:cx="472.21933"
-     inkscape:cy="26.469805"
+     inkscape:zoom="3.1094567"
+     inkscape:cx="437.91427"
+     inkscape:cy="49.396638"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -1109,7 +1109,7 @@
        sodipodi:role="line"
        id="tspan1236"
        x="462.08746"
-       y="29.870605">\iupac{2-\R} do \iupac{2-\S} </tspan></text>
+       y="29.870605">\iupac{\cip{2R}} do \iupac{\cip{2S}} </tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
@@ -1129,7 +1129,7 @@
        sodipodi:role="line"
        id="tspan1236-1"
        x="479.91006"
-       y="104.90671">\iupac{2-\R}: \cmpd{glu-tet.cy}</tspan></text>
+       y="104.90671">\iupac{\cip{2R}}: \cmpd{glu-tet.cy}</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
@@ -1150,5 +1150,15 @@
        sodipodi:role="line"
        id="tspan1283"
        x="479.91006"
-       y="118.32362">\iupac{2-\S}: \cmpd{glu-epi-tet.cy}</tspan></text>
+       y="118.32362">\iupac{\cip{2S}}: \cmpd{glu-epi-tet.cy}</tspan></text>
+  <g
+     aria-label="2"
+     style="font-style:normal;font-weight:normal;font-size:5.33333349px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e69f00;fill-opacity:1;stroke:none"
+     id="text1008"
+     transform="translate(148.57901,87.796687)">
+    <path
+       d="m 409.86776,-28.644623 h -2.625 v -0.544271 q 0.27343,-0.234375 0.54687,-0.46875 0.27604,-0.234375 0.51302,-0.466146 0.5,-0.484375 0.6849,-0.768229 0.18489,-0.286458 0.18489,-0.617187 0,-0.302084 -0.20052,-0.471354 -0.19791,-0.171875 -0.55468,-0.171875 -0.23698,0 -0.51302,0.08333 -0.27605,0.08333 -0.53907,0.255208 h -0.026 v -0.546875 q 0.1849,-0.09115 0.49219,-0.166666 0.30989,-0.07552 0.59896,-0.07552 0.59635,0 0.93489,0.289062 0.33854,0.286459 0.33854,0.778646 0,0.221354 -0.0573,0.414063 -0.0547,0.190104 -0.16406,0.361979 -0.10156,0.161458 -0.23958,0.317708 -0.13542,0.15625 -0.33073,0.346354 -0.27865,0.273438 -0.57552,0.53125 -0.29688,0.255209 -0.55469,0.473959 h 2.08594 z"
+       id="path1010"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>
