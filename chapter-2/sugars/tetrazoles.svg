@@ -14,7 +14,7 @@
    version="1.1"
    id="svg374"
    sodipodi:docname="tetrazoles.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata380">
     <rdf:RDF>
@@ -42,8 +42,8 @@
      id="namedview376"
      showgrid="false"
      inkscape:zoom="5.1735288"
-     inkscape:cx="15.427562"
-     inkscape:cy="19.380894"
+     inkscape:cx="22.40129"
+     inkscape:cy="14.735191"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -196,29 +196,6 @@
        id="path1702"
        inkscape:connector-curvature="0" />
   </g>
-  <g
-     id="Bond's parts"
-     transform="matrix(1.33333,0,0,1.33333,-23.450195,-11.564884)">
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
-       inkscape:connector-curvature="0"
-       id="path88"
-       d="m 62.95,36.35 v 0 h 0.5 v 7 l -0.23,0.05 h -0.05 z" />
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
-       inkscape:connector-curvature="0"
-       id="path90"
-       d="m 65.05,36.35 v 0 h 0.5 v 5.6 z" />
-  </g>
-  <g
-     id="g97"
-     transform="matrix(1.33333,0,0,1.33333,-23.450195,-11.564884)">
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
-       inkscape:connector-curvature="0"
-       id="path95"
-       d="m 63.47,43.3 v 0 h 0.06 l 0.42,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.4,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.33,0.1 0.02,0.1 v 0.05 l -0.05,0.3 -0.4,-0.05 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.4,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.3,-0.1 -0.4,-0.1 -0.3,-0.1 -0.2,-0.05 v -0.4 z" />
-  </g>
   <path
      style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
      inkscape:connector-curvature="0"
@@ -250,11 +227,6 @@
        id="path1706"
        inkscape:connector-curvature="0" />
   </g>
-  <path
-     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
-     inkscape:connector-curvature="0"
-     id="path121"
-     d="m 60.496262,46.181638 v 0 l 0.333332,0.173333 0.05333,0.373332 -7.799981,5.679986 -0.199999,-0.279999 -0.2,-0.266666 z" />
   <g
      id="Equilibrium Arrow"
      transform="matrix(1.33333,0,0,1.33333,-23.450195,-11.564884)">
@@ -714,4 +686,24 @@
        id="tspan1001-2-5"
        x="116.02342"
        y="74.366562">\cmpd{tetrazole.5h}</tspan></text>
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
+     inkscape:connector-curvature="0"
+     id="path31-2"
+     d="m 60.509593,36.914994 v 0 h 0.333332 0.346666 v 9.133311 l -0.346666,0.253333 -0.333332,-0.173333 z" />
+  <path
+     style="stroke:#000000;stroke-width:0.67999828;shape-rendering:auto"
+     d="M 63.602918,36.914996 V 44.30164"
+     id="line33-8"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
+     inkscape:connector-curvature="0"
+     id="path36-7"
+     d="m 60.896258,46.674969 v 0 l -0.05333,-0.373331 0.346666,-0.253333 9.746642,3.186658 -0.106666,0.32 -0.106667,0.319999 z" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision"
+     inkscape:connector-curvature="0"
+     id="path60-6"
+     d="m 60.509593,46.128305 v 0 l 0.333332,0.173333 0.05333,0.373331 -7.746647,5.639986 -0.199999,-0.279998 -0.2,-0.266667 z" />
 </svg>
