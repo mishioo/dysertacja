@@ -1,32 +1,11 @@
 \section{Badanie mechanizmu reakcji metodami obliczeniowymi}
-Obliczenia związane z~symulacją mechanizmu badanego wariantu reakcji azydo-Ugiego przeprowadziłem
-  korzystając z~oprogramowania Gaussian~09\sidecite{gaussian09}.
-Konstruując początkowe geometrie stanów stacjonarnych \refcmpd{int-1-a, int-1-b, int-2-a},
-  a~także stanu przejściowego \refcmpd{ts-1-a}, wzorowałem się na~strukturach kompleksów
-  cyrkonowych zaproponowanych przez Wanga i~in. w~ich badaniach \gls{dft} mechanizmu
-  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite{wang10}.
-W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesienia posłużyły
-  mi geometrie zaprezentowane przez zespół Sharplessa w~ramach ich prac nad ustaleniem mechanizmu
-  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite{sharpless02}.
-
-Wszystkie struktury zoptymalizowałem używając funkcjonału B3LYP i~stosując bazę LANL2DZ
-  do~opisu atomów \ch{Zr} oraz 6-31G(d,p) do~opisu pozostałych atomów,
-  z~uwzględnieniem empirycznej poprawki dyspersyjnej GD3.
-Potwierdziłem, że proponowane stany przejściowe rzeczywiście łączą postulowane stany stacjonarne
-  wyznaczając ścieżkę reakcji w~obydwu kierunkach\sidenote{
-    W~języku angielskim nazywa się tego typu eksperyment
-      \textit{following the intristic reaction coordinate (IRC)}. 
-  }.
-Geometrie zoptymalizowanych struktur dostępne są formie w~elektronicznej na~dołączonej
-  do~dysertacji płycie CD oraz w~repozytorium\sidenote{\repourl} z~kodem źródłowym tej pracy
-  w~katalogu \enquote{supplementary}.
 
 % void
-\begin{table*}[!b]
-  \caption{
-    Podane w~jednostkach \si{\hartree} wartości sum energii elektronowych i~oznaczonych
+\begin{table*}[b!]
+  \caption[][-1em]{
+    Podane w~jednostkach Hartree wartości sum energii elektronowych i~oznaczonych
       w~nagłówku kolumny, obliczone dla struktur zaangażowanych w~przebieg badanej reakcji,
-      przy użyciu teorii na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej i~awki
+      przy użyciu teorii na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej poprawki
       dyspersyjnej GD3.
   }\label{tab:en-void}
   \setfloatalignment{b}
@@ -60,16 +39,20 @@ Geometrie zoptymalizowanych struktur dostępne są formie w~elektronicznej na~do
   \end{tabular}
 \end{table*}
 
-Zoptymalizowane struktury poddałem powtórnej analizie, używając większej bazy Def2TZVP.
-Porównałem wyniki symulacji w~próżni z~uzyskanymi przy~zastosowaniu modelu solwatacyjnego
-  PCM dla \gls{thf}, tak jak został on zaimplementowany w~programie Gaussian~09.
-W~pobliskich tabelach \cref{tab:en-void,tab:en-solv} prezentuję wartości energii poszczególnych
-  struktur, uzyskanych w~obydwu przypadkach.
+Obliczenia związane z~symulacją mechanizmu badanego wariantu reakcji azydo-Ugiego przeprowadziłem
+  korzystając z~oprogramowania Gaussian~09\sidecite[-1em]{gaussian09}.
+Konstruując początkowe geometrie stanów stacjonarnych \refcmpd{int-1-a, int-1-b, int-2-a},
+  a~także stanu przejściowego \refcmpd{ts-1-a}, wzorowałem się na~strukturach kompleksów
+  cyrkonowych zaproponowanych przez Wanga i~in. w~ich badaniach \gls{dft} mechanizmu
+  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite[-6em]{wang10}.
+W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesienia posłużyły
+  mi geometrie zaprezentowane przez zespół Sharplessa w~ramach ich prac nad ustaleniem mechanizmu
+  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite[9em]{sharpless02}.
 
 % solvent
-\begin{table*}
-  \caption{
-    Podane w~jednostkach \si{\hartree} wartości sum energii elektronowych i~oznaczonych
+\begin{table*}[t!]
+  \caption[][1em]{
+    Podane w~jednostkach Hartree wartości sum energii elektronowych i~oznaczonych
       w~nagłówku kolumny, obliczone dla struktur zaangażowanych w~przebieg badanej reakcji,
       przy użyciu teorii na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej poprawki
       dyspersyjnej GD3 i~z~zastosowaniem modelu solwatacyjnego PCM dla \gls{thf}.
@@ -103,3 +86,21 @@ W~pobliskich tabelach \cref{tab:en-void,tab:en-solv} prezentuję wartości energ
     \bottomrule
   \end{tabular}
 \end{table*}
+
+Wszystkie struktury zoptymalizowałem używając funkcjonału B3LYP i~stosując bazę LANL2DZ
+  do~opisu atomów \ch{Zr} oraz 6-31G(d,p) do~opisu pozostałych atomów,
+  z~uwzględnieniem empirycznej poprawki dyspersyjnej GD3.
+Potwierdziłem, że proponowane stany przejściowe rzeczywiście łączą postulowane stany stacjonarne
+  wyznaczając ścieżkę reakcji w~obydwu kierunkach\sidenote[4em]{
+    W~języku angielskim nazywa się tego typu eksperyment
+      \textit{following the intristic reaction coordinate (IRC)}. 
+  }.
+Geometrie zoptymalizowanych struktur dostępne są formie w~elektronicznej na~dołączonej
+  do~dysertacji płycie CD oraz w~repozytorium\sidenote{\repourl} z~kodem źródłowym tej pracy
+  w~katalogu \enquote{supplementary}.
+
+Zoptymalizowane struktury poddałem powtórnej analizie, używając większej bazy Def2TZVP.
+Porównałem wyniki symulacji w~próżni z~uzyskanymi przy~zastosowaniu modelu solwatacyjnego
+  PCM dla \gls{thf}, tak jak został on zaimplementowany w~programie Gaussian~09.
+W~pobliskich tabelach \cref{tab:en-void,tab:en-solv} prezentuję wartości energii poszczególnych
+  struktur, uzyskanych w~obydwu przypadkach.
