@@ -299,7 +299,39 @@ Prawdopodobnie korzystny byłby wybór wyższego poziomu teorii do~symulacji akt
   takich obliczeń byłby niewspółmierny do~ich wartości dla tej pracy.
 Alternatywą mogłoby być uproszczenie modelu przez zamianę labilnych grup
   benzoksylowych na~prostsze, na~przykład metoksylowe, nie ma jednak gwarancji,
-  że taki eksperyment byłby owocny.
+  że taki eksperyment byłby owocny\sidenote[][-12em]{%
+    Krytyczny czytelnik może zastanawiać się dlaczego opisuję te próby, skoro wyraźnie
+      nie przyniosły oczekiwanych rezultatów i~nie dały żadnych odpowiedzi.
+    Otóż badania te \--- a~w~szczególności uciążliwość i~mozolność analizy wyników obliczeń
+      obejmujących dużą ilość konformerów \--- były dla mnie bodźcem do~stworzenia
+      oprogramowania komputerowego, mającego ułatwić taką pracę.
+    Jest mu poświęcony kolejny rozdział nieniejszej dysertacji.
+  }.
 
-% porównanie z modelem Woerpla
-% populacje galakto wg rozkładu boltzmanna 92.63% i 7.37%
+W~obliczu niepowodzenia analizy chiralooptycznej i~wątpliwości w~kwestii inwestowania 
+  w~nią dalszych wysiłków, odwołałem się ponownie do~modelu Woerpla.
+Cytowane wcześniej badania \gls{dft} przeprowadzone na~uproszczonym modelu przez grupę
+  Furmana\sidecite{furman14acs} obejmują również układ o~konfiguracji galaktozy.
+Jak widać na~\cref{sch:galacto-imine-confs} równowaga między konformerami iminy jest odwrotna niż 
+  w~przypadku pochodnej o~konfiguracji glukozy.
+
+\begin{scheme}
+  \includesvg{galacto-imine-confs}
+  \caption{
+    Porównanie stabilności konformerów cyklicznej iminy o~konfiguracji galaktozy,
+      według badań DFT przeprowadzonych przez zespół badawczy Furmana.
+    Addycja nukleofilowa do~stabilniejszego konformeru prowadziłaby do~powstania centrum
+      chiralnego o~konfiguracji \iupac{\cip{2S}}.
+  }\label{sch:galacto-imine-confs}
+\end{scheme}
+  
+Różnica energii wynosi \SI{1.5}{\kcalpm} na~korzyść konformeru \cycloconf{3}{H}{4}.
+Ulegałby on addycji nukleofila, tworząc produkt o~konfiguracji \iupac{\cip{2S}},
+  czyli takiej, jaką wstępnie przypisałem powstającemu w~przewadze związkowi \refcmpd{gal-tet.cy}.
+Ponadto, \citeauthor{furman14acs} w~wyniku innych reduktywnych funkcjonalizacji wywiedzionego
+  z~galaktozy laktamu \refcmpd{gal-lactam} uzyskiwali jako główne produkty właśnie te
+  o~konfiguracji \iupac{\cip{2S}}\sidecite{furman14acs}.
+Choć prezentowane dowody nie są mocne, uważam, że ich suma wystarcza aby podtrzymać
+  propozycję przypisania konfiguracji \iupac{\cip{2S}} związkowi \refcmpd{gal-tet.cy}\sidenote{%
+    A~przez analogię również związkowi \refcmpd{gal-tet.est}
+  } i~konfiguracji \iupac{\cip{2R}} diastereomerycznemu związkowi \refcmpd{gal-epi-tet.cy}.
