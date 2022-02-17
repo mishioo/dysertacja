@@ -178,55 +178,10 @@ Struktury obydwu związków, przedstawione na~\cref{fig:gal-noe}, są propozycja
 \begin{figure}
   \begin{tikzpicture}
     \begin{axis}[
-      ylabel={$\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
-      xlabel={Długość fali$\ /\si{\nm}$},
-      ymin=0, ymax=1.95,
-      xmin=180, xmax=300,
-      y dir=reverse,
-      axis lines=left,
-      axis line style={-},
-      legend style={at={(0.97,0.9)}, anchor={north east}, draw=none},
-      width=\textwidth,
-      height=13em,
-    ]
-    
-    \addplot[color=wongvermillion]
-      table {chapter-3/stereochemistry/gal-uv-data.txt};
-    \addlegendentry{\refcmpd{gal-tet.cy}}
-      
-    \addplot[color=wongblue]
-      table {chapter-3/stereochemistry/epi-uv-data.txt};
-    \addlegendentry{\refcmpd{gal-epi-tet.cy}}
-
-    \addplot[color=wongpurple]
-      table [x expr=\thisrow{x-s-uv}-15, y expr=\thisrow{y-s-uv}/10000]
-      {chapter-3/stereochemistry/simulated-data.txt};
-    \addlegendentry{Sym. \iupac{\cip{2S}}$\ /10^4$}
-    
-    \addplot[color=wonggreen]
-      table [x expr=\thisrow{x-r-uv}-15, y expr=\thisrow{y-r-uv}/10000]
-      {chapter-3/stereochemistry/simulated-data.txt};
-    \addlegendentry{Sym. \iupac{\cip{2R}}$\ /10^4$}
-      
-    \end{axis}
-  \end{tikzpicture}
-
-  \caption{
-    Zarejestrowane i~symulowane widma \gls{uv} badanych związków
-      \refcmpd{gal-tet.cy, gal-epi-tet.cy}.
-    Dla lepszej czytelności wartości intensywności poszczególnych widm zostały przeskalowane
-      o~współczynnik podany w~legendzie.
-  }
-  \label{fig:spectra-uv}
-\end{figure}
-
-\begin{figure}
-  \begin{tikzpicture}
-    \begin{axis}[
       ylabel={$\Delta\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
       xlabel={Długość fali$\ /\si{\nm}$},
       ymin=-15, ymax=18,
-      xmin=175, xmax=300,
+      xmin=175, xmax=400,
       axis lines=left,
       axis line style={-},
       legend style={at={(0.97,1.05)}, anchor={north east}, draw=none},
@@ -264,7 +219,7 @@ Struktury obydwu związków, przedstawione na~\cref{fig:gal-noe}, są propozycja
     Dla lepszej czytelności wartości intensywności poszczególnych widm zostały przeskalowane
       o~współczynnik podany w~legendzie.
   }
-  \label{fig:spectra-ecd-dill}
+  \label{fig:spectra-ecd}
 \end{figure}
 
 \begin{figure}
@@ -273,7 +228,7 @@ Struktury obydwu związków, przedstawione na~\cref{fig:gal-noe}, są propozycja
       ylabel={$\Delta\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
       xlabel={Długość fali$\ /\si{\nm}$},
       ymin=-0.3, ymax=0.3,
-      xmin=215, xmax=300,
+      xmin=215, xmax=400,
       axis lines=left,
       axis line style={-},
       legend style={at={(0.97,1.1)}, anchor={north east}, draw=none},
@@ -305,12 +260,12 @@ Struktury obydwu związków, przedstawione na~\cref{fig:gal-noe}, są propozycja
     \end{axis}
   \end{tikzpicture}
   \caption{
-    Zarejestrowane z~roztworu o~większym stężeniu widma \gls{ecd} badanych związków
+    Zarejestrowane w~węższym zakresie widma \gls{ecd} badanych związków
       \refcmpd{gal-tet.cy, gal-epi-tet.cy} w~porównaniu z~ich symulowanymi odpowiednikami.
     Dla lepszej czytelności wartości intensywności poszczególnych widm zostały przeskalowane
       o~współczynnik podany w~legendzie.
   }
-  \label{fig:spectra-ecd-conc}
+  \label{fig:spectra-ecd-closeup}
 \end{figure}
 
 % porównanie z modelem Woerpla
