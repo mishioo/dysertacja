@@ -1,108 +1,70 @@
 \section{Badanie mechanizmu reakcji metodami obliczeniowymi}\label{experimental:mech}
 
 % void
-\begin{table*}[b!]
-  \caption[][-1em]{
-    Podane w~jednostkach Hartree wartości sum energii elektronowych i~oznaczonych
-      w~nagłówku kolumny, obliczone dla struktur zaangażowanych w~przebieg badanej reakcji,
-      przy użyciu teorii na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej poprawki
-      dyspersyjnej GD3.
-  }\label{tab:en-void}
-  \setfloatalignment{b}
-  \begin{tabular}{ c l S S S S }
-    \toprule
-    \textnumero & Struktura & {Energia punktu zerowego} & {Energia cieplna} & {Entalpia} & {Energia Gibbsa} \\
-    \midrule
-    \rownumber & \refcmpd{int-1-a} & -1221.100727 & -1221.082335 & -1221.081391 & -1221.147049 \\
-    \rownumber & \refcmpd{ts-1-a} & -1221.056261 & -1221.037345 & -1221.036401 & -1221.103220 \\
-    \rownumber & \refcmpd{int-1-b} & -1221.097576 & -1221.079218 & -1221.078274 & -1221.143662 \\
-    \rownumber & \refcmpd{ts-1-b} & -1220.997720 & -1220.979655 & -1220.978711 & -1221.043114 \\
-    \rownumber & \refcmpd{int-2-a} & -1221.095618 & -1221.076152 & -1221.075208 & -1221.143571 \\
-    \rownumber & \refcmpd{int-2-b} & -1220.996618 & -1220.978030 & -1220.977086 & -1221.042461 \\
-    \rownumber & \refcmpd{int-3} & -250.657212 & -250.651936 & -250.650992 & -250.685660 \\
-    \rownumber & \refcmpd{ts-3} & -824.136544 & -824.120842 & -824.119898 & -824.178481 \\
-    \rownumber & \refcmpd{int-4} & -659.723031 & -659.710379 & -659.709435 & -659.760382 \\
-    \rownumber & \refcmpd{ts-4} & -1098.757589 & -1098.735845 & -1098.734901 & -1098.807223 \\
-    \rownumber & \refcmpd{int-5} & -1098.761665 & -1098.739746 & -1098.738802 & -1098.811413 \\
-    \rownumber & \refcmpd{ts-5} & -1263.191306 & -1263.165902 & -1263.164957 & -1263.246048 \\
-    \rownumber & \refcmpd{int-6} & -1263.263938 & -1263.240007 & -1263.239063 & -1263.315595 \\
-    \rownumber & \refcmpd{ts-6} & -1263.244227 & -1263.220917 & -1263.219973 & -1263.295234 \\
-    \rownumber & \refcmpd{int-7} & -1263.282628 & -1263.259645 & -1263.258701 & -1263.333085 \\
-    \rownumber & \refcmpd{int-8} & -854.597569 & -854.582008 & -854.581064 & -854.640248 \\
-    \rownumber & \ch{PhCH2NC} & -439.032036 & -439.023634 & -439.022690 & -439.065131 \\
-    \rownumber & \ch{TMSN3} & -573.532370 & -573.522633 & -573.521688 & -573.566263 \\
-    \rownumber & \ch{Me3SiOH} & -485.145316 & -485.136801 & -485.135857 & -485.176639 \\
-    \rownumber & \ch{Cp2Zr(OH)Cl} & -970.420570 & -970.407638 & -970.406693 & -970.459778 \\
-    \rownumber & \ch{H2O} & -76.441875 & -76.439040 & -76.438096 & -76.459532 \\
-    \rownumber & \ch{N3-} & -164.290536 & -164.287576 & -164.286632 & -164.307871 \\
-    \bottomrule
-  \end{tabular}
-\end{table*}
-
 Obliczenia związane z~symulacją mechanizmu badanego wariantu reakcji azydo-Ugiego przeprowadziłem
-  korzystając z~oprogramowania Gaussian~09\sidecite[-1em]{gaussian09}.
+  korzystając z~oprogramowania Gaussian~09\sidecite{gaussian09}.
 Konstruując początkowe geometrie stanów stacjonarnych \refcmpd{int-1-a, int-1-b, int-2-a},
   a~także stanu przejściowego \refcmpd{ts-1-a}, wzorowałem się na~strukturach kompleksów
   cyrkonowych zaproponowanych przez Wanga i~in. w~ich badaniach \gls{dft} mechanizmu
-  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite[-6em]{wang10}.
+  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite{wang10}.
 W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesienia posłużyły
   mi geometrie zaprezentowane przez zespół Sharplessa w~ramach ich prac nad ustaleniem mechanizmu
-  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite[9em]{sharpless02}.
+  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite{sharpless02}.
 
-% solvent
-\begin{table*}[t!]
-  \caption[][1em]{
-    Podane w~jednostkach Hartree wartości sum energii elektronowych i~oznaczonych
-      w~nagłówku kolumny, obliczone dla struktur zaangażowanych w~przebieg badanej reakcji,
-      przy użyciu teorii na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej poprawki
-      dyspersyjnej GD3 i~z~zastosowaniem modelu solwatacyjnego PCM dla \gls{thf}.
-  }\label{tab:en-solv}
-  \begin{tabular}{ c l S S S S }
+\begin{table}
+  \caption{
+    Podane w~jednostkach Hartree wartości sum energii elektronowych i~punktu zerowego,
+      tak jak je podaje program Gaussian~09,
+      obliczone dla struktur zaangażowanych w~przebieg badanej reakcji przy użyciu teorii
+      na~poziomie B3LYP/Def2TZVP oraz z~uwzględnieniem empirycznej poprawki dyspersyjnej GD3.
+    \textsuperscript{a}~Z~zastosowaniem modelu solwatacyjnego PCM dla \gls{thf}.
+  }\label{tab:energies}
+  \begin{tabular}{ c l S S }
     \toprule
-    \textnumero & Struktura & {Energia punktu zerowego} & {Energia cieplna} & {Entalpia} & {Energia Gibbsa} \\
+    \textnumero & Struktura & {W~próżni} & {W~rozpuszczalniku \textsuperscript{a}} \\
     \midrule
-    \rownumber & \refcmpd{int-1-a} & -1221.110627 & -1221.092041 & -1221.091096 & -1221.157622 \\
-    \rownumber & \refcmpd{ts-1-a} & -1221.074579 & -1221.055690 & -1221.054746 & -1221.121681 \\
-    \rownumber & \refcmpd{int-1-b} & -1221.106030 & -1221.087553 & -1221.086609 & -1221.152491 \\
-    \rownumber & \refcmpd{ts-1-b} & -1221.010227 & -1220.991674 & -1220.990729 & -1221.057534 \\
-    \rownumber & \refcmpd{int-2-a} & -1221.106694 & -1221.087804 & -1221.086860 & -1221.153766 \\
-    \rownumber & \refcmpd{int-2-b} & -1221.009687 & -1220.990953 & -1220.990009 & -1221.056049 \\
-    \rownumber & \refcmpd{int-3} & -250.661194 & -250.655917 & -250.654973 & -250.689640 \\
-    \rownumber & \refcmpd{ts-3} & -824.174398 & -824.158746 & -824.157802 & -824.216465 \\
-    \rownumber & \refcmpd{int-4} & -659.784677 & -659.772021 & -659.771077 & -659.821943 \\
-    \rownumber & \refcmpd{ts-4} & -1098.809155 & -1098.787496 & -1098.786552 & -1098.858383 \\
-    \rownumber & \refcmpd{int-5} & -1098.814285 & -1098.792355 & -1098.791411 & -1098.864088 \\
-    \rownumber & \refcmpd{ts-5} & -1263.213899 & -1263.188581 & -1263.187637 & -1263.268579 \\
-    \rownumber & \refcmpd{int-6} & -1263.270157 & -1263.246135 & -1263.245191 & -1263.322083 \\
-    \rownumber & \refcmpd{ts-6} & -1263.250449 & -1263.227051 & -1263.226107 & -1263.301711 \\
-    \rownumber & \refcmpd{int-7} & -1263.293985 & -1263.270959 & -1263.270015 & -1263.344561 \\
-    \rownumber & \refcmpd{int-8} & -854.609153 & -854.593564 & -854.592619 & -854.651964 \\
-    \rownumber & \ch{PhCH2NC} & -439.038580 & -439.030218 & -439.029274 & -439.071661 \\
-    \rownumber & \ch{TMSN3} & -573.536386 & -573.526581 & -573.525636 & -573.570378 \\
-    \rownumber & \ch{Me3SiOH} & -485.149910 & -485.141297 & -485.140353 & -485.181359 \\
-    \rownumber & \ch{Cp2Zr(OH)Cl} & -970.431956 & -970.418867 & -970.417923 & -970.471550 \\
-    \rownumber & \ch{H2O} & -76.448012 & -76.445177 & -76.444233 & -76.465669 \\
-    \rownumber & \ch{N3-} & -164.379062 & -164.376100 & -164.375156 & -164.396397 \\
+    \rownumber & \refcmpd{int-1-a} & -1221.100727 & -1221.110627 \\
+    \rownumber & \refcmpd{ts-1-a} & -1221.056261 & -1221.074579 \\
+    \rownumber & \refcmpd{int-1-b} & -1221.097576 & -1221.106030 \\
+    \rownumber & \refcmpd{ts-1-b} & -1220.997720 & -1221.010227 \\
+    \rownumber & \refcmpd{int-2-a} & -1221.095618 & -1221.106694 \\
+    \rownumber & \refcmpd{int-2-b} & -1220.996618 & -1221.009687 \\
+    \rownumber & \refcmpd{int-3} & -250.657212 & -250.661194 \\
+    \rownumber & \refcmpd{ts-3} & -824.136544 & -824.174398 \\
+    \rownumber & \refcmpd{int-4} & -659.723031 & -659.784677 \\
+    \rownumber & \refcmpd{ts-4} & -1098.757589 & -1098.809155 \\
+    \rownumber & \refcmpd{int-5} & -1098.761665 & -1098.814285 \\
+    \rownumber & \refcmpd{ts-5} & -1263.191306 & -1263.213899 \\
+    \rownumber & \refcmpd{int-6} & -1263.263938 & -1263.270157 \\
+    \rownumber & \refcmpd{ts-6} & -1263.244227 & -1263.250449 \\
+    \rownumber & \refcmpd{int-7} & -1263.282628 & -1263.293985 \\
+    \rownumber & \refcmpd{int-8} & -854.597569 & -854.609153 \\
+    \rownumber & \ch{PhCH2NC} & -439.032036 & -439.038580 \\
+    \rownumber & \ch{TMSN3} & -573.532370 & -573.536386 \\
+    \rownumber & \ch{Me3SiOH} & -485.145316 & -485.149910 \\
+    \rownumber & \ch{Cp2Zr(OH)Cl} & -970.420570 & -970.431956 \\
+    \rownumber & \ch{H2O} & -76.441875 & -76.448012 \\
+    \rownumber & \ch{N3-} & -164.290536 & -164.379062 \\
     \bottomrule
   \end{tabular}
-\end{table*}
-
+\end{table}
+  
 Wszystkie struktury zoptymalizowałem używając funkcjonału B3LYP i~stosując bazę LANL2DZ
   do~opisu atomów \ch{Zr} oraz 6-31G(d,p) do~opisu pozostałych atomów,
   z~uwzględnieniem empirycznej poprawki dyspersyjnej GD3.
-Potwierdziłem, że proponowane stany przejściowe rzeczywiście łączą postulowane stany stacjonarne
-  wyznaczając ścieżkę reakcji w~obydwu kierunkach\sidenote[4em]{
+Potwierdziłem, że proponowane stany przejściowe rzeczywiście łączą postulowane stany stacjonarne,
+  wyznaczając ścieżkę reakcji w~obydwu kierunkach\sidenote{
     W~języku angielskim nazywa się tego typu eksperyment
       \textit{following the intristic reaction coordinate (IRC)}. 
   }.
-Geometrie zoptymalizowanych struktur dostępne są formie w~elektronicznej na~dołączonej
+Geometrie zoptymalizowanych struktur dostępne są w~fw~ormie elektronicznej na~dołączonej
   do~dysertacji płycie CD oraz w~repozytorium\sidenote{\repourl} z~kodem źródłowym tej pracy
   w~katalogu \enquote{supplementary}.
 
 Zoptymalizowane struktury poddałem powtórnej analizie, używając większej bazy Def2TZVP.
 Porównałem wyniki symulacji w~próżni z~uzyskanymi przy~zastosowaniu modelu solwatacyjnego
   PCM dla \gls{thf}, tak jak został on zaimplementowany w~programie Gaussian~09.
-W~pobliskich tabelach \cref{tab:en-void,tab:en-solv} prezentuję wartości energii poszczególnych
+W~pobliskiej \cref{tab:energies} prezentuję wartości energii poszczególnych
   struktur, uzyskanych w~obydwu przypadkach.
 
 \section{Analiza widm chiralooptycznych}\label{experimental:spectra}
@@ -119,14 +81,14 @@ Widma rejestrowane były przy stężeniu próbki \SI{0.00029}{\molar},
 
 Pierwszym krokiem do~symulacji widm było przeprowadzenie analizy konformacyjnej
   proponowanych struktur związków \refcmpd{gal-tet.cy,gal-epi-tet.cy}, którą wykonałem
-  za~pomocą programu CONFLEX.
+  za~pomocą programu CONFLEX\sidecite{conflex00}.
 Otrzymane struktury konformerów zoptymalizowałem korzystając z~programu
   Gaussian~09\sidecite{gaussian09} na~poziomie teorii B3LYP/6-31G**.
 Zoptymalizowane, najniżej energetyczne struktury (do~\SI{3}{\kcalpm}) wykorzystałem w~obliczeniach
-  elektronowej aktywności optycznej w~programie Gaussian~16\sidecite{gaussian16}, stosując teorię
+  właściwości chiralooptycznych w~programie Gaussian~16\sidecite{gaussian16}, stosując teorię
   na~poziomie B3LYP/TZVP z~zastosowaniem modelu rozpuszczalnikowego PCM dla \ch{CH3CN}.
-Widma symulowane do~porównania z~eksperymentalnymi obliczyłem przy użyciu autorskiego
-  programu komputerowego \texttt{tesliper}\sidenote{
+Na~podstawie tych właściwości obliczyłem widma symulowane do~porównania z~eksperymentalnymi
+  przy użyciu autorskiego programu komputerowego \texttt{tesliper}\sidenote{
     Program ten opisałem w~niniejszej dysertacji w~rozdziale \secref{chapter:tesliper}.}.
 Prezentowane widma zostały uzyskane z~użyciem rozkładu Gaussa o~szerokości \SI{0.15}{\electronvolt}
   do~opisu kształtu pików i~skorygowane hipsochromowo o~\SI{15}{\nano\meter}.
@@ -135,7 +97,7 @@ Prezentowane widma zostały uzyskane z~użyciem rozkładu Gaussa o~szerokości \
   \begin{tikzpicture}
     \begin{axis}[
       ylabel={$\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
-      xlabel={Długość fali$\ /\si{\nm}$},
+      xlabel={$\lambda\ /\si{\nm}$},
       ymin=0, ymax=1.95,
       xmin=180, xmax=400,
       axis lines=left,

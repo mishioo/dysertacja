@@ -185,9 +185,9 @@ W~tym miejscu chcę jedynie zaznaczyć, że zarówno dokładność analizy konfo
   jak i~poziom teorii przyjęty podczas obliczeń ma znaczny wpływ na~skuteczność tych wysiłków.
 
 \Cref{fig:spectra-ecd} przedstawia porównanie eksperymentalnych widm \gls{ecd} związków
-  \refcmpd{gal-tet.cy, gal-epi-tet.cy} z~obliczonymi dla proponowanych struktur tych
-  związków\sidenote{Detale techniczne odnośnie rejestracji i~symulacji tych widm
-    znajdują się na~końcu niniejszej dysertacji w~sekcji \secref{experimental:spectra}.}.
+  \refcmpd{gal-tet.cy, gal-epi-tet.cy} z~widmami obliczonymi\sidenote{
+    Detale techniczne odnośnie rejestracji i~symulacji tych widm
+      znajdują się na~końcu niniejszej dysertacji w~sekcji \secref{experimental:spectra}.}.
 Niestety, już pierwszy rzut oka pozwala sądzić, że porównanie to nie wnosi wiele.
 Dominujące pasmo w~zakresie \SIrange{180}{200}{\nano\meter} pochodzi najpewniej od~grup
   \ch{-OBn} i~nie wnosi nic do~analizy.
@@ -200,9 +200,9 @@ Pozostałe pasma, lepiej widoczne na~\cref{fig:spectra-ecd-closeup}, są słabo 
   \begin{tikzpicture}
     \begin{axis}[
       ylabel={$\Delta\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
-      xlabel={Długość fali$\ /\si{\nm}$},
+      xlabel={$\lambda\ /\si{\nm}$},
       ymin=-15, ymax=18,
-      xmin=175, xmax=400,
+      xmin=175, xmax=300,
       axis lines=left,
       axis line style={-},
       legend style={at={(0.97,1.05)}, anchor={north east}, draw=none},
@@ -247,9 +247,9 @@ Pozostałe pasma, lepiej widoczne na~\cref{fig:spectra-ecd-closeup}, są słabo 
   \begin{tikzpicture}
     \begin{axis}[
       ylabel={$\Delta\epsilon\ /\si{\deci\meter\cubed\per\mole\per\centi\meter}$},
-      xlabel={Długość fali$\ /\si{\nm}$},
+      xlabel={$\lambda\ /\si{\nm}$},
       ymin=-0.3, ymax=0.3,
-      xmin=215, xmax=400,
+      xmin=215, xmax=300,
       axis lines=left,
       axis line style={-},
       legend style={at={(0.97,1.1)}, anchor={north east}, draw=none},
@@ -294,9 +294,9 @@ Wspomniana wcześniej znaczna labilność badanych układów gra istotną rolę 
 Analiza konformacyjna proponowanych struktur prowadzi do~otrzymania tysięcy konformerów
   do~optymalizacji, a~nawet po~restrykcyjnym odsiewie tych podobnych i~mniej stabilnych,
   wciąż pozostają setki konformerów o~potencjalnie istotnym wpływie na~kształt widma.
-Prawdopodobnie korzystny byłby wybór wyższego poziomu teorii do~symulacji aktywności
-  optycznej lub objęcie nimi szerszego zakresu konformerów, jednak czas trwania i~koszt
-  takich obliczeń byłby niewspółmierny do~ich wartości dla tej pracy.
+Prawdopodobnie korzystny byłby wybór wyższego poziomu teorii do~symulacji właściwości
+  chiralooptycznych lub objęcie nimi szerszego zakresu konformerów, jednak czas trwania
+  i~koszt takich obliczeń byłby niewspółmierny do~ich wartości dla tej pracy.
 Alternatywą mogłoby być uproszczenie modelu przez zamianę labilnych grup
   benzoksylowych na~prostsze, na~przykład metoksylowe, nie ma jednak gwarancji,
   że taki eksperyment byłby owocny\sidenote[][-12em]{%
