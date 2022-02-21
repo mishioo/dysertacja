@@ -1,17 +1,7 @@
 \section{Badanie mechanizmu reakcji metodami obliczeniowymi}\label{experimental:mech}
 
-% void
-Obliczenia związane z~symulacją mechanizmu badanego wariantu reakcji azydo-Ugiego przeprowadziłem
-  korzystając z~oprogramowania Gaussian~09\sidecite{gaussian09}.
-Konstruując początkowe geometrie stanów stacjonarnych \refcmpd{int-1-a, int-1-b, int-2-a},
-  a~także stanu przejściowego \refcmpd{ts-1-a}, wzorowałem się na~strukturach kompleksów
-  cyrkonowych zaproponowanych przez Wanga i~in. w~ich badaniach \gls{dft} mechanizmu
-  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite{wang10}.
-W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesienia posłużyły
-  mi geometrie zaprezentowane przez zespół Sharplessa w~ramach ich prac nad ustaleniem mechanizmu
-  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite{sharpless02}.
-
-\begin{table}
+% \renewcommand{\bottomfraction}{0.5}  % to allow a bigger bottom float
+\begin{table}[b!]
   \caption{
     Podane w~jednostkach Hartree wartości sum energii elektronowych i~punktu zerowego,
       tak jak je podaje program Gaussian~09,
@@ -48,6 +38,16 @@ W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesien
     \bottomrule
   \end{tabular}
 \end{table}
+
+Obliczenia związane z~symulacją mechanizmu badanego wariantu reakcji azydo-Ugiego przeprowadziłem
+  korzystając z~oprogramowania Gaussian~09\sidecite{gaussian09}.
+Konstruując początkowe geometrie stanów stacjonarnych \refcmpd{int-1-a, int-1-b, int-2-a},
+  a~także stanu przejściowego \refcmpd{ts-1-a}, wzorowałem się na~strukturach kompleksów
+  cyrkonowych zaproponowanych przez Wanga i~in. w~ich badaniach \gls{dft} mechanizmu
+  redukcji amidów trzeciorzędowych odczynnikiem Schwartza\sidecite{wang10}.
+W~przypadku struktur \refcmpd{ts-4, int-5, ts-5, int-6, ts-6} za~punkt odniesienia posłużyły
+  mi geometrie zaprezentowane przez zespół Sharplessa w~ramach ich prac nad ustaleniem mechanizmu
+  formowania się tetrazoli w~wyniku reakcji azydków z~nitrylami\sidecite{sharpless02}.
   
 Wszystkie struktury zoptymalizowałem używając funkcjonału B3LYP i~stosując bazę LANL2DZ
   do~opisu atomów \ch{Zr} oraz 6-31G(d,p) do~opisu pozostałych atomów,
@@ -78,20 +78,6 @@ Widma \gls{ecd} również zostały zarejestrowane w~\ch{CH3CN}, ale za~pomocą s
 Widma rejestrowane były przy stężeniu próbki \SI{0.00029}{\molar},
   z~szybkością \SI{100}{\nm\per\minute}, szerokością szczeliny \SI{1}{\nm}, liczbą akumulacji 5
   i~5~punktami na~nanometr.
-
-Pierwszym krokiem do~symulacji widm było przeprowadzenie analizy konformacyjnej
-  proponowanych struktur związków \refcmpd{gal-tet.cy,gal-epi-tet.cy}, którą wykonałem
-  za~pomocą programu CONFLEX\sidecite{conflex00}.
-Otrzymane struktury konformerów zoptymalizowałem korzystając z~programu
-  Gaussian~09\sidecite{gaussian09} na~poziomie teorii B3LYP/6-31G**.
-Zoptymalizowane, najniżej energetyczne struktury (do~\SI{3}{\kcalpm}) wykorzystałem w~obliczeniach
-  właściwości chiralooptycznych w~programie Gaussian~16\sidecite{gaussian16}, stosując teorię
-  na~poziomie B3LYP/TZVP z~zastosowaniem modelu rozpuszczalnikowego PCM dla \ch{CH3CN}.
-Na~podstawie tych właściwości obliczyłem widma symulowane do~porównania z~eksperymentalnymi
-  przy użyciu autorskiego programu komputerowego \texttt{tesliper}\sidenote{
-    Program ten opisałem w~niniejszej dysertacji w~rozdziale \secref{chapter:tesliper}.}.
-Prezentowane widma zostały uzyskane z~użyciem rozkładu Gaussa o~szerokości \SI{0.15}{\electronvolt}
-  do~opisu kształtu pików i~skorygowane hipsochromowo o~\SI{15}{\nano\meter}.
 
 \begin{figure}
   \begin{tikzpicture}
@@ -136,3 +122,17 @@ Prezentowane widma zostały uzyskane z~użyciem rozkładu Gaussa o~szerokości \
   }
   \label{fig:spectra-uv}
 \end{figure}
+
+Pierwszym krokiem do~symulacji widm było przeprowadzenie analizy konformacyjnej
+  proponowanych struktur związków \refcmpd{gal-tet.cy,gal-epi-tet.cy}, którą wykonałem
+  za~pomocą programu CONFLEX\sidecite{conflex00}.
+Otrzymane struktury konformerów zoptymalizowałem korzystając z~programu
+  Gaussian~09\sidecite{gaussian09} na~poziomie teorii B3LYP/6-31G**.
+Zoptymalizowane, najniżej energetyczne struktury (do~\SI{3}{\kcalpm}) wykorzystałem w~obliczeniach
+  właściwości chiralooptycznych w~programie Gaussian~16\sidecite{gaussian16}, stosując teorię
+  na~poziomie B3LYP/TZVP z~zastosowaniem modelu rozpuszczalnikowego PCM dla \ch{CH3CN}.
+Na~podstawie tych właściwości obliczyłem widma symulowane do~porównania z~eksperymentalnymi
+  przy użyciu autorskiego programu komputerowego \texttt{tesliper}\sidenote{
+    Program ten opisałem w~niniejszej dysertacji w~rozdziale \secref{chapter:tesliper}.}.
+Prezentowane widma zostały uzyskane z~użyciem rozkładu Gaussa o~szerokości \SI{0.15}{\electronvolt}
+  do~opisu kształtu pików i~skorygowane hipsochromowo o~\SI{15}{\nano\meter}.
