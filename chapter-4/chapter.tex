@@ -1,11 +1,34 @@
 \chapter{Program komputerowy tesliper}\label{chapter:tesliper}
-% \section{Istota programu}\label{tesliper:program}
-% \subsection{Podobne narzędzia}\label{tesliper:program:simmilar}
-% \subsection{Wybór języka programowania}\label{tesliper:program:language}
+Symulacja widm optycznych związków organicznych wymaga analizy dużych ilości danych.
+W~przypadku prób opisanych w~poprzednim rozdziale\sidenote{W~sekcji \secref{stereo:galacto}.}
+  analiza konformacyjna obydwu badanych diastereomerów\sidenote{
+    I~to nie nadwyraz dokładna analiza, gdyż z~trudności wynikających z~labilności układu
+      wiedziałem zwczasu \--- nie zdawałem sobie jedynie sprawy z~ich skali.
+  } prowadziła do~zapisania 3316 różnych struktur, a~wygenerowane w~procesie modelowania
+  dane miały sumaryczną objętość około 16 gigabajtów.
+Podczas~ich przetwarzania korzystałem ze~swoich zdolności programistycznych, automatyzując
+  znaczną część pracy.
+Ręczna analiza takiej ilości danych nie byłaby możliwa do~przeprowadzenia w~rozsądnym czasie.
+
+Muszę zaznaczyć, że przypadek tysięcy konformerów wykorzystanych do~modelowania jest
+  ekstremalny, a~tym samym niezbyt reprezentacyjny.
+Problem czasochłonności i~mozolności procesu pozostaje jednak w~mocy,
+  nawet przy typowej ilości materiału.
+Ręczne sprawdzenie, porównanie, selekcja, ekstrakcja danych i~ich przeliczenie z~choćby
+  kilkudziesięciu plików wynikowych programu do~obliczeń kwantowo-chemicznych wymaga
+  niemało pracy.
+Chcąc ułatwić to zadanie innym badaczom, postanowiłem uporządkować i~usystematyzować
+  zestaw skryptów, których używałem podczas prac przy modelowaniu \--- wynikiem tego jest
+  program komputerowy \texttt{tesliper}\sidenote{
+    Nazwa programu jest skrótowcem angielskiej frazy \textit{theoretical spectroscopist's
+    little helper}, czyli, w~wolnym tłumaczeniu, \enquote{mały pomocnik spektroskopisty-teoretyka}.
+  }, który opisuję w~tej części niniejszej dysertacji.
+
 % \section{Korzystanie z~programu}\label{tesliper:use}
 % \subsection{Interfejs graficzny}\label{tesliper:use:GUI}
 % \subsection{Interfejs linii komend}\label{tesliper:use:CLI}
 % \subsection{Interfejs programistyczny}\label{tesliper:use:API}
 % \section{Implementacja}\label{tesliper:implementation}
+% \subsection{Wybór języka programowania}\label{implementation:language}
 
 
