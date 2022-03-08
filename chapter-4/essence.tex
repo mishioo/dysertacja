@@ -10,5 +10,51 @@ Program asystuje w~realizacji tych kroków procesu symulacji, które wymagają a
   ze~wspomnianych plików oraz w~przygotowaniu kolejnego etapu obliczeń.
 
 \subsection{Proces symulacji widm}\label{essence:simulation}
+Jak wywnioskować można z~poprzednich akapitów, symulacja widma spektroskopowego jest
+  procesem kilkuetapowym.
+Dokładnie opisują go \citeauthor{pescitelli16}, podając wskazówki i~sugerując dobrą
+  praktykę w~tej pracy.\sidecite{pescitelli16}.
+Na~potrzeby dyskusji zawartej w~niniejszej dysertacji poniższe ogólne przedstawienie
+  stosowanej metodologi wydaje mi się wystarczające.
+
+Punktem wyjścia jest proponowana konfiguracja absolutna badanego związku.
+Należy poddać ją wnikliwej analizie konformacyjnej, to znaczy znaleźć możliwie dużo
+  potencjalnie stabilnych konformerów związku o~zakładanej strukturze.
+Dokonuje się tego zwykle za~pomocą dedykowanych programów komputerowych, operujących w~obrębie
+  modelu mechaniki molekularnej.
+Ich geometrie optymalizuje się korzystając z~metod \gls{dft}, a~później porównuje się ze~sobą,
+  odrzucając duplikaty\sidenote{
+    Zadarza się bowiem, że różne struktury uzyskane w~wyniku analizy konformacyjnej zostaną
+      zoptymalizowane do~takiej samej geometrii.}.
+
+Następnie należy przeprowadzić obliczenia częstości, aby potwierdzić, że uzyskane
+  struktury są punktami stacjonarnymi, oraz obliczenia energii, niezbędnych do~przeprowadzenia
+  analizy rozkładu Boltzmanna\sidenote{
+    Prowadzącego do~oszacowania udziału każdego z~konforemrów w~populacji.}.
+Jako, że kolejny etap obliczeń jest kosztowny\sidenote{W~sensie wymaganego czasu obliczeniowego.},
+  zwykle liczbę wziętych do~niego konformerów ogranicza się, odrzucając te, które mają marginalny
+  udział w~populacji.
+Wtedy dopiero poddaje się pozostałe konformery obliczeniom wybranej aktywności spektroskopowej
+  w~funkcji częstości albo długości falowej\sidenote{Zależnie od~typu symulowanego widma.}.
+Wartości te nie są jeszcze symulowanym widmem.
+Jego otrzymanie wymaga wykonania dalszej pracy \--- przeliczenia ich na~intensywność pików,
+  symulacji kształtu pików, i~w~końcu uśrednienia uzyskanych w~ten sposób teoretycznych widm
+  poszczególnych konformerów.
+
+\begin{figure*}
+  \includesvg{simulation-flow}
+  \caption{
+    Schemat przedstawiający proces symulacji widma spektroskopowego metodami numerycznymi.
+    Zaznaczyłem na~nim etapy, które mogą zostać wykonane w~programie Gaussian i~autorskim
+      programie \tesliper{}.
+  }\label{fig:simulation-flow}
+\end{figure*}
+
+\Cref{fig:simulation-flow} przedstawia schematycznie ten proces, wyszczególniając kolejne etapy.
+Jedynie niektóre z~tych etapów można wykonać za~pomocą programu do~obliczeń kwantowo-chemicznych,
+  o~realizację pozostałych musi zadbać badacz.
+Na~wspomnianym schemacie zaznaczam kolorowymi obszarami etapy, które mogą być zrealizowane
+  w~programie Gaussian oraz te, w~których można użyć opisywanego programu \tesliper{}.
+
 \subsection{Podobne narzędzia}\label{essence:simmilar}
 \subsection{Funkcje programu}\label{essence:features}
