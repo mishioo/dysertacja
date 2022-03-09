@@ -14,7 +14,7 @@
    viewBox="0 0 164 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="simulation-flow.svg">
   <defs
      id="defs2">
@@ -350,17 +350,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="402.95264"
+     inkscape:cx="112.45265"
      inkscape:cy="858.67439"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-bbox="false"
      inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="1912"
+     inkscape:window-y="48"
      inkscape:window-maximized="1"
      showguides="false" />
   <metadata
@@ -458,13 +458,13 @@
        y="68.493202" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3843)"
-       d="m 75.460795,25.455815 14.581256,0"
+       d="M 75.460795,25.455815 H 90.042051"
        id="path1728"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3707)"
-       d="m 118.28453,25.455815 14.51414,0"
+       d="m 118.28453,25.455815 h 14.51414"
        id="path1730"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -576,7 +576,7 @@
          id="tspan1346"
          x="6.4839044"
          y="64.758766"
-         style="stroke-width:0.26458332">tesliper</tspan></text>
+         style="stroke-width:0.26458332">\tesliper{}</tspan></text>
     <path
        style="fill:none;stroke:#cc79a7;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.58749994, 1.58749994;stroke-dashoffset:0;stroke-opacity:1"
        d="M 0.37797618,60.349104 H 163.96136"
@@ -712,7 +712,7 @@
          x="104.31815"
          y="77.156784"
          style="stroke-width:0.26458332"
-         id="tspan1443">konformarów</tspan></text>
+         id="tspan1443">konformerów</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
