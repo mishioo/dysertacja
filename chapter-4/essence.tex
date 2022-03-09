@@ -57,4 +57,66 @@ Na~wspomnianym schemacie zaznaczam kolorowymi obszarami etapy, które mogą być
   w~programie Gaussian oraz te, w~których można użyć opisywanego programu \tesliper{}.
 
 \subsection{Podobne narzędzia}\label{essence:simmilar}
+Program \tesliper{} nie jest jedynym programem z~graficznym interfejsem, który pozwala
+  na~uzyskanie symulowanego widma spektroskopowego.
+Dostępne są zarówno takie komercyjne, jak i~darmowe programy.
+Do tych pierwszych zaliczyć można GausView\sidecite{gaussview} dedykowany pracy z~programem
+  Gaussian, dostarczany przez producenta sprzętu spektroskopowego ComputeVOA\sidecite{computevoa},
+  oraz niezależny ChemCraft\sidecite{chemcraft}.
+Bezpłatne są natomiast programy przygotowane przez społeczność naukową \---
+  CDspecTech\sidecite{cdspectech} oraz SpecDis\sidecite{specdis}.
+
+Na tle ich wszystkich \tesliper{} wyróżnia się otwartością kodu źródłowego \---
+  użytkownik ma wgląd w~jego strukturę i~detale implementacji.
+Model ten ma szereg zalet, jak choćby przejrzystość kodu i~wynikające z~niej niezawodność
+  i~bezpieczeństwo \--- każdy może upewnić się, że działanie programu jest zgodne z~jego opisem,
+  poznać sposób jego funkcjonowania, zaproponować poprawki i~usprawnienia.
+Unikalną cechą \tesliper{}a jest funkcja selekcji konformerów, to znaczy dopuszczenia do~analizy
+  tylko konformerów o~zadanych przez użytkownika właściwościach.
+Pozwala to na~łatwe odrzucenie błędnych wyników obliczeń, czy zawężenie puli struktur do~najniżej
+  energetycznych.
+
+\begin{table*}
+  \renewcommand{\arraystretch}{1.2}
+  \setlength{\tabcolsep}{5pt}
+  \begin{tabular}{ r *{6}{c} }
+                 & \tesliper{} & GaussView & ComputeVOA & CDspecTech & ChemCraft & SpecDis \\
+    Darmowy                    & \markok & \markno & \markno & \markok & \markno & \markok \\ 
+    Otwartoźródłowy            & \markok & \markno & \markno & \markno & \markno & \markno \\
+    Wieloplatformowy\tsp{a}    & \markok & \markok & \markno & \markno & \markpm\tsp{b} & \markok \\
+    Przetwarzanie wsadowe      & \markok & \markpm\tsp{c} & \markno & \markok & \markpm\tsp{d} & \markno \\
+    Porównanie geometrii       & \markok & \markno & \markok & \markno & \markok & \markno \\
+    Rozkład Boltzmanna         & \markok & \markno & \markno & \markok & \markno & \markok \\
+    Selekcja konformerów       & \markok & \markno & \markno & \markno & \markno & \markno \\
+    Przygotowanie obliczeń     & \markok & \markok & \markok & \markno & \markok & \markno \\
+    Widma elektronowe          & \markok & \markok & \markno & \markok & \markno & \markok \\
+    Widma ramanowskie          & \markok & \markok & \markok & \markok & \markok & \markno \\
+    Analiza konformacyjna      & \markno & \markpm\tsp{e} & \markok & \markno & \markno & \markno \\
+    Wizualizacja cząsteczki    & \markno & \markok & \markok & \markno & \markok & \markno \\
+  \end{tabular}
+  \caption{
+    Porównanie różnych programów oferujących interfejs graficzny, które pozwalają na~symulację
+      widm z~plików wynikowych programu Gaussian.
+    Otwartość kodu źródłowego i~funkcja warunkowego wyboru konformerów są unikalnymi cechami
+      autorskiego programu \tesliper{}.
+    \tsp{a}Czyli funkcjonuje na~różnych systemach operacyjnych.
+    \tsp{b}Wymaga użycia dodatkowego oprogramowania.
+    \tsp{c}Tylko masowy eksport plików wejściowych.
+    \tsp{d}Tylko masowa modyfikacja plików wejściowych.
+    \tsp{e}Dostępne jako dodatkowy moduł.
+  }
+  \label{tab:comparison}
+\end{table*}
+
+\Cref{tac:comparison} zawiera porównanie tych programów pod kątem funkcjonalności, jakie oferują.
+Poza kwestią unikalnych cech \tesliper{}a, wymienione aplikacje mają też inne istotne braki,
+  choćby w~kwestii ich dostępności na~różnych systemach operacyjnych.
+Oprócz \tesliper{}a, jedynie CDspecTech zapewnia wsadowe przetwarzanie danych w~pełnym zakresie
+  oferowanej funkcjonalności \--- w~pozostałych aplikacjach jest ono niemożliwe
+  lub znacznie ograniczone.
+Nie wszystkie są też w~stanie przeprowadzić pełną symulację widma, włącznie z~uśrednianiem
+  danych z~analizy poszczególnych konformerów.
+Funkcją, której nie oferuje \tesliper{} jest natomiast analiza konformacyjna \--- do~jej
+  przeprowadzenia zdolne sią jedynie niektóre programy komercyjne.
+
 \subsection{Funkcje programu}\label{essence:features}

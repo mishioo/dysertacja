@@ -165,6 +165,14 @@
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}.}
 \preto\tabular{\setcounter{magicrownumbers}{0}}
 
+% shorands for comparison table
+\usepackage{bm}% bold math symbols
+\newcommand{\markok}{\textcolor{wonggreen}{${\bm{+}}$}}%
+\newcommand{\markno}{\textcolor{wongvermillion}{${\bm{-}}$}}%
+\newcommand{\markpm}{\textcolor{wongorange}{${\bm{\pm}}$}}%
+\newcommand{\tsp}[1]{\textsuperscript{#1}}
+
+
 % enumerate shenanigans
 \usepackage[inline]{enumitem}
 
