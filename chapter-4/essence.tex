@@ -57,6 +57,64 @@ Na~wspomnianym schemacie zaznaczam kolorowymi obszarami etapy, które mogą być
   w~programie Gaussian oraz te, w~których można użyć opisywanego programu \tesliper{}.
 
 \subsection{Funkcje programu}\label{essence:features}
+Przedstawiwszy ogólny przebieg typowego procesu symulacji widma spektroskopowego,
+  mogę szczegółowo omówić funkcje, które \tesliper{} oferuje.
+Jak wspomniałem we~wstępie do~tego rozdziału, oprócz samej symulacji widma, \tesliper{}
+  dostarcza kilku dodatkowych funkcjonalności, pomocnych przy tym zadaniu.
+Najważniejsze z~nich wymieniam poniżej.
+Wszystkie one są realizowane w~trybie wsadowym.  
+
+\begin{enumerate}
+  \item Przeprowadzenie ekstrakcji danych z~plików wynikowych programu Gaussian.
+    Odczytywanie i~przechowywanie jedynie tych danych, które są istotne z~punktu widzenia
+      symulacji spektroskopowych pozwala na~wydajne i~szybkie przetwarzanie wskazanych plików.
+
+  \item Obliczanie składu populacji konformerów metodą analizy Boltzmanna\sidenote{%
+      Opisuję ją w~kolejnym rozdziale, w~sekcji~\secref{implementation:boltzmann}.
+    }.
+    Wykorzystywane do~tego są wartości energii konformerów obliczone przez program Gaussian.
+    Otrzymane wartości mogą zostać użyte w~kolejnych krokach \--- selekcji konformerów:
+      do~wykluczenia tych o~małym wkładzie oraz symulacji widm: do~ich uśrednienia.
+
+  \item Wykluczanie konformerów niepodlegających dalszej analizie (selekcja).
+    Dotyczy to zarówno prostego filtrowania obliczeń, które zakończyły się niepowodzeniem,
+      albo konformerów, których nie udało się zoptymalizować, ale również bardziej złożonych
+      operacji \--- na~przykład wykrywania struktur, które nie znajdują się w~lokalnym
+      minimum energetycznym.
+    Program \tesliper{} może również ograniczyć analizowane konformery do~takich, których
+      pewna właściwość zawiera się w~danym przedziale \--- na~przykład których różnica
+      energii względem konformeru najniżej energetycznego jest nie większa niż \SI{5}{\kcalpm}.
+
+  \item Porównanie geometrii konformerów metodą matematyczną.
+    Krok ten pozwala na~zminimalizowanie ilości podobnych do~siebie struktur, a~co za~tym idzie,
+      zminimalizowanie poniesionych kosztów obliczeniowych.
+    Program dokonuje tego porównując konformery metodą \gls{rmsd}\sidenote{%
+      Detale na~ten temat również w~kolejnym rozdziale, w~sekcji~\secref{implementation:rmsd}.
+    }.
+
+  \item Przygotowanie kolejnego kroku obliczeń numerycznych.
+    Polega ono na~utworzeniu szeregu plików tekstowych, po~jednym na~każdy analizowany konformer,
+      zgodnych ze~specyfikacją plików wejściowych programu Gaussian.
+    Po~wprowadzeniu do~pamięci \tesliper{}a pożądanych parametrów obliczeń,
+      generuje on~takie pliki.
+
+  \item Obliczanie symulowanego widma.
+    Wychodząc z~aktywności obliczonych przez program Gaussian, \tesliper{} oblicza teoretyczne
+      widmo dla każdego z~analizowanych konformerów, zgodnie z~zadanymi parametrami.
+    Kształt pików symuluje za~pomocą funkcji Gaussa lub funkcji Lorentza\sidenote{%
+      Ponownie, więcej na~ten temat w~kolejnym rozdziale, w~sekcji~\secref{implementation:spectra}.
+    }.
+    Otrzymany zestaw widm uśrednia według populacji otrzymanych w~wyniku analizy Boltzmanna.
+
+  \item Zapis danych na~dysk twardy.
+    Zarówno dane obliczone przez \tesliper{}, jak i~te odczytane z~plików wynikowych programu
+      Gaussian, mogą zostać zapisane na~dysk twardy komputera w~wybranej formie.
+    Dostępne są: format tekstowy \texttt{.txt}, danych oddzielonych przecinkami \texttt{.csv}
+      oraz arkusza programu Excel \texttt{.xlsx}.
+    Ponadto, komplet danych może zostać zachowany w~natywnym formacie \tesliper{}a
+      i~bezstratnie odtworzony w~pamięci programu w~późniejszym czasie.
+  
+\end{enumerate}
 
 \subsection{Korzystanie z~programu}\label{essence:use}
 
