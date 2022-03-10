@@ -127,6 +127,37 @@ Wszystkie one są realizowane w~trybie wsadowym\sidenote{%
 
 \subsection{Korzystanie z~programu}\label{essence:use}
 
+\begin{listing}
+  \begin{lstlisting}
+    from tesliper import Tesliper
+    
+    # przetworzenie plików wyjściowych Gaussian
+    tslr = Tesliper(input_dir="./opt_and_freq")
+    tslr.extract()
+    
+    # selekcja konformerów do analizy
+    tslr.conformers.trim_non_normal_termination()
+    tslr.conformers.trim_not_optimized()
+    tslr.conformers.trim_imaginary_frequencies()
+    tslr.conformers.trim_to_range(
+      # zatrzymaj konformery do +10 kcal względem najtrwalszego
+      "gib", maximum=10, attribute="deltas"
+    )
+    tslr.conformers.trim_rmsd(
+      # porównaj geometrię i odrzuć duplikaty
+      threshold=1, window_size=0.5, energy_genre="gib"
+    )
+    
+    # calculate and average spectra, export data
+    tslr.calculate_spectra()
+    tslr.average_spectra()
+    tslr.export_energies(fmt="txt")
+    tslr.export_averaged(fmt="csv")
+  \end{lstlisting}
+  \caption{Przykład skryptu wykorzystującego interfejs programistyczny \tesliper{}a.}
+  \label{lst:demo}    
+\end{listing}
+
 \subsection{Podobne narzędzia}\label{essence:simmilar}
 Program \tesliper{} nie jest jedynym programem z~graficznym interfejsem, który pozwala
   na~uzyskanie symulowanego widma spektroskopowego.
