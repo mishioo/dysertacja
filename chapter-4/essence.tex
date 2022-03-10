@@ -126,37 +126,77 @@ Wszystkie one są realizowane w~trybie wsadowym\sidenote{%
 \end{enumerate}
 
 \subsection{Korzystanie z~programu}\label{essence:use}
+Dostęp do~oferowanych funkcji \tesliper{} umożliwia poprzez interfejs graficzny, jak
+  i~programistyczny, pozwalając na~preferowaną przez użytkownika metodę komunikacji \---
+  wizualną lub tekstową.
+Przygotowana przeze mnie szczegółowa instrukcja korzystania z~programu obejmuje obydwa sposoby.
+Po wytyczne odnośnie instalacji programu oraz jego uruchomienia również odsyłam do~tego
+  dokumentu.
+Jak wspomniałem już wcześniej, jest on dostępna w~Internecie\sidenote{%
+    Pod adresem \href{https://tesliper.readthedocs.io/}{www.tesliper.readthedocs.io}.
+  },
+  a~także, w~formie pliku PDF, wśród materiałów dodatkowych dołączonych do~niniejszej dysertacji.
+Zarówno interfejs, komunikaty programu, jak i~instrukcję, napisałem w~języku angielskim.
 
-\begin{listing}
+W~tej sekcji chciałbym jedynie wstępnie przybliżyć sposób korzystania z~\tesliper{}a.
+Na~\cref{fig:gui-demo} prezentuję wygląd jego interfejsu graficznego.
+Zakładki na~górze okna pozwalają przełączać widok między kartami ukazującymi listę danych
+  odczytanych dla każdego z~konformerów, listę wartości ich energii i~wartości pochodnych,
+  i,~w~końcu, podgląd symulowanego widma.
+Lewą stronę okna zajmuje panel z~kontrolkami pozwalającymi sterować programem \--- widocznych
+  na~\cref{fig:gui-demo} jest tylko ich część, odpowiadająca za~parametry symulacji widma.
+Nieujęte są te odpowiedzialne za~odczyt i~zapis danych oraz selekcję konformerów.
+
+\begin{figure}
+  \todo[inline]{Add demo screenshot.}
+  \caption{Przykład graficznego interfejsu programu \tesliper{} w~użyciu.}
+  \label{fig:gui-demo}
+\end{figure}
+
+W~przypadku zarówno graficznego interfejsu, jak i~skryptów wykorzystujących interfejs
+  programistyczny, porządek działań jest taki sam\sidenote{
+    Z~tą tylko różnicą, że interfejs graficzny część akcji dodatkowo automatyzuje,
+      na~przykład uśrednianie widma.}.
+Pierwszym etapem jest zawsze wskazanie plików wynikowych programu Gaussian i~ich odczytanie
+  przez \tesliper{}.
+Następnie użytkownik możne porównać ze~sobą konformery i~dokonać ich selekcji według oczekiwań.
+Kolejnym krokiem będzie obliczenie widm teoretycznych i~ich uśrednienie, a~w~końcu zapis
+  wybranych danych na~dysk twardy komputera.
+Przykład realizacji tego procesu poprzez interfejs programistyczny przedstawiam
+  w,~opatrzonym komentarzami, \cref{lst:api-demo}.
+
+\begin{listing*}
   \begin{lstlisting}
-    from tesliper import Tesliper
+    from tesliper import Tesliper  # dostęp do funkcjonalności teslipera
     
     # przetworzenie plików wyjściowych Gaussian
     tslr = Tesliper(input_dir="./opt_and_freq")
-    tslr.extract()
+    tslr.extract()  # odczytaj wszystkie ze wskazanego folderu
     
     # selekcja konformerów do analizy
+    # odrzuć konformery, których obliczenia nie zakończyły się normalnie
     tslr.conformers.trim_non_normal_termination()
+    # a także te niezoptymalizowane
     tslr.conformers.trim_not_optimized()
+    # oraz nie będące w lokalnym minimum energetycznym
     tslr.conformers.trim_imaginary_frequencies()
-    tslr.conformers.trim_to_range(
-      # zatrzymaj konformery do +10 kcal względem najtrwalszego
-      "gib", maximum=10, attribute="deltas"
-    )
-    tslr.conformers.trim_rmsd(
-      # porównaj geometrię i odrzuć duplikaty
-      threshold=1, window_size=0.5, energy_genre="gib"
-    )
+    # zatrzymaj konformery do +10 kcal względem najtrwalszego
+    tslr.conformers.trim_to_range("gib", maximum=10, attribute="deltas")
+    # porównaj geometrię i odrzuć duplikaty
+    tslr.conformers.trim_rmsd(threshold=1, window_size=0.5, energy_genre="gib")
     
-    # calculate and average spectra, export data
+    # oblicz widma z dostępnych danych według standardowych parametrów
     tslr.calculate_spectra()
+    # uśrednij obliczone widma teoretyczne według rozkładu Boltzmanna
     tslr.average_spectra()
+    # zapisz wartości energii i pochodne do plików tekstowego
     tslr.export_energies(fmt="txt")
+    # zapisz uśrednione widma do plików w formacie CSV
     tslr.export_averaged(fmt="csv")
   \end{lstlisting}
   \caption{Przykład skryptu wykorzystującego interfejs programistyczny \tesliper{}a.}
-  \label{lst:demo}    
-\end{listing}
+  \label{lst:api-demo}
+\end{listing*}
 
 \subsection{Podobne narzędzia}\label{essence:simmilar}
 Program \tesliper{} nie jest jedynym programem z~graficznym interfejsem, który pozwala
