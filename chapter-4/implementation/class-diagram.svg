@@ -557,9 +557,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="168.19752"
-     inkscape:cy="988.69502"
+     inkscape:zoom="2"
+     inkscape:cx="187.18515"
+     inkscape:cy="931.90917"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -648,7 +648,7 @@
          x="67.371643"
          y="12.430275"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan833-8-7-3">\textbf{Tesliper}</tspan></text>
+         id="tspan833-8-7-3">\verb|Tesliper|</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24313725;stroke:#000000;stroke-width:0.35277778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 29.564316,9.4775204 H 105.09905 V 29.136124 H 29.564316 Z"
@@ -689,7 +689,7 @@
          id="tspan821-0"
          x="57.561008"
          y="18.724655"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\textbf{Conformers}</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\verb|Conformers|</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -700,7 +700,7 @@
          x="42.679321"
          y="39.16053"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan833-8-7">\textbf{Soxhlet}</tspan></text>
+         id="tspan833-8-7">\verb|Soxhlet|</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24313725;stroke:#000000;stroke-width:0.35277778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 29.564316,35.894157 H 55.82739 v 27.1288 H 29.564316 Z"
@@ -723,7 +723,7 @@
          x="42.679321"
          y="51.814301"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan833-8-7-6">\textbf{Parser}</tspan></text>
+         id="tspan833-8-7-6">\verb|Parser|</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24313725;stroke:#000000;stroke-width:0.35277778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 30.672293,48.532875 H 54.813671 V 61.747824 H 30.672293 Z"
@@ -802,7 +802,7 @@
          id="tspan821-0-0-5"
          x="96.040489"
          y="39.171486"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\textbf{Writer}</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\verb|Writer|</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e69f00;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -836,7 +836,7 @@
          id="tspan821-0-0"
          x="70.770813"
          y="39.169861"
-         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\textbf{DataArray}</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">\verb|DataArray|</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e69f00;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -916,7 +916,7 @@
          x="12.722718"
          y="16.283592"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan833-8-7-46">\textbf{Obiekt}</tspan></text>
+         id="tspan833-8-7-46">\verb|Obiekt|</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24313725;stroke:#000000;stroke-width:0.35277778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 1.9641099,13.040262 H 23.401401 v 17.6028 H 1.9641099 Z"
@@ -939,7 +939,7 @@
          x="12.633145"
          y="22.058207"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan833-8-7-6-26">Posiadanie</tspan></text>
+         id="tspan833-8-7-6-26">\verb|Posiadanie|</tspan></text>
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.24313725;stroke:#000000;stroke-width:0.35277778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 2.9364392,18.776773 H 22.429071 V 29.574961 H 2.9364392 Z"
