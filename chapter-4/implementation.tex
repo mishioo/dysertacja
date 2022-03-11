@@ -50,23 +50,24 @@ Ująłem na~nim również przepływ danych, aby unaocznić w~jaki sposób obiekt
   \label{fig:class-diagram}
 \end{figure}
 
-Obiekt \verb|Tesliper| jest obiektem fasadowym, nazywanym tak przez nawiązanie do~architektury.
+Obiekt \texttt{Tesliper} jest obiektem fasadowym, nazywanym tak przez nawiązanie do~architektury.
 Tak jak fasada budynku, obiekt tego typu jest pierwszym, z~czym ma do~czynienia użytkownik.
 Stanowi główny punkt dostępu do~funkcjonalności programu, ukrywając skomplikowane elementy
   systemu i~ułatwiając jego użycie.
-\verb|Tesliper| posiada obiekt \verb|Conformers|, który jest głównym magazynem danych \tesliper{}a.
+\texttt{Tesliper} posiada obiekt \texttt{Conformers},
+  który jest głównym magazynem danych \tesliper{}a.
 W~jego obrębie wykonywana jest selekcja danych \--- posiada metody pozwalające
   na~zatrzymanie lub odrzucenie\sidenote{A~właściwie na~tymczasowe ignorowanie.}
   konformerów według zadanych parametrów.
 Zapewnia również dostęp do~przechowywanych danych w~formie wyspecjalizowanych egzemplarzy
-  klasy \verb|DataArray|, a~dokładnie \--- klas po~niej dziedziczących.
+  klasy \texttt{DataArray}, a~dokładnie \--- klas po~niej dziedziczących.
 
-Obiekty typu \verb|DataArray| są centralnym elementem funkcjonalności \tesliper{}a.
+Obiekty typu \texttt{DataArray} są centralnym elementem funkcjonalności \tesliper{}a.
 Zapewniają dostęp do~metod odpowiedzialnych za~analizę danych dotyczących wybranych konformerów
   oraz przeliczanie tych danych na~finalne wartości.
 Każdy rodzaj danych \--- wartości energii, geometria struktur, aktywności spektroskopowe, itd.
-  \--- jest reprezentowany przez obiekt dedykowanej klasy, dziedziczącej po~\verb|DataArray|.
-Owa dedykowana klasa dostarcza adekwatnych metod transformacji danych, które do~niej należą. 
+  \--- jest reprezentowany przez obiekt dedykowanej klasy, dziedziczącej po~\texttt{DataArray}.
+Owa dedykowana klasa dostarcza adekwatnych metod transformacji danych, które do~niej należą.
 
 \subsection{Sposób przetwarzania danych}\label{implementation:parsing}
 \subsection{Analiza rozkładem Boltzmanna}\label{implementation:boltzmann}
