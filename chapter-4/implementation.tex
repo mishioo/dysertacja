@@ -69,7 +69,38 @@ Każdy rodzaj danych \--- wartości energii, geometria struktur, aktywności spe
   \--- jest reprezentowany przez obiekt dedykowanej klasy, dziedziczącej po~\texttt{DataArray}.
 Owa dedykowana klasa dostarcza adekwatnych metod transformacji danych, które do~niej należą.
 
-\subsection{Sposób przetwarzania danych}\label{implementation:parsing}
+\subsection{Odczyt i~zapis danych}\label{implementation:parsing}
+Przetworzone dane na~dysk twardy \tesliper{} zapisuje za~pomocą wyspecjalizowanych na~format
+  pliku docelowego obiektów typu \texttt{Writer}\sidenote{%
+    Dziedziczących tak na~prawdę po~klasie \texttt{WriterBase},
+      nieuwzględnionej na~\protect\cref{fig:class-diagram}.}.
+Klasy te definiują metody zapisu i~sposób formatowania różnych rodzajów danych do~obsługiwanego
+  przez siebie formatu plików.
+Bardziej interesujący i~godny komentarza jest proces odczytu plików wynikowych programu Gaussian,
+  zarządzany przez obiekt \texttt{Soxhlet}\sidenote{%
+    Jest to, humorystyczne i~prawdopodobnie oczywiste, nawiązanie do~aparatu Soxhleta.
+    Uznałem je za~adekwatne, bo w~końcu również służy do~ekstrakcji.
+    Jeśli, czytelniku, uznasz, że jest ono nie na~miejscu, będę bronił się, cytując Phila Karltona,
+      który twierdził, że \enquote{są tylko dwia trudne zagadnienia w~naukach komputerowych:
+      unieważnienie pamięci podręcznej i~nazywanie rzeczy}.
+  }.
+
+\texttt{Soxhlet} posiada wyspecjalizowany obiekt typu \texttt{Parser}\sidenote{%
+    Podobnie jak w~poprzednim przypadku, jest to obiekt dziedziczący tak na~prawdę po~klasie
+      \texttt{ParserBase}, również nie uwzględnionej na~\protect\cref{fig:class-diagram}.
+    W~przypadku opisywanych tutaj plików wynikowych programu Gaussian używany jest egzemplarz
+      klasy \texttt{GaussianParser}.}
+  który odpowiada za~odczyt danych tekstowych ze~wskazanego pliku i~przetworzenie ich
+  na~dane liczbowe.
+\texttt{Parser} odczytuje jeden plik na~raz.
+Wyekstrahowane wartości przekazuje do~obiektu \texttt{Soxhlet}, który magazynuje je przed
+  przekazaniem kompletu danych do~obiektu \texttt{Tesliper}.
+\texttt{Soxhlet} jest też odpowiedzialny za~zawiadywanie pracą obiektu \texttt{Parser}.
+Ustala, które pliki we~wskazanym folderze należy przetworzyć i~po~kolei przekazuje je
+  obiektowi \texttt{Parser}.
+
+% TODO: Parser as FSM
+
 \subsection{Analiza rozkładem Boltzmanna}\label{implementation:boltzmann}
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
