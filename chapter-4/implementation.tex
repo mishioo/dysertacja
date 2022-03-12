@@ -102,7 +102,38 @@ Wyekstrahowane wartości przekazuje do~obiektu \texttt{Soxhlet}, który magazynu
 Ustala, które pliki we~wskazanym folderze należy przetworzyć i~po~kolei przekazuje je
   obiektowi \texttt{Parser}.
 
-% TODO: Parser as FSM
+Warto może w~tym miejscu powiedzieć czym w~ogóle jest parser.
+W~ogólnym znaczeniu to program\sidenote{Lub jego część.} odpowiedzialny za~przetwarzanie tekstu
+  \--- jego odczytywanie, wydobycie z~niego informacji i~przedstawienie ich w~języku i~formie,
+  które zrozumie komputer\sidenote{%
+    Takie wyjaśnienie jest, oczywiście, dalekie od~formalnej definicji parsera jako analizatora
+      składniowego, ale myślę, że na~potrzeby niniejszej dysertacji jest wystarzcające.}.
+W~przypadku danych zawartych w~plikach wynikowych programu Gaussian ważny jest również kontekst
+  odczytywanych informacji.
+Parser musi nie tylko rozpoznać, że dany ciąg znaków to liczba, ale również przypisać jej znaczenie
+  \--- czy ta liczba to wartość energii czy ładunku cząsteczki; czy te koordynaty reprezentują
+  geometrię zoptymalizowaną czy nie?
+
+Aby umożliwić wydaje odczytywanie informacji z~takiej kontekstowej treści, zaimplementowałem
+  obiekt \texttt{Parser} w~formie automatu skończonego.
+Angielski odpowiednik tego terminu \--- \textit{finite state machine} \--- zdradza więcej
+  informacji o~naturze tego modelu.
+Jest to rodzaj \enquote{maszyny}, która może znajdować się w~pewnej skończonej liczbie stanów
+  i~reagować na~bodźce w~sposób zależny od~tego, w~jakim stanie się akurat znajduje.
+W~przypadku obiektu \texttt{Parser} bodźcami są informacje odczytywane z~przetwarzanego pliku,
+  a~stany są tożsame z~kontekstem, w~jakim te informacje się znajdują.
+Taki sposób przetwarzania danych pozwala nie tylko \enquote{zrozumieć} znaczenie odczytanych
+  danych, ale również zminimalizować liczbę testów, które należy przeprowadzić w~danym momencie.
+
+Przykładowo \--- jeśli \texttt{Parser} napotyka frazę \enquote{\texttt{Optimization completed}},
+  to wejdzie w~stan \enquote{odczytywania zoptymalizowanej geometrii}.
+Będzie wiedział, że ciągi liczb, które odczytuje, są reprezentacją atomów w~przestrzeni,
+  i~że ma zapisać je w~pamięci jako geometrię optymalną właśnie.
+Będzie wiedział też, że nie musi sprawdzać czy w~danym fragmencie znajduje się informacja
+  o~wartości energii swobodnej Gibbsa, ani o~przejściach elektronowych w~stanie wzbudzonym.
+Zacznie szukać tych innych treści dopiero gdy napotka frazę, która będzie dla niego
+  sygnałem do~zmiany stanu \--- w~przykładowej sytuacji byłaby to pusta linia po~koordynatach
+  ostatniego z~atomów.
 
 \subsection{Analiza rozkładem Boltzmanna}\label{implementation:boltzmann}
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
