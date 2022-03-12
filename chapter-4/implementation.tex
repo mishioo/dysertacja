@@ -68,6 +68,9 @@ Zapewniają dostęp do~metod odpowiedzialnych za~analizę danych dotyczących wy
 Każdy rodzaj danych \--- wartości energii, geometria struktur, aktywności spektroskopowe, itd.
   \--- jest reprezentowany przez obiekt dedykowanej klasy, dziedziczącej po~\texttt{DataArray}.
 Owa dedykowana klasa dostarcza adekwatnych metod transformacji danych, które do~niej należą.
+Ponadto, podczas tworzenia tych obiektów, przeprowadzana jest dokładna walidacja danych \---
+  sprawdzana jest ich spójność i~są one przekształcane w~formę tablic, na~których można
+  wydajnie przeprowadzać operacje matematyczne.
 
 \subsection{Odczyt i~zapis danych}\label{implementation:parsing}
 Przetworzone dane na~dysk twardy \tesliper{} zapisuje za~pomocą wyspecjalizowanych na~format
