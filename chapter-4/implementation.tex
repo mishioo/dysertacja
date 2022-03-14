@@ -231,5 +231,26 @@ W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Bolt
   p_i = \frac{B^i_0}{\sum^N_{j=0}B^j_0}
 \end{equation}
 
+\begin{listing}
+  \begin{lstlisting}{emph={energies, temperature, boltzmann_constant}}
+    # INPUT: energies, temperature, boltzmann_constant
+    energy_zero = min(energies)
+    deltas = []
+    for energy in energies:
+        delta = energy - energy_zero
+        deltas.append(delta)
+    kt = temperature * boltzmann_constant
+    boltzmann_factors = []
+    for delta in deltas:
+        factor = math.exp(-delta / kt)
+        boltzmann_factors.append(factor)
+    factors_sum = sum(boltzmann_factors)
+    populations = []
+    for factor in boltzmann_factors:
+      population = factor / factors_sum
+      populations.append(population)
+  \end{lstlisting}
+\end{listing}
+
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
