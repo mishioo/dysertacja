@@ -10,6 +10,29 @@ Dokładniej opisuję jedynie wybrane, ważne lub po~prostu bardziej interesując
   \--- przede wszystkim stojącą za~realizacją niektórych zadań logikę i~matematykę.
 
 \subsection{Wybór języka programowania}\label{implementation:language}
+Wybrany przeze mnie Python jest interpretowanym językiem programowania wysokiego poziomu.
+Interpretowanym, czyli nie wymagającym kompilacji kodu do~jego wykonania \--- program nazywany
+  interpreterem odczytuje napisane przez użytkownika instrukcje i~bezpośrednio je wykonuje%
+  \sidenote{W~przeciwieństwie do~języków kompilowanych, których kod źródłowy trzeba najpierw
+    \enquote{przetłumaczyć} na~język zrozumiały przez komputer, tak zwany kod maszynowy.}.
+Wysokiego poziomu, znaczy natomiast, że jest on \enquote{bardziej przyjazny} programiście
+  niż komputerowi \--- niezależny od~platformy, łatwiejszy do~zrozumienia, bliższy językowi
+  naturalnemu niż kodowi binarnemu.
+
+Cechy te, razem z~filozofią Pythona, stawiającą na~prostotę i~czytelność, sprawiają,
+  że popularność tego języka wśród programistów sukcesywnie rośnie od~kilku lat.
+W~czasie pisania niniejszej dysertacji jest on najbardziej popularnym językiem programowania
+  według indeksu TIOBE\sidecite{tiobe}, sprawdzającego na~ilu stronach internetowych dany język
+  programowania jest wspominany, jak i~indeksu \gls{pypl}]\sidecite{pypl}, mierzącego ilość
+  wyszukiwań tutoriali dla danego języka.
+W~rankingu RedMonk\sidecite{redmonk}, biorącym pod uwagę ilość wpisów związanych z~danym
+  językiem w~popularnych serwisach internetowych\sidenote{%
+    Chodzi dokładnie o~serwis GitHub (\href{https://github.com}{www.github.com}),
+      pozwalający na~upublicznianie kodu źródłowego oraz forum StackOverflow
+      (\href{https://stackoverflow.com}{www.stackoverflow.com}),
+      będące istotnym miejscem wymiany wiedzy między programistami.
+  }, jest natomiast na~drugiej pozycji.
+
 \subsection{Ogólna architektura kodu}\label{implementation:architecture}
 Program \tesliper{} ma strukturę obiektową\sidenote{%
     Dla ścisłości muszę tu zaznaczyć, że \tesliper{} nie jest w~pełni utrzymany w~stylu obiektowym.
