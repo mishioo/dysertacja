@@ -181,5 +181,55 @@ Zacznie szukać tych innych treści dopiero gdy opuści obecny stan pod wpływem
   \--- w~przykładowej sytuacji byłaby to pusta linia po~koordynatach ostatniego z~atomów.
 
 \subsection{Analiza rozkładem Boltzmanna}\label{implementation:boltzmann}
+Symulacji finalnego widma spektroskopowego, \tesliper{} dokonuje, uśredniając widma teoretyczne,
+  obliczone dla każdego z~konformerów.
+Aby jak najlepiej odwzorować dane eksperymentalne, liczy średnią ważoną tych widm, za~wagę biorąc
+  powszechność występowania poszczególnych konformerów w~badanym systemie.
+Liczbowo wyrazić ją można jako procentową zawartość każdego z~możliwych konformerów w~mieszaninie,
+  inaczej mówiąc jako wkład w~populację.
+Populacja konformerów może natomiast być oszacowana na~podstawie rozkładu Boltzmanna\sidenote{%
+  Nazywanego też rozkładem Gibbsa. Boltzmann zaproponował go po~raz pierwszy podczas swoich
+    studiów nad mechaniką statystyczną gazów w~równowadze cieplnej [\cite{boltzmann68}],
+    ale w~formie używanej obecnie został wyrażony przez Gibbsa właśnie [\cite{gibbs06}].
+}.
+
+Jest to rozkład prawdopodobieństwa, opisujący szansę na~znalezienie układu w~określonym stanie,
+  na~podstawie energii tego stanu i~temperatury układu.
+Prawdopodobieństwo obsadzenia stanu rośnie w~nim wykładniczo wraz ze~zmianą tych parametrów,
+  zgodnie z~poniższym równaniem.
+
+\begin{equation}
+  p_i \propto e^{-E_i/kT}
+\end{equation}
+
+$p_i$ w~tym równaniu jest wspomnianym prawdopodobieństwem występowania układu w~stanie $i$,
+  $E_i$ jest wartością energii tego stanu wyrażona w~\si{\kcalpm},
+  $k = \SI{0.0019872041}{\kcalpm\per\kelvin}$ to stała Boltzmanna,
+  a~$T$ to temperatura układu w~Kelvinach.
+Symbol $\propto$ oznacza proporcjonalność.
+Stosunek prawdopodobieństw dwóch stanów nazywany jest współczynnikiem Boltzmanna tych stanów
+  i~wyrażony jest poniższym równianinem, a~zatem jest zależny przede wszystkim od~różnicy
+  energii między stanami.
+
+\begin{equation}
+  B^a_b = \frac{p_a}{p_b} = e^{(E_b-E_a)/kt}
+\end{equation}
+
+W~przypadku zastosowania tego rozkładu do~opisu konformerów, pod prawdopodobieństwem $p_i$
+  możemy rozumieć szansę, że losowo wybrana cząsteczka badanego związku będzie miała
+  konformację $i$.
+A~zatem współczynnik Boltzmanna pokazuje na~ile bardziej prawdopodobne jest, że cząsteczka
+  ta przybierze raczej konformację $a$ niż konformację $b$\sidenote{%
+    Zakładając, że $a$ ma niższą energię niż $b$.}.
+Znając wartość tego współczynnika względem konformeru o~najniższej energii dla każdego
+  z~konformerów można znaleźć bezwzględną wartość prawdopodobieństwa występowania cząsteczki
+  w~formie każdego konformeru.
+W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Boltzmanna względem
+  konformeru o~najniższej energii, oznaczonego umownie stanem $0$.
+
+\begin{equation}
+  p_i = \frac{B^i_0}{\sum^N_{j=0}B^j_0}
+\end{equation}
+
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
