@@ -189,8 +189,8 @@ Liczbowo wyrazić ją można jako procentową zawartość każdego z~możliwych 
   inaczej mówiąc jako wkład w~populację.
 Populacja konformerów może natomiast być oszacowana na~podstawie rozkładu Boltzmanna\sidenote{%
   Nazywanego też rozkładem Gibbsa. Boltzmann zaproponował go po~raz pierwszy podczas swoich
-    studiów nad mechaniką statystyczną gazów w~równowadze cieplnej [\cite{boltzmann68}],
-    ale w~formie używanej obecnie został wyrażony przez Gibbsa właśnie [\cite{gibbs06}].
+    studiów nad mechaniką statystyczną gazów w~równowadze cieplnej (\colorcite{boltzmann68}),
+    ale w~formie używanej obecnie został wyrażony przez Gibbsa właśnie (\colorcite{gibbs02}).
 }.
 
 Jest to rozkład prawdopodobieństwa, opisujący szansę na~znalezienie układu w~określonym stanie,
@@ -228,11 +228,11 @@ W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Bolt
   konformeru o~najniższej energii, oznaczonego umownie stanem $0$.
 
 \begin{equation}
-  p_i = \frac{B^i_0}{\sum^N_{j=0}B^j_0}
+  p_i = \frac{B^i_0}{\sum\limits^N_{j=0}B^j_0}
 \end{equation}
 
 \begin{listing}
-  \begin{lstlisting}{emph={energies, temperature, boltzmann_constant}}
+  \begin{lstlisting}[emph={energies, temperature, boltzmann_constant}]
     # INPUT: energies, temperature, boltzmann_constant
     energy_zero = min(energies)
     deltas = []
