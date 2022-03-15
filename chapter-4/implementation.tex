@@ -240,7 +240,9 @@ W~pierwszej pętli obliczam różnicę energii każdego z~danych konformerów wz
 Na~podstawie tych wartości obliczam następnie wartości odpowiednich współczynników Boltzmanna,
   korzystając z~funkcji eksponencjonalnej \texttt{math.exp()}, dostępnej w~bibliotece
   standardowej Pythona.
-Wartości współczynników sumuję w~linii 15, po~czym używam tej sumy do~obliczenia ułamka
+W~wyrażeniu na~wartość współczynnika Boltzmanna człony energii konformerów występują
+   w~odwrotnym porządku niż w~linii 11, stąd minus w~wyrażeniu \texttt{-delta / kt}.
+W~linii 15 sumuję wartości współczynników, po~czym używam tej sumy do~obliczenia ułamka
   populacji, jaki stanowi każdy z~konformerów w~ostatnich liniach algorytmu.
 Wynik przechowuję w~liście \texttt{populations}.
 
