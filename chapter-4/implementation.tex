@@ -264,5 +264,22 @@ W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Bolt
   }\label{lst:boltzmann}
 \end{listing}
 
+\begin{listing}
+  \begin{lstlisting}[emph={energies, temperature, BOLTZMANN_CONSTANT}]
+    # DANE: energies, temperature
+    # STAŁE: BOLTZMANN_CONSTANT
+    import numpy as np  # przygotuj paczkę NumPy
+    kt = temperature * BOLTZMANN_CONSTANT
+    deltas = np.array(energies) - np.min(energies)
+    factors = np.exp(-deltas / kt)
+    populations = factors / factors.sum()
+  \end{lstlisting}
+  \caption{
+    Rzeczywisty sposób obliczania populacji konformerów na~podstawie rozkładu Boltzmanna
+      przy użyciu paczki NumPy do~wydajnych obliczeń numerycznych na~tablicach liczb.
+    Obowiązują takie same założenia jak opisałem w~\protect\cref{lst:boltzmann}.
+  }\label{lst:boltzmann-numpy}
+\end{listing}
+
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
