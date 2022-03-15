@@ -232,24 +232,36 @@ W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Bolt
 \end{equation}
 
 \begin{listing}
-  \begin{lstlisting}[emph={energies, temperature, boltzmann_constant}]
-    # INPUT: energies, temperature, boltzmann_constant
+  \begin{lstlisting}[emph={energies, temperature, BOLTZMANN_CONSTANT}]
+    # DANE: energies, temperature
+    # STAŁE: BOLTZMANN_CONSTANT
+    # puste listy na przechowanie wyników
+    deltas, factors, populations = [], [], []
+    # wartości stałe w danych warunkach
     energy_zero = min(energies)
-    deltas = []
+    kt = temperature * BOLTZMANN_CONSTANT
+    # właściwy algorytm
     for energy in energies:
-        delta = energy - energy_zero
-        deltas.append(delta)
-    kt = temperature * boltzmann_constant
-    boltzmann_factors = []
+        # oblicz różnice energii
+        deltas += [energy - energy_zero]
     for delta in deltas:
-        factor = math.exp(-delta / kt)
-        boltzmann_factors.append(factor)
-    factors_sum = sum(boltzmann_factors)
-    populations = []
-    for factor in boltzmann_factors:
-      population = factor / factors_sum
-      populations.append(population)
+        # oblicz współczynniki Boltzmanna
+        factors += [math.exp(-delta / kt)]
+    factors_sum = sum(factors)
+    for factor in factors:
+        # oblicz populacje konformerów
+        populations += [factor / factors_sum]
   \end{lstlisting}
+  \caption{
+    Algorytm obliczania populacji konformerów na~podstawie rozkładu Boltzmanna.
+    Po~jego wykonaniu, zmienna \lstinline|populations| zawiera listę ułamkowych wartości populacji
+      każdego z~konformerów wziętych pod uwagę, sumujących się do~jedności.
+    Algorytm zakłada, że dostarczona zostanie lista wartości energii tych konformerów jako
+      zmienna \lstinline|energies| oraz temperatura układu jako zmienna \lstinline|temperature|.
+    Zakłada także, że znana wartość stałej Boltzmanna przechowywana jest w~zmiennej
+      \lstinline|BOLTZMANN_CONSTANT|.
+    Wyrażenie \lstinline|lista += [wartość]| oznacza dodanie danej wartości na~koniec listy.
+  }\label{lst:boltzmann}
 \end{listing}
 
 \subsection{Metoda porównania geometrii}\label{implementation:rmsd}
