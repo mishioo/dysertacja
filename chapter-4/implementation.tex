@@ -1,7 +1,7 @@
 \section{Detale implementacji}\label{tesliper:implementation}
 Program \tesliper{} napisałem w~języku programowania Python~3.6\sidecite[-3\baselineskip]{python36}.
-Korzystałem przy tym z~paczki NumPy\sidecite{numpy}, będącej standardem wśród naukowej społeczności
-  użytkowników Pythona, zapewniającym wydają pracę w~zakresie obliczeń numerycznych.
+Korzystałem przy tym z~pakietu NumPy\sidecite{numpy}, będącego standardem wśród naukowej
+  społeczności użytkowników Pythona, zapewniającym wydają pracę w~zakresie obliczeń numerycznych.
 Po~wyłożeniu motywów wyboru języka, przybliżam ogólną strukturę kodu \tesliper{}a
   i~sposób realizacji jego podstawowych zadań, ale bez wdawania się w~szczegóły.
 Zainteresowanego czytelnika odsyłam raczej do~wspomnianej wcześniej instrukcji\sidenote{%
@@ -37,7 +37,7 @@ Ochota z~jaką programiści sięgają po to narzędzie wynika też z~jego dużej
   łatwości pracy z~nim i~z~zaangażowania społeczności programistów Pythona.
 Ze~względu na~nieskomplikowaną składnię i~dostępność wielu gotowych rozwiązań, Python jest
   zarówno łatwy do~nauczenia, jak i~zapewniający rozległe możliwości.
-Istnienie dodatków takich jak NumPy\sidecite{numpy} \--- paczka służąca do~wydajnego prowadzenia
+Istnienie dodatków takich jak NumPy\sidecite{numpy} \--- pakiet służący do~wydajnego prowadzenia
   obliczeń na~macierzach \--- pozwala przekroczyć część ograniczeń Pythona, wynikających z~jego
   wysokiego poziomu abstrakcji\sidenote{Chodzi tu o~ukrycie detali związanych z~implementacją
     różnych algorytmów, komunikacji z~systemem operacyjnym i~podzespołami komputera.}.
@@ -281,7 +281,7 @@ Wynik przechowuję w~liście \texttt{populations}.
 \end{listing}
 
 Jak widać na~\cref{lst:boltzmann-numpy}, te same obliczenia można wykonać w~sposób o~wiele
-  bardziej zwięzły, jeśli wykorzystać wspomnianą wcześniej paczkę NumPy do~wydajnych obliczeń
+  bardziej zwięzły, jeśli wykorzystać wspomniany wcześniej pakiet NumPy do~wydajnych obliczeń
   numerycznych na~tablicach liczb.
 Tak właśnie \tesliper{} w~rzeczywistości oblicza ułamkowe wartości populacji konformerów.
 
@@ -289,7 +289,7 @@ Tak właśnie \tesliper{} w~rzeczywistości oblicza ułamkowe wartości populacj
   \begin{lstlisting}[emph={energies, temperature, BOLTZMANN_CONSTANT}]
     # DANE: energies, temperature
     # STAŁE: BOLTZMANN_CONSTANT
-    import numpy as np  # przygotuj paczkę NumPy
+    import numpy as np  # przygotuj pakiet NumPy
     kt = temperature * BOLTZMANN_CONSTANT
     deltas = np.array(energies) - np.min(energies)
     factors = np.exp(-deltas / kt)
@@ -297,7 +297,7 @@ Tak właśnie \tesliper{} w~rzeczywistości oblicza ułamkowe wartości populacj
   \end{lstlisting}
   \caption{
     Rzeczywisty sposób obliczania populacji konformerów na~podstawie rozkładu Boltzmanna
-      przy użyciu paczki NumPy do~wydajnych obliczeń numerycznych na~tablicach liczb.
+      przy użyciu pakietu NumPy do~wydajnych obliczeń numerycznych na~tablicach liczb.
     Obowiązują takie same założenia jak opisałem w~\protect\cref{lst:boltzmann}.
   }\label{lst:boltzmann-numpy}
 \end{listing}
