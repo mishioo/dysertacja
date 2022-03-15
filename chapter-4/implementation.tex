@@ -277,6 +277,11 @@ Wynik przechowuję w~liście \texttt{populations}.
   }\label{lst:boltzmann}
 \end{listing}
 
+Jak widać na~\cref{lst:boltzmann-numpy}, te same obliczenia można wykonać w~sposób o~wiele
+  bardziej zwięzły, jeśli wykorzystać wspomnianą wcześniej paczkę NumPy do~wydajnych obliczeń
+  numerycznych na~tablicach liczb.
+Tak właśnie \tesliper{} w~rzeczywistości oblicza ułamkowe wartości populacji konformerów.
+
 \begin{listing}
   \begin{lstlisting}[emph={energies, temperature, BOLTZMANN_CONSTANT}]
     # DANE: energies, temperature
