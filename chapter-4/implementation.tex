@@ -1,5 +1,5 @@
 \section{Detale implementacji}\label{tesliper:implementation}
-Program \tesliper{} napisałem w~języku programowania Python~3.6\sidecite{python36}.
+Program \tesliper{} napisałem w~języku programowania Python~3.6\sidecite[-3\baselineskip]{python36}.
 Korzystałem przy tym z~paczki NumPy\sidecite{numpy}, będącej standardem wśród naukowej społeczności
   użytkowników Pythona, zapewniającym wydają pracę w~zakresie obliczeń numerycznych.
 Po~wyłożeniu motywów wyboru języka, przybliżam ogólną strukturę kodu \tesliper{}a
@@ -23,7 +23,7 @@ Cechy te, razem z~filozofią Pythona, stawiającą na~prostotę i~czytelność, 
   że popularność tego języka wśród programistów sukcesywnie rośnie od~kilku lat.
 W~czasie pisania niniejszej dysertacji jest on najbardziej popularnym językiem programowania
   według indeksu TIOBE\sidecite{tiobe}, sprawdzającego na~ilu stronach internetowych dany
-  język jest wspominany, jak i~indeksu \gls{pypl}]\sidecite{pypl}, mierzącego ilość
+  język jest wspominany, jak i~indeksu \gls{pypl}\sidecite{pypl}, mierzącego ilość
   wyszukiwań samouczków dla danego języka.
 W~rankingu RedMonk\sidecite{redmonk}, biorącym pod uwagę ilość wpisów związanych z~danym
   językiem w~popularnych serwisach internetowych\sidenote{%
@@ -47,7 +47,13 @@ Reasumując \--- liczne zalety Pythona oraz jego popularność wśród naukowcó
   do~mojego wyboru.
 
 \subsection{Ogólna architektura kodu}\label{implementation:architecture}
-Program \tesliper{} ma strukturę obiektową\sidenote{%
+Program \tesliper{} ma strukturę obiektową, to znaczy wykorzystuje konstrukcje zwane obiektami,
+  które zawierają zarówno dane, jak i~kod odpowiedzialny za~działania.
+Ten styl programowania próbuje do~pewnego stopnia naśladować rzeczywisty świat \---
+  obiekty mogą \enquote{posiadać} i~\enquote{robić}; reprezentują rzeczy lub idee.
+Gdy obiekty \enquote{posiadają}, posiadane przez nich dane nazywa się atrybutami,
+  natomiast możliwe działania obiektów są reprezentowane przez fragmenty kodu nazywane metodami%
+  \sidenote{%
     Dla ścisłości muszę tu zaznaczyć, że \tesliper{} nie jest w~pełni utrzymany w~stylu obiektowym.
     Python nie wymusza konkretnego paradygmatu programowania,
       pozwalając mieszać ze~sobą różne wzorce.
@@ -57,12 +63,7 @@ Program \tesliper{} ma strukturę obiektową\sidenote{%
     Takie podejście jest typowe dla~programów napisanych w~języku Python, i~można traktować
       je jako szczegół w~organizacji kodu.
     W~związku z~tym nie opisuję tej kwestii bardziej drobiazgowo.
-  }, to znaczy wykorzystuje konstrukcje zwane obiektami,
-  które zawierają zarówno dane, jak i~kod odpowiedzialny za~działania.
-Ten styl programowania próbuje do~pewnego stopnia naśladować rzeczywisty świat \---
-  obiekty mogą \enquote{posiadać} i~\enquote{robić}; reprezentują rzeczy lub idee.
-Gdy obiekty \enquote{posiadają}, posiadane przez nich dane nazywa się atrybutami,
-  natomiast możliwe działania obiektów są reprezentowane przez fragmenty kodu nazywane metodami.
+  }.
 
 Obiekty mogą posiadać inne obiekty \--- taka relacja nazywana jest kompozycją.
 Innym rodzajem relacji między obiektami jest dziedziczenie.
@@ -204,7 +205,7 @@ Prawdopodobieństwo obsadzenia stanu rośnie w~nim wykładniczo wraz ze~zmianą 
 
 $p_i$ w~tym równaniu jest wspomnianym prawdopodobieństwem występowania układu w~stanie $i$,
   $E_i$ jest wartością energii tego stanu wyrażona w~\si{\kcalpm},
-  $k = \SI{0.0019872041}{\kcalpm\per\kelvin}$ to stała Boltzmanna,
+  $k = \SI{0.001987204}{\kcalpm\per\kelvin}$ to stała Boltzmanna,
   a~$T$ to temperatura układu w~Kelvinach.
 Symbol $\propto$ oznacza proporcjonalność.
 Stosunek prawdopodobieństw dwóch stanów nazywany jest współczynnikiem Boltzmanna tych stanów
@@ -220,7 +221,7 @@ W~przypadku zastosowania tego rozkładu do~opisu konformerów, pod prawdopodobie
   konformację $i$.
 A~zatem współczynnik Boltzmanna pokazuje na~ile bardziej prawdopodobne jest, że cząsteczka
   ta przybierze raczej konformację $a$ niż konformację $b$\sidenote{%
-    Zakładając, że $a$ ma niższą energię niż $b$.}.
+    Zakładając, że konformer $a$ ma niższą energię niż konformer $b$.}.
 Znając wartość tego współczynnika względem konformeru o~najniższej energii dla każdego
   z~konformerów można znaleźć bezwzględną wartość prawdopodobieństwa występowania cząsteczki
   w~formie każdego konformeru.
