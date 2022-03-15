@@ -231,6 +231,19 @@ W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Bolt
   p_i = \frac{B^i_0}{\sum\limits^N_{j=0}B^j_0}
 \end{equation}
 
+Jak obliczeń tych można dokonać za~pomocą kodu Pythona pokazuje \cref{lst:boltzmann}.
+Po~przygotowaniu pustych list do~przechowania wyników obliczeń w~linii 4 oraz ustaleniu
+  wartości stałych w~danych warunkach w~liniach 5 i~6, przedstawiam właściwy algorytm,
+  wykonany w~trzech kolejnych pętlach \lstinline|for ... in ...|\ .
+W~pierwszej pętli obliczam różnicę energii każdego z~danych konformerów względem konformeru
+  o~najniższej energii, przechowując je w~liście \texttt{deltas}.
+Na~podstawie tych wartości obliczam następnie wartości odpowiednich współczynników Boltzmanna,
+  korzystając z~funkcji eksponencjonalnej \texttt{math.exp()}, dostępnej w~bibliotece
+  standardowej Pythona.
+Wartości współczynników sumuję w~linii 15, po~czym używam tej sumy do~obliczenia ułamka
+  populacji, jaki stanowi każdy z~konformerów w~ostatnich liniach algorytmu.
+Wynik przechowuję w~liście \texttt{populations}.
+
 \begin{listing}
   \begin{lstlisting}[emph={energies, temperature, BOLTZMANN_CONSTANT}]
     # DANE: energies, temperature
