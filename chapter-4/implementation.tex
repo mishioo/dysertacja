@@ -431,3 +431,53 @@ Podejście to jest kompromisem pomiędzy skutecznością wykrywania \enquote{dup
   a~szybkością dokonania analizy.
 
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
+Na~koniec zostawiam krótkie omówienie meritum funkcjonalności programu \tesliper{},
+  czyli obliczanie symulowanego widma z~danych dostarczonych przez program Gaussian.
+Gaussian, jako wynik przeprowadzonych obliczeń prezentuje nie widma, a~jedynie pewne właściwości
+  kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo aktywnościami spektroskopowymi,
+  które charakteryzują pasma poszczególnych typów widm.
+Są to, między innymi, siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, a~także siła
+  rotatora dla widm chiralooptycznych.
+\citeauthor{polavarapu17} szczegółowo wyłożył w~cytowanym podręczniku\sidecite{polavarapu17}
+  sposób przekształcania tych wartości na~intensywność absorpcji odpowiednich widm
+  spektroskopowych, wraz z~wyłożeniem niezbędnych konwersji jednostek, nie będę więc tutaj
+  powtarzał tych opisów.
+Implementację odpowiednich funkcji\sidenote{%
+    Użyte do~tego wzory matematyczne cytuję w~adekwatnej sekcji dokumentacji programu \tesliper{}.
+  } oparłem o~te właśnie wiadomości, a~także o~informacje
+  dostarczone przez twórców programu Gaussian\sidecite{gaussian-uv}.
+
+Nawet po~wspomnianym przekształceniu, obliczone wartości intensywności mają postać dyskretną.
+Pokazują maksymalną teoretyczną wartość intensywności przy częstotliwości, przy której
+  występuje dane przejście.
+Aby otrzymać wykres przypominający widmo eksperymentalne, należy przeprowadzić symulację
+  kształtu pików o~arbitralnej szerokości połówkowej.
+Program \tesliper{} udostępnia dwie, najpowszechniej w~tym celu używane funkcje \--- funkcję
+  Lorentza, zwykle stosowaną do~opisania sygnałów w~widmach oscylacyjnych oraz funkcję
+  Gaussa, której zazwyczaj używa się w~przypadku widm elektronowych\sidecite{polavarapu17}.
+Poniżej opisuję jak wygląda typowa procedura tej symulacji.
+
+\begin{enumerate}
+  \item Wybrany typ danych dostarczonych przez program Gaussian należy przeliczyć na~teoretyczne
+  wartości intensywności absorpcji.
+
+  \item Należy wybrać funkcję oraz wartość połówkowej szerokości, które zostaną użyte
+  do~opisania kształtu symulowanych pików, a~także zakres i~krok częstotliwości, dla~których
+  ma zostać przeprowadzona symulacja.
+
+  \item Każdą wartość obliczonych w~etapie pierwszym intensywności należy przekształcić
+  w~pik o~symulowanym kształcie. Robi się to poprzez zastosowanie wybranej funkcji na~każdym
+  kroku uzgodnionego zakresu częstotliwości.
+
+  \item Symulowane piki pochodzące z~danych dotyczących jednego konformeru należy zsumować,
+  otrzymując tym samym teoretyczne widmo pojedynczego konformeru.
+
+  \item Należy obliczyć zawartość każdego z~analizowanych konformerów w~populacji, zgodnie 
+  z~rozkładem Boltzmanna, opisanym wcześniej.
+
+  \item Otrzymanego składu populacji należy użyć jako wag do~przeprowadzenia uśrednienia
+  teoretycznych widm konformerów otrzymanych w~kroku 4.
+
+  \item Dopiero tak otrzymane symulowane widmo można porównywać z~adekwatnym widmem
+  eksperymentalnym.
+\end{enumerate}
