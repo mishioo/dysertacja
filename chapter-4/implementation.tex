@@ -327,16 +327,16 @@ W~końcu dzielę tę kumulatywną wartość przez liczbę atomów i~wyciągam pi
 \begin{listing}
   \begin{lstlisting}
     # DANE: CONF_A, CONF_B jako listy list koordynat
-    number_of_atoms = len(CONF_A)  # identyczne dla obydwu
-    deviation = 0  # pusta lista na przechowanie wyników
-    for i in range(number_of_atoms):
-        a, b = CONF_A[i], CONF_B[i]  # koordynaty xyz atomów
+    num_atoms = len(CONF_A)  # identyczne dla obydwu
+    deviation = 0  # globalna suma odchyleń
+    for i in range(num_atoms):
+        a, b = CONF_A[i], CONF_B[i]  # koordynaty xyz
         abx = (a[0] - b[0])  # odległość na osi x
         aby = (a[1] - b[1])  # odległość na osi y
         abz = (a[2] - b[2])  # odległość na osi z
         # suma kwadratów odchyleń
         deviation += abx**2 + aby**2 + abx**2
-    RMSD = math.sqrt(deviation / number_of_atoms)
+    RMSD = math.sqrt(deviation / num_atoms)
   \end{lstlisting}
   \caption{
     Algorytm obliczania wartości \gls{rmsd} dwóch konformerów.
@@ -352,54 +352,58 @@ Wyznaczona w~ten jedynie sposób miara podobieństwa może okazać się nie w~pe
 Aby zminimalizować otrzymywaną wartość \gls{rmsd} konformery należy najpierw dopasować do~siebie.
 Program \tesliper{} dokonuje tego przy użyciu algorytmu Kabscha\sidecite{kabsch76}.
 Polega on na~przesunięciu centroidu obydwu struktur do~środka układu współrzędnych,
-  wyznaczeniu ich macierzy kowariancji i~w~końcu obliczeniu macierzy optymalnej obrotu
+  wyznaczeniu ich macierzy kowariancji i~w~końcu obliczeniu macierzy optymalnego obrotu
   jednej struktury na~drugą.
 Dla ułatwienia dyskusji, przedstawioną wcześniej reprezentację struktury \--- listę koordynat
-  każdego z~atomów \--- traktuję dalej jak macierz o~wymiarach $N \times 3$.
+  każdego z~atomów \--- traktuję dalej jak macierz o~wymiarach~$N \times 3$,
+  gdzie $N$ jest liczbą atomów.
 
-\begin{displaymath}
+\begin{equation}
   \begin{bmatrix}
     x_1 & y_1 & z_1\\
     x_2 & y_2 & z_2\\
     \cdots & \cdots & \cdots \\
     x_n & y_n & z_n
   \end{bmatrix}
-\end{displaymath}
+\end{equation}
 
 Pierwszy krok algorytmu Kabscha realizowany jest przez obliczenie średniej pozycji
   wszystkich atomów w~strukturze i~translację struktury o~wektor od~owej średniej pozycji
   do~środka układu współrzędnych.
 Inaczej mówiąc \--- odjęcie tej średniej wartości od~koordynat każdego z~atomów.
 
-\begin{displaymath}
+\begin{equation}
   (^0a_{ij}) = a_{ij} - \sum\limits^n_{i=1}a_{ij}
-\end{displaymath}
+\end{equation}
 
 Następnie należy obliczyć macierz kowariancji $H$ obydwu wyśrodkowanych struktur,
-  reprezentowanych w~poniższym wzorze przez macierze $^0A$ oraz $^0B$.
+  reprezentowanych w~poniższym wzorze przez macierze $^0\!A$ oraz $^0B$.
 
-\begin{displaymath}
-  H = (^0A^){\intercal}(^0B)
-\end{displaymath}
+\begin{equation}
+  H = (^0\!A)^\mathsf{T}(^0B)
+\end{equation}
 
 Macierz kowariancji $H$ poddaje się dalej rozkładowi według wartości osobliwych, uzyskując
   macierze ortogonalne $U$ oraz $V$ i~macierz diagonalną $\varSigma$, takie, że zachodzi
   poniższa równość.
 
-\begin{displaymath}
-  H = U\varSigma{}V^\intercal
-\end{displaymath}
+\begin{equation}
+  H = U\varSigma{}V^\mathsf{T}
+\end{equation}
 
-Stąd można już obliczyć macierz optymalnej obrotu $R$ zgodnie z~poniższym równaniem.
+Stąd można już obliczyć macierz optymalnego obrotu $R$ zgodnie z~poniższymi równaniami.
 Zastosowanie tej macierzy na~macierzy reprezentującej analizowany konformer prowadzi
-  do~optymalnego nałożenia go na~konformer odniesienia.
+  do~optymalnego ułożenia go względem konformeru odniesienia.
 
-\begin{displaymath}
+\begin{equation}
+  d = sgn(det(VU^\mathsf{T}))
+\end{equation}
+\begin{equation}
   R = V \begin{bmatrix}
     1 & 0 & 0 \\
     0 & 1 & 0 \\
-    0 & 0 & sgn(det(VU^\intercal))
-  \end{bmatrix} U^\intercal
-\end{displaymath}
+    0 & 0 & d
+  \end{bmatrix} U^\mathsf{T}
+\end{equation}
 
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
