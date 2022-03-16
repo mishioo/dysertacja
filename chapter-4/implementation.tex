@@ -315,16 +315,7 @@ Mówiąc precyzyjniej, \gls{rmsd} to pierwiastek średniej kwadratów odchyleń 
   RMSD^A_B = \sqrt{\frac{1}{N}\sum\limits_{i=0}^N \left\| a_i-b_i \right\|^2}
 \end{equation}
 
-W~kodzie Pythona algorytm do~obliczenia tak zdefiniowanej wartości \gls{rmsd} mógłby wyglądać
-  tak, jak prezentuję to w~\cref{lst:rmsd}.
-Obliczam kolejno odległość między wszystkimi odpowiadającymi sobie atomami obydwu konformerów
-  na~poszczególnych osiach układu współrzędnych.
-Następnie sumuję kwadraty tych odległości i~dodaję do~globalnej sumy przechowywanej
-  w~zmiennej \lstinline|deviation|.
-W~końcu dzielę tę kumulatywną wartość przez liczbę atomów i~wyciągam pierwiastek kwadratowy,
-  uzyskując wartość \gls{rmsd}.
-
-\begin{listing}
+\begin{listing}[b]
   \begin{lstlisting}
     # DANE: CONF_A, CONF_B jako listy list koordynat
     num_atoms = len(CONF_A)  # identyczne dla obydwu
@@ -346,6 +337,15 @@ W~końcu dzielę tę kumulatywną wartość przez liczbę atomów i~wyciągam pi
     Wyrażenie \lstinline|zmienna += wartość| oznacza dodanie danej wartości do~wartości zmiennej.
   }\label{lst:rmsd}
 \end{listing}
+
+W~kodzie Pythona algorytm do~obliczenia tak zdefiniowanej wartości \gls{rmsd} mógłby wyglądać
+  tak, jak prezentuję to w~\cref{lst:rmsd}.
+Obliczam kolejno odległość między wszystkimi odpowiadającymi sobie atomami obydwu konformerów
+  na~poszczególnych osiach układu współrzędnych.
+Następnie sumuję kwadraty tych odległości i~dodaję do~globalnej sumy przechowywanej
+  w~zmiennej \lstinline|deviation|.
+W~końcu dzielę tę kumulatywną wartość przez liczbę atomów i~wyciągam pierwiastek kwadratowy,
+  uzyskując wartość \gls{rmsd}.
 
 Wyznaczona w~ten jedynie sposób miara podobieństwa może okazać się nie w~pełni adekwatna,
   nie ma bowiem pewności, że badane konformery są ułożone względem siebie w~optymalny sposób.
