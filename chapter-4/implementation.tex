@@ -406,4 +406,28 @@ Zastosowanie tej macierzy na~macierzy reprezentującej analizowany konformer $^0
   \end{bmatrix} U^\mathsf{T}
 \end{equation}
 
+Warto wspomnieć jeszcze o~samym procesie selekcji konformerów prowadzonej na~podstawie
+  podobieństwa ich struktury.
+Głównym założeniem jest, że jeśli wartość \gls{rmsd} dwóch konformerów jest niższa niż
+  ustalony arbitralnie próg, to uznaje się je za~identyczne.
+W~takim przypadku \tesliper{} zachowuje tylko strukturę niżej energetyczną, a~\enquote{duplikat}
+  wyklucza z~dalszej analizy\sidenote{%
+    Zakładamy bowiem, że konformery są stanami niezdegenerowanymi, to znaczy każdy konformer
+      może występować na~jednym tylko poziomie energetycznym.}.
+Pozwala to zminimalizować koszt kolejnych kroków numerycznych obliczeń kwantowo-chemicznych,
+  ale także zniwelować niebezpieczeństwo sztucznego zawyżania
+  wkładu niektórych konformerów w~populację.
+
+Obliczenie wartości optymalnego \gls{rmsd} dla każdej możliwej pary konformerów mogłoby
+  jednak zając stosunkowo dużo czasu, liczba niezbędnych porównań rośnie bowiem
+  wykładniczo z~liczbą konformerów.
+Aby usprawnić ten proces, porównania wykonywane są w~obrębie tak zwanego ruchomego okna \---
+  mieści się w~nim jedynie pewien podzbiór wszystkich analizowanych konformerów,
+  a~wszystkie te, które znajdują się poza oknem są automatycznie uważanie za~niepodobne.
+Domyślnie \tesliper{} grupuje konformery zgodnie z~wartością ich energii \--- wewnątrz
+  okna jednorazowo znajdują się tylko takie konformery, których energia różni się
+  co~najwyżej o~zadaną wartość.
+Podejście to jest kompromisem pomiędzy skutecznością wykrywania \enquote{duplikatów}
+  a~szybkością dokonania analizy.
+
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
