@@ -347,4 +347,59 @@ W~końcu dzielę tę kumulatywną wartość przez liczbę atomów i~wyciągam pi
   }\label{lst:rmsd}
 \end{listing}
 
+Wyznaczona w~ten jedynie sposób miara podobieństwa może okazać się nie w~pełni adekwatna,
+  nie ma bowiem pewności, że badane konformery są ułożone względem siebie w~optymalny sposób.
+Aby zminimalizować otrzymywaną wartość \gls{rmsd} konformery należy najpierw dopasować do~siebie.
+Program \tesliper{} dokonuje tego przy użyciu algorytmu Kabscha\sidecite{kabsch76}.
+Polega on na~przesunięciu centroidu obydwu struktur do~środka układu współrzędnych,
+  wyznaczeniu ich macierzy kowariancji i~w~końcu obliczeniu macierzy optymalnej obrotu
+  jednej struktury na~drugą.
+Dla ułatwienia dyskusji, przedstawioną wcześniej reprezentację struktury \--- listę koordynat
+  każdego z~atomów \--- traktuję dalej jak macierz o~wymiarach $N \times 3$.
+
+\begin{displaymath}
+  \begin{bmatrix}
+    x_1 & y_1 & z_1\\
+    x_2 & y_2 & z_2\\
+    \cdots & \cdots & \cdots \\
+    x_n & y_n & z_n
+  \end{bmatrix}
+\end{displaymath}
+
+Pierwszy krok algorytmu Kabscha realizowany jest przez obliczenie średniej pozycji
+  wszystkich atomów w~strukturze i~translację struktury o~wektor od~owej średniej pozycji
+  do~środka układu współrzędnych.
+Inaczej mówiąc \--- odjęcie tej średniej wartości od~koordynat każdego z~atomów.
+
+\begin{displaymath}
+  (^0a_{ij}) = a_{ij} - \sum\limits^n_{i=1}a_{ij}
+\end{displaymath}
+
+Następnie należy obliczyć macierz kowariancji $H$ obydwu wyśrodkowanych struktur,
+  reprezentowanych w~poniższym wzorze przez macierze $^0A$ oraz $^0B$.
+
+\begin{displaymath}
+  H = (^0A^){\intercal}(^0B)
+\end{displaymath}
+
+Macierz kowariancji $H$ poddaje się dalej rozkładowi według wartości osobliwych, uzyskując
+  macierze ortogonalne $U$ oraz $V$ i~macierz diagonalną $\varSigma$, takie, że zachodzi
+  poniższa równość.
+
+\begin{displaymath}
+  H = U\varSigma{}V^\intercal
+\end{displaymath}
+
+Stąd można już obliczyć macierz optymalnej obrotu $R$ zgodnie z~poniższym równaniem.
+Zastosowanie tej macierzy na~macierzy reprezentującej analizowany konformer prowadzi
+  do~optymalnego nałożenia go na~konformer odniesienia.
+
+\begin{displaymath}
+  R = V \begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & sgn(det(VU^\intercal))
+  \end{bmatrix} U^\intercal
+\end{displaymath}
+
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
