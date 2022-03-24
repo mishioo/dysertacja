@@ -6,7 +6,15 @@
   nofonts,
   marginals=raggedright,
 ]{tufte-book}
+
 \usepackage{preambule}
+
+\title[Reduktywna aktywacja amidów\ldots]%
+    {Reduktywna aktywacja amidów jako metoda otrzymywania
+    sfunkcjonalizowanych amin: badania syntetyczne wspomagane metodami komputerowymi}
+\subtitle{\textbf{Praca doktorska} \\ przygotowana pod kierunkiem \\ prof. dra hab. Bartłomieja Furmana}
+\author{Michał M. Więcław}
+\publisher{Instytut Chemii Organicznej \\ Polskiej Akademii Nauk}
 
 \begin{document}
 
@@ -14,43 +22,33 @@
 \maketitle
 
 % acknowledgements
-\cleardoublepage
-\thispagestyle{empty}
-~\vfill
-\vfill
-\begin{fullwidth}
-\raggedleft\noindent\fontsize{16}{26}\selectfont\itshape
-\nohyphenation
+\cleardoublepage%
+\thispagestyle{empty}%
+~\vfill%
+\vfill%
+\begin{fullwidth}%
+\raggedleft\noindent\fontsize{16}{26}\selectfont\itshape%
+\nohyphenation%
 dziękuję \\
 Magdalenie \\
 bez wsparcia której \\
 ta praca nie zostałaby ukończona
-\end{fullwidth}
-\vfill
+\end{fullwidth}%
+\vfill%
 
 \tableofcontents
 
-\import{chapter-0}{chapter}
+\import{chapter-0}{chapter}% summary & preface
 
 \mainmatter
-% widths of text elements
-% zwykły tekst \printinunitsof{cm}\prntlen{\textwidth}\\  % 10.69847 cm
-% margines \printinunitsof{cm}\prntlen{\marginparwidth}\\ %  4.93929 cm
-% przerwy \printinunitsof{cm}\prntlen{\marginparsep}      %  0.81987 cm
-%                                                 SUMA:     16.45763 cm
-
-% TODO: add missing in-text references to schemes
-\import{chapter-1}{chapter}
-\import{chapter-2}{chapter}
-\import{chapter-3}{chapter}
-\import{chapter-4}{chapter}
-\import{chapter-5}{chapter}
-\import{chapter-6}{chapter}
+\import{chapter-1}{chapter}% literature
+\import{chapter-2}{chapter}% synthesis
+\import{chapter-3}{chapter}% calculations
+\import{chapter-4}{chapter}% programming
+\import{chapter-5}{chapter}% conclusions
+\import{chapter-6}{chapter}% details
 
 \backmatter
-
-% \printbibliography
-
 \cleardoublepage%
 \thispagestyle{empty}%
 ~\vfill%
