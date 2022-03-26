@@ -19,7 +19,7 @@ Na~potrzeby dyskusji zawartej w~niniejszej dysertacji poniższe ogólne przedsta
 
 Punktem wyjścia jest proponowana konfiguracja absolutna badanego związku.
 Należy poddać ją wnikliwej analizie konformacyjnej, to znaczy znaleźć możliwie dużo
-  potencjalnie stabilnych konformerów związku o~zakładanej strukturze.
+  potencjalnie stabilnych konformerów związku o~zakładanej konfiguracji.
 Dokonuje się tego zwykle za~pomocą dedykowanych programów komputerowych, operujących w~obrębie
   modelu mechaniki molekularnej.
 Ich geometrie optymalizuje się korzystając z~metod \gls{dft}, a~później porównuje się ze~sobą,
@@ -98,7 +98,8 @@ Wszystkie one są realizowane w~trybie wsadowym\sidenote{%
     Krok ten pozwala na~zminimalizowanie ilości podobnych do~siebie struktur, a~co za~tym idzie,
       zminimalizowanie poniesionych kosztów obliczeniowych.
     Program dokonuje tego porównując konformery metodą \gls{rmsd}\sidenote{%
-      Detale na~ten temat również w~kolejnym rozdziale, w~sekcji~\secref{implementation:rmsd}.
+      Detale na~ten temat również podeję w~kolejnym rozdziale,
+        w~sekcji~\secref{implementation:rmsd}.
     }.
 
   \item Przygotowanie kolejnego kroku obliczeń numerycznych.
@@ -196,7 +197,7 @@ Przykład realizacji tego procesu poprzez interfejs programistyczny przedstawiam
     tslr.calculate_spectra()
     # uśrednij obliczone widma teoretyczne według rozkładu Boltzmanna
     tslr.average_spectra()
-    # zapisz wartości energii i pochodne do plików tekstowego
+    # zapisz wartości energii i pochodne do plików tekstowych
     tslr.export_energies(fmt="txt")
     # zapisz uśrednione widma do plików w formacie CSV
     tslr.export_averaged(fmt="csv")
