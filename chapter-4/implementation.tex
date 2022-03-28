@@ -434,18 +434,62 @@ Podejście to jest kompromisem pomiędzy skutecznością wykrywania \enquote{dup
 Na~koniec zostawiam krótkie omówienie meritum funkcjonalności programu \tesliper{},
   czyli obliczanie symulowanego widma z~danych dostarczonych przez program Gaussian.
 Gaussian, jako wynik przeprowadzonych obliczeń prezentuje nie widma, a~jedynie pewne właściwości
-  kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo aktywnościami spektroskopowymi,
-  które charakteryzują pasma poszczególnych typów widm.
-Są to, między innymi, siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, a~także siła
-  rotatora dla widm chiralooptycznych.
-\citeauthor{polavarapu17} szczegółowo wyłożył w~cytowanym podręczniku\sidecite{polavarapu17}
-  sposób przekształcania tych wartości na~intensywność absorpcji odpowiednich widm
-  spektroskopowych, wraz z~wyłożeniem niezbędnych konwersji jednostek, nie będę więc tutaj
-  powtarzał tych opisów.
-Implementację odpowiednich funkcji\sidenote{%
-    Użyte do~tego wzory matematyczne cytuję w~adekwatnej sekcji dokumentacji programu \tesliper{}.
-  } oparłem o~te właśnie wiadomości, a~także o~informacje
-  dostarczone przez twórców programu Gaussian\sidecite{gaussian-uv}.
+  kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo aktywnościami spektroskopowymi.
+Są to: siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, siła oscylatora dla widm \gls{uv},
+  a~także siła rotatora dla widm chiralooptycznych \--- \gls{vcd} i~\gls{ecd}.
+Czym wartości te są w~sensie fizycznym nie sposób w~pełni wyjaśnić bez wdawania się w~analizę
+  równań chemii kwantowej \--- analizę zbyt szczegółową jak na~potrzeby niniejszej dysertacji.
+Sądzę, iż dość będzie powiedzieć, że charakteryzują one pasma poszczególnych typów widm \---
+  wielkość danej \enquote{aktywności spektroskopowej} jest wprost proporcjonalna do~pola
+  powierzchni pod krzywą odpowiadającego jej pasma w~widmie\sidecite{polavarapu17}.
+Czytelnika zainteresowanego tłem teoretycznym odsyłam do~cytowanego podręcznika,
+  w~którym \citeauthor{polavarapu17} szczegółowo opisał temat, włącznie z~wyprowadzeniem
+  przytaczanych dalej wzorów z~odpowiednich równań mechaniki kwantowej.
+
+Siła dipola $D_k$, obliczona dla cząsteczki w~stanie podstawowym, powiązana jest
+  z~intensywnością $I_k$ pasm w~widmie \gls{ir} przedstawioną poniżej zależnością
+  \labelcref{eq:dipole-strength} natomiast siła rotatora $R_k$, obliczona w~stanie podstawowym
+  cząsteczki, powiązana jest z~intensywnością $I_k$ pasma w~widmie \gls{vcd} tak jak
+  pokazuje to \cref{eq:rotator-strength}.
+Zakładam tu, że siła dipola $D_k$ dana jest w~\SI{e-40}{\esu\squared\centi\meter\squared},
+  siła rotatora $R_k$ w~\SI{e-44}{\esu\squared\centi\meter\squared}, a~$k$-te przejście
+  następuje przy częstości $\nu_k$, wyrażonej w~\si{\per\centi\meter}.
+Podobnie, siłę dipola i~siłę rotatora obliczone dla cząsteczki w~stanie wzbudzonym można
+  przeliczyć, odpowiednio, na~teoretyczną intensywność pasm w~widmie \gls{uv} oraz \gls{ecd},
+  z~tą tylko różnicą, że należy użyć długości fali danego przejścia $\lambda_k$, wyrażonej
+  w~\si{\nano\meter}, zamiast częstości.
+Znaczenie pozostałych użytych symboli, wraz z~wartościami reprezentowanych przez nie
+  stałych fizycznych, objaśniam dalej.
+
+\begin{equation}\label{eq:dipole-strength}
+  I_k = \frac{8 \pi^3 N_{\!A}}{3 \cdot \ln(10) \cdot hc} D_k \nu_k
+      = 0.010886 \cdot D_k \nu_k
+\end{equation}
+
+\begin{equation}\label{eq:rotator-strength}
+  I_k = \frac{4 \cdot 8 \pi^3 N_{\!A}}{3 \cdot \ln(10) \cdot hc} R_k \nu_k
+      = 0.0435441 \cdot R_k \nu_k
+\end{equation}
+
+\begin{description}[noitemsep]
+  \item[$c = \SI{2.99792458e10}{\centi\meter\per\second}$] \hfill Prędkość światła.
+  \item[$h = \SI{6.62606896e-30}{\kilo\gram\centi\meter\squared\per\second}$] \hfill Stała Plancka.
+  \item[$N_A = \SI{6.02214199e23}{\per\mole}$] \hfill Stała Avogadro.
+  \item[$m_e = \SI{9.10938e-28}{\gram}$] \hfill Masa elektronu.
+  \item[$e = \SI{4.803204e-10}{\esu}$] \hfill Ładunek elektronu.
+\end{description}
+
+Do~przekształcenia wartości siły oscylatora na~intensywności widma \gls{uv} używam natomiast
+  wzoru \labelcref{eq:oscillator-strength}, dostarczonego przez twórców programu
+  Gaussian\sidecite{gaussian-uv}.
+W~równaniu tym $f_k$ to właśnie wartość siły oscylatora $k$-tego przejścia.
+Jest to wartość bezjednostkowa.
+Wartości stałych fizycznych są takie same, jak podałem wyżej.
+
+\begin{equation}\label{eq:oscillator-strength}
+  I_k = \frac{e^2 N_A}{10^3 \ln(10) m_e c^2} f_k
+      = 2.315351857 \times 10^8 f_k
+\end{equation}
 
 Nawet po~wspomnianym przekształceniu, obliczone wartości intensywności mają postać dyskretną.
 Pokazują maksymalną teoretyczną wartość intensywności przy częstotliwości, przy której
