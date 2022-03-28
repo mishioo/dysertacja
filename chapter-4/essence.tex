@@ -1,9 +1,14 @@
 \section{Istota programu}\label{tesliper:essence}
 Zadaniem stworzonego przeze mnie oprogramowania jest wsadowe przetwarzanie plików wynikowych
-  programu Gaussian\sidecite{gaussian09,gaussian16}, w~szczególności takich plików, które zawierają
-  dane pochodzące z~optymalizacji struktury oraz obliczania jej aktywności optycznej\sidenote{
+  programu Gaussian\sidecite{gaussian09,gaussian16}\textsuperscript{,\,}\sidenote{
     Gaussian nie jest jedynym programem zdolnym do~przeprowadzenia takich obliczeń,
-      jednak ograniczam się do~niego, gdyż jest on powszechnie stosowany.}.
+      jednak ograniczam się do~niego, gdyż jest on powszechnie stosowany.},
+  w~szczególności takich plików, które zawierają dane pochodzące z~optymalizacji struktury
+  oraz obliczania jej \enquote{aktywności spektroskopowej}\sidenote{
+    Termin ten nie funkcjonuje w~literaturze, proponuję go tutaj dla uproszczenia narracji.
+    Rozumiem przez niego pewne właściwości kwantowo-chamiczne cząsteczek,
+      które wyjaśniam dokładnie w~sekcji \secref{implementation:spectra}.
+  }.
 Finalnym efektem działania \tesliper{}a jest symulowane widmo spektroskopowe badanego związku,
   powstałe przez uśrednienie teoretycznych widm każdego z~wybranych konformerów.
 Program asystuje w~realizacji tych kroków procesu symulacji, które wymagają analizy danych
