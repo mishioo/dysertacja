@@ -112,8 +112,9 @@ Zapewnia również dostęp do~przechowywanych danych w~formie wyspecjalizowanych
 Obiekty typu \texttt{DataArray} są centralnym elementem funkcjonalności \tesliper{}a.
 Zapewniają dostęp do~metod odpowiedzialnych za~analizę danych dotyczących wybranych konformerów
   oraz przeliczanie tych danych na~finalne wartości.
-Każdy rodzaj danych \--- wartości energii, geometria struktur, aktywności spektroskopowe, itd.
-  \--- jest reprezentowany przez obiekt dedykowanej klasy, dziedziczącej po~\texttt{DataArray}.
+Każdy rodzaj danych \--- wartości energii, geometria struktur,
+  \enquote{aktywności spektroskopowe}, itd. \--- jest reprezentowany przez obiekt
+  dedykowanej klasy, dziedziczącej po~\texttt{DataArray}.
 Owa dedykowana klasa dostarcza adekwatnych metod transformacji danych, które do~niej należą.
 Ponadto, podczas tworzenia tych obiektów, przeprowadzana jest dokładna walidacja danych \---
   sprawdzana jest ich spójność i~są one przekształcane w~formę tablic, na~których można
@@ -434,7 +435,7 @@ Podejście to jest kompromisem pomiędzy skutecznością wykrywania \enquote{dup
 Na~koniec zostawiam krótkie omówienie meritum funkcjonalności programu \tesliper{},
   czyli obliczanie symulowanego widma z~danych dostarczonych przez program Gaussian.
 Gaussian, jako wynik przeprowadzonych obliczeń prezentuje nie widma, a~jedynie pewne właściwości
-  kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo aktywnościami spektroskopowymi.
+  kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo \enquote{aktywnościami spektroskopowymi}.
 Są to: siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, siła oscylatora dla widm \gls{uv},
   a~także siła rotatora dla widm chiralooptycznych \--- \gls{vcd} i~\gls{ecd}.
 Czym wartości te są w~sensie fizycznym nie sposób w~pełni wyjaśnić bez wdawania się w~analizę
