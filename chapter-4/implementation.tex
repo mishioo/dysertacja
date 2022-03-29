@@ -505,8 +505,32 @@ Pokazują maksymalną teoretyczną wartość intensywności przy częstotliwośc
 Aby otrzymać wykres przypominający widmo eksperymentalne, należy przeprowadzić symulację
   kształtu pików o~arbitralnej szerokości połówkowej.
 Program \tesliper{} udostępnia dwie, najpowszechniej w~tym celu używane funkcje \--- funkcję
-  Lorentza, zwykle stosowaną do~opisania sygnałów w~widmach oscylacyjnych oraz funkcję
-  Gaussa, której zazwyczaj używa się w~przypadku widm elektronowych\sidecite{polavarapu17}.
+  Lorentza \labelcref{eq:lorentz}, zwykle stosowaną do~opisania sygnałów w~widmach
+  oscylacyjnych oraz funkcję Gaussa \labelcref{eq:gauss}, której zazwyczaj używa się
+  w~przypadku widm elektronowych\sidecite{polavarapu17}.
+
+\begin{equation}\label{eq:lorentz}
+  f(\nu_i) = \frac{\gamma}{\pi}\sum\limits_k\frac{I_k}{(\nu_i - \nu_k)^2 + \gamma^2}
+\end{equation}
+\begin{equation}\label{eq:gauss}
+  f(\nu_i) = \frac{1}{2\omega\sqrt{\pi}}\sum\limits_k I_k e^{-(\nu_i - \nu_k)^2 / (2\omega)^2}
+\end{equation}
+
+W~obydwu przypadkach, aby obliczyć wartość intensywności sygnału w~symulowanym widmie w~arbitralnie
+  wybranym punkcie $\nu_i$ na~osi częstości $\nu$ należy zsumować wyniki zastosowania wybranego
+  równania na~wszystkich pasmach występujących w~widmie.
+A~zatem, na~wartość siły sygnału przy częstości $\nu_i$ w~symulowanym widmie ma wpływ teoretyczna
+  intensywność $I_k$ wszystkich pasm obliczonych dla danej struktury, ale w~różnym stopniu.
+Stopień ten jest zależny, między innymi, od~tego jaka jest odległość pomiędzy częstością $\nu_k$,
+  przy której występuje $k$-te pasmo, a~częstością $\nu_i$, dla której wartość obliczamy.
+Drugim wpływającym na~to czynnikiem jest zadana szerokość symulowanego piku, posiadająca nieco
+  inne znaczenie w~obydwu przypadkach.
+Występująca w~funkcji Lorentza~\labelcref{eq:lorentz} $\gamma$ to połowa szerokości piku
+  na~wysokości połowy jego maksymalnej wysokości, oznaczana często \acrshort{hwhm}.
+Natomiast $\omega$ w~funkcji Gaussa~\labelcref{eq:gauss}\sidenote{%
+    W~kanonicznym jej zapisie występuje odchylenie standardowe $\sigma=\sqrt{2}\omega$.
+  } jest szerokością połówkowa piku, ale na~$\frac{1}{e}$ jego maksymalnej wysokości.
+
 Poniżej opisuję jak wygląda typowa procedura tej symulacji.
 
 \begin{enumerate}
