@@ -531,19 +531,25 @@ Natomiast $\omega$ w~funkcji Gaussa~\labelcref{eq:gauss}\sidenote{%
     W~kanonicznym jej zapisie występuje odchylenie standardowe $\sigma=\sqrt{2}\omega$.
   } jest szerokością połówkowa piku, ale na~$\frac{1}{e}$ jego maksymalnej wysokości.
 
-Poniżej opisuję jak wygląda typowa procedura tej symulacji.
+Jak wynika wyraźnie z~powyższych opisów, proces symulacji widma spektroskopowego jest wieloetapowy
+  i~wymaga znacznej ilości obliczeń numerycznych.
+Celem usystematyzowania przebiegu tego procesu, poniżej podsumowuję, jak wygląda typowa procedura
+  symulacji widma, począwszy od~zakończenia obliczeń kwantowo-chemicznych,
+  do~finalnego porównania z~eksperymentem.
+Wszystkie wymienione kroki, oczywiście oprócz samego porównania widm, \tesliper{} wykonuje według
+  żądań użytkownika, znacznie ułatwiając spektroskopiście pracę.
 
 \begin{enumerate}
   \item Wybrany typ danych dostarczonych przez program Gaussian należy przeliczyć na~teoretyczne
   wartości intensywności absorpcji.
 
   \item Należy wybrać funkcję oraz wartość szerokości połówkowej, które zostaną użyte
-  do~opisania kształtu symulowanych pików, a~także zakres i~krok częstotliwości, dla~których
+  do~opisania kształtu symulowanych pików, a~także zakres i~krok częstości, dla~których
   ma zostać przeprowadzona symulacja.
 
   \item Każdą wartość obliczonych w~etapie pierwszym intensywności należy przekształcić
-  w~pik o~symulowanym kształcie. Robi się to poprzez zastosowanie wybranej funkcji na~każdym
-  kroku uzgodnionego zakresu częstotliwości.
+  w~pik o~symulowanym kształcie. Robi się to poprzez zastosowanie, osobno względem każdego pasma,
+  wybranej funkcji na~każdym kroku uzgodnionego zakresu częstości.
 
   \item Symulowane piki pochodzące z~danych dotyczących jednego konformeru należy zsumować,
   otrzymując tym samym teoretyczne widmo pojedynczego konformeru.
