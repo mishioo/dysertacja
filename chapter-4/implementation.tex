@@ -434,10 +434,16 @@ Podejście to jest kompromisem pomiędzy skutecznością wykrywania \enquote{dup
 \subsection{Obliczanie symulowanego widma}\label{implementation:spectra}
 Na~koniec zostawiam krótkie omówienie meritum funkcjonalności programu \tesliper{},
   czyli obliczanie symulowanego widma z~danych dostarczonych przez program Gaussian.
-Gaussian, jako wynik przeprowadzonych obliczeń prezentuje nie widma, a~jedynie pewne właściwości
+Jako wynik przeprowadzonych obliczeń, Gaussian prezentuje nie widma, a~jedynie pewne właściwości
   kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo \enquote{aktywnościami spektroskopowymi}.
 Są to: siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, siła oscylatora dla widm \gls{uv},
-  a~także siła rotatora dla widm chiralooptycznych \--- \gls{vcd} i~\gls{ecd}.
+  a~także siła rotatora dla widm chiralooptycznych \--- \gls{vcd} i~\gls{ecd}\sidenote{
+    Wnikliwy czytelnik może zwrócić uwagę, że w~wyliczeniu tym nie występują wilekości
+      używane do~obilczenia intensywności widm ramanowskich.
+    Gaussian oblicza te intensywności na~żądanie użytkownika i~\tesliper{}
+      używa ich bezpośrednio w~opisanym dalej etapie symulacji kształtu pików \---
+      nie ma więc potrzeby obliczać tych wartości powtórnie.
+  }.
 Czym wartości te są w~sensie fizycznym nie sposób w~pełni wyjaśnić bez wdawania się w~analizę
   równań chemii kwantowej \--- analizę zbyt szczegółową jak na~potrzeby niniejszej dysertacji.
 Sądzę, iż dość będzie powiedzieć, że charakteryzują one pasma poszczególnych typów widm \---
@@ -484,7 +490,8 @@ Do~przekształcenia wartości siły oscylatora na~intensywności widma \gls{uv} 
   wzoru \labelcref{eq:oscillator-strength}, dostarczonego przez twórców programu
   Gaussian\sidecite{gaussian-uv}.
 W~równaniu tym $f_k$ to właśnie wartość siły oscylatora $k$-tego przejścia.
-Jest to wartość bezjednostkowa.
+Jest to wartość bezjednostkowa, powiązana z~siłą dipola,
+  charakterystyczna dla przejść elektronowych.
 Wartości stałych fizycznych są takie same, jak podałem wyżej.
 
 \begin{equation}\label{eq:oscillator-strength}
