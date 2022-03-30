@@ -1,10 +1,10 @@
 \section{Istota programu}\label{tesliper:essence}
 Zadaniem stworzonego przeze mnie oprogramowania jest wsadowe przetwarzanie plików wynikowych
-  programu Gaussian\sidecite{gaussian09,gaussian16}\textsuperscript{,\,}\sidenote{
+  programu Gaussian\sidecite{gaussian09,gaussian16}\textsuperscript{,\,}\sidenote{%
     Gaussian nie jest jedynym programem zdolnym do~przeprowadzenia takich obliczeń,
       jednak ograniczam się do~niego, gdyż jest on powszechnie stosowany.},
   w~szczególności takich plików, które zawierają dane pochodzące z~optymalizacji struktury
-  oraz obliczania jej \enquote{aktywności spektroskopowej}\sidenote{
+  oraz obliczania jej \enquote{aktywności spektroskopowej}\sidenote{%
     Termin ten nie funkcjonuje w~literaturze, proponuję go tutaj dla uproszczenia narracji.
     Rozumiem przez niego pewne właściwości kwantowo-chamiczne cząsteczek,
       które wyjaśniam dokładnie w~sekcji \secref{implementation:spectra}.
@@ -28,13 +28,13 @@ Należy poddać ją wnikliwej analizie konformacyjnej, to znaczy znaleźć możl
 Dokonuje się tego zwykle za~pomocą dedykowanych programów komputerowych, operujących w~obrębie
   modelu mechaniki molekularnej.
 Ich geometrie optymalizuje się korzystając z~metod \gls{dft}, a~później porównuje się ze~sobą,
-  odrzucając duplikaty\sidenote{
+  odrzucając duplikaty\sidenote{%
     Zadarza się bowiem, że różne struktury uzyskane w~wyniku analizy konformacyjnej zostaną
       zoptymalizowane do~takiej samej geometrii.}.
 
 Następnie należy przeprowadzić obliczenia częstości, aby potwierdzić, że uzyskane
   struktury są punktami stacjonarnymi, oraz obliczenia energii, niezbędnych do~przeprowadzenia
-  analizy rozkładu Boltzmanna\sidenote{
+  analizy rozkładu Boltzmanna\sidenote{%
     Prowadzącego do~oszacowania udziału każdego z~konforemrów w~populacji.}.
 Jako, że kolejny etap obliczeń jest kosztowny\sidenote{W~sensie wymaganego czasu obliczeniowego.},
   zwykle liczbę wziętych do~niego konformerów ogranicza się, odrzucając te, które mają marginalny
@@ -166,7 +166,7 @@ Lewą stronę okna zajmuje panel z~kontrolkami pozwalającymi sterować programe
 Nieujęte są te odpowiedzialne za~odczyt i~zapis danych oraz selekcję konformerów.
 
 W~przypadku zarówno graficznego interfejsu, jak i~skryptów wykorzystujących interfejs
-  programistyczny, porządek działań jest taki sam\sidenote{
+  programistyczny, porządek działań jest taki sam\sidenote{%
     Z~tą tylko różnicą, że interfejs graficzny część akcji dodatkowo automatyzuje,
       na~przykład uśrednianie widma.}.
 Pierwszym etapem jest zawsze wskazanie plików wynikowych programu Gaussian i~ich odczytanie
