@@ -11,6 +11,23 @@
     \noindent \mbox{prof. dr. hab. Bartłomieja Furmana}\\
   }
 }}
+\begin{marginscheme}
+  \includesvg{summary-pl}
+\end{marginscheme}
+\begin{marginfigure}
+  \includesvg{banner}
+\end{marginfigure}
+\begin{marginlisting}
+  \begin{lstlisting}[emph={recursive,fmt}]
+    # przykład użycia programu
+    from tesliper import Tesliper
+    t = Tesliper("/input/path")
+    t.extract(recursive=True)
+    t.calculate_spectra()
+    t.export_spectra(fmt="csv")
+  \end{lstlisting}
+\end{marginlisting}
+
 
 \chapter{Summary}\label{chapter:summary:en}
 \marginnote[-8em]{\textsf{%
@@ -25,4 +42,20 @@
     \noindent prof. dr hab. Bartłomiej Furman\\
   }
 }}
+\begin{marginscheme}
+  \includesvg{summary-en}
+\end{marginscheme}
+\begin{marginfigure}
+  \includesvg{banner}
+\end{marginfigure}
+\begin{marginlisting}
+  \begin{lstlisting}[emph={recursive,fmt}]
+    # program's usage example
+    from tesliper import Tesliper
+    t = Tesliper("/input/path")
+    t.extract(recursive=True)
+    t.calculate_spectra()
+    t.export_spectra(fmt="csv")
+  \end{lstlisting}
+\end{marginlisting}
 
