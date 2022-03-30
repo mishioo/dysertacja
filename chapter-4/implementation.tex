@@ -210,10 +210,10 @@ $p_i$ w~tym równaniu jest wspomnianym prawdopodobieństwem występowania układ
   a~$T$ to temperatura układu w~kelwinach.
 Symbol $\propto$ oznacza proporcjonalność.
 Stosunek prawdopodobieństw dwóch stanów nazywany jest współczynnikiem Boltzmanna tych stanów
-  i~wyrażony jest poniższym równianinem, a~zatem jest zależny przede wszystkim od~różnicy
-  energii między stanami.
+  i~wyrażony jest poniższym \cref{eq:boltzmann-factor}, a~zatem jest zależny przede wszystkim
+  od~różnicy energii między stanami.
 
-\begin{equation}
+\begin{equation}\label{eq:boltzmann-factor}
   B^a_b = \frac{p_a}{p_b} = e^{(E_b-E_a)/kt}
 \end{equation}
 
@@ -226,10 +226,10 @@ A~zatem współczynnik Boltzmanna pokazuje na~ile bardziej prawdopodobne jest, �
 Znając wartość tego współczynnika względem konformeru o~najniższej energii dla każdego
   z~konformerów można znaleźć bezwzględną wartość prawdopodobieństwa występowania cząsteczki
   w~formie każdego konformeru.
-W~poniższym równaniu $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Boltzmanna względem
+W~poniższym \cref{eq:population} $B^i_0$ oraz $B^j_0$ są właśnie współczynnikami Boltzmanna względem
   konformeru o~najniższej energii, oznaczonego umownie stanem $0$.
 
-\begin{equation}
+\begin{equation}\label{eq:population}
   p_i = \frac{B^i_0}{\sum\limits^N_{j=0}B^j_0}
 \end{equation}
 
@@ -308,11 +308,11 @@ Do~określenia, na~ile dwie struktury są do~siebie podobne, \tesliper{} używa 
   to znaczy znajduje średnią odległość między odpowiadającymi sobie atomami w~dwóch nałożonych
   na~siebie strukturach.
 Mówiąc precyzyjniej, \gls{rmsd} to pierwiastek średniej kwadratów odchyleń między tymi atomami.
-Łatwiej jest prawdopodobnie wyrazić to w~języku matematyki, poniżej przedstawiam więc wzór
-  na~obliczenie wartości \gls{rmsd} dwóch konformerów, oznaczonych $A$ oraz $B$, których
-  kolejne atomy reprezentowane są odpowiednio przez symbole $a_i$ oraz $b_i$.
+Łatwiej jest prawdopodobnie wyrazić to w~języku matematyki, poniżej przedstawiam więc
+  wzór~\labelcref{eq:rmsd} na~obliczenie wartości \gls{rmsd} dwóch konformerów, oznaczonych
+  $A$ oraz $B$, których kolejne atomy reprezentowane są odpowiednio przez symbole $a_i$ oraz $b_i$.
 
-\begin{equation}
+\begin{equation}\label{eq:rmsd}
   RMSD^A_B = \sqrt{\frac{1}{N}\sum\limits_{i=0}^N \left\| a_i-b_i \right\|^2}
 \end{equation}
 
@@ -378,28 +378,28 @@ Inaczej mówiąc \--- odjęcie tej średniej wartości od~koordynat każdego z~a
 \end{equation}
 
 Następnie należy obliczyć macierz kowariancji $H$ obydwu wyśrodkowanych struktur,
-  reprezentowanych w~poniższym wzorze przez macierze $^0\!A$ oraz $^0B$.
+  reprezentowanych w~poniższym wzorze~\labelcref{eq:cov} przez macierze $^0\!A$ oraz $^0B$.
 
-\begin{equation}
-  H = (^0\!A)^\mathsf{T}(^0B)
+\begin{equation}\label{eq:cov}
+  H = (^0\!A)^\mathsf{T}\,(^0B)
 \end{equation}
 
 Macierz kowariancji $H$ poddaje się dalej rozkładowi według wartości osobliwych, uzyskując
   macierze ortogonalne $U$ oraz $V$ i~macierz diagonalną $\varSigma$, takie, że zachodzi
-  poniższa równość.
+  poniższa równość \labelcref{eq:svd}.
 
-\begin{equation}
+\begin{equation}\label{eq:svd}
   H = U\varSigma{}V^\mathsf{T}
 \end{equation}
 
-Stąd można już obliczyć macierz optymalnego obrotu $R$ zgodnie z~poniższymi równaniami.
+Stąd można już obliczyć macierz optymalnego obrotu $R$ zgodnie z~poniższymi \cref{eq:det,eq:ref}.
 Zastosowanie tej macierzy na~macierzy reprezentującej analizowany konformer $^0\!A$ prowadzi
   do~optymalnego ułożenia go względem konformeru odniesienia $^0B$.
 
-\begin{equation}
+\begin{equation}\label{eq:det}
   d = sgn(det(VU^\mathsf{T}))
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq:rot}
   R = V \begin{bmatrix}
     1 & 0 & 0 \\
     0 & 1 & 0 \\
