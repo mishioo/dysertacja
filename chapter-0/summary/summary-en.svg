@@ -41,9 +41,9 @@
      inkscape:window-height="1017"
      id="namedview202"
      showgrid="false"
-     inkscape:zoom="2.2369668"
-     inkscape:cx="80.202406"
-     inkscape:cy="63.489715"
+     inkscape:zoom="3.1635488"
+     inkscape:cx="67.67684"
+     inkscape:cy="101.8771"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -815,11 +815,12 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#009e73"
-     transform="matrix(0.0666667 0 0 0.0666667 3.48861 -84.2667)"
-     d="M 836.013,3580.73 L 883.634,3580.73 L 864.926,3721.9 L 859.824,3721.9 L 853.453,3712.33 L 836.013,3580.73 Z "
-     id="path160" />
+     transform="matrix(0.0666667,0,0,0.0666667,3.48861,-84.2667)"
+     d="m 853.453,3580.73 h 11.473 v 141.17 h -5.102 l -6.371,-9.57 z"
+     id="path160"
+     inkscape:connector-curvature="0"
+     style="fill:#009e73;stroke:none"
+     sodipodi:nodetypes="cccccc" />
   <text
      x="632.57812"
      y="0"
