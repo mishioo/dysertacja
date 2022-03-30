@@ -1,5 +1,6 @@
 \chapter{Streszczenie}\label{chapter:summary:pl}
-\marginnote[-8em]{\textsf{%
+
+\marginnote[-12em]{\textsf{%
   \nohyphenation\fontsize{15}{17}\selectfont%
   \raggedleft\makebox[\linewidth][s]{\textsc{Michał M. Więcław}}\\\vspace{0.5pc}%
   \fontsize{10}{12}\selectfont\noindent\raggedright%
@@ -11,7 +12,7 @@
     \noindent \mbox{prof. dr. hab. Bartłomieja Furmana}\\
   }
 }}
-\marginnote{
+\marginnote[0.5em]{
   Lwia część niniejszej dysertacji opisuje diastereoselektywne przemiany wywiedzionych
     z~cukrów prostych laktamów w~wariancie wieloskładnikowej reakcji azydo-Ugiego
     z~użyciem odczynnika Schwartza.
@@ -20,7 +21,7 @@
 \begin{marginscheme}
   \includesvg{summary-pl}
 \end{marginscheme}
-\marginnote{
+\marginnote[0.5em]{
   Wyzwania, które napotkałem podczas realizacji badań do~niniejszej dysertacji doprowadziły
     do~stworzenia programu komputerowego \tesliper{}.
   Jego celem jest ułatwienie pracy przy symulacji widm spektroskopowych.
@@ -28,11 +29,11 @@
 \begin{marginfigure}
   \includesvg{banner}
 \end{marginfigure}
-\marginnote{
+\marginnote[0.3em]{
   Program pozwala na~komunikację poprzez interfejs graficzny lub skrypt w~języku Python.
   Prosty przykład takiego skryptu prezentuję poniżej.
 }
-\begin{marginlisting}
+\begin{marginlisting}[-3em]
   \begin{lstlisting}[emph={recursive,fmt},numbers=none]
     # przykład użycia programu
     from tesliper import Tesliper
@@ -42,7 +43,7 @@
     t.export_spectra(fmt="csv")
   \end{lstlisting}
 \end{marginlisting}
-\marginnote{
+\marginnote[-0.3em]{
   Instrukcja użytkowania programu dostępna jest pod~adresem
     \href{https://tesliper.readthedocs.io/}{www.tesliper.readthedocs.io}.
 }
