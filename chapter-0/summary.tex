@@ -94,12 +94,27 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
     \noindent prof. dr hab. Bartłomiej Furman\\
   }
 }}
+\marginnote{%
+  The lion's share of this dissertation describes diastereoselective transformations
+    of sugar-derived lactams in a variant of the multicomponent Ugi-azide reaction that
+    employs the Schwartz's reagent.
+  The scheme shown below illustrates key aspects of this reaction and of my research.
+}
 \begin{marginscheme}
   \includesvg{summary-en}
 \end{marginscheme}
+\marginnote{%
+  The challenges that I have faced in the course of this research led me to the creation
+    of \tesliper{} software.
+  Its goal is to facilitate the work on the spectral simulations.
+}
 \begin{marginfigure}
   \includesvg{banner}
 \end{marginfigure}
+\marginnote{%
+  The software allows communication \textit{via} a graphical interface or a Python script.
+  A~simple example of such a~script is shown below.
+}
 \begin{marginlisting}
   \begin{lstlisting}[emph={recursive,fmt},numbers=none]
     # program's usage example
@@ -110,4 +125,39 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
     t.export_spectra(fmt="csv")
   \end{lstlisting}
 \end{marginlisting}
+\marginnote{%
+  Software's manual is available under the address
+    \href{https://tesliper.readthedocs.io/}{www.tesliper.readthedocs.io}.
+}
 
+This dissertation is mainly devoted to experiments in the field of chemistry of amides,
+  however it's important part concerns studies conducted with the use of computational methods,
+  as well as computer programming that I have done because of these studies.
+My goal was to verify how relevant are the currently available methods of reductive activation
+  of amides as a~tool for synthesis of functionalized amines in complex reaction systems.
+On the basis of thorough literature research, I have selected four such methods \---
+  the ones employing triflic anhydride, Schwartz's reagent, Vaska's complex,
+  and van der Ent's complex.
+
+I began my research using \textbeta{}-amidoesters as substrates in simple functionalizations.
+These transformations have proved to be more challenging than I have anticipated \---
+  I have only managed to conduct them with moderate success by means of the Schwartz's reagent.
+The lion's share of my work was devoted to the use of reductive activation of sugar-derived
+  lactams in the variant of the Ugi multicomponent reaction.
+In it's course I was able to obtain a~few examples of iminosugars-derived tetrazoles with
+  excellent diastereoselectivity.
+
+During these experiments, I have observed for the first time that the Ugi-azide reaction
+  may take place in an aprotic environment.
+This surprising discovery led me to consider the course of the reaction in question.
+I have proposed its mechanism based on observations made and \textit{in silico} research
+  conducted by DFT methods.
+
+I also relied on the support of computational methods to determine the absolute
+  configuration of one of the products.
+The challenges that I had to overcome in this process influenced me to write \tesliper{} software,
+  which facilitates the analysis of the results of quantum-chemical calculations \--- especially
+  those related to structure optimization and spectral simulations.
+I made the program I created available on an open source license and posted its usage instructions 
+  on the Internet.
+In this dissertation I describe program's structure and basis of it's functioning.
