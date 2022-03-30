@@ -82,7 +82,7 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
 
 
 \chapter{Summary}\label{chapter:summary:en}
-\marginnote[-8em]{\textsf{%
+\marginnote[-12em]{\textsf{%
   \nohyphenation\fontsize{15}{17}\selectfont%
   \raggedleft\makebox[\linewidth][s]{\textsc{Michał M. Więcław}}\\\vspace{0.5pc}%
   \fontsize{10}{12}\selectfont\noindent\raggedright%
@@ -94,7 +94,7 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
     \noindent prof. dr hab. Bartłomiej Furman\\
   }
 }}
-\marginnote{%
+\marginnote[0.5em]{%
   The lion's share of this dissertation describes diastereoselective transformations
     of sugar-derived lactams in a variant of the multicomponent Ugi-azide reaction that
     employs the Schwartz's reagent.
@@ -103,7 +103,7 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
 \begin{marginscheme}
   \includesvg{summary-en}
 \end{marginscheme}
-\marginnote{%
+\marginnote[0.5em]{%
   The challenges that I have faced in the course of this research led me to the creation
     of \tesliper{} software.
   Its goal is to facilitate the work on the spectral simulations.
@@ -111,11 +111,11 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
 \begin{marginfigure}
   \includesvg{banner}
 \end{marginfigure}
-\marginnote{%
+\marginnote[0.3em]{%
   The software allows communication \textit{via} a graphical interface or a Python script.
   A~simple example of such a~script is shown below.
 }
-\begin{marginlisting}
+\begin{marginlisting}[-3em]
   \begin{lstlisting}[emph={recursive,fmt},numbers=none]
     # program's usage example
     from tesliper import Tesliper
@@ -125,7 +125,7 @@ W~niniejszej dysertacji opisuję jego strukturę i~podstawę funkcjonowania.
     t.export_spectra(fmt="csv")
   \end{lstlisting}
 \end{marginlisting}
-\marginnote{%
+\marginnote[-0.3em]{%
   Software's manual is available under the address
     \href{https://tesliper.readthedocs.io/}{www.tesliper.readthedocs.io}.
 }
