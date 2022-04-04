@@ -307,7 +307,7 @@ Tak właśnie \tesliper{} w~rzeczywistości oblicza ułamkowe wartości populacj
 Do~określenia, na~ile dwie struktury są do~siebie podobne, \tesliper{} używa metody \gls{rmsd},
   to znaczy znajduje średnią odległość między odpowiadającymi sobie atomami w~dwóch nałożonych
   na~siebie strukturach.
-Mówiąc precyzyjniej, \gls{rmsd} to pierwiastek średniej kwadratów odchyleń między tymi atomami.
+Mówiąc precyzyjniej, \gls{rmsd} to pierwiastek ze~średniej kwadratów odchyleń między tymi atomami.
 Łatwiej jest prawdopodobnie wyrazić to w~języku matematyki, poniżej przedstawiam więc
   wzór~\labelcref{eq:rmsd} na~obliczenie wartości \gls{rmsd} dwóch konformerów, oznaczonych
   $A$ oraz $B$, których kolejne atomy reprezentowane są odpowiednio przez symbole $a_i$ oraz $b_i$.
@@ -436,9 +436,9 @@ Na~koniec zostawiam krótkie omówienie meritum funkcjonalności programu \tesli
   czyli obliczanie symulowanego widma z~danych dostarczonych przez program Gaussian.
 Jako wynik przeprowadzonych obliczeń, Gaussian prezentuje nie widma, a~jedynie pewne właściwości
   kwantowo-chemiczne, nazywane przeze mnie dotąd zbiorczo \enquote{aktywnościami spektroskopowymi}.
-Są to: siła dipola w~przypadku widm \gls{ir} oraz \gls{uv}, siła oscylatora dla widm \gls{uv},
+Są to: siła dipola w~przypadku widm \gls{ir}, siła dipola oraz siła oscylatora dla widm \gls{uv},
   a~także siła rotatora dla widm chiralooptycznych \--- \gls{vcd} i~\gls{ecd}\sidenote{%
-    Wnikliwy czytelnik może zwrócić uwagę, że w~wyliczeniu tym nie występują wilekości
+    Wnikliwy czytelnik może zwrócić uwagę, że w~wyliczeniu tym nie występują wielkości
       używane do~obilczenia intensywności widm ramanowskich.
     Gaussian oblicza te intensywności na~żądanie użytkownika i~\tesliper{}
       używa ich bezpośrednio w~opisanym dalej etapie symulacji kształtu pików \---
