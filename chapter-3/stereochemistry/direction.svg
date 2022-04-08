@@ -8,22 +8,22 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="direction.svg"
    id="svg68"
    version="1.1"
-   style="background-color: #ffffff00"
    viewBox="0 0 149 81"
    height="81px"
-   width="149px">
+   width="149px"
+   style="background-color: #ffffff00">
   <sodipodi:namedview
      inkscape:current-layer="svg68"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:cy="4.63232"
-     inkscape:cx="69.583535"
-     inkscape:zoom="4.8322148"
+     inkscape:cy="18.278234"
+     inkscape:cx="25.275312"
+     inkscape:zoom="4"
      showgrid="false"
      id="namedview70"
      inkscape:window-height="1017"
@@ -35,7 +35,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#ffffff"
+     units="mm" />
   <metadata
      id="metadata74">
     <rdf:RDF>
@@ -44,11 +45,17 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs72">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_2"
+       id="pattern2316"
+       patternTransform="matrix(7.0924179,5.1067367,-13.59533,18.881678,1188.3369,636.97357)" />
     <pattern
        patternTransform="matrix(7.6048855,5.5848893,-17.47437,23.794667,1187.1512,636.83223)"
        id="pattern2313"
@@ -94,18 +101,18 @@
          style="fill:black;stroke:none" />
     </pattern>
     <pattern
-       patternTransform="matrix(12.231773,8.9827918,-14.537309,19.795301,1187.1512,636.83223)"
-       id="pattern2313-402"
-       xlink:href="#Strips2_1-657"
+       patternTransform="matrix(7.085942,5.0833939,-6.9295075,9.6593121,1187.9128,636.66553)"
+       id="pattern2314-239"
+       xlink:href="#Strips1_2-905"
        inkscape:collect="always" />
     <pattern
        inkscape:collect="always"
        patternUnits="userSpaceOnUse"
-       width="1.5"
+       width="3"
        height="1"
        patternTransform="translate(0,0) scale(10,10)"
-       id="Strips2_1-657"
-       inkscape:stockid="Stripes 2:1"
+       id="Strips1_2-905"
+       inkscape:stockid="Stripes 1:2"
        inkscape:isstock="true">
       <rect
          style="fill:#e69f00;stroke:none;opacity:1"
@@ -113,7 +120,7 @@
          y="-0.5"
          width="1"
          height="2"
-         id="rect2324" />
+         id="rect2327" />
     </pattern>
   </defs>
   <g
@@ -128,47 +135,47 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 668.768,791.431 L 658.564,797.322 L 658.564,567.413 L 663.666,564.203 L 668.768,567.149 L 668.768,791.431 Z "
-     id="path4" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path4"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 863.001,903.571 L 863.001,909.463 L 857.56,912.213 L 658.564,797.322 L 668.768,791.431 L 863.001,903.571 Z "
-     id="path6" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path6"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 1057.23,791.431 L 1067.44,797.322 L 868.443,912.213 L 863.001,909.463 L 863.001,903.571 L 1057.23,791.431 Z "
-     id="path8" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path8"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 1057.23,567.149 L 1067.44,561.258 L 1067.44,797.322 L 1057.23,791.431 L 1057.23,567.149 Z "
-     id="path10" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path10"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 942.381,500.838 L 947.483,492.001 L 1067.44,561.258 L 1057.23,567.149 L 942.381,500.838 Z "
-     id="path12" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path12"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 921.665,536.718 L 926.767,527.881 L 1023.46,583.705 L 1018.35,592.542 L 921.665,536.718 Z "
-     id="path14" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path14"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 668.768,567.149 L 663.666,564.203 L 663.894,558.18 L 777.77,492.434 L 782.872,501.271 L 668.768,567.149 Z "
-     id="path16" />
+     id="path16"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="OBn"
      transform="matrix(0.0666667,0,0,0.0666667,83.0221,60.5642)"
@@ -191,23 +198,23 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 1205.04,849.273 L 1181.23,890.515 L 1173.26,883.92 L 1195.34,845.664 L 1205.04,849.273 Z "
-     id="path20" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path20"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 1157.25,831.486 L 1141.93,858.018 L 1133.95,851.423 L 1147.55,827.876 L 1157.25,831.486 Z "
-     id="path22" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path22"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 1109.45,813.698 L 1102.63,825.521 L 1094.65,818.926 L 1099.76,810.088 L 1109.45,813.698 Z "
-     id="path24" />
+     id="path24"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="OBn"
      transform="matrix(0.0666667,0,0,0.0666667,56.444,75.9091)"
@@ -230,11 +237,11 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 886.812,1061.3 L 839.191,1061.3 L 857.56,912.213 L 863.001,909.463 L 868.443,912.213 L 886.812,1061.3 Z "
-     id="path28" />
+     id="path28"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="BnO"
      transform="matrix(0.0666667,0,0,0.0666667,16.769,60.5642)"
@@ -257,29 +264,29 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 544.949,890.412 L 521.138,849.171 L 530.84,845.567 L 552.921,883.812 L 544.949,890.412 Z "
-     id="path32" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path32"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 584.071,858.023 L 568.749,831.485 L 578.451,827.881 L 592.043,851.422 L 584.071,858.023 Z "
-     id="path34" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path34"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 623.193,825.633 L 616.36,813.799 L 626.063,810.195 L 631.165,819.032 L 623.193,825.633 Z "
-     id="path36" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path36"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 444.952,466.197 L 482.429,432.776 L 663.894,558.18 L 663.666,564.203 L 658.564,567.413 L 444.952,466.197 Z "
-     id="path38" />
+     id="path38"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="BnO"
      transform="matrix(0.0666667,0,0,0.0666667,3.47997,37.5469)"
@@ -302,31 +309,31 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 336.259,528.951 L 331.156,520.113 L 482.429,432.776 L 444.952,466.197 L 336.259,528.951 Z "
-     id="path42" />
-  <path
+     id="path42"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
-     d="M 1730.03,262.5 C 1730.03,262.5 1708.38,284.147 1708.38,284.147 C 1565.22,140.978 1332.8,140.978 1189.63,284.147 C 1158.25,315.527 1132.64,352.652 1114.44,393.129 C 1114.44,393.129 1143.22,403.274 1143.22,403.274 C 1143.22,403.274 1065.12,440.663 1065.12,440.663 C 1065.12,440.663 1027.73,362.563 1027.73,362.563 C 1027.73,362.563 1056.52,372.713 1056.52,372.713 C 1077.87,323.662 1108.51,278.68 1146.33,240.853 C 1313.4,73.7873 1584.61,73.7873 1751.68,240.853 C 1751.68,240.853 1730.03,262.5 1730.03,262.5 "
-     id="path44" />
+     fill="#000000" />
   <path
-     stroke="#000000"
-     stroke-width="1"
-     fill="none"
+     d="M 1730.03,262.5 C 1730.03,262.5 1708.38,284.147 1708.38,284.147 C 1565.22,140.978 1332.8,140.978 1189.63,284.147 C 1158.25,315.527 1132.64,352.652 1114.44,393.129 C 1114.44,393.129 1143.22,403.274 1143.22,403.274 C 1143.22,403.274 1065.12,440.663 1065.12,440.663 C 1065.12,440.663 1027.73,362.563 1027.73,362.563 C 1027.73,362.563 1056.52,372.713 1056.52,372.713 C 1077.87,323.662 1108.51,278.68 1146.33,240.853 C 1313.4,73.7873 1584.61,73.7873 1751.68,240.853 C 1751.68,240.853 1730.03,262.5 1730.03,262.5 "
+     id="path44"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
      d="M 1730.03,262.5 C 1730.03,262.5 1708.38,284.147 1708.38,284.147 C 1565.22,140.978 1332.8,140.978 1189.63,284.147 C 1158.25,315.527 1132.64,352.652 1114.44,393.129 C 1114.44,393.129 1143.22,403.274 1143.22,403.274 C 1143.22,403.274 1065.12,440.663 1065.12,440.663 C 1065.12,440.663 1027.73,362.563 1027.73,362.563 C 1027.73,362.563 1056.52,372.713 1056.52,372.713 C 1077.87,323.662 1108.51,278.68 1146.33,240.853 C 1313.4,73.7873 1584.61,73.7873 1751.68,240.853 C 1751.68,240.853 1730.03,262.5 1730.03,262.5 "
      id="path46"
-     style="fill:#e69f00;stroke-width:1.0049995;stroke-miterlimit:4;stroke-dasharray:none;stroke:#e69f00;stroke-opacity:1" />
+     style="fill:#e69f00;stroke-width:1.0049995;stroke-miterlimit:4;stroke-dasharray:none;stroke:#e69f00;stroke-opacity:1"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none" />
   <path
      transform="matrix(0.0666667,0,0,0.0666667,3.04389,-4.26667)"
-     d="m 1748.03,590.57 c 0,0 23.35,19.798 23.35,19.798 -131.88,155.529 -377.23,194.577 -550.88,87.673 0,0 -18.52,25.682 -18.52,25.682 0,0 -14.1,-87.061 -14.1,-87.061 0,0 87.06,-14.107 87.06,-14.107 0,0 -18.51,25.67 -18.51,25.67 148.59,88.999 356.24,54.653 468.26,-77.454 0,0 23.34,19.799 23.34,19.799"
+     inkscape:connector-curvature="0"
+     style="opacity:1;fill:url(#pattern2314-239);fill-opacity:1;stroke:none;stroke-width:10.00499535;stroke-miterlimit:4;stroke-dasharray:20.00998985, 20.00998985;stroke-dashoffset:0;stroke-opacity:1"
      id="path48"
-     style="opacity:1;fill:url(#pattern2313-402);fill-opacity:1;stroke:none;stroke-width:10.00499535;stroke-miterlimit:4;stroke-dasharray:20.00998985, 20.00998985;stroke-dashoffset:0;stroke-opacity:1"
-     inkscape:connector-curvature="0" />
+     d="m 1748.03,590.57 c 0,0 23.35,19.798 23.35,19.798 -131.88,155.529 -377.23,194.577 -550.88,87.673 0,0 -18.52,25.682 -18.52,25.682 0,0 -14.1,-87.061 -14.1,-87.061 0,0 87.06,-14.107 87.06,-14.107 0,0 -18.51,25.67 -18.51,25.67 148.59,88.999 356.24,54.653 468.26,-77.454 0,0 23.34,19.799 23.34,19.799" />
   <g
      aria-label="Nu"
      transform="matrix(0.0666667,0,0,0.0666667,124.129,28.4833)"
@@ -344,37 +351,37 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="#000000"
-     stroke-width="8"
-     fill="none"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 662.829,404.041 A 57.0818,57.0818 0 1 0 776.992,404.041A 57.0818,57.0818 0 1 0 662.829,404.041Z "
-     id="path52" />
-  <path
-     stroke="none"
-     fill="#000000"
+     id="path52"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
-     d="M 688.475,400.375 L 752.013,400.375 L 752.013,408.375 L 688.475,408.375 Z "
-     id="path54" />
-  <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
-     d="M 724.244,372.606 L 724.244,436.144 L 716.244,436.144 L 716.244,372.606 Z "
-     id="path56" />
-  <path
-     stroke="#000000"
      stroke-width="8"
-     fill="none"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
-     d="M 2013.87,310.917 A 57.0818,57.0818 0 1 0 2128.03,310.917A 57.0818,57.0818 0 1 0 2013.87,310.917Z "
-     id="path58" />
+     stroke="#000000"
+     fill="none" />
   <path
-     stroke="none"
-     fill="#000000"
+     d="M 688.475,400.375 L 752.013,400.375 L 752.013,408.375 L 688.475,408.375 Z "
+     id="path54"
      transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
+     d="M 724.244,372.606 L 724.244,436.144 L 716.244,436.144 L 716.244,372.606 Z "
+     id="path56"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
+  <path
+     d="M 2013.87,310.917 A 57.0818,57.0818 0 1 0 2128.03,310.917A 57.0818,57.0818 0 1 0 2013.87,310.917Z "
+     id="path58"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke-width="8"
+     stroke="#000000"
+     fill="none" />
+  <path
      d="M 2039.51,307.25 L 2103.05,307.25 L 2103.05,315.25 L 2039.51,315.25 Z "
-     id="path60" />
+     id="path60"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="TMS"
      transform="matrix(0.0666667,0,0,0.0666667,41.5919,14.5296)"
@@ -397,11 +404,11 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     stroke="none"
-     fill="#000000"
-     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
      d="M 857.899,310.61 L 868.104,310.61 L 868.104,373.117 L 857.899,373.117 L 857.899,310.61 Z "
-     id="path64" />
+     id="path64"
+     transform="matrix(0.0666667 0 0 0.0666667 3.04389 -4.26667)"
+     stroke="none"
+     fill="#000000" />
   <g
      aria-label="?"
      transform="matrix(0.0666667,0,0,0.0666667,97.1293,28.9833)"
