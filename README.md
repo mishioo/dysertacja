@@ -20,6 +20,9 @@ DOI: [10.1002/ejoc.201701537](https://doi.org/10.1002/ejoc.201701537);
 - M. M. Więcław, B. Furman, _Direct synthesis of anomeric tetrazolyl iminosugars from sugar-derived lactams_,
 Beilstein Journal of Organic Chemistry, **2021**, 17, 115-123,
 DOI: [10.3762/bjoc.17.12](https://doi.org/10.3762/bjoc.17.12).
+- M. M. Więcław, _tesliper: a theoretical spectroscopist's little helper_,
+Journal of Open Source Software, **2022**, 7(72), 4164, DOI:
+[10.21105/joss.04164](https://doi.org/10.21105/joss.04164)
 
 ## Source code compilation
 This document is prepared using LaTeX. It's source code can be compiled to the .pdf file
